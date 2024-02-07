@@ -6,6 +6,7 @@ edition = "2021"
 authors = ["Meadowsys"]
 repository = "https://github.com/Meadowsys/phosphor-svgs-embedded.git"
 license = "MIT"
+include = ["src", "phosphor-core/assets"]
 
 [workspace]
 resolver = "2"
