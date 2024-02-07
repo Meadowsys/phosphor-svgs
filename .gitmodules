@@ -1,0 +1,3 @@
+[submodule "phosphor-core"]
+	path = phosphor-core
+	url = https://github.com/phosphor-icons/core.git
