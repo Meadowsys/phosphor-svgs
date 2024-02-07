@@ -17,3 +17,8 @@ use phosphor_svgs::icon::alarm::BOLD;
 ```
 
 [Phosphor Icons]: https://phosphoricons.com
+
+## License
+
+[Phosphor Icons] &copy; 2023 [Phosphor Icons], used under MIT license\
+`phosphor-svgs` &copy; 2024 Meadowsys, licensed under MIT license
