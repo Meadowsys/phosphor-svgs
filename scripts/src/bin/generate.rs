@@ -4,6 +4,8 @@ use ::std::io::{ BufWriter, Write as _ };
 use ::hashbrown::HashMap;
 const ROOT: &str = "phosphor-core/assets";
 
+// run in `/scripts` dir
+
 fn main() {
 	let mut root_dir = path::PathBuf::new();
 	root_dir.push("..");

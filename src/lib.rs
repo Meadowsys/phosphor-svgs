@@ -4,12 +4,15 @@ pub mod util;
 
 pub mod style {
 	pub mod bold {
+		pub const ACORN: &str = include_str!("../phosphor-core/assets/bold/acorn-bold.svg");
 		pub const ADDRESS_BOOK: &str = include_str!("../phosphor-core/assets/bold/address-book-bold.svg");
+		pub const ADDRESS_BOOK_TABS: &str = include_str!("../phosphor-core/assets/bold/address-book-tabs-bold.svg");
 		pub const AIR_TRAFFIC_CONTROL: &str = include_str!("../phosphor-core/assets/bold/air-traffic-control-bold.svg");
 		pub const AIRPLANE: &str = include_str!("../phosphor-core/assets/bold/airplane-bold.svg");
 		pub const AIRPLANE_IN_FLIGHT: &str = include_str!("../phosphor-core/assets/bold/airplane-in-flight-bold.svg");
 		pub const AIRPLANE_LANDING: &str = include_str!("../phosphor-core/assets/bold/airplane-landing-bold.svg");
 		pub const AIRPLANE_TAKEOFF: &str = include_str!("../phosphor-core/assets/bold/airplane-takeoff-bold.svg");
+		pub const AIRPLANE_TAXIING: &str = include_str!("../phosphor-core/assets/bold/airplane-taxiing-bold.svg");
 		pub const AIRPLANE_TILT: &str = include_str!("../phosphor-core/assets/bold/airplane-tilt-bold.svg");
 		pub const AIRPLAY: &str = include_str!("../phosphor-core/assets/bold/airplay-bold.svg");
 		pub const ALARM: &str = include_str!("../phosphor-core/assets/bold/alarm-bold.svg");
@@ -27,18 +30,19 @@ pub mod style {
 		pub const ALIGN_TOP: &str = include_str!("../phosphor-core/assets/bold/align-top-bold.svg");
 		pub const ALIGN_TOP_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/align-top-simple-bold.svg");
 		pub const AMAZON_LOGO: &str = include_str!("../phosphor-core/assets/bold/amazon-logo-bold.svg");
+		pub const AMBULANCE: &str = include_str!("../phosphor-core/assets/bold/ambulance-bold.svg");
 		pub const ANCHOR: &str = include_str!("../phosphor-core/assets/bold/anchor-bold.svg");
 		pub const ANCHOR_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/anchor-simple-bold.svg");
 		pub const ANDROID_LOGO: &str = include_str!("../phosphor-core/assets/bold/android-logo-bold.svg");
+		pub const ANGLE: &str = include_str!("../phosphor-core/assets/bold/angle-bold.svg");
 		pub const ANGULAR_LOGO: &str = include_str!("../phosphor-core/assets/bold/angular-logo-bold.svg");
 		pub const APERTURE: &str = include_str!("../phosphor-core/assets/bold/aperture-bold.svg");
 		pub const APP_STORE_LOGO: &str = include_str!("../phosphor-core/assets/bold/app-store-logo-bold.svg");
 		pub const APP_WINDOW: &str = include_str!("../phosphor-core/assets/bold/app-window-bold.svg");
 		pub const APPLE_LOGO: &str = include_str!("../phosphor-core/assets/bold/apple-logo-bold.svg");
 		pub const APPLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/bold/apple-podcasts-logo-bold.svg");
+		pub const APPROXIMATE_EQUALS: &str = include_str!("../phosphor-core/assets/bold/approximate-equals-bold.svg");
 		pub const ARCHIVE: &str = include_str!("../phosphor-core/assets/bold/archive-bold.svg");
-		pub const ARCHIVE_BOX: &str = include_str!("../phosphor-core/assets/bold/archive-box-bold.svg");
-		pub const ARCHIVE_TRAY: &str = include_str!("../phosphor-core/assets/bold/archive-tray-bold.svg");
 		pub const ARMCHAIR: &str = include_str!("../phosphor-core/assets/bold/armchair-bold.svg");
 		pub const ARROW_ARC_LEFT: &str = include_str!("../phosphor-core/assets/bold/arrow-arc-left-bold.svg");
 		pub const ARROW_ARC_RIGHT: &str = include_str!("../phosphor-core/assets/bold/arrow-arc-right-bold.svg");
@@ -139,11 +143,15 @@ pub mod style {
 		pub const ARTICLE: &str = include_str!("../phosphor-core/assets/bold/article-bold.svg");
 		pub const ARTICLE_MEDIUM: &str = include_str!("../phosphor-core/assets/bold/article-medium-bold.svg");
 		pub const ARTICLE_NY_TIMES: &str = include_str!("../phosphor-core/assets/bold/article-ny-times-bold.svg");
+		pub const ASCLEPIUS: &str = include_str!("../phosphor-core/assets/bold/asclepius-bold.svg");
 		pub const ASTERISK: &str = include_str!("../phosphor-core/assets/bold/asterisk-bold.svg");
 		pub const ASTERISK_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/asterisk-simple-bold.svg");
 		pub const AT: &str = include_str!("../phosphor-core/assets/bold/at-bold.svg");
 		pub const ATOM: &str = include_str!("../phosphor-core/assets/bold/atom-bold.svg");
+		pub const AVOCADO: &str = include_str!("../phosphor-core/assets/bold/avocado-bold.svg");
+		pub const AXE: &str = include_str!("../phosphor-core/assets/bold/axe-bold.svg");
 		pub const BABY: &str = include_str!("../phosphor-core/assets/bold/baby-bold.svg");
+		pub const BABY_CARRIAGE: &str = include_str!("../phosphor-core/assets/bold/baby-carriage-bold.svg");
 		pub const BACKPACK: &str = include_str!("../phosphor-core/assets/bold/backpack-bold.svg");
 		pub const BACKSPACE: &str = include_str!("../phosphor-core/assets/bold/backspace-bold.svg");
 		pub const BAG: &str = include_str!("../phosphor-core/assets/bold/bag-bold.svg");
@@ -153,9 +161,11 @@ pub mod style {
 		pub const BANK: &str = include_str!("../phosphor-core/assets/bold/bank-bold.svg");
 		pub const BARBELL: &str = include_str!("../phosphor-core/assets/bold/barbell-bold.svg");
 		pub const BARCODE: &str = include_str!("../phosphor-core/assets/bold/barcode-bold.svg");
+		pub const BARN: &str = include_str!("../phosphor-core/assets/bold/barn-bold.svg");
 		pub const BARRICADE: &str = include_str!("../phosphor-core/assets/bold/barricade-bold.svg");
 		pub const BASEBALL: &str = include_str!("../phosphor-core/assets/bold/baseball-bold.svg");
 		pub const BASEBALL_CAP: &str = include_str!("../phosphor-core/assets/bold/baseball-cap-bold.svg");
+		pub const BASEBALL_HELMET: &str = include_str!("../phosphor-core/assets/bold/baseball-helmet-bold.svg");
 		pub const BASKET: &str = include_str!("../phosphor-core/assets/bold/basket-bold.svg");
 		pub const BASKETBALL: &str = include_str!("../phosphor-core/assets/bold/basketball-bold.svg");
 		pub const BATHTUB: &str = include_str!("../phosphor-core/assets/bold/bathtub-bold.svg");
@@ -175,6 +185,8 @@ pub mod style {
 		pub const BATTERY_VERTICAL_MEDIUM: &str = include_str!("../phosphor-core/assets/bold/battery-vertical-medium-bold.svg");
 		pub const BATTERY_WARNING: &str = include_str!("../phosphor-core/assets/bold/battery-warning-bold.svg");
 		pub const BATTERY_WARNING_VERTICAL: &str = include_str!("../phosphor-core/assets/bold/battery-warning-vertical-bold.svg");
+		pub const BEACH_BALL: &str = include_str!("../phosphor-core/assets/bold/beach-ball-bold.svg");
+		pub const BEANIE: &str = include_str!("../phosphor-core/assets/bold/beanie-bold.svg");
 		pub const BED: &str = include_str!("../phosphor-core/assets/bold/bed-bold.svg");
 		pub const BEER_BOTTLE: &str = include_str!("../phosphor-core/assets/bold/beer-bottle-bold.svg");
 		pub const BEER_STEIN: &str = include_str!("../phosphor-core/assets/bold/beer-stein-bold.svg");
@@ -187,34 +199,47 @@ pub mod style {
 		pub const BELL_SIMPLE_Z: &str = include_str!("../phosphor-core/assets/bold/bell-simple-z-bold.svg");
 		pub const BELL_SLASH: &str = include_str!("../phosphor-core/assets/bold/bell-slash-bold.svg");
 		pub const BELL_Z: &str = include_str!("../phosphor-core/assets/bold/bell-z-bold.svg");
+		pub const BELT: &str = include_str!("../phosphor-core/assets/bold/belt-bold.svg");
 		pub const BEZIER_CURVE: &str = include_str!("../phosphor-core/assets/bold/bezier-curve-bold.svg");
 		pub const BICYCLE: &str = include_str!("../phosphor-core/assets/bold/bicycle-bold.svg");
+		pub const BINARY: &str = include_str!("../phosphor-core/assets/bold/binary-bold.svg");
 		pub const BINOCULARS: &str = include_str!("../phosphor-core/assets/bold/binoculars-bold.svg");
+		pub const BIOHAZARD: &str = include_str!("../phosphor-core/assets/bold/biohazard-bold.svg");
 		pub const BIRD: &str = include_str!("../phosphor-core/assets/bold/bird-bold.svg");
+		pub const BLUEPRINT: &str = include_str!("../phosphor-core/assets/bold/blueprint-bold.svg");
 		pub const BLUETOOTH: &str = include_str!("../phosphor-core/assets/bold/bluetooth-bold.svg");
 		pub const BLUETOOTH_CONNECTED: &str = include_str!("../phosphor-core/assets/bold/bluetooth-connected-bold.svg");
 		pub const BLUETOOTH_SLASH: &str = include_str!("../phosphor-core/assets/bold/bluetooth-slash-bold.svg");
 		pub const BLUETOOTH_X: &str = include_str!("../phosphor-core/assets/bold/bluetooth-x-bold.svg");
 		pub const BOAT: &str = include_str!("../phosphor-core/assets/bold/boat-bold.svg");
+		pub const BOMB: &str = include_str!("../phosphor-core/assets/bold/bomb-bold.svg");
 		pub const BONE: &str = include_str!("../phosphor-core/assets/bold/bone-bold.svg");
 		pub const BOOK: &str = include_str!("../phosphor-core/assets/bold/book-bold.svg");
 		pub const BOOK_BOOKMARK: &str = include_str!("../phosphor-core/assets/bold/book-bookmark-bold.svg");
 		pub const BOOK_OPEN: &str = include_str!("../phosphor-core/assets/bold/book-open-bold.svg");
 		pub const BOOK_OPEN_TEXT: &str = include_str!("../phosphor-core/assets/bold/book-open-text-bold.svg");
+		pub const BOOK_OPEN_USER: &str = include_str!("../phosphor-core/assets/bold/book-open-user-bold.svg");
 		pub const BOOKMARK: &str = include_str!("../phosphor-core/assets/bold/bookmark-bold.svg");
 		pub const BOOKMARK_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/bookmark-simple-bold.svg");
 		pub const BOOKMARKS: &str = include_str!("../phosphor-core/assets/bold/bookmarks-bold.svg");
 		pub const BOOKMARKS_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/bookmarks-simple-bold.svg");
 		pub const BOOKS: &str = include_str!("../phosphor-core/assets/bold/books-bold.svg");
 		pub const BOOT: &str = include_str!("../phosphor-core/assets/bold/boot-bold.svg");
+		pub const BOULES: &str = include_str!("../phosphor-core/assets/bold/boules-bold.svg");
 		pub const BOUNDING_BOX: &str = include_str!("../phosphor-core/assets/bold/bounding-box-bold.svg");
 		pub const BOWL_FOOD: &str = include_str!("../phosphor-core/assets/bold/bowl-food-bold.svg");
+		pub const BOWL_STEAM: &str = include_str!("../phosphor-core/assets/bold/bowl-steam-bold.svg");
+		pub const BOWLING_BALL: &str = include_str!("../phosphor-core/assets/bold/bowling-ball-bold.svg");
+		pub const BOX_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/bold/box-arrow-down-bold.svg");
+		pub const BOX_ARROW_UP: &str = include_str!("../phosphor-core/assets/bold/box-arrow-up-bold.svg");
+		pub const BOXING_GLOVE: &str = include_str!("../phosphor-core/assets/bold/boxing-glove-bold.svg");
 		pub const BRACKETS_ANGLE: &str = include_str!("../phosphor-core/assets/bold/brackets-angle-bold.svg");
 		pub const BRACKETS_CURLY: &str = include_str!("../phosphor-core/assets/bold/brackets-curly-bold.svg");
 		pub const BRACKETS_ROUND: &str = include_str!("../phosphor-core/assets/bold/brackets-round-bold.svg");
 		pub const BRACKETS_SQUARE: &str = include_str!("../phosphor-core/assets/bold/brackets-square-bold.svg");
 		pub const BRAIN: &str = include_str!("../phosphor-core/assets/bold/brain-bold.svg");
 		pub const BRANDY: &str = include_str!("../phosphor-core/assets/bold/brandy-bold.svg");
+		pub const BREAD: &str = include_str!("../phosphor-core/assets/bold/bread-bold.svg");
 		pub const BRIDGE: &str = include_str!("../phosphor-core/assets/bold/bridge-bold.svg");
 		pub const BRIEFCASE: &str = include_str!("../phosphor-core/assets/bold/briefcase-bold.svg");
 		pub const BRIEFCASE_METAL: &str = include_str!("../phosphor-core/assets/bold/briefcase-metal-bold.svg");
@@ -225,16 +250,27 @@ pub mod style {
 		pub const BUG: &str = include_str!("../phosphor-core/assets/bold/bug-bold.svg");
 		pub const BUG_BEETLE: &str = include_str!("../phosphor-core/assets/bold/bug-beetle-bold.svg");
 		pub const BUG_DROID: &str = include_str!("../phosphor-core/assets/bold/bug-droid-bold.svg");
+		pub const BUILDING: &str = include_str!("../phosphor-core/assets/bold/building-bold.svg");
+		pub const BUILDING_APARTMENT: &str = include_str!("../phosphor-core/assets/bold/building-apartment-bold.svg");
+		pub const BUILDING_OFFICE: &str = include_str!("../phosphor-core/assets/bold/building-office-bold.svg");
 		pub const BUILDINGS: &str = include_str!("../phosphor-core/assets/bold/buildings-bold.svg");
+		pub const BULLDOZER: &str = include_str!("../phosphor-core/assets/bold/bulldozer-bold.svg");
 		pub const BUS: &str = include_str!("../phosphor-core/assets/bold/bus-bold.svg");
 		pub const BUTTERFLY: &str = include_str!("../phosphor-core/assets/bold/butterfly-bold.svg");
+		pub const CABLE_CAR: &str = include_str!("../phosphor-core/assets/bold/cable-car-bold.svg");
 		pub const CACTUS: &str = include_str!("../phosphor-core/assets/bold/cactus-bold.svg");
 		pub const CAKE: &str = include_str!("../phosphor-core/assets/bold/cake-bold.svg");
 		pub const CALCULATOR: &str = include_str!("../phosphor-core/assets/bold/calculator-bold.svg");
 		pub const CALENDAR: &str = include_str!("../phosphor-core/assets/bold/calendar-bold.svg");
 		pub const CALENDAR_BLANK: &str = include_str!("../phosphor-core/assets/bold/calendar-blank-bold.svg");
 		pub const CALENDAR_CHECK: &str = include_str!("../phosphor-core/assets/bold/calendar-check-bold.svg");
+		pub const CALENDAR_DOT: &str = include_str!("../phosphor-core/assets/bold/calendar-dot-bold.svg");
+		pub const CALENDAR_DOTS: &str = include_str!("../phosphor-core/assets/bold/calendar-dots-bold.svg");
+		pub const CALENDAR_HEART: &str = include_str!("../phosphor-core/assets/bold/calendar-heart-bold.svg");
+		pub const CALENDAR_MINUS: &str = include_str!("../phosphor-core/assets/bold/calendar-minus-bold.svg");
 		pub const CALENDAR_PLUS: &str = include_str!("../phosphor-core/assets/bold/calendar-plus-bold.svg");
+		pub const CALENDAR_SLASH: &str = include_str!("../phosphor-core/assets/bold/calendar-slash-bold.svg");
+		pub const CALENDAR_STAR: &str = include_str!("../phosphor-core/assets/bold/calendar-star-bold.svg");
 		pub const CALENDAR_X: &str = include_str!("../phosphor-core/assets/bold/calendar-x-bold.svg");
 		pub const CALL_BELL: &str = include_str!("../phosphor-core/assets/bold/call-bell-bold.svg");
 		pub const CAMERA: &str = include_str!("../phosphor-core/assets/bold/camera-bold.svg");
@@ -243,10 +279,12 @@ pub mod style {
 		pub const CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/bold/camera-slash-bold.svg");
 		pub const CAMPFIRE: &str = include_str!("../phosphor-core/assets/bold/campfire-bold.svg");
 		pub const CAR: &str = include_str!("../phosphor-core/assets/bold/car-bold.svg");
+		pub const CAR_BATTERY: &str = include_str!("../phosphor-core/assets/bold/car-battery-bold.svg");
 		pub const CAR_PROFILE: &str = include_str!("../phosphor-core/assets/bold/car-profile-bold.svg");
 		pub const CAR_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/car-simple-bold.svg");
 		pub const CARDHOLDER: &str = include_str!("../phosphor-core/assets/bold/cardholder-bold.svg");
 		pub const CARDS: &str = include_str!("../phosphor-core/assets/bold/cards-bold.svg");
+		pub const CARDS_THREE: &str = include_str!("../phosphor-core/assets/bold/cards-three-bold.svg");
 		pub const CARET_CIRCLE_DOUBLE_DOWN: &str = include_str!("../phosphor-core/assets/bold/caret-circle-double-down-bold.svg");
 		pub const CARET_CIRCLE_DOUBLE_LEFT: &str = include_str!("../phosphor-core/assets/bold/caret-circle-double-left-bold.svg");
 		pub const CARET_CIRCLE_DOUBLE_RIGHT: &str = include_str!("../phosphor-core/assets/bold/caret-circle-double-right-bold.svg");
@@ -262,10 +300,15 @@ pub mod style {
 		pub const CARET_DOUBLE_UP: &str = include_str!("../phosphor-core/assets/bold/caret-double-up-bold.svg");
 		pub const CARET_DOWN: &str = include_str!("../phosphor-core/assets/bold/caret-down-bold.svg");
 		pub const CARET_LEFT: &str = include_str!("../phosphor-core/assets/bold/caret-left-bold.svg");
+		pub const CARET_LINE_DOWN: &str = include_str!("../phosphor-core/assets/bold/caret-line-down-bold.svg");
+		pub const CARET_LINE_LEFT: &str = include_str!("../phosphor-core/assets/bold/caret-line-left-bold.svg");
+		pub const CARET_LINE_RIGHT: &str = include_str!("../phosphor-core/assets/bold/caret-line-right-bold.svg");
+		pub const CARET_LINE_UP: &str = include_str!("../phosphor-core/assets/bold/caret-line-up-bold.svg");
 		pub const CARET_RIGHT: &str = include_str!("../phosphor-core/assets/bold/caret-right-bold.svg");
 		pub const CARET_UP: &str = include_str!("../phosphor-core/assets/bold/caret-up-bold.svg");
 		pub const CARET_UP_DOWN: &str = include_str!("../phosphor-core/assets/bold/caret-up-down-bold.svg");
 		pub const CARROT: &str = include_str!("../phosphor-core/assets/bold/carrot-bold.svg");
+		pub const CASH_REGISTER: &str = include_str!("../phosphor-core/assets/bold/cash-register-bold.svg");
 		pub const CASSETTE_TAPE: &str = include_str!("../phosphor-core/assets/bold/cassette-tape-bold.svg");
 		pub const CASTLE_TURRET: &str = include_str!("../phosphor-core/assets/bold/castle-turret-bold.svg");
 		pub const CAT: &str = include_str!("../phosphor-core/assets/bold/cat-bold.svg");
@@ -276,6 +319,7 @@ pub mod style {
 		pub const CELL_SIGNAL_NONE: &str = include_str!("../phosphor-core/assets/bold/cell-signal-none-bold.svg");
 		pub const CELL_SIGNAL_SLASH: &str = include_str!("../phosphor-core/assets/bold/cell-signal-slash-bold.svg");
 		pub const CELL_SIGNAL_X: &str = include_str!("../phosphor-core/assets/bold/cell-signal-x-bold.svg");
+		pub const CELL_TOWER: &str = include_str!("../phosphor-core/assets/bold/cell-tower-bold.svg");
 		pub const CERTIFICATE: &str = include_str!("../phosphor-core/assets/bold/certificate-bold.svg");
 		pub const CHAIR: &str = include_str!("../phosphor-core/assets/bold/chair-bold.svg");
 		pub const CHALKBOARD: &str = include_str!("../phosphor-core/assets/bold/chalkboard-bold.svg");
@@ -296,13 +340,17 @@ pub mod style {
 		pub const CHAT: &str = include_str!("../phosphor-core/assets/bold/chat-bold.svg");
 		pub const CHAT_CENTERED: &str = include_str!("../phosphor-core/assets/bold/chat-centered-bold.svg");
 		pub const CHAT_CENTERED_DOTS: &str = include_str!("../phosphor-core/assets/bold/chat-centered-dots-bold.svg");
+		pub const CHAT_CENTERED_SLASH: &str = include_str!("../phosphor-core/assets/bold/chat-centered-slash-bold.svg");
 		pub const CHAT_CENTERED_TEXT: &str = include_str!("../phosphor-core/assets/bold/chat-centered-text-bold.svg");
 		pub const CHAT_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/chat-circle-bold.svg");
 		pub const CHAT_CIRCLE_DOTS: &str = include_str!("../phosphor-core/assets/bold/chat-circle-dots-bold.svg");
+		pub const CHAT_CIRCLE_SLASH: &str = include_str!("../phosphor-core/assets/bold/chat-circle-slash-bold.svg");
 		pub const CHAT_CIRCLE_TEXT: &str = include_str!("../phosphor-core/assets/bold/chat-circle-text-bold.svg");
 		pub const CHAT_DOTS: &str = include_str!("../phosphor-core/assets/bold/chat-dots-bold.svg");
+		pub const CHAT_SLASH: &str = include_str!("../phosphor-core/assets/bold/chat-slash-bold.svg");
 		pub const CHAT_TEARDROP: &str = include_str!("../phosphor-core/assets/bold/chat-teardrop-bold.svg");
 		pub const CHAT_TEARDROP_DOTS: &str = include_str!("../phosphor-core/assets/bold/chat-teardrop-dots-bold.svg");
+		pub const CHAT_TEARDROP_SLASH: &str = include_str!("../phosphor-core/assets/bold/chat-teardrop-slash-bold.svg");
 		pub const CHAT_TEARDROP_TEXT: &str = include_str!("../phosphor-core/assets/bold/chat-teardrop-text-bold.svg");
 		pub const CHAT_TEXT: &str = include_str!("../phosphor-core/assets/bold/chat-text-bold.svg");
 		pub const CHATS: &str = include_str!("../phosphor-core/assets/bold/chats-bold.svg");
@@ -313,8 +361,15 @@ pub mod style {
 		pub const CHECK_FAT: &str = include_str!("../phosphor-core/assets/bold/check-fat-bold.svg");
 		pub const CHECK_SQUARE: &str = include_str!("../phosphor-core/assets/bold/check-square-bold.svg");
 		pub const CHECK_SQUARE_OFFSET: &str = include_str!("../phosphor-core/assets/bold/check-square-offset-bold.svg");
+		pub const CHECKERBOARD: &str = include_str!("../phosphor-core/assets/bold/checkerboard-bold.svg");
 		pub const CHECKS: &str = include_str!("../phosphor-core/assets/bold/checks-bold.svg");
+		pub const CHEERS: &str = include_str!("../phosphor-core/assets/bold/cheers-bold.svg");
+		pub const CHEESE: &str = include_str!("../phosphor-core/assets/bold/cheese-bold.svg");
+		pub const CHEF_HAT: &str = include_str!("../phosphor-core/assets/bold/chef-hat-bold.svg");
+		pub const CHERRIES: &str = include_str!("../phosphor-core/assets/bold/cherries-bold.svg");
 		pub const CHURCH: &str = include_str!("../phosphor-core/assets/bold/church-bold.svg");
+		pub const CIGARETTE: &str = include_str!("../phosphor-core/assets/bold/cigarette-bold.svg");
+		pub const CIGARETTE_SLASH: &str = include_str!("../phosphor-core/assets/bold/cigarette-slash-bold.svg");
 		pub const CIRCLE: &str = include_str!("../phosphor-core/assets/bold/circle-bold.svg");
 		pub const CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/bold/circle-dashed-bold.svg");
 		pub const CIRCLE_HALF: &str = include_str!("../phosphor-core/assets/bold/circle-half-bold.svg");
@@ -324,6 +379,7 @@ pub mod style {
 		pub const CIRCLES_THREE: &str = include_str!("../phosphor-core/assets/bold/circles-three-bold.svg");
 		pub const CIRCLES_THREE_PLUS: &str = include_str!("../phosphor-core/assets/bold/circles-three-plus-bold.svg");
 		pub const CIRCUITRY: &str = include_str!("../phosphor-core/assets/bold/circuitry-bold.svg");
+		pub const CITY: &str = include_str!("../phosphor-core/assets/bold/city-bold.svg");
 		pub const CLIPBOARD: &str = include_str!("../phosphor-core/assets/bold/clipboard-bold.svg");
 		pub const CLIPBOARD_TEXT: &str = include_str!("../phosphor-core/assets/bold/clipboard-text-bold.svg");
 		pub const CLOCK: &str = include_str!("../phosphor-core/assets/bold/clock-bold.svg");
@@ -331,6 +387,7 @@ pub mod style {
 		pub const CLOCK_CLOCKWISE: &str = include_str!("../phosphor-core/assets/bold/clock-clockwise-bold.svg");
 		pub const CLOCK_COUNTDOWN: &str = include_str!("../phosphor-core/assets/bold/clock-countdown-bold.svg");
 		pub const CLOCK_COUNTER_CLOCKWISE: &str = include_str!("../phosphor-core/assets/bold/clock-counter-clockwise-bold.svg");
+		pub const CLOCK_USER: &str = include_str!("../phosphor-core/assets/bold/clock-user-bold.svg");
 		pub const CLOSED_CAPTIONING: &str = include_str!("../phosphor-core/assets/bold/closed-captioning-bold.svg");
 		pub const CLOUD: &str = include_str!("../phosphor-core/assets/bold/cloud-bold.svg");
 		pub const CLOUD_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/bold/cloud-arrow-down-bold.svg");
@@ -345,6 +402,7 @@ pub mod style {
 		pub const CLOUD_SUN: &str = include_str!("../phosphor-core/assets/bold/cloud-sun-bold.svg");
 		pub const CLOUD_WARNING: &str = include_str!("../phosphor-core/assets/bold/cloud-warning-bold.svg");
 		pub const CLOUD_X: &str = include_str!("../phosphor-core/assets/bold/cloud-x-bold.svg");
+		pub const CLOVER: &str = include_str!("../phosphor-core/assets/bold/clover-bold.svg");
 		pub const CLUB: &str = include_str!("../phosphor-core/assets/bold/club-bold.svg");
 		pub const COAT_HANGER: &str = include_str!("../phosphor-core/assets/bold/coat-hanger-bold.svg");
 		pub const CODA_LOGO: &str = include_str!("../phosphor-core/assets/bold/coda-logo-bold.svg");
@@ -354,12 +412,16 @@ pub mod style {
 		pub const CODEPEN_LOGO: &str = include_str!("../phosphor-core/assets/bold/codepen-logo-bold.svg");
 		pub const CODESANDBOX_LOGO: &str = include_str!("../phosphor-core/assets/bold/codesandbox-logo-bold.svg");
 		pub const COFFEE: &str = include_str!("../phosphor-core/assets/bold/coffee-bold.svg");
+		pub const COFFEE_BEAN: &str = include_str!("../phosphor-core/assets/bold/coffee-bean-bold.svg");
 		pub const COIN: &str = include_str!("../phosphor-core/assets/bold/coin-bold.svg");
 		pub const COIN_VERTICAL: &str = include_str!("../phosphor-core/assets/bold/coin-vertical-bold.svg");
 		pub const COINS: &str = include_str!("../phosphor-core/assets/bold/coins-bold.svg");
 		pub const COLUMNS: &str = include_str!("../phosphor-core/assets/bold/columns-bold.svg");
+		pub const COLUMNS_PLUS_LEFT: &str = include_str!("../phosphor-core/assets/bold/columns-plus-left-bold.svg");
+		pub const COLUMNS_PLUS_RIGHT: &str = include_str!("../phosphor-core/assets/bold/columns-plus-right-bold.svg");
 		pub const COMMAND: &str = include_str!("../phosphor-core/assets/bold/command-bold.svg");
 		pub const COMPASS: &str = include_str!("../phosphor-core/assets/bold/compass-bold.svg");
+		pub const COMPASS_ROSE: &str = include_str!("../phosphor-core/assets/bold/compass-rose-bold.svg");
 		pub const COMPASS_TOOL: &str = include_str!("../phosphor-core/assets/bold/compass-tool-bold.svg");
 		pub const COMPUTER_TOWER: &str = include_str!("../phosphor-core/assets/bold/computer-tower-bold.svg");
 		pub const CONFETTI: &str = include_str!("../phosphor-core/assets/bold/confetti-bold.svg");
@@ -374,13 +436,20 @@ pub mod style {
 		pub const CORNERS_IN: &str = include_str!("../phosphor-core/assets/bold/corners-in-bold.svg");
 		pub const CORNERS_OUT: &str = include_str!("../phosphor-core/assets/bold/corners-out-bold.svg");
 		pub const COUCH: &str = include_str!("../phosphor-core/assets/bold/couch-bold.svg");
+		pub const COURT_BASKETBALL: &str = include_str!("../phosphor-core/assets/bold/court-basketball-bold.svg");
+		pub const COW: &str = include_str!("../phosphor-core/assets/bold/cow-bold.svg");
+		pub const COWBOY_HAT: &str = include_str!("../phosphor-core/assets/bold/cowboy-hat-bold.svg");
 		pub const CPU: &str = include_str!("../phosphor-core/assets/bold/cpu-bold.svg");
+		pub const CRANE: &str = include_str!("../phosphor-core/assets/bold/crane-bold.svg");
+		pub const CRANE_TOWER: &str = include_str!("../phosphor-core/assets/bold/crane-tower-bold.svg");
 		pub const CREDIT_CARD: &str = include_str!("../phosphor-core/assets/bold/credit-card-bold.svg");
+		pub const CRICKET: &str = include_str!("../phosphor-core/assets/bold/cricket-bold.svg");
 		pub const CROP: &str = include_str!("../phosphor-core/assets/bold/crop-bold.svg");
 		pub const CROSS: &str = include_str!("../phosphor-core/assets/bold/cross-bold.svg");
 		pub const CROSSHAIR: &str = include_str!("../phosphor-core/assets/bold/crosshair-bold.svg");
 		pub const CROSSHAIR_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/crosshair-simple-bold.svg");
 		pub const CROWN: &str = include_str!("../phosphor-core/assets/bold/crown-bold.svg");
+		pub const CROWN_CROSS: &str = include_str!("../phosphor-core/assets/bold/crown-cross-bold.svg");
 		pub const CROWN_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/crown-simple-bold.svg");
 		pub const CUBE: &str = include_str!("../phosphor-core/assets/bold/cube-bold.svg");
 		pub const CUBE_FOCUS: &str = include_str!("../phosphor-core/assets/bold/cube-focus-bold.svg");
@@ -404,13 +473,16 @@ pub mod style {
 		pub const CURSOR_TEXT: &str = include_str!("../phosphor-core/assets/bold/cursor-text-bold.svg");
 		pub const CYLINDER: &str = include_str!("../phosphor-core/assets/bold/cylinder-bold.svg");
 		pub const DATABASE: &str = include_str!("../phosphor-core/assets/bold/database-bold.svg");
+		pub const DESK: &str = include_str!("../phosphor-core/assets/bold/desk-bold.svg");
 		pub const DESKTOP: &str = include_str!("../phosphor-core/assets/bold/desktop-bold.svg");
 		pub const DESKTOP_TOWER: &str = include_str!("../phosphor-core/assets/bold/desktop-tower-bold.svg");
 		pub const DETECTIVE: &str = include_str!("../phosphor-core/assets/bold/detective-bold.svg");
 		pub const DEV_TO_LOGO: &str = include_str!("../phosphor-core/assets/bold/dev-to-logo-bold.svg");
 		pub const DEVICE_MOBILE: &str = include_str!("../phosphor-core/assets/bold/device-mobile-bold.svg");
 		pub const DEVICE_MOBILE_CAMERA: &str = include_str!("../phosphor-core/assets/bold/device-mobile-camera-bold.svg");
+		pub const DEVICE_MOBILE_SLASH: &str = include_str!("../phosphor-core/assets/bold/device-mobile-slash-bold.svg");
 		pub const DEVICE_MOBILE_SPEAKER: &str = include_str!("../phosphor-core/assets/bold/device-mobile-speaker-bold.svg");
+		pub const DEVICE_ROTATE: &str = include_str!("../phosphor-core/assets/bold/device-rotate-bold.svg");
 		pub const DEVICE_TABLET: &str = include_str!("../phosphor-core/assets/bold/device-tablet-bold.svg");
 		pub const DEVICE_TABLET_CAMERA: &str = include_str!("../phosphor-core/assets/bold/device-tablet-camera-bold.svg");
 		pub const DEVICE_TABLET_SPEAKER: &str = include_str!("../phosphor-core/assets/bold/device-tablet-speaker-bold.svg");
@@ -424,6 +496,7 @@ pub mod style {
 		pub const DICE_THREE: &str = include_str!("../phosphor-core/assets/bold/dice-three-bold.svg");
 		pub const DICE_TWO: &str = include_str!("../phosphor-core/assets/bold/dice-two-bold.svg");
 		pub const DISC: &str = include_str!("../phosphor-core/assets/bold/disc-bold.svg");
+		pub const DISCO_BALL: &str = include_str!("../phosphor-core/assets/bold/disco-ball-bold.svg");
 		pub const DISCORD_LOGO: &str = include_str!("../phosphor-core/assets/bold/discord-logo-bold.svg");
 		pub const DIVIDE: &str = include_str!("../phosphor-core/assets/bold/divide-bold.svg");
 		pub const DNA: &str = include_str!("../phosphor-core/assets/bold/dna-bold.svg");
@@ -444,10 +517,14 @@ pub mod style {
 		pub const DOWNLOAD: &str = include_str!("../phosphor-core/assets/bold/download-bold.svg");
 		pub const DOWNLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/download-simple-bold.svg");
 		pub const DRESS: &str = include_str!("../phosphor-core/assets/bold/dress-bold.svg");
+		pub const DRESSER: &str = include_str!("../phosphor-core/assets/bold/dresser-bold.svg");
 		pub const DRIBBBLE_LOGO: &str = include_str!("../phosphor-core/assets/bold/dribbble-logo-bold.svg");
+		pub const DRONE: &str = include_str!("../phosphor-core/assets/bold/drone-bold.svg");
 		pub const DROP: &str = include_str!("../phosphor-core/assets/bold/drop-bold.svg");
 		pub const DROP_HALF: &str = include_str!("../phosphor-core/assets/bold/drop-half-bold.svg");
 		pub const DROP_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/bold/drop-half-bottom-bold.svg");
+		pub const DROP_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/drop-simple-bold.svg");
+		pub const DROP_SLASH: &str = include_str!("../phosphor-core/assets/bold/drop-slash-bold.svg");
 		pub const DROPBOX_LOGO: &str = include_str!("../phosphor-core/assets/bold/dropbox-logo-bold.svg");
 		pub const EAR: &str = include_str!("../phosphor-core/assets/bold/ear-bold.svg");
 		pub const EAR_SLASH: &str = include_str!("../phosphor-core/assets/bold/ear-slash-bold.svg");
@@ -456,6 +533,7 @@ pub mod style {
 		pub const EJECT: &str = include_str!("../phosphor-core/assets/bold/eject-bold.svg");
 		pub const EJECT_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/eject-simple-bold.svg");
 		pub const ELEVATOR: &str = include_str!("../phosphor-core/assets/bold/elevator-bold.svg");
+		pub const EMPTY: &str = include_str!("../phosphor-core/assets/bold/empty-bold.svg");
 		pub const ENGINE: &str = include_str!("../phosphor-core/assets/bold/engine-bold.svg");
 		pub const ENVELOPE: &str = include_str!("../phosphor-core/assets/bold/envelope-bold.svg");
 		pub const ENVELOPE_OPEN: &str = include_str!("../phosphor-core/assets/bold/envelope-open-bold.svg");
@@ -467,6 +545,7 @@ pub mod style {
 		pub const ESCALATOR_DOWN: &str = include_str!("../phosphor-core/assets/bold/escalator-down-bold.svg");
 		pub const ESCALATOR_UP: &str = include_str!("../phosphor-core/assets/bold/escalator-up-bold.svg");
 		pub const EXAM: &str = include_str!("../phosphor-core/assets/bold/exam-bold.svg");
+		pub const EXCLAMATION_MARK: &str = include_str!("../phosphor-core/assets/bold/exclamation-mark-bold.svg");
 		pub const EXCLUDE: &str = include_str!("../phosphor-core/assets/bold/exclude-bold.svg");
 		pub const EXCLUDE_SQUARE: &str = include_str!("../phosphor-core/assets/bold/exclude-square-bold.svg");
 		pub const EXPORT: &str = include_str!("../phosphor-core/assets/bold/export-bold.svg");
@@ -476,45 +555,56 @@ pub mod style {
 		pub const EYEDROPPER: &str = include_str!("../phosphor-core/assets/bold/eyedropper-bold.svg");
 		pub const EYEDROPPER_SAMPLE: &str = include_str!("../phosphor-core/assets/bold/eyedropper-sample-bold.svg");
 		pub const EYEGLASSES: &str = include_str!("../phosphor-core/assets/bold/eyeglasses-bold.svg");
+		pub const EYES: &str = include_str!("../phosphor-core/assets/bold/eyes-bold.svg");
 		pub const FACE_MASK: &str = include_str!("../phosphor-core/assets/bold/face-mask-bold.svg");
 		pub const FACEBOOK_LOGO: &str = include_str!("../phosphor-core/assets/bold/facebook-logo-bold.svg");
 		pub const FACTORY: &str = include_str!("../phosphor-core/assets/bold/factory-bold.svg");
 		pub const FADERS: &str = include_str!("../phosphor-core/assets/bold/faders-bold.svg");
 		pub const FADERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/bold/faders-horizontal-bold.svg");
+		pub const FALLOUT_SHELTER: &str = include_str!("../phosphor-core/assets/bold/fallout-shelter-bold.svg");
 		pub const FAN: &str = include_str!("../phosphor-core/assets/bold/fan-bold.svg");
+		pub const FARM: &str = include_str!("../phosphor-core/assets/bold/farm-bold.svg");
 		pub const FAST_FORWARD: &str = include_str!("../phosphor-core/assets/bold/fast-forward-bold.svg");
 		pub const FAST_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/fast-forward-circle-bold.svg");
 		pub const FEATHER: &str = include_str!("../phosphor-core/assets/bold/feather-bold.svg");
+		pub const FEDIVERSE_LOGO: &str = include_str!("../phosphor-core/assets/bold/fediverse-logo-bold.svg");
 		pub const FIGMA_LOGO: &str = include_str!("../phosphor-core/assets/bold/figma-logo-bold.svg");
 		pub const FILE: &str = include_str!("../phosphor-core/assets/bold/file-bold.svg");
 		pub const FILE_ARCHIVE: &str = include_str!("../phosphor-core/assets/bold/file-archive-bold.svg");
 		pub const FILE_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/bold/file-arrow-down-bold.svg");
 		pub const FILE_ARROW_UP: &str = include_str!("../phosphor-core/assets/bold/file-arrow-up-bold.svg");
 		pub const FILE_AUDIO: &str = include_str!("../phosphor-core/assets/bold/file-audio-bold.svg");
+		pub const FILE_C: &str = include_str!("../phosphor-core/assets/bold/file-c-bold.svg");
+		pub const FILE_C_SHARP: &str = include_str!("../phosphor-core/assets/bold/file-c-sharp-bold.svg");
 		pub const FILE_CLOUD: &str = include_str!("../phosphor-core/assets/bold/file-cloud-bold.svg");
 		pub const FILE_CODE: &str = include_str!("../phosphor-core/assets/bold/file-code-bold.svg");
+		pub const FILE_CPP: &str = include_str!("../phosphor-core/assets/bold/file-cpp-bold.svg");
 		pub const FILE_CSS: &str = include_str!("../phosphor-core/assets/bold/file-css-bold.svg");
 		pub const FILE_CSV: &str = include_str!("../phosphor-core/assets/bold/file-csv-bold.svg");
 		pub const FILE_DASHED: &str = include_str!("../phosphor-core/assets/bold/file-dashed-bold.svg");
 		pub const FILE_DOC: &str = include_str!("../phosphor-core/assets/bold/file-doc-bold.svg");
 		pub const FILE_HTML: &str = include_str!("../phosphor-core/assets/bold/file-html-bold.svg");
 		pub const FILE_IMAGE: &str = include_str!("../phosphor-core/assets/bold/file-image-bold.svg");
+		pub const FILE_INI: &str = include_str!("../phosphor-core/assets/bold/file-ini-bold.svg");
 		pub const FILE_JPG: &str = include_str!("../phosphor-core/assets/bold/file-jpg-bold.svg");
 		pub const FILE_JS: &str = include_str!("../phosphor-core/assets/bold/file-js-bold.svg");
 		pub const FILE_JSX: &str = include_str!("../phosphor-core/assets/bold/file-jsx-bold.svg");
 		pub const FILE_LOCK: &str = include_str!("../phosphor-core/assets/bold/file-lock-bold.svg");
 		pub const FILE_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/bold/file-magnifying-glass-bold.svg");
+		pub const FILE_MD: &str = include_str!("../phosphor-core/assets/bold/file-md-bold.svg");
 		pub const FILE_MINUS: &str = include_str!("../phosphor-core/assets/bold/file-minus-bold.svg");
 		pub const FILE_PDF: &str = include_str!("../phosphor-core/assets/bold/file-pdf-bold.svg");
 		pub const FILE_PLUS: &str = include_str!("../phosphor-core/assets/bold/file-plus-bold.svg");
 		pub const FILE_PNG: &str = include_str!("../phosphor-core/assets/bold/file-png-bold.svg");
 		pub const FILE_PPT: &str = include_str!("../phosphor-core/assets/bold/file-ppt-bold.svg");
+		pub const FILE_PY: &str = include_str!("../phosphor-core/assets/bold/file-py-bold.svg");
 		pub const FILE_RS: &str = include_str!("../phosphor-core/assets/bold/file-rs-bold.svg");
 		pub const FILE_SQL: &str = include_str!("../phosphor-core/assets/bold/file-sql-bold.svg");
 		pub const FILE_SVG: &str = include_str!("../phosphor-core/assets/bold/file-svg-bold.svg");
 		pub const FILE_TEXT: &str = include_str!("../phosphor-core/assets/bold/file-text-bold.svg");
 		pub const FILE_TS: &str = include_str!("../phosphor-core/assets/bold/file-ts-bold.svg");
 		pub const FILE_TSX: &str = include_str!("../phosphor-core/assets/bold/file-tsx-bold.svg");
+		pub const FILE_TXT: &str = include_str!("../phosphor-core/assets/bold/file-txt-bold.svg");
 		pub const FILE_VIDEO: &str = include_str!("../phosphor-core/assets/bold/file-video-bold.svg");
 		pub const FILE_VUE: &str = include_str!("../phosphor-core/assets/bold/file-vue-bold.svg");
 		pub const FILE_X: &str = include_str!("../phosphor-core/assets/bold/file-x-bold.svg");
@@ -531,17 +621,21 @@ pub mod style {
 		pub const FIRE: &str = include_str!("../phosphor-core/assets/bold/fire-bold.svg");
 		pub const FIRE_EXTINGUISHER: &str = include_str!("../phosphor-core/assets/bold/fire-extinguisher-bold.svg");
 		pub const FIRE_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/fire-simple-bold.svg");
+		pub const FIRE_TRUCK: &str = include_str!("../phosphor-core/assets/bold/fire-truck-bold.svg");
 		pub const FIRST_AID: &str = include_str!("../phosphor-core/assets/bold/first-aid-bold.svg");
 		pub const FIRST_AID_KIT: &str = include_str!("../phosphor-core/assets/bold/first-aid-kit-bold.svg");
 		pub const FISH: &str = include_str!("../phosphor-core/assets/bold/fish-bold.svg");
 		pub const FISH_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/fish-simple-bold.svg");
 		pub const FLAG: &str = include_str!("../phosphor-core/assets/bold/flag-bold.svg");
 		pub const FLAG_BANNER: &str = include_str!("../phosphor-core/assets/bold/flag-banner-bold.svg");
+		pub const FLAG_BANNER_FOLD: &str = include_str!("../phosphor-core/assets/bold/flag-banner-fold-bold.svg");
 		pub const FLAG_CHECKERED: &str = include_str!("../phosphor-core/assets/bold/flag-checkered-bold.svg");
 		pub const FLAG_PENNANT: &str = include_str!("../phosphor-core/assets/bold/flag-pennant-bold.svg");
 		pub const FLAME: &str = include_str!("../phosphor-core/assets/bold/flame-bold.svg");
 		pub const FLASHLIGHT: &str = include_str!("../phosphor-core/assets/bold/flashlight-bold.svg");
 		pub const FLASK: &str = include_str!("../phosphor-core/assets/bold/flask-bold.svg");
+		pub const FLIP_HORIZONTAL: &str = include_str!("../phosphor-core/assets/bold/flip-horizontal-bold.svg");
+		pub const FLIP_VERTICAL: &str = include_str!("../phosphor-core/assets/bold/flip-vertical-bold.svg");
 		pub const FLOPPY_DISK: &str = include_str!("../phosphor-core/assets/bold/floppy-disk-bold.svg");
 		pub const FLOPPY_DISK_BACK: &str = include_str!("../phosphor-core/assets/bold/floppy-disk-back-bold.svg");
 		pub const FLOW_ARROW: &str = include_str!("../phosphor-core/assets/bold/flow-arrow-bold.svg");
@@ -553,10 +647,6 @@ pub mod style {
 		pub const FOLDER_DASHED: &str = include_str!("../phosphor-core/assets/bold/folder-dashed-bold.svg");
 		pub const FOLDER_LOCK: &str = include_str!("../phosphor-core/assets/bold/folder-lock-bold.svg");
 		pub const FOLDER_MINUS: &str = include_str!("../phosphor-core/assets/bold/folder-minus-bold.svg");
-		pub const FOLDER_NOTCH: &str = include_str!("../phosphor-core/assets/bold/folder-notch-bold.svg");
-		pub const FOLDER_NOTCH_MINUS: &str = include_str!("../phosphor-core/assets/bold/folder-notch-minus-bold.svg");
-		pub const FOLDER_NOTCH_OPEN: &str = include_str!("../phosphor-core/assets/bold/folder-notch-open-bold.svg");
-		pub const FOLDER_NOTCH_PLUS: &str = include_str!("../phosphor-core/assets/bold/folder-notch-plus-bold.svg");
 		pub const FOLDER_OPEN: &str = include_str!("../phosphor-core/assets/bold/folder-open-bold.svg");
 		pub const FOLDER_PLUS: &str = include_str!("../phosphor-core/assets/bold/folder-plus-bold.svg");
 		pub const FOLDER_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/folder-simple-bold.svg");
@@ -570,13 +660,17 @@ pub mod style {
 		pub const FOLDER_USER: &str = include_str!("../phosphor-core/assets/bold/folder-user-bold.svg");
 		pub const FOLDERS: &str = include_str!("../phosphor-core/assets/bold/folders-bold.svg");
 		pub const FOOTBALL: &str = include_str!("../phosphor-core/assets/bold/football-bold.svg");
+		pub const FOOTBALL_HELMET: &str = include_str!("../phosphor-core/assets/bold/football-helmet-bold.svg");
 		pub const FOOTPRINTS: &str = include_str!("../phosphor-core/assets/bold/footprints-bold.svg");
 		pub const FORK_KNIFE: &str = include_str!("../phosphor-core/assets/bold/fork-knife-bold.svg");
+		pub const FOUR_K: &str = include_str!("../phosphor-core/assets/bold/four-k-bold.svg");
 		pub const FRAME_CORNERS: &str = include_str!("../phosphor-core/assets/bold/frame-corners-bold.svg");
 		pub const FRAMER_LOGO: &str = include_str!("../phosphor-core/assets/bold/framer-logo-bold.svg");
 		pub const FUNCTION: &str = include_str!("../phosphor-core/assets/bold/function-bold.svg");
 		pub const FUNNEL: &str = include_str!("../phosphor-core/assets/bold/funnel-bold.svg");
 		pub const FUNNEL_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/funnel-simple-bold.svg");
+		pub const FUNNEL_SIMPLE_X: &str = include_str!("../phosphor-core/assets/bold/funnel-simple-x-bold.svg");
+		pub const FUNNEL_X: &str = include_str!("../phosphor-core/assets/bold/funnel-x-bold.svg");
 		pub const GAME_CONTROLLER: &str = include_str!("../phosphor-core/assets/bold/game-controller-bold.svg");
 		pub const GARAGE: &str = include_str!("../phosphor-core/assets/bold/garage-bold.svg");
 		pub const GAS_CAN: &str = include_str!("../phosphor-core/assets/bold/gas-can-bold.svg");
@@ -608,8 +702,11 @@ pub mod style {
 		pub const GLOBE_HEMISPHERE_EAST: &str = include_str!("../phosphor-core/assets/bold/globe-hemisphere-east-bold.svg");
 		pub const GLOBE_HEMISPHERE_WEST: &str = include_str!("../phosphor-core/assets/bold/globe-hemisphere-west-bold.svg");
 		pub const GLOBE_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/globe-simple-bold.svg");
+		pub const GLOBE_SIMPLE_X: &str = include_str!("../phosphor-core/assets/bold/globe-simple-x-bold.svg");
 		pub const GLOBE_STAND: &str = include_str!("../phosphor-core/assets/bold/globe-stand-bold.svg");
+		pub const GLOBE_X: &str = include_str!("../phosphor-core/assets/bold/globe-x-bold.svg");
 		pub const GOGGLES: &str = include_str!("../phosphor-core/assets/bold/goggles-bold.svg");
+		pub const GOLF: &str = include_str!("../phosphor-core/assets/bold/golf-bold.svg");
 		pub const GOODREADS_LOGO: &str = include_str!("../phosphor-core/assets/bold/goodreads-logo-bold.svg");
 		pub const GOOGLE_CARDBOARD_LOGO: &str = include_str!("../phosphor-core/assets/bold/google-cardboard-logo-bold.svg");
 		pub const GOOGLE_CHROME_LOGO: &str = include_str!("../phosphor-core/assets/bold/google-chrome-logo-bold.svg");
@@ -618,29 +715,41 @@ pub mod style {
 		pub const GOOGLE_PHOTOS_LOGO: &str = include_str!("../phosphor-core/assets/bold/google-photos-logo-bold.svg");
 		pub const GOOGLE_PLAY_LOGO: &str = include_str!("../phosphor-core/assets/bold/google-play-logo-bold.svg");
 		pub const GOOGLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/bold/google-podcasts-logo-bold.svg");
+		pub const GPS: &str = include_str!("../phosphor-core/assets/bold/gps-bold.svg");
+		pub const GPS_FIX: &str = include_str!("../phosphor-core/assets/bold/gps-fix-bold.svg");
+		pub const GPS_SLASH: &str = include_str!("../phosphor-core/assets/bold/gps-slash-bold.svg");
 		pub const GRADIENT: &str = include_str!("../phosphor-core/assets/bold/gradient-bold.svg");
 		pub const GRADUATION_CAP: &str = include_str!("../phosphor-core/assets/bold/graduation-cap-bold.svg");
 		pub const GRAINS: &str = include_str!("../phosphor-core/assets/bold/grains-bold.svg");
 		pub const GRAINS_SLASH: &str = include_str!("../phosphor-core/assets/bold/grains-slash-bold.svg");
 		pub const GRAPH: &str = include_str!("../phosphor-core/assets/bold/graph-bold.svg");
+		pub const GRAPHICS_CARD: &str = include_str!("../phosphor-core/assets/bold/graphics-card-bold.svg");
+		pub const GREATER_THAN: &str = include_str!("../phosphor-core/assets/bold/greater-than-bold.svg");
+		pub const GREATER_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/bold/greater-than-or-equal-bold.svg");
 		pub const GRID_FOUR: &str = include_str!("../phosphor-core/assets/bold/grid-four-bold.svg");
 		pub const GRID_NINE: &str = include_str!("../phosphor-core/assets/bold/grid-nine-bold.svg");
 		pub const GUITAR: &str = include_str!("../phosphor-core/assets/bold/guitar-bold.svg");
+		pub const HAIR_DRYER: &str = include_str!("../phosphor-core/assets/bold/hair-dryer-bold.svg");
 		pub const HAMBURGER: &str = include_str!("../phosphor-core/assets/bold/hamburger-bold.svg");
 		pub const HAMMER: &str = include_str!("../phosphor-core/assets/bold/hammer-bold.svg");
 		pub const HAND: &str = include_str!("../phosphor-core/assets/bold/hand-bold.svg");
+		pub const HAND_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/bold/hand-arrow-down-bold.svg");
+		pub const HAND_ARROW_UP: &str = include_str!("../phosphor-core/assets/bold/hand-arrow-up-bold.svg");
 		pub const HAND_COINS: &str = include_str!("../phosphor-core/assets/bold/hand-coins-bold.svg");
+		pub const HAND_DEPOSIT: &str = include_str!("../phosphor-core/assets/bold/hand-deposit-bold.svg");
 		pub const HAND_EYE: &str = include_str!("../phosphor-core/assets/bold/hand-eye-bold.svg");
 		pub const HAND_FIST: &str = include_str!("../phosphor-core/assets/bold/hand-fist-bold.svg");
 		pub const HAND_GRABBING: &str = include_str!("../phosphor-core/assets/bold/hand-grabbing-bold.svg");
 		pub const HAND_HEART: &str = include_str!("../phosphor-core/assets/bold/hand-heart-bold.svg");
 		pub const HAND_PALM: &str = include_str!("../phosphor-core/assets/bold/hand-palm-bold.svg");
+		pub const HAND_PEACE: &str = include_str!("../phosphor-core/assets/bold/hand-peace-bold.svg");
 		pub const HAND_POINTING: &str = include_str!("../phosphor-core/assets/bold/hand-pointing-bold.svg");
 		pub const HAND_SOAP: &str = include_str!("../phosphor-core/assets/bold/hand-soap-bold.svg");
 		pub const HAND_SWIPE_LEFT: &str = include_str!("../phosphor-core/assets/bold/hand-swipe-left-bold.svg");
 		pub const HAND_SWIPE_RIGHT: &str = include_str!("../phosphor-core/assets/bold/hand-swipe-right-bold.svg");
 		pub const HAND_TAP: &str = include_str!("../phosphor-core/assets/bold/hand-tap-bold.svg");
 		pub const HAND_WAVING: &str = include_str!("../phosphor-core/assets/bold/hand-waving-bold.svg");
+		pub const HAND_WITHDRAW: &str = include_str!("../phosphor-core/assets/bold/hand-withdraw-bold.svg");
 		pub const HANDBAG: &str = include_str!("../phosphor-core/assets/bold/handbag-bold.svg");
 		pub const HANDBAG_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/handbag-simple-bold.svg");
 		pub const HANDS_CLAPPING: &str = include_str!("../phosphor-core/assets/bold/hands-clapping-bold.svg");
@@ -648,8 +757,10 @@ pub mod style {
 		pub const HANDSHAKE: &str = include_str!("../phosphor-core/assets/bold/handshake-bold.svg");
 		pub const HARD_DRIVE: &str = include_str!("../phosphor-core/assets/bold/hard-drive-bold.svg");
 		pub const HARD_DRIVES: &str = include_str!("../phosphor-core/assets/bold/hard-drives-bold.svg");
+		pub const HARD_HAT: &str = include_str!("../phosphor-core/assets/bold/hard-hat-bold.svg");
 		pub const HASH: &str = include_str!("../phosphor-core/assets/bold/hash-bold.svg");
 		pub const HASH_STRAIGHT: &str = include_str!("../phosphor-core/assets/bold/hash-straight-bold.svg");
+		pub const HEAD_CIRCUIT: &str = include_str!("../phosphor-core/assets/bold/head-circuit-bold.svg");
 		pub const HEADLIGHTS: &str = include_str!("../phosphor-core/assets/bold/headlights-bold.svg");
 		pub const HEADPHONES: &str = include_str!("../phosphor-core/assets/bold/headphones-bold.svg");
 		pub const HEADSET: &str = include_str!("../phosphor-core/assets/bold/headset-bold.svg");
@@ -660,10 +771,14 @@ pub mod style {
 		pub const HEART_STRAIGHT_BREAK: &str = include_str!("../phosphor-core/assets/bold/heart-straight-break-bold.svg");
 		pub const HEARTBEAT: &str = include_str!("../phosphor-core/assets/bold/heartbeat-bold.svg");
 		pub const HEXAGON: &str = include_str!("../phosphor-core/assets/bold/hexagon-bold.svg");
+		pub const HIGH_DEFINITION: &str = include_str!("../phosphor-core/assets/bold/high-definition-bold.svg");
 		pub const HIGH_HEEL: &str = include_str!("../phosphor-core/assets/bold/high-heel-bold.svg");
+		pub const HIGHLIGHTER: &str = include_str!("../phosphor-core/assets/bold/highlighter-bold.svg");
 		pub const HIGHLIGHTER_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/highlighter-circle-bold.svg");
+		pub const HOCKEY: &str = include_str!("../phosphor-core/assets/bold/hockey-bold.svg");
 		pub const HOODIE: &str = include_str!("../phosphor-core/assets/bold/hoodie-bold.svg");
 		pub const HORSE: &str = include_str!("../phosphor-core/assets/bold/horse-bold.svg");
+		pub const HOSPITAL: &str = include_str!("../phosphor-core/assets/bold/hospital-bold.svg");
 		pub const HOURGLASS: &str = include_str!("../phosphor-core/assets/bold/hourglass-bold.svg");
 		pub const HOURGLASS_HIGH: &str = include_str!("../phosphor-core/assets/bold/hourglass-high-bold.svg");
 		pub const HOURGLASS_LOW: &str = include_str!("../phosphor-core/assets/bold/hourglass-low-bold.svg");
@@ -675,10 +790,12 @@ pub mod style {
 		pub const HOUSE: &str = include_str!("../phosphor-core/assets/bold/house-bold.svg");
 		pub const HOUSE_LINE: &str = include_str!("../phosphor-core/assets/bold/house-line-bold.svg");
 		pub const HOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/house-simple-bold.svg");
+		pub const HURRICANE: &str = include_str!("../phosphor-core/assets/bold/hurricane-bold.svg");
 		pub const ICE_CREAM: &str = include_str!("../phosphor-core/assets/bold/ice-cream-bold.svg");
 		pub const IDENTIFICATION_BADGE: &str = include_str!("../phosphor-core/assets/bold/identification-badge-bold.svg");
 		pub const IDENTIFICATION_CARD: &str = include_str!("../phosphor-core/assets/bold/identification-card-bold.svg");
 		pub const IMAGE: &str = include_str!("../phosphor-core/assets/bold/image-bold.svg");
+		pub const IMAGE_BROKEN: &str = include_str!("../phosphor-core/assets/bold/image-broken-bold.svg");
 		pub const IMAGE_SQUARE: &str = include_str!("../phosphor-core/assets/bold/image-square-bold.svg");
 		pub const IMAGES: &str = include_str!("../phosphor-core/assets/bold/images-bold.svg");
 		pub const IMAGES_SQUARE: &str = include_str!("../phosphor-core/assets/bold/images-square-bold.svg");
@@ -688,7 +805,13 @@ pub mod style {
 		pub const INTERSECT: &str = include_str!("../phosphor-core/assets/bold/intersect-bold.svg");
 		pub const INTERSECT_SQUARE: &str = include_str!("../phosphor-core/assets/bold/intersect-square-bold.svg");
 		pub const INTERSECT_THREE: &str = include_str!("../phosphor-core/assets/bold/intersect-three-bold.svg");
+		pub const INTERSECTION: &str = include_str!("../phosphor-core/assets/bold/intersection-bold.svg");
+		pub const INVOICE: &str = include_str!("../phosphor-core/assets/bold/invoice-bold.svg");
+		pub const ISLAND: &str = include_str!("../phosphor-core/assets/bold/island-bold.svg");
+		pub const JAR: &str = include_str!("../phosphor-core/assets/bold/jar-bold.svg");
+		pub const JAR_LABEL: &str = include_str!("../phosphor-core/assets/bold/jar-label-bold.svg");
 		pub const JEEP: &str = include_str!("../phosphor-core/assets/bold/jeep-bold.svg");
+		pub const JOYSTICK: &str = include_str!("../phosphor-core/assets/bold/joystick-bold.svg");
 		pub const KANBAN: &str = include_str!("../phosphor-core/assets/bold/kanban-bold.svg");
 		pub const KEY: &str = include_str!("../phosphor-core/assets/bold/key-bold.svg");
 		pub const KEY_RETURN: &str = include_str!("../phosphor-core/assets/bold/key-return-bold.svg");
@@ -698,9 +821,20 @@ pub mod style {
 		pub const LADDER: &str = include_str!("../phosphor-core/assets/bold/ladder-bold.svg");
 		pub const LADDER_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/ladder-simple-bold.svg");
 		pub const LAMP: &str = include_str!("../phosphor-core/assets/bold/lamp-bold.svg");
+		pub const LAMP_PENDANT: &str = include_str!("../phosphor-core/assets/bold/lamp-pendant-bold.svg");
 		pub const LAPTOP: &str = include_str!("../phosphor-core/assets/bold/laptop-bold.svg");
+		pub const LASSO: &str = include_str!("../phosphor-core/assets/bold/lasso-bold.svg");
+		pub const LASTFM_LOGO: &str = include_str!("../phosphor-core/assets/bold/lastfm-logo-bold.svg");
 		pub const LAYOUT: &str = include_str!("../phosphor-core/assets/bold/layout-bold.svg");
 		pub const LEAF: &str = include_str!("../phosphor-core/assets/bold/leaf-bold.svg");
+		pub const LECTERN: &str = include_str!("../phosphor-core/assets/bold/lectern-bold.svg");
+		pub const LEGO: &str = include_str!("../phosphor-core/assets/bold/lego-bold.svg");
+		pub const LEGO_SMILEY: &str = include_str!("../phosphor-core/assets/bold/lego-smiley-bold.svg");
+		pub const LESS_THAN: &str = include_str!("../phosphor-core/assets/bold/less-than-bold.svg");
+		pub const LESS_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/bold/less-than-or-equal-bold.svg");
+		pub const LETTER_CIRCLE_H: &str = include_str!("../phosphor-core/assets/bold/letter-circle-h-bold.svg");
+		pub const LETTER_CIRCLE_P: &str = include_str!("../phosphor-core/assets/bold/letter-circle-p-bold.svg");
+		pub const LETTER_CIRCLE_V: &str = include_str!("../phosphor-core/assets/bold/letter-circle-v-bold.svg");
 		pub const LIFEBUOY: &str = include_str!("../phosphor-core/assets/bold/lifebuoy-bold.svg");
 		pub const LIGHTBULB: &str = include_str!("../phosphor-core/assets/bold/lightbulb-bold.svg");
 		pub const LIGHTBULB_FILAMENT: &str = include_str!("../phosphor-core/assets/bold/lightbulb-filament-bold.svg");
@@ -710,6 +844,7 @@ pub mod style {
 		pub const LIGHTNING_SLASH: &str = include_str!("../phosphor-core/assets/bold/lightning-slash-bold.svg");
 		pub const LINE_SEGMENT: &str = include_str!("../phosphor-core/assets/bold/line-segment-bold.svg");
 		pub const LINE_SEGMENTS: &str = include_str!("../phosphor-core/assets/bold/line-segments-bold.svg");
+		pub const LINE_VERTICAL: &str = include_str!("../phosphor-core/assets/bold/line-vertical-bold.svg");
 		pub const LINK: &str = include_str!("../phosphor-core/assets/bold/link-bold.svg");
 		pub const LINK_BREAK: &str = include_str!("../phosphor-core/assets/bold/link-break-bold.svg");
 		pub const LINK_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/link-simple-bold.svg");
@@ -717,14 +852,17 @@ pub mod style {
 		pub const LINK_SIMPLE_HORIZONTAL: &str = include_str!("../phosphor-core/assets/bold/link-simple-horizontal-bold.svg");
 		pub const LINK_SIMPLE_HORIZONTAL_BREAK: &str = include_str!("../phosphor-core/assets/bold/link-simple-horizontal-break-bold.svg");
 		pub const LINKEDIN_LOGO: &str = include_str!("../phosphor-core/assets/bold/linkedin-logo-bold.svg");
+		pub const LINKTREE_LOGO: &str = include_str!("../phosphor-core/assets/bold/linktree-logo-bold.svg");
 		pub const LINUX_LOGO: &str = include_str!("../phosphor-core/assets/bold/linux-logo-bold.svg");
 		pub const LIST: &str = include_str!("../phosphor-core/assets/bold/list-bold.svg");
 		pub const LIST_BULLETS: &str = include_str!("../phosphor-core/assets/bold/list-bullets-bold.svg");
 		pub const LIST_CHECKS: &str = include_str!("../phosphor-core/assets/bold/list-checks-bold.svg");
 		pub const LIST_DASHES: &str = include_str!("../phosphor-core/assets/bold/list-dashes-bold.svg");
+		pub const LIST_HEART: &str = include_str!("../phosphor-core/assets/bold/list-heart-bold.svg");
 		pub const LIST_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/bold/list-magnifying-glass-bold.svg");
 		pub const LIST_NUMBERS: &str = include_str!("../phosphor-core/assets/bold/list-numbers-bold.svg");
 		pub const LIST_PLUS: &str = include_str!("../phosphor-core/assets/bold/list-plus-bold.svg");
+		pub const LIST_STAR: &str = include_str!("../phosphor-core/assets/bold/list-star-bold.svg");
 		pub const LOCK: &str = include_str!("../phosphor-core/assets/bold/lock-bold.svg");
 		pub const LOCK_KEY: &str = include_str!("../phosphor-core/assets/bold/lock-key-bold.svg");
 		pub const LOCK_KEY_OPEN: &str = include_str!("../phosphor-core/assets/bold/lock-key-open-bold.svg");
@@ -734,31 +872,45 @@ pub mod style {
 		pub const LOCK_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/lock-simple-bold.svg");
 		pub const LOCK_SIMPLE_OPEN: &str = include_str!("../phosphor-core/assets/bold/lock-simple-open-bold.svg");
 		pub const LOCKERS: &str = include_str!("../phosphor-core/assets/bold/lockers-bold.svg");
+		pub const LOG: &str = include_str!("../phosphor-core/assets/bold/log-bold.svg");
 		pub const MAGIC_WAND: &str = include_str!("../phosphor-core/assets/bold/magic-wand-bold.svg");
 		pub const MAGNET: &str = include_str!("../phosphor-core/assets/bold/magnet-bold.svg");
 		pub const MAGNET_STRAIGHT: &str = include_str!("../phosphor-core/assets/bold/magnet-straight-bold.svg");
 		pub const MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/bold/magnifying-glass-bold.svg");
 		pub const MAGNIFYING_GLASS_MINUS: &str = include_str!("../phosphor-core/assets/bold/magnifying-glass-minus-bold.svg");
 		pub const MAGNIFYING_GLASS_PLUS: &str = include_str!("../phosphor-core/assets/bold/magnifying-glass-plus-bold.svg");
+		pub const MAILBOX: &str = include_str!("../phosphor-core/assets/bold/mailbox-bold.svg");
 		pub const MAP_PIN: &str = include_str!("../phosphor-core/assets/bold/map-pin-bold.svg");
+		pub const MAP_PIN_AREA: &str = include_str!("../phosphor-core/assets/bold/map-pin-area-bold.svg");
 		pub const MAP_PIN_LINE: &str = include_str!("../phosphor-core/assets/bold/map-pin-line-bold.svg");
+		pub const MAP_PIN_PLUS: &str = include_str!("../phosphor-core/assets/bold/map-pin-plus-bold.svg");
+		pub const MAP_PIN_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/map-pin-simple-bold.svg");
+		pub const MAP_PIN_SIMPLE_AREA: &str = include_str!("../phosphor-core/assets/bold/map-pin-simple-area-bold.svg");
+		pub const MAP_PIN_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/bold/map-pin-simple-line-bold.svg");
 		pub const MAP_TRIFOLD: &str = include_str!("../phosphor-core/assets/bold/map-trifold-bold.svg");
+		pub const MARKDOWN_LOGO: &str = include_str!("../phosphor-core/assets/bold/markdown-logo-bold.svg");
 		pub const MARKER_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/marker-circle-bold.svg");
 		pub const MARTINI: &str = include_str!("../phosphor-core/assets/bold/martini-bold.svg");
 		pub const MASK_HAPPY: &str = include_str!("../phosphor-core/assets/bold/mask-happy-bold.svg");
 		pub const MASK_SAD: &str = include_str!("../phosphor-core/assets/bold/mask-sad-bold.svg");
+		pub const MASTODON_LOGO: &str = include_str!("../phosphor-core/assets/bold/mastodon-logo-bold.svg");
 		pub const MATH_OPERATIONS: &str = include_str!("../phosphor-core/assets/bold/math-operations-bold.svg");
+		pub const MATRIX_LOGO: &str = include_str!("../phosphor-core/assets/bold/matrix-logo-bold.svg");
 		pub const MEDAL: &str = include_str!("../phosphor-core/assets/bold/medal-bold.svg");
 		pub const MEDAL_MILITARY: &str = include_str!("../phosphor-core/assets/bold/medal-military-bold.svg");
 		pub const MEDIUM_LOGO: &str = include_str!("../phosphor-core/assets/bold/medium-logo-bold.svg");
 		pub const MEGAPHONE: &str = include_str!("../phosphor-core/assets/bold/megaphone-bold.svg");
 		pub const MEGAPHONE_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/megaphone-simple-bold.svg");
+		pub const MEMBER_OF: &str = include_str!("../phosphor-core/assets/bold/member-of-bold.svg");
+		pub const MEMORY: &str = include_str!("../phosphor-core/assets/bold/memory-bold.svg");
 		pub const MESSENGER_LOGO: &str = include_str!("../phosphor-core/assets/bold/messenger-logo-bold.svg");
 		pub const META_LOGO: &str = include_str!("../phosphor-core/assets/bold/meta-logo-bold.svg");
+		pub const METEOR: &str = include_str!("../phosphor-core/assets/bold/meteor-bold.svg");
 		pub const METRONOME: &str = include_str!("../phosphor-core/assets/bold/metronome-bold.svg");
 		pub const MICROPHONE: &str = include_str!("../phosphor-core/assets/bold/microphone-bold.svg");
 		pub const MICROPHONE_SLASH: &str = include_str!("../phosphor-core/assets/bold/microphone-slash-bold.svg");
 		pub const MICROPHONE_STAGE: &str = include_str!("../phosphor-core/assets/bold/microphone-stage-bold.svg");
+		pub const MICROSCOPE: &str = include_str!("../phosphor-core/assets/bold/microscope-bold.svg");
 		pub const MICROSOFT_EXCEL_LOGO: &str = include_str!("../phosphor-core/assets/bold/microsoft-excel-logo-bold.svg");
 		pub const MICROSOFT_OUTLOOK_LOGO: &str = include_str!("../phosphor-core/assets/bold/microsoft-outlook-logo-bold.svg");
 		pub const MICROSOFT_POWERPOINT_LOGO: &str = include_str!("../phosphor-core/assets/bold/microsoft-powerpoint-logo-bold.svg");
@@ -768,7 +920,9 @@ pub mod style {
 		pub const MINUS_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/minus-circle-bold.svg");
 		pub const MINUS_SQUARE: &str = include_str!("../phosphor-core/assets/bold/minus-square-bold.svg");
 		pub const MONEY: &str = include_str!("../phosphor-core/assets/bold/money-bold.svg");
+		pub const MONEY_WAVY: &str = include_str!("../phosphor-core/assets/bold/money-wavy-bold.svg");
 		pub const MONITOR: &str = include_str!("../phosphor-core/assets/bold/monitor-bold.svg");
+		pub const MONITOR_ARROW_UP: &str = include_str!("../phosphor-core/assets/bold/monitor-arrow-up-bold.svg");
 		pub const MONITOR_PLAY: &str = include_str!("../phosphor-core/assets/bold/monitor-play-bold.svg");
 		pub const MOON: &str = include_str!("../phosphor-core/assets/bold/moon-bold.svg");
 		pub const MOON_STARS: &str = include_str!("../phosphor-core/assets/bold/moon-stars-bold.svg");
@@ -778,16 +932,28 @@ pub mod style {
 		pub const MOTORCYCLE: &str = include_str!("../phosphor-core/assets/bold/motorcycle-bold.svg");
 		pub const MOUNTAINS: &str = include_str!("../phosphor-core/assets/bold/mountains-bold.svg");
 		pub const MOUSE: &str = include_str!("../phosphor-core/assets/bold/mouse-bold.svg");
+		pub const MOUSE_LEFT_CLICK: &str = include_str!("../phosphor-core/assets/bold/mouse-left-click-bold.svg");
+		pub const MOUSE_MIDDLE_CLICK: &str = include_str!("../phosphor-core/assets/bold/mouse-middle-click-bold.svg");
+		pub const MOUSE_RIGHT_CLICK: &str = include_str!("../phosphor-core/assets/bold/mouse-right-click-bold.svg");
+		pub const MOUSE_SCROLL: &str = include_str!("../phosphor-core/assets/bold/mouse-scroll-bold.svg");
 		pub const MOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/mouse-simple-bold.svg");
 		pub const MUSIC_NOTE: &str = include_str!("../phosphor-core/assets/bold/music-note-bold.svg");
 		pub const MUSIC_NOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/music-note-simple-bold.svg");
 		pub const MUSIC_NOTES: &str = include_str!("../phosphor-core/assets/bold/music-notes-bold.svg");
+		pub const MUSIC_NOTES_MINUS: &str = include_str!("../phosphor-core/assets/bold/music-notes-minus-bold.svg");
 		pub const MUSIC_NOTES_PLUS: &str = include_str!("../phosphor-core/assets/bold/music-notes-plus-bold.svg");
 		pub const MUSIC_NOTES_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/music-notes-simple-bold.svg");
 		pub const NAVIGATION_ARROW: &str = include_str!("../phosphor-core/assets/bold/navigation-arrow-bold.svg");
 		pub const NEEDLE: &str = include_str!("../phosphor-core/assets/bold/needle-bold.svg");
+		pub const NETWORK: &str = include_str!("../phosphor-core/assets/bold/network-bold.svg");
+		pub const NETWORK_SLASH: &str = include_str!("../phosphor-core/assets/bold/network-slash-bold.svg");
+		pub const NETWORK_X: &str = include_str!("../phosphor-core/assets/bold/network-x-bold.svg");
 		pub const NEWSPAPER: &str = include_str!("../phosphor-core/assets/bold/newspaper-bold.svg");
 		pub const NEWSPAPER_CLIPPING: &str = include_str!("../phosphor-core/assets/bold/newspaper-clipping-bold.svg");
+		pub const NOT_EQUALS: &str = include_str!("../phosphor-core/assets/bold/not-equals-bold.svg");
+		pub const NOT_MEMBER_OF: &str = include_str!("../phosphor-core/assets/bold/not-member-of-bold.svg");
+		pub const NOT_SUBSET_OF: &str = include_str!("../phosphor-core/assets/bold/not-subset-of-bold.svg");
+		pub const NOT_SUPERSET_OF: &str = include_str!("../phosphor-core/assets/bold/not-superset-of-bold.svg");
 		pub const NOTCHES: &str = include_str!("../phosphor-core/assets/bold/notches-bold.svg");
 		pub const NOTE: &str = include_str!("../phosphor-core/assets/bold/note-bold.svg");
 		pub const NOTE_BLANK: &str = include_str!("../phosphor-core/assets/bold/note-blank-bold.svg");
@@ -796,6 +962,7 @@ pub mod style {
 		pub const NOTEPAD: &str = include_str!("../phosphor-core/assets/bold/notepad-bold.svg");
 		pub const NOTIFICATION: &str = include_str!("../phosphor-core/assets/bold/notification-bold.svg");
 		pub const NOTION_LOGO: &str = include_str!("../phosphor-core/assets/bold/notion-logo-bold.svg");
+		pub const NUCLEAR_PLANT: &str = include_str!("../phosphor-core/assets/bold/nuclear-plant-bold.svg");
 		pub const NUMBER_CIRCLE_EIGHT: &str = include_str!("../phosphor-core/assets/bold/number-circle-eight-bold.svg");
 		pub const NUMBER_CIRCLE_FIVE: &str = include_str!("../phosphor-core/assets/bold/number-circle-five-bold.svg");
 		pub const NUMBER_CIRCLE_FOUR: &str = include_str!("../phosphor-core/assets/bold/number-circle-four-bold.svg");
@@ -826,12 +993,17 @@ pub mod style {
 		pub const NUMBER_THREE: &str = include_str!("../phosphor-core/assets/bold/number-three-bold.svg");
 		pub const NUMBER_TWO: &str = include_str!("../phosphor-core/assets/bold/number-two-bold.svg");
 		pub const NUMBER_ZERO: &str = include_str!("../phosphor-core/assets/bold/number-zero-bold.svg");
+		pub const NUMPAD: &str = include_str!("../phosphor-core/assets/bold/numpad-bold.svg");
 		pub const NUT: &str = include_str!("../phosphor-core/assets/bold/nut-bold.svg");
 		pub const NY_TIMES_LOGO: &str = include_str!("../phosphor-core/assets/bold/ny-times-logo-bold.svg");
 		pub const OCTAGON: &str = include_str!("../phosphor-core/assets/bold/octagon-bold.svg");
 		pub const OFFICE_CHAIR: &str = include_str!("../phosphor-core/assets/bold/office-chair-bold.svg");
+		pub const ONIGIRI: &str = include_str!("../phosphor-core/assets/bold/onigiri-bold.svg");
+		pub const OPEN_AI_LOGO: &str = include_str!("../phosphor-core/assets/bold/open-ai-logo-bold.svg");
 		pub const OPTION: &str = include_str!("../phosphor-core/assets/bold/option-bold.svg");
+		pub const ORANGE: &str = include_str!("../phosphor-core/assets/bold/orange-bold.svg");
 		pub const ORANGE_SLICE: &str = include_str!("../phosphor-core/assets/bold/orange-slice-bold.svg");
+		pub const OVEN: &str = include_str!("../phosphor-core/assets/bold/oven-bold.svg");
 		pub const PACKAGE: &str = include_str!("../phosphor-core/assets/bold/package-bold.svg");
 		pub const PAINT_BRUSH: &str = include_str!("../phosphor-core/assets/bold/paint-brush-bold.svg");
 		pub const PAINT_BRUSH_BROAD: &str = include_str!("../phosphor-core/assets/bold/paint-brush-broad-bold.svg");
@@ -839,6 +1011,7 @@ pub mod style {
 		pub const PAINT_BUCKET: &str = include_str!("../phosphor-core/assets/bold/paint-bucket-bold.svg");
 		pub const PAINT_ROLLER: &str = include_str!("../phosphor-core/assets/bold/paint-roller-bold.svg");
 		pub const PALETTE: &str = include_str!("../phosphor-core/assets/bold/palette-bold.svg");
+		pub const PANORAMA: &str = include_str!("../phosphor-core/assets/bold/panorama-bold.svg");
 		pub const PANTS: &str = include_str!("../phosphor-core/assets/bold/pants-bold.svg");
 		pub const PAPER_PLANE: &str = include_str!("../phosphor-core/assets/bold/paper-plane-bold.svg");
 		pub const PAPER_PLANE_RIGHT: &str = include_str!("../phosphor-core/assets/bold/paper-plane-right-bold.svg");
@@ -863,10 +1036,12 @@ pub mod style {
 		pub const PENCIL: &str = include_str!("../phosphor-core/assets/bold/pencil-bold.svg");
 		pub const PENCIL_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/pencil-circle-bold.svg");
 		pub const PENCIL_LINE: &str = include_str!("../phosphor-core/assets/bold/pencil-line-bold.svg");
+		pub const PENCIL_RULER: &str = include_str!("../phosphor-core/assets/bold/pencil-ruler-bold.svg");
 		pub const PENCIL_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/pencil-simple-bold.svg");
 		pub const PENCIL_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/bold/pencil-simple-line-bold.svg");
 		pub const PENCIL_SIMPLE_SLASH: &str = include_str!("../phosphor-core/assets/bold/pencil-simple-slash-bold.svg");
 		pub const PENCIL_SLASH: &str = include_str!("../phosphor-core/assets/bold/pencil-slash-bold.svg");
+		pub const PENTAGON: &str = include_str!("../phosphor-core/assets/bold/pentagon-bold.svg");
 		pub const PENTAGRAM: &str = include_str!("../phosphor-core/assets/bold/pentagram-bold.svg");
 		pub const PEPPER: &str = include_str!("../phosphor-core/assets/bold/pepper-bold.svg");
 		pub const PERCENT: &str = include_str!("../phosphor-core/assets/bold/percent-bold.svg");
@@ -874,7 +1049,13 @@ pub mod style {
 		pub const PERSON_ARMS_SPREAD: &str = include_str!("../phosphor-core/assets/bold/person-arms-spread-bold.svg");
 		pub const PERSON_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/person-simple-bold.svg");
 		pub const PERSON_SIMPLE_BIKE: &str = include_str!("../phosphor-core/assets/bold/person-simple-bike-bold.svg");
+		pub const PERSON_SIMPLE_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/person-simple-circle-bold.svg");
+		pub const PERSON_SIMPLE_HIKE: &str = include_str!("../phosphor-core/assets/bold/person-simple-hike-bold.svg");
 		pub const PERSON_SIMPLE_RUN: &str = include_str!("../phosphor-core/assets/bold/person-simple-run-bold.svg");
+		pub const PERSON_SIMPLE_SKI: &str = include_str!("../phosphor-core/assets/bold/person-simple-ski-bold.svg");
+		pub const PERSON_SIMPLE_SNOWBOARD: &str = include_str!("../phosphor-core/assets/bold/person-simple-snowboard-bold.svg");
+		pub const PERSON_SIMPLE_SWIM: &str = include_str!("../phosphor-core/assets/bold/person-simple-swim-bold.svg");
+		pub const PERSON_SIMPLE_TAI_CHI: &str = include_str!("../phosphor-core/assets/bold/person-simple-tai-chi-bold.svg");
 		pub const PERSON_SIMPLE_THROW: &str = include_str!("../phosphor-core/assets/bold/person-simple-throw-bold.svg");
 		pub const PERSON_SIMPLE_WALK: &str = include_str!("../phosphor-core/assets/bold/person-simple-walk-bold.svg");
 		pub const PERSPECTIVE: &str = include_str!("../phosphor-core/assets/bold/perspective-bold.svg");
@@ -882,18 +1063,27 @@ pub mod style {
 		pub const PHONE_CALL: &str = include_str!("../phosphor-core/assets/bold/phone-call-bold.svg");
 		pub const PHONE_DISCONNECT: &str = include_str!("../phosphor-core/assets/bold/phone-disconnect-bold.svg");
 		pub const PHONE_INCOMING: &str = include_str!("../phosphor-core/assets/bold/phone-incoming-bold.svg");
+		pub const PHONE_LIST: &str = include_str!("../phosphor-core/assets/bold/phone-list-bold.svg");
 		pub const PHONE_OUTGOING: &str = include_str!("../phosphor-core/assets/bold/phone-outgoing-bold.svg");
+		pub const PHONE_PAUSE: &str = include_str!("../phosphor-core/assets/bold/phone-pause-bold.svg");
 		pub const PHONE_PLUS: &str = include_str!("../phosphor-core/assets/bold/phone-plus-bold.svg");
 		pub const PHONE_SLASH: &str = include_str!("../phosphor-core/assets/bold/phone-slash-bold.svg");
+		pub const PHONE_TRANSFER: &str = include_str!("../phosphor-core/assets/bold/phone-transfer-bold.svg");
 		pub const PHONE_X: &str = include_str!("../phosphor-core/assets/bold/phone-x-bold.svg");
 		pub const PHOSPHOR_LOGO: &str = include_str!("../phosphor-core/assets/bold/phosphor-logo-bold.svg");
 		pub const PI: &str = include_str!("../phosphor-core/assets/bold/pi-bold.svg");
 		pub const PIANO_KEYS: &str = include_str!("../phosphor-core/assets/bold/piano-keys-bold.svg");
+		pub const PICNIC_TABLE: &str = include_str!("../phosphor-core/assets/bold/picnic-table-bold.svg");
 		pub const PICTURE_IN_PICTURE: &str = include_str!("../phosphor-core/assets/bold/picture-in-picture-bold.svg");
 		pub const PIGGY_BANK: &str = include_str!("../phosphor-core/assets/bold/piggy-bank-bold.svg");
 		pub const PILL: &str = include_str!("../phosphor-core/assets/bold/pill-bold.svg");
+		pub const PING_PONG: &str = include_str!("../phosphor-core/assets/bold/ping-pong-bold.svg");
+		pub const PINT_GLASS: &str = include_str!("../phosphor-core/assets/bold/pint-glass-bold.svg");
 		pub const PINTEREST_LOGO: &str = include_str!("../phosphor-core/assets/bold/pinterest-logo-bold.svg");
 		pub const PINWHEEL: &str = include_str!("../phosphor-core/assets/bold/pinwheel-bold.svg");
+		pub const PIPE: &str = include_str!("../phosphor-core/assets/bold/pipe-bold.svg");
+		pub const PIPE_WRENCH: &str = include_str!("../phosphor-core/assets/bold/pipe-wrench-bold.svg");
+		pub const PIX_LOGO: &str = include_str!("../phosphor-core/assets/bold/pix-logo-bold.svg");
 		pub const PIZZA: &str = include_str!("../phosphor-core/assets/bold/pizza-bold.svg");
 		pub const PLACEHOLDER: &str = include_str!("../phosphor-core/assets/bold/placeholder-bold.svg");
 		pub const PLANET: &str = include_str!("../phosphor-core/assets/bold/planet-bold.svg");
@@ -914,6 +1104,7 @@ pub mod style {
 		pub const POLICE_CAR: &str = include_str!("../phosphor-core/assets/bold/police-car-bold.svg");
 		pub const POLYGON: &str = include_str!("../phosphor-core/assets/bold/polygon-bold.svg");
 		pub const POPCORN: &str = include_str!("../phosphor-core/assets/bold/popcorn-bold.svg");
+		pub const POPSICLE: &str = include_str!("../phosphor-core/assets/bold/popsicle-bold.svg");
 		pub const POTTED_PLANT: &str = include_str!("../phosphor-core/assets/bold/potted-plant-bold.svg");
 		pub const POWER: &str = include_str!("../phosphor-core/assets/bold/power-bold.svg");
 		pub const PRESCRIPTION: &str = include_str!("../phosphor-core/assets/bold/prescription-bold.svg");
@@ -932,23 +1123,30 @@ pub mod style {
 		pub const PUZZLE_PIECE: &str = include_str!("../phosphor-core/assets/bold/puzzle-piece-bold.svg");
 		pub const QR_CODE: &str = include_str!("../phosphor-core/assets/bold/qr-code-bold.svg");
 		pub const QUESTION: &str = include_str!("../phosphor-core/assets/bold/question-bold.svg");
+		pub const QUESTION_MARK: &str = include_str!("../phosphor-core/assets/bold/question-mark-bold.svg");
 		pub const QUEUE: &str = include_str!("../phosphor-core/assets/bold/queue-bold.svg");
 		pub const QUOTES: &str = include_str!("../phosphor-core/assets/bold/quotes-bold.svg");
+		pub const RABBIT: &str = include_str!("../phosphor-core/assets/bold/rabbit-bold.svg");
+		pub const RACQUET: &str = include_str!("../phosphor-core/assets/bold/racquet-bold.svg");
 		pub const RADICAL: &str = include_str!("../phosphor-core/assets/bold/radical-bold.svg");
 		pub const RADIO: &str = include_str!("../phosphor-core/assets/bold/radio-bold.svg");
 		pub const RADIO_BUTTON: &str = include_str!("../phosphor-core/assets/bold/radio-button-bold.svg");
 		pub const RADIOACTIVE: &str = include_str!("../phosphor-core/assets/bold/radioactive-bold.svg");
 		pub const RAINBOW: &str = include_str!("../phosphor-core/assets/bold/rainbow-bold.svg");
 		pub const RAINBOW_CLOUD: &str = include_str!("../phosphor-core/assets/bold/rainbow-cloud-bold.svg");
+		pub const RANKING: &str = include_str!("../phosphor-core/assets/bold/ranking-bold.svg");
 		pub const READ_CV_LOGO: &str = include_str!("../phosphor-core/assets/bold/read-cv-logo-bold.svg");
 		pub const RECEIPT: &str = include_str!("../phosphor-core/assets/bold/receipt-bold.svg");
 		pub const RECEIPT_X: &str = include_str!("../phosphor-core/assets/bold/receipt-x-bold.svg");
 		pub const RECORD: &str = include_str!("../phosphor-core/assets/bold/record-bold.svg");
 		pub const RECTANGLE: &str = include_str!("../phosphor-core/assets/bold/rectangle-bold.svg");
+		pub const RECTANGLE_DASHED: &str = include_str!("../phosphor-core/assets/bold/rectangle-dashed-bold.svg");
 		pub const RECYCLE: &str = include_str!("../phosphor-core/assets/bold/recycle-bold.svg");
 		pub const REDDIT_LOGO: &str = include_str!("../phosphor-core/assets/bold/reddit-logo-bold.svg");
 		pub const REPEAT: &str = include_str!("../phosphor-core/assets/bold/repeat-bold.svg");
 		pub const REPEAT_ONCE: &str = include_str!("../phosphor-core/assets/bold/repeat-once-bold.svg");
+		pub const REPLIT_LOGO: &str = include_str!("../phosphor-core/assets/bold/replit-logo-bold.svg");
+		pub const RESIZE: &str = include_str!("../phosphor-core/assets/bold/resize-bold.svg");
 		pub const REWIND: &str = include_str!("../phosphor-core/assets/bold/rewind-bold.svg");
 		pub const REWIND_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/rewind-circle-bold.svg");
 		pub const ROAD_HORIZON: &str = include_str!("../phosphor-core/assets/bold/road-horizon-bold.svg");
@@ -956,21 +1154,31 @@ pub mod style {
 		pub const ROCKET: &str = include_str!("../phosphor-core/assets/bold/rocket-bold.svg");
 		pub const ROCKET_LAUNCH: &str = include_str!("../phosphor-core/assets/bold/rocket-launch-bold.svg");
 		pub const ROWS: &str = include_str!("../phosphor-core/assets/bold/rows-bold.svg");
+		pub const ROWS_PLUS_BOTTOM: &str = include_str!("../phosphor-core/assets/bold/rows-plus-bottom-bold.svg");
+		pub const ROWS_PLUS_TOP: &str = include_str!("../phosphor-core/assets/bold/rows-plus-top-bold.svg");
 		pub const RSS: &str = include_str!("../phosphor-core/assets/bold/rss-bold.svg");
 		pub const RSS_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/rss-simple-bold.svg");
 		pub const RUG: &str = include_str!("../phosphor-core/assets/bold/rug-bold.svg");
 		pub const RULER: &str = include_str!("../phosphor-core/assets/bold/ruler-bold.svg");
+		pub const SAILBOAT: &str = include_str!("../phosphor-core/assets/bold/sailboat-bold.svg");
 		pub const SCALES: &str = include_str!("../phosphor-core/assets/bold/scales-bold.svg");
 		pub const SCAN: &str = include_str!("../phosphor-core/assets/bold/scan-bold.svg");
+		pub const SCAN_SMILEY: &str = include_str!("../phosphor-core/assets/bold/scan-smiley-bold.svg");
 		pub const SCISSORS: &str = include_str!("../phosphor-core/assets/bold/scissors-bold.svg");
 		pub const SCOOTER: &str = include_str!("../phosphor-core/assets/bold/scooter-bold.svg");
 		pub const SCREENCAST: &str = include_str!("../phosphor-core/assets/bold/screencast-bold.svg");
+		pub const SCREWDRIVER: &str = include_str!("../phosphor-core/assets/bold/screwdriver-bold.svg");
+		pub const SCRIBBLE: &str = include_str!("../phosphor-core/assets/bold/scribble-bold.svg");
 		pub const SCRIBBLE_LOOP: &str = include_str!("../phosphor-core/assets/bold/scribble-loop-bold.svg");
 		pub const SCROLL: &str = include_str!("../phosphor-core/assets/bold/scroll-bold.svg");
 		pub const SEAL: &str = include_str!("../phosphor-core/assets/bold/seal-bold.svg");
 		pub const SEAL_CHECK: &str = include_str!("../phosphor-core/assets/bold/seal-check-bold.svg");
+		pub const SEAL_PERCENT: &str = include_str!("../phosphor-core/assets/bold/seal-percent-bold.svg");
 		pub const SEAL_QUESTION: &str = include_str!("../phosphor-core/assets/bold/seal-question-bold.svg");
 		pub const SEAL_WARNING: &str = include_str!("../phosphor-core/assets/bold/seal-warning-bold.svg");
+		pub const SEAT: &str = include_str!("../phosphor-core/assets/bold/seat-bold.svg");
+		pub const SEATBELT: &str = include_str!("../phosphor-core/assets/bold/seatbelt-bold.svg");
+		pub const SECURITY_CAMERA: &str = include_str!("../phosphor-core/assets/bold/security-camera-bold.svg");
 		pub const SELECTION: &str = include_str!("../phosphor-core/assets/bold/selection-bold.svg");
 		pub const SELECTION_ALL: &str = include_str!("../phosphor-core/assets/bold/selection-all-bold.svg");
 		pub const SELECTION_BACKGROUND: &str = include_str!("../phosphor-core/assets/bold/selection-background-bold.svg");
@@ -990,12 +1198,14 @@ pub mod style {
 		pub const SHIELD_SLASH: &str = include_str!("../phosphor-core/assets/bold/shield-slash-bold.svg");
 		pub const SHIELD_STAR: &str = include_str!("../phosphor-core/assets/bold/shield-star-bold.svg");
 		pub const SHIELD_WARNING: &str = include_str!("../phosphor-core/assets/bold/shield-warning-bold.svg");
+		pub const SHIPPING_CONTAINER: &str = include_str!("../phosphor-core/assets/bold/shipping-container-bold.svg");
 		pub const SHIRT_FOLDED: &str = include_str!("../phosphor-core/assets/bold/shirt-folded-bold.svg");
 		pub const SHOOTING_STAR: &str = include_str!("../phosphor-core/assets/bold/shooting-star-bold.svg");
 		pub const SHOPPING_BAG: &str = include_str!("../phosphor-core/assets/bold/shopping-bag-bold.svg");
 		pub const SHOPPING_BAG_OPEN: &str = include_str!("../phosphor-core/assets/bold/shopping-bag-open-bold.svg");
 		pub const SHOPPING_CART: &str = include_str!("../phosphor-core/assets/bold/shopping-cart-bold.svg");
 		pub const SHOPPING_CART_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/shopping-cart-simple-bold.svg");
+		pub const SHOVEL: &str = include_str!("../phosphor-core/assets/bold/shovel-bold.svg");
 		pub const SHOWER: &str = include_str!("../phosphor-core/assets/bold/shower-bold.svg");
 		pub const SHRIMP: &str = include_str!("../phosphor-core/assets/bold/shrimp-bold.svg");
 		pub const SHUFFLE: &str = include_str!("../phosphor-core/assets/bold/shuffle-bold.svg");
@@ -1016,6 +1226,7 @@ pub mod style {
 		pub const SKIP_FORWARD: &str = include_str!("../phosphor-core/assets/bold/skip-forward-bold.svg");
 		pub const SKIP_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/skip-forward-circle-bold.svg");
 		pub const SKULL: &str = include_str!("../phosphor-core/assets/bold/skull-bold.svg");
+		pub const SKYPE_LOGO: &str = include_str!("../phosphor-core/assets/bold/skype-logo-bold.svg");
 		pub const SLACK_LOGO: &str = include_str!("../phosphor-core/assets/bold/slack-logo-bold.svg");
 		pub const SLIDERS: &str = include_str!("../phosphor-core/assets/bold/sliders-bold.svg");
 		pub const SLIDERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/bold/sliders-horizontal-bold.svg");
@@ -1024,6 +1235,7 @@ pub mod style {
 		pub const SMILEY_ANGRY: &str = include_str!("../phosphor-core/assets/bold/smiley-angry-bold.svg");
 		pub const SMILEY_BLANK: &str = include_str!("../phosphor-core/assets/bold/smiley-blank-bold.svg");
 		pub const SMILEY_MEH: &str = include_str!("../phosphor-core/assets/bold/smiley-meh-bold.svg");
+		pub const SMILEY_MELTING: &str = include_str!("../phosphor-core/assets/bold/smiley-melting-bold.svg");
 		pub const SMILEY_NERVOUS: &str = include_str!("../phosphor-core/assets/bold/smiley-nervous-bold.svg");
 		pub const SMILEY_SAD: &str = include_str!("../phosphor-core/assets/bold/smiley-sad-bold.svg");
 		pub const SMILEY_STICKER: &str = include_str!("../phosphor-core/assets/bold/smiley-sticker-bold.svg");
@@ -1034,6 +1246,9 @@ pub mod style {
 		pub const SNEAKER_MOVE: &str = include_str!("../phosphor-core/assets/bold/sneaker-move-bold.svg");
 		pub const SNOWFLAKE: &str = include_str!("../phosphor-core/assets/bold/snowflake-bold.svg");
 		pub const SOCCER_BALL: &str = include_str!("../phosphor-core/assets/bold/soccer-ball-bold.svg");
+		pub const SOCK: &str = include_str!("../phosphor-core/assets/bold/sock-bold.svg");
+		pub const SOLAR_PANEL: &str = include_str!("../phosphor-core/assets/bold/solar-panel-bold.svg");
+		pub const SOLAR_ROOF: &str = include_str!("../phosphor-core/assets/bold/solar-roof-bold.svg");
 		pub const SORT_ASCENDING: &str = include_str!("../phosphor-core/assets/bold/sort-ascending-bold.svg");
 		pub const SORT_DESCENDING: &str = include_str!("../phosphor-core/assets/bold/sort-descending-bold.svg");
 		pub const SOUNDCLOUD_LOGO: &str = include_str!("../phosphor-core/assets/bold/soundcloud-logo-bold.svg");
@@ -1050,12 +1265,16 @@ pub mod style {
 		pub const SPEAKER_SIMPLE_X: &str = include_str!("../phosphor-core/assets/bold/speaker-simple-x-bold.svg");
 		pub const SPEAKER_SLASH: &str = include_str!("../phosphor-core/assets/bold/speaker-slash-bold.svg");
 		pub const SPEAKER_X: &str = include_str!("../phosphor-core/assets/bold/speaker-x-bold.svg");
+		pub const SPEEDOMETER: &str = include_str!("../phosphor-core/assets/bold/speedometer-bold.svg");
+		pub const SPHERE: &str = include_str!("../phosphor-core/assets/bold/sphere-bold.svg");
 		pub const SPINNER: &str = include_str!("../phosphor-core/assets/bold/spinner-bold.svg");
+		pub const SPINNER_BALL: &str = include_str!("../phosphor-core/assets/bold/spinner-ball-bold.svg");
 		pub const SPINNER_GAP: &str = include_str!("../phosphor-core/assets/bold/spinner-gap-bold.svg");
 		pub const SPIRAL: &str = include_str!("../phosphor-core/assets/bold/spiral-bold.svg");
 		pub const SPLIT_HORIZONTAL: &str = include_str!("../phosphor-core/assets/bold/split-horizontal-bold.svg");
 		pub const SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/bold/split-vertical-bold.svg");
 		pub const SPOTIFY_LOGO: &str = include_str!("../phosphor-core/assets/bold/spotify-logo-bold.svg");
+		pub const SPRAY_BOTTLE: &str = include_str!("../phosphor-core/assets/bold/spray-bottle-bold.svg");
 		pub const SQUARE: &str = include_str!("../phosphor-core/assets/bold/square-bold.svg");
 		pub const SQUARE_HALF: &str = include_str!("../phosphor-core/assets/bold/square-half-bold.svg");
 		pub const SQUARE_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/bold/square-half-bottom-bold.svg");
@@ -1064,15 +1283,19 @@ pub mod style {
 		pub const SQUARE_SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/bold/square-split-vertical-bold.svg");
 		pub const SQUARES_FOUR: &str = include_str!("../phosphor-core/assets/bold/squares-four-bold.svg");
 		pub const STACK: &str = include_str!("../phosphor-core/assets/bold/stack-bold.svg");
+		pub const STACK_MINUS: &str = include_str!("../phosphor-core/assets/bold/stack-minus-bold.svg");
 		pub const STACK_OVERFLOW_LOGO: &str = include_str!("../phosphor-core/assets/bold/stack-overflow-logo-bold.svg");
+		pub const STACK_PLUS: &str = include_str!("../phosphor-core/assets/bold/stack-plus-bold.svg");
 		pub const STACK_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/stack-simple-bold.svg");
 		pub const STAIRS: &str = include_str!("../phosphor-core/assets/bold/stairs-bold.svg");
 		pub const STAMP: &str = include_str!("../phosphor-core/assets/bold/stamp-bold.svg");
+		pub const STANDARD_DEFINITION: &str = include_str!("../phosphor-core/assets/bold/standard-definition-bold.svg");
 		pub const STAR: &str = include_str!("../phosphor-core/assets/bold/star-bold.svg");
 		pub const STAR_AND_CRESCENT: &str = include_str!("../phosphor-core/assets/bold/star-and-crescent-bold.svg");
 		pub const STAR_FOUR: &str = include_str!("../phosphor-core/assets/bold/star-four-bold.svg");
 		pub const STAR_HALF: &str = include_str!("../phosphor-core/assets/bold/star-half-bold.svg");
 		pub const STAR_OF_DAVID: &str = include_str!("../phosphor-core/assets/bold/star-of-david-bold.svg");
+		pub const STEAM_LOGO: &str = include_str!("../phosphor-core/assets/bold/steam-logo-bold.svg");
 		pub const STEERING_WHEEL: &str = include_str!("../phosphor-core/assets/bold/steering-wheel-bold.svg");
 		pub const STEPS: &str = include_str!("../phosphor-core/assets/bold/steps-bold.svg");
 		pub const STETHOSCOPE: &str = include_str!("../phosphor-core/assets/bold/stethoscope-bold.svg");
@@ -1084,9 +1307,13 @@ pub mod style {
 		pub const STRATEGY: &str = include_str!("../phosphor-core/assets/bold/strategy-bold.svg");
 		pub const STRIPE_LOGO: &str = include_str!("../phosphor-core/assets/bold/stripe-logo-bold.svg");
 		pub const STUDENT: &str = include_str!("../phosphor-core/assets/bold/student-bold.svg");
+		pub const SUBSET_OF: &str = include_str!("../phosphor-core/assets/bold/subset-of-bold.svg");
+		pub const SUBSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/bold/subset-proper-of-bold.svg");
 		pub const SUBTITLES: &str = include_str!("../phosphor-core/assets/bold/subtitles-bold.svg");
+		pub const SUBTITLES_SLASH: &str = include_str!("../phosphor-core/assets/bold/subtitles-slash-bold.svg");
 		pub const SUBTRACT: &str = include_str!("../phosphor-core/assets/bold/subtract-bold.svg");
 		pub const SUBTRACT_SQUARE: &str = include_str!("../phosphor-core/assets/bold/subtract-square-bold.svg");
+		pub const SUBWAY: &str = include_str!("../phosphor-core/assets/bold/subway-bold.svg");
 		pub const SUITCASE: &str = include_str!("../phosphor-core/assets/bold/suitcase-bold.svg");
 		pub const SUITCASE_ROLLING: &str = include_str!("../phosphor-core/assets/bold/suitcase-rolling-bold.svg");
 		pub const SUITCASE_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/suitcase-simple-bold.svg");
@@ -1094,6 +1321,8 @@ pub mod style {
 		pub const SUN_DIM: &str = include_str!("../phosphor-core/assets/bold/sun-dim-bold.svg");
 		pub const SUN_HORIZON: &str = include_str!("../phosphor-core/assets/bold/sun-horizon-bold.svg");
 		pub const SUNGLASSES: &str = include_str!("../phosphor-core/assets/bold/sunglasses-bold.svg");
+		pub const SUPERSET_OF: &str = include_str!("../phosphor-core/assets/bold/superset-of-bold.svg");
+		pub const SUPERSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/bold/superset-proper-of-bold.svg");
 		pub const SWAP: &str = include_str!("../phosphor-core/assets/bold/swap-bold.svg");
 		pub const SWATCHES: &str = include_str!("../phosphor-core/assets/bold/swatches-bold.svg");
 		pub const SWIMMING_POOL: &str = include_str!("../phosphor-core/assets/bold/swimming-pool-bold.svg");
@@ -1108,6 +1337,7 @@ pub mod style {
 		pub const TAG_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/tag-simple-bold.svg");
 		pub const TARGET: &str = include_str!("../phosphor-core/assets/bold/target-bold.svg");
 		pub const TAXI: &str = include_str!("../phosphor-core/assets/bold/taxi-bold.svg");
+		pub const TEA_BAG: &str = include_str!("../phosphor-core/assets/bold/tea-bag-bold.svg");
 		pub const TELEGRAM_LOGO: &str = include_str!("../phosphor-core/assets/bold/telegram-logo-bold.svg");
 		pub const TELEVISION: &str = include_str!("../phosphor-core/assets/bold/television-bold.svg");
 		pub const TELEVISION_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/television-simple-bold.svg");
@@ -1135,28 +1365,39 @@ pub mod style {
 		pub const TEXT_ITALIC: &str = include_str!("../phosphor-core/assets/bold/text-italic-bold.svg");
 		pub const TEXT_OUTDENT: &str = include_str!("../phosphor-core/assets/bold/text-outdent-bold.svg");
 		pub const TEXT_STRIKETHROUGH: &str = include_str!("../phosphor-core/assets/bold/text-strikethrough-bold.svg");
+		pub const TEXT_SUBSCRIPT: &str = include_str!("../phosphor-core/assets/bold/text-subscript-bold.svg");
+		pub const TEXT_SUPERSCRIPT: &str = include_str!("../phosphor-core/assets/bold/text-superscript-bold.svg");
 		pub const TEXT_T: &str = include_str!("../phosphor-core/assets/bold/text-t-bold.svg");
+		pub const TEXT_T_SLASH: &str = include_str!("../phosphor-core/assets/bold/text-t-slash-bold.svg");
 		pub const TEXT_UNDERLINE: &str = include_str!("../phosphor-core/assets/bold/text-underline-bold.svg");
 		pub const TEXTBOX: &str = include_str!("../phosphor-core/assets/bold/textbox-bold.svg");
 		pub const THERMOMETER: &str = include_str!("../phosphor-core/assets/bold/thermometer-bold.svg");
 		pub const THERMOMETER_COLD: &str = include_str!("../phosphor-core/assets/bold/thermometer-cold-bold.svg");
 		pub const THERMOMETER_HOT: &str = include_str!("../phosphor-core/assets/bold/thermometer-hot-bold.svg");
 		pub const THERMOMETER_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/thermometer-simple-bold.svg");
+		pub const THREADS_LOGO: &str = include_str!("../phosphor-core/assets/bold/threads-logo-bold.svg");
+		pub const THREE_D: &str = include_str!("../phosphor-core/assets/bold/three-d-bold.svg");
 		pub const THUMBS_DOWN: &str = include_str!("../phosphor-core/assets/bold/thumbs-down-bold.svg");
 		pub const THUMBS_UP: &str = include_str!("../phosphor-core/assets/bold/thumbs-up-bold.svg");
 		pub const TICKET: &str = include_str!("../phosphor-core/assets/bold/ticket-bold.svg");
 		pub const TIDAL_LOGO: &str = include_str!("../phosphor-core/assets/bold/tidal-logo-bold.svg");
 		pub const TIKTOK_LOGO: &str = include_str!("../phosphor-core/assets/bold/tiktok-logo-bold.svg");
+		pub const TILDE: &str = include_str!("../phosphor-core/assets/bold/tilde-bold.svg");
 		pub const TIMER: &str = include_str!("../phosphor-core/assets/bold/timer-bold.svg");
+		pub const TIP_JAR: &str = include_str!("../phosphor-core/assets/bold/tip-jar-bold.svg");
 		pub const TIPI: &str = include_str!("../phosphor-core/assets/bold/tipi-bold.svg");
+		pub const TIRE: &str = include_str!("../phosphor-core/assets/bold/tire-bold.svg");
 		pub const TOGGLE_LEFT: &str = include_str!("../phosphor-core/assets/bold/toggle-left-bold.svg");
 		pub const TOGGLE_RIGHT: &str = include_str!("../phosphor-core/assets/bold/toggle-right-bold.svg");
 		pub const TOILET: &str = include_str!("../phosphor-core/assets/bold/toilet-bold.svg");
 		pub const TOILET_PAPER: &str = include_str!("../phosphor-core/assets/bold/toilet-paper-bold.svg");
 		pub const TOOLBOX: &str = include_str!("../phosphor-core/assets/bold/toolbox-bold.svg");
 		pub const TOOTH: &str = include_str!("../phosphor-core/assets/bold/tooth-bold.svg");
+		pub const TORNADO: &str = include_str!("../phosphor-core/assets/bold/tornado-bold.svg");
 		pub const TOTE: &str = include_str!("../phosphor-core/assets/bold/tote-bold.svg");
 		pub const TOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/tote-simple-bold.svg");
+		pub const TOWEL: &str = include_str!("../phosphor-core/assets/bold/towel-bold.svg");
+		pub const TRACTOR: &str = include_str!("../phosphor-core/assets/bold/tractor-bold.svg");
 		pub const TRADEMARK: &str = include_str!("../phosphor-core/assets/bold/trademark-bold.svg");
 		pub const TRADEMARK_REGISTERED: &str = include_str!("../phosphor-core/assets/bold/trademark-registered-bold.svg");
 		pub const TRAFFIC_CONE: &str = include_str!("../phosphor-core/assets/bold/traffic-cone-bold.svg");
@@ -1170,26 +1411,39 @@ pub mod style {
 		pub const TRASH: &str = include_str!("../phosphor-core/assets/bold/trash-bold.svg");
 		pub const TRASH_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/trash-simple-bold.svg");
 		pub const TRAY: &str = include_str!("../phosphor-core/assets/bold/tray-bold.svg");
+		pub const TRAY_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/bold/tray-arrow-down-bold.svg");
+		pub const TRAY_ARROW_UP: &str = include_str!("../phosphor-core/assets/bold/tray-arrow-up-bold.svg");
+		pub const TREASURE_CHEST: &str = include_str!("../phosphor-core/assets/bold/treasure-chest-bold.svg");
 		pub const TREE: &str = include_str!("../phosphor-core/assets/bold/tree-bold.svg");
 		pub const TREE_EVERGREEN: &str = include_str!("../phosphor-core/assets/bold/tree-evergreen-bold.svg");
 		pub const TREE_PALM: &str = include_str!("../phosphor-core/assets/bold/tree-palm-bold.svg");
 		pub const TREE_STRUCTURE: &str = include_str!("../phosphor-core/assets/bold/tree-structure-bold.svg");
+		pub const TREE_VIEW: &str = include_str!("../phosphor-core/assets/bold/tree-view-bold.svg");
 		pub const TREND_DOWN: &str = include_str!("../phosphor-core/assets/bold/trend-down-bold.svg");
 		pub const TREND_UP: &str = include_str!("../phosphor-core/assets/bold/trend-up-bold.svg");
 		pub const TRIANGLE: &str = include_str!("../phosphor-core/assets/bold/triangle-bold.svg");
+		pub const TRIANGLE_DASHED: &str = include_str!("../phosphor-core/assets/bold/triangle-dashed-bold.svg");
+		pub const TROLLEY: &str = include_str!("../phosphor-core/assets/bold/trolley-bold.svg");
+		pub const TROLLEY_SUITCASE: &str = include_str!("../phosphor-core/assets/bold/trolley-suitcase-bold.svg");
 		pub const TROPHY: &str = include_str!("../phosphor-core/assets/bold/trophy-bold.svg");
 		pub const TRUCK: &str = include_str!("../phosphor-core/assets/bold/truck-bold.svg");
+		pub const TRUCK_TRAILER: &str = include_str!("../phosphor-core/assets/bold/truck-trailer-bold.svg");
+		pub const TUMBLR_LOGO: &str = include_str!("../phosphor-core/assets/bold/tumblr-logo-bold.svg");
 		pub const TWITCH_LOGO: &str = include_str!("../phosphor-core/assets/bold/twitch-logo-bold.svg");
 		pub const TWITTER_LOGO: &str = include_str!("../phosphor-core/assets/bold/twitter-logo-bold.svg");
 		pub const UMBRELLA: &str = include_str!("../phosphor-core/assets/bold/umbrella-bold.svg");
 		pub const UMBRELLA_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/umbrella-simple-bold.svg");
+		pub const UNION: &str = include_str!("../phosphor-core/assets/bold/union-bold.svg");
 		pub const UNITE: &str = include_str!("../phosphor-core/assets/bold/unite-bold.svg");
 		pub const UNITE_SQUARE: &str = include_str!("../phosphor-core/assets/bold/unite-square-bold.svg");
 		pub const UPLOAD: &str = include_str!("../phosphor-core/assets/bold/upload-bold.svg");
 		pub const UPLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/bold/upload-simple-bold.svg");
 		pub const USB: &str = include_str!("../phosphor-core/assets/bold/usb-bold.svg");
 		pub const USER: &str = include_str!("../phosphor-core/assets/bold/user-bold.svg");
+		pub const USER_CHECK: &str = include_str!("../phosphor-core/assets/bold/user-check-bold.svg");
 		pub const USER_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/user-circle-bold.svg");
+		pub const USER_CIRCLE_CHECK: &str = include_str!("../phosphor-core/assets/bold/user-circle-check-bold.svg");
+		pub const USER_CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/bold/user-circle-dashed-bold.svg");
 		pub const USER_CIRCLE_GEAR: &str = include_str!("../phosphor-core/assets/bold/user-circle-gear-bold.svg");
 		pub const USER_CIRCLE_MINUS: &str = include_str!("../phosphor-core/assets/bold/user-circle-minus-bold.svg");
 		pub const USER_CIRCLE_PLUS: &str = include_str!("../phosphor-core/assets/bold/user-circle-plus-bold.svg");
@@ -1199,6 +1453,7 @@ pub mod style {
 		pub const USER_MINUS: &str = include_str!("../phosphor-core/assets/bold/user-minus-bold.svg");
 		pub const USER_PLUS: &str = include_str!("../phosphor-core/assets/bold/user-plus-bold.svg");
 		pub const USER_RECTANGLE: &str = include_str!("../phosphor-core/assets/bold/user-rectangle-bold.svg");
+		pub const USER_SOUND: &str = include_str!("../phosphor-core/assets/bold/user-sound-bold.svg");
 		pub const USER_SQUARE: &str = include_str!("../phosphor-core/assets/bold/user-square-bold.svg");
 		pub const USER_SWITCH: &str = include_str!("../phosphor-core/assets/bold/user-switch-bold.svg");
 		pub const USERS: &str = include_str!("../phosphor-core/assets/bold/users-bold.svg");
@@ -1206,14 +1461,18 @@ pub mod style {
 		pub const USERS_THREE: &str = include_str!("../phosphor-core/assets/bold/users-three-bold.svg");
 		pub const VAN: &str = include_str!("../phosphor-core/assets/bold/van-bold.svg");
 		pub const VAULT: &str = include_str!("../phosphor-core/assets/bold/vault-bold.svg");
+		pub const VECTOR_THREE: &str = include_str!("../phosphor-core/assets/bold/vector-three-bold.svg");
+		pub const VECTOR_TWO: &str = include_str!("../phosphor-core/assets/bold/vector-two-bold.svg");
 		pub const VIBRATE: &str = include_str!("../phosphor-core/assets/bold/vibrate-bold.svg");
 		pub const VIDEO: &str = include_str!("../phosphor-core/assets/bold/video-bold.svg");
 		pub const VIDEO_CAMERA: &str = include_str!("../phosphor-core/assets/bold/video-camera-bold.svg");
 		pub const VIDEO_CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/bold/video-camera-slash-bold.svg");
+		pub const VIDEO_CONFERENCE: &str = include_str!("../phosphor-core/assets/bold/video-conference-bold.svg");
 		pub const VIGNETTE: &str = include_str!("../phosphor-core/assets/bold/vignette-bold.svg");
 		pub const VINYL_RECORD: &str = include_str!("../phosphor-core/assets/bold/vinyl-record-bold.svg");
 		pub const VIRTUAL_REALITY: &str = include_str!("../phosphor-core/assets/bold/virtual-reality-bold.svg");
 		pub const VIRUS: &str = include_str!("../phosphor-core/assets/bold/virus-bold.svg");
+		pub const VISOR: &str = include_str!("../phosphor-core/assets/bold/visor-bold.svg");
 		pub const VOICEMAIL: &str = include_str!("../phosphor-core/assets/bold/voicemail-bold.svg");
 		pub const VOLLEYBALL: &str = include_str!("../phosphor-core/assets/bold/volleyball-bold.svg");
 		pub const WALL: &str = include_str!("../phosphor-core/assets/bold/wall-bold.svg");
@@ -1223,12 +1482,14 @@ pub mod style {
 		pub const WARNING_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/warning-circle-bold.svg");
 		pub const WARNING_DIAMOND: &str = include_str!("../phosphor-core/assets/bold/warning-diamond-bold.svg");
 		pub const WARNING_OCTAGON: &str = include_str!("../phosphor-core/assets/bold/warning-octagon-bold.svg");
+		pub const WASHING_MACHINE: &str = include_str!("../phosphor-core/assets/bold/washing-machine-bold.svg");
 		pub const WATCH: &str = include_str!("../phosphor-core/assets/bold/watch-bold.svg");
 		pub const WAVE_SAWTOOTH: &str = include_str!("../phosphor-core/assets/bold/wave-sawtooth-bold.svg");
 		pub const WAVE_SINE: &str = include_str!("../phosphor-core/assets/bold/wave-sine-bold.svg");
 		pub const WAVE_SQUARE: &str = include_str!("../phosphor-core/assets/bold/wave-square-bold.svg");
 		pub const WAVE_TRIANGLE: &str = include_str!("../phosphor-core/assets/bold/wave-triangle-bold.svg");
 		pub const WAVEFORM: &str = include_str!("../phosphor-core/assets/bold/waveform-bold.svg");
+		pub const WAVEFORM_SLASH: &str = include_str!("../phosphor-core/assets/bold/waveform-slash-bold.svg");
 		pub const WAVES: &str = include_str!("../phosphor-core/assets/bold/waves-bold.svg");
 		pub const WEBCAM: &str = include_str!("../phosphor-core/assets/bold/webcam-bold.svg");
 		pub const WEBCAM_SLASH: &str = include_str!("../phosphor-core/assets/bold/webcam-slash-bold.svg");
@@ -1244,22 +1505,28 @@ pub mod style {
 		pub const WIFI_SLASH: &str = include_str!("../phosphor-core/assets/bold/wifi-slash-bold.svg");
 		pub const WIFI_X: &str = include_str!("../phosphor-core/assets/bold/wifi-x-bold.svg");
 		pub const WIND: &str = include_str!("../phosphor-core/assets/bold/wind-bold.svg");
+		pub const WINDMILL: &str = include_str!("../phosphor-core/assets/bold/windmill-bold.svg");
 		pub const WINDOWS_LOGO: &str = include_str!("../phosphor-core/assets/bold/windows-logo-bold.svg");
 		pub const WINE: &str = include_str!("../phosphor-core/assets/bold/wine-bold.svg");
 		pub const WRENCH: &str = include_str!("../phosphor-core/assets/bold/wrench-bold.svg");
 		pub const X: &str = include_str!("../phosphor-core/assets/bold/x-bold.svg");
 		pub const X_CIRCLE: &str = include_str!("../phosphor-core/assets/bold/x-circle-bold.svg");
+		pub const X_LOGO: &str = include_str!("../phosphor-core/assets/bold/x-logo-bold.svg");
 		pub const X_SQUARE: &str = include_str!("../phosphor-core/assets/bold/x-square-bold.svg");
+		pub const YARN: &str = include_str!("../phosphor-core/assets/bold/yarn-bold.svg");
 		pub const YIN_YANG: &str = include_str!("../phosphor-core/assets/bold/yin-yang-bold.svg");
 		pub const YOUTUBE_LOGO: &str = include_str!("../phosphor-core/assets/bold/youtube-logo-bold.svg");
 	}
 	pub mod duotone {
+		pub const ACORN: &str = include_str!("../phosphor-core/assets/duotone/acorn-duotone.svg");
 		pub const ADDRESS_BOOK: &str = include_str!("../phosphor-core/assets/duotone/address-book-duotone.svg");
+		pub const ADDRESS_BOOK_TABS: &str = include_str!("../phosphor-core/assets/duotone/address-book-tabs-duotone.svg");
 		pub const AIR_TRAFFIC_CONTROL: &str = include_str!("../phosphor-core/assets/duotone/air-traffic-control-duotone.svg");
 		pub const AIRPLANE: &str = include_str!("../phosphor-core/assets/duotone/airplane-duotone.svg");
 		pub const AIRPLANE_IN_FLIGHT: &str = include_str!("../phosphor-core/assets/duotone/airplane-in-flight-duotone.svg");
 		pub const AIRPLANE_LANDING: &str = include_str!("../phosphor-core/assets/duotone/airplane-landing-duotone.svg");
 		pub const AIRPLANE_TAKEOFF: &str = include_str!("../phosphor-core/assets/duotone/airplane-takeoff-duotone.svg");
+		pub const AIRPLANE_TAXIING: &str = include_str!("../phosphor-core/assets/duotone/airplane-taxiing-duotone.svg");
 		pub const AIRPLANE_TILT: &str = include_str!("../phosphor-core/assets/duotone/airplane-tilt-duotone.svg");
 		pub const AIRPLAY: &str = include_str!("../phosphor-core/assets/duotone/airplay-duotone.svg");
 		pub const ALARM: &str = include_str!("../phosphor-core/assets/duotone/alarm-duotone.svg");
@@ -1277,18 +1544,19 @@ pub mod style {
 		pub const ALIGN_TOP: &str = include_str!("../phosphor-core/assets/duotone/align-top-duotone.svg");
 		pub const ALIGN_TOP_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/align-top-simple-duotone.svg");
 		pub const AMAZON_LOGO: &str = include_str!("../phosphor-core/assets/duotone/amazon-logo-duotone.svg");
+		pub const AMBULANCE: &str = include_str!("../phosphor-core/assets/duotone/ambulance-duotone.svg");
 		pub const ANCHOR: &str = include_str!("../phosphor-core/assets/duotone/anchor-duotone.svg");
 		pub const ANCHOR_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/anchor-simple-duotone.svg");
 		pub const ANDROID_LOGO: &str = include_str!("../phosphor-core/assets/duotone/android-logo-duotone.svg");
+		pub const ANGLE: &str = include_str!("../phosphor-core/assets/duotone/angle-duotone.svg");
 		pub const ANGULAR_LOGO: &str = include_str!("../phosphor-core/assets/duotone/angular-logo-duotone.svg");
 		pub const APERTURE: &str = include_str!("../phosphor-core/assets/duotone/aperture-duotone.svg");
 		pub const APP_STORE_LOGO: &str = include_str!("../phosphor-core/assets/duotone/app-store-logo-duotone.svg");
 		pub const APP_WINDOW: &str = include_str!("../phosphor-core/assets/duotone/app-window-duotone.svg");
 		pub const APPLE_LOGO: &str = include_str!("../phosphor-core/assets/duotone/apple-logo-duotone.svg");
 		pub const APPLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/duotone/apple-podcasts-logo-duotone.svg");
+		pub const APPROXIMATE_EQUALS: &str = include_str!("../phosphor-core/assets/duotone/approximate-equals-duotone.svg");
 		pub const ARCHIVE: &str = include_str!("../phosphor-core/assets/duotone/archive-duotone.svg");
-		pub const ARCHIVE_BOX: &str = include_str!("../phosphor-core/assets/duotone/archive-box-duotone.svg");
-		pub const ARCHIVE_TRAY: &str = include_str!("../phosphor-core/assets/duotone/archive-tray-duotone.svg");
 		pub const ARMCHAIR: &str = include_str!("../phosphor-core/assets/duotone/armchair-duotone.svg");
 		pub const ARROW_ARC_LEFT: &str = include_str!("../phosphor-core/assets/duotone/arrow-arc-left-duotone.svg");
 		pub const ARROW_ARC_RIGHT: &str = include_str!("../phosphor-core/assets/duotone/arrow-arc-right-duotone.svg");
@@ -1389,11 +1657,15 @@ pub mod style {
 		pub const ARTICLE: &str = include_str!("../phosphor-core/assets/duotone/article-duotone.svg");
 		pub const ARTICLE_MEDIUM: &str = include_str!("../phosphor-core/assets/duotone/article-medium-duotone.svg");
 		pub const ARTICLE_NY_TIMES: &str = include_str!("../phosphor-core/assets/duotone/article-ny-times-duotone.svg");
+		pub const ASCLEPIUS: &str = include_str!("../phosphor-core/assets/duotone/asclepius-duotone.svg");
 		pub const ASTERISK: &str = include_str!("../phosphor-core/assets/duotone/asterisk-duotone.svg");
 		pub const ASTERISK_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/asterisk-simple-duotone.svg");
 		pub const AT: &str = include_str!("../phosphor-core/assets/duotone/at-duotone.svg");
 		pub const ATOM: &str = include_str!("../phosphor-core/assets/duotone/atom-duotone.svg");
+		pub const AVOCADO: &str = include_str!("../phosphor-core/assets/duotone/avocado-duotone.svg");
+		pub const AXE: &str = include_str!("../phosphor-core/assets/duotone/axe-duotone.svg");
 		pub const BABY: &str = include_str!("../phosphor-core/assets/duotone/baby-duotone.svg");
+		pub const BABY_CARRIAGE: &str = include_str!("../phosphor-core/assets/duotone/baby-carriage-duotone.svg");
 		pub const BACKPACK: &str = include_str!("../phosphor-core/assets/duotone/backpack-duotone.svg");
 		pub const BACKSPACE: &str = include_str!("../phosphor-core/assets/duotone/backspace-duotone.svg");
 		pub const BAG: &str = include_str!("../phosphor-core/assets/duotone/bag-duotone.svg");
@@ -1403,9 +1675,11 @@ pub mod style {
 		pub const BANK: &str = include_str!("../phosphor-core/assets/duotone/bank-duotone.svg");
 		pub const BARBELL: &str = include_str!("../phosphor-core/assets/duotone/barbell-duotone.svg");
 		pub const BARCODE: &str = include_str!("../phosphor-core/assets/duotone/barcode-duotone.svg");
+		pub const BARN: &str = include_str!("../phosphor-core/assets/duotone/barn-duotone.svg");
 		pub const BARRICADE: &str = include_str!("../phosphor-core/assets/duotone/barricade-duotone.svg");
 		pub const BASEBALL: &str = include_str!("../phosphor-core/assets/duotone/baseball-duotone.svg");
 		pub const BASEBALL_CAP: &str = include_str!("../phosphor-core/assets/duotone/baseball-cap-duotone.svg");
+		pub const BASEBALL_HELMET: &str = include_str!("../phosphor-core/assets/duotone/baseball-helmet-duotone.svg");
 		pub const BASKET: &str = include_str!("../phosphor-core/assets/duotone/basket-duotone.svg");
 		pub const BASKETBALL: &str = include_str!("../phosphor-core/assets/duotone/basketball-duotone.svg");
 		pub const BATHTUB: &str = include_str!("../phosphor-core/assets/duotone/bathtub-duotone.svg");
@@ -1425,6 +1699,8 @@ pub mod style {
 		pub const BATTERY_VERTICAL_MEDIUM: &str = include_str!("../phosphor-core/assets/duotone/battery-vertical-medium-duotone.svg");
 		pub const BATTERY_WARNING: &str = include_str!("../phosphor-core/assets/duotone/battery-warning-duotone.svg");
 		pub const BATTERY_WARNING_VERTICAL: &str = include_str!("../phosphor-core/assets/duotone/battery-warning-vertical-duotone.svg");
+		pub const BEACH_BALL: &str = include_str!("../phosphor-core/assets/duotone/beach-ball-duotone.svg");
+		pub const BEANIE: &str = include_str!("../phosphor-core/assets/duotone/beanie-duotone.svg");
 		pub const BED: &str = include_str!("../phosphor-core/assets/duotone/bed-duotone.svg");
 		pub const BEER_BOTTLE: &str = include_str!("../phosphor-core/assets/duotone/beer-bottle-duotone.svg");
 		pub const BEER_STEIN: &str = include_str!("../phosphor-core/assets/duotone/beer-stein-duotone.svg");
@@ -1437,34 +1713,47 @@ pub mod style {
 		pub const BELL_SIMPLE_Z: &str = include_str!("../phosphor-core/assets/duotone/bell-simple-z-duotone.svg");
 		pub const BELL_SLASH: &str = include_str!("../phosphor-core/assets/duotone/bell-slash-duotone.svg");
 		pub const BELL_Z: &str = include_str!("../phosphor-core/assets/duotone/bell-z-duotone.svg");
+		pub const BELT: &str = include_str!("../phosphor-core/assets/duotone/belt-duotone.svg");
 		pub const BEZIER_CURVE: &str = include_str!("../phosphor-core/assets/duotone/bezier-curve-duotone.svg");
 		pub const BICYCLE: &str = include_str!("../phosphor-core/assets/duotone/bicycle-duotone.svg");
+		pub const BINARY: &str = include_str!("../phosphor-core/assets/duotone/binary-duotone.svg");
 		pub const BINOCULARS: &str = include_str!("../phosphor-core/assets/duotone/binoculars-duotone.svg");
+		pub const BIOHAZARD: &str = include_str!("../phosphor-core/assets/duotone/biohazard-duotone.svg");
 		pub const BIRD: &str = include_str!("../phosphor-core/assets/duotone/bird-duotone.svg");
+		pub const BLUEPRINT: &str = include_str!("../phosphor-core/assets/duotone/blueprint-duotone.svg");
 		pub const BLUETOOTH: &str = include_str!("../phosphor-core/assets/duotone/bluetooth-duotone.svg");
 		pub const BLUETOOTH_CONNECTED: &str = include_str!("../phosphor-core/assets/duotone/bluetooth-connected-duotone.svg");
 		pub const BLUETOOTH_SLASH: &str = include_str!("../phosphor-core/assets/duotone/bluetooth-slash-duotone.svg");
 		pub const BLUETOOTH_X: &str = include_str!("../phosphor-core/assets/duotone/bluetooth-x-duotone.svg");
 		pub const BOAT: &str = include_str!("../phosphor-core/assets/duotone/boat-duotone.svg");
+		pub const BOMB: &str = include_str!("../phosphor-core/assets/duotone/bomb-duotone.svg");
 		pub const BONE: &str = include_str!("../phosphor-core/assets/duotone/bone-duotone.svg");
 		pub const BOOK: &str = include_str!("../phosphor-core/assets/duotone/book-duotone.svg");
 		pub const BOOK_BOOKMARK: &str = include_str!("../phosphor-core/assets/duotone/book-bookmark-duotone.svg");
 		pub const BOOK_OPEN: &str = include_str!("../phosphor-core/assets/duotone/book-open-duotone.svg");
 		pub const BOOK_OPEN_TEXT: &str = include_str!("../phosphor-core/assets/duotone/book-open-text-duotone.svg");
+		pub const BOOK_OPEN_USER: &str = include_str!("../phosphor-core/assets/duotone/book-open-user-duotone.svg");
 		pub const BOOKMARK: &str = include_str!("../phosphor-core/assets/duotone/bookmark-duotone.svg");
 		pub const BOOKMARK_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/bookmark-simple-duotone.svg");
 		pub const BOOKMARKS: &str = include_str!("../phosphor-core/assets/duotone/bookmarks-duotone.svg");
 		pub const BOOKMARKS_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/bookmarks-simple-duotone.svg");
 		pub const BOOKS: &str = include_str!("../phosphor-core/assets/duotone/books-duotone.svg");
 		pub const BOOT: &str = include_str!("../phosphor-core/assets/duotone/boot-duotone.svg");
+		pub const BOULES: &str = include_str!("../phosphor-core/assets/duotone/boules-duotone.svg");
 		pub const BOUNDING_BOX: &str = include_str!("../phosphor-core/assets/duotone/bounding-box-duotone.svg");
 		pub const BOWL_FOOD: &str = include_str!("../phosphor-core/assets/duotone/bowl-food-duotone.svg");
+		pub const BOWL_STEAM: &str = include_str!("../phosphor-core/assets/duotone/bowl-steam-duotone.svg");
+		pub const BOWLING_BALL: &str = include_str!("../phosphor-core/assets/duotone/bowling-ball-duotone.svg");
+		pub const BOX_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/duotone/box-arrow-down-duotone.svg");
+		pub const BOX_ARROW_UP: &str = include_str!("../phosphor-core/assets/duotone/box-arrow-up-duotone.svg");
+		pub const BOXING_GLOVE: &str = include_str!("../phosphor-core/assets/duotone/boxing-glove-duotone.svg");
 		pub const BRACKETS_ANGLE: &str = include_str!("../phosphor-core/assets/duotone/brackets-angle-duotone.svg");
 		pub const BRACKETS_CURLY: &str = include_str!("../phosphor-core/assets/duotone/brackets-curly-duotone.svg");
 		pub const BRACKETS_ROUND: &str = include_str!("../phosphor-core/assets/duotone/brackets-round-duotone.svg");
 		pub const BRACKETS_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/brackets-square-duotone.svg");
 		pub const BRAIN: &str = include_str!("../phosphor-core/assets/duotone/brain-duotone.svg");
 		pub const BRANDY: &str = include_str!("../phosphor-core/assets/duotone/brandy-duotone.svg");
+		pub const BREAD: &str = include_str!("../phosphor-core/assets/duotone/bread-duotone.svg");
 		pub const BRIDGE: &str = include_str!("../phosphor-core/assets/duotone/bridge-duotone.svg");
 		pub const BRIEFCASE: &str = include_str!("../phosphor-core/assets/duotone/briefcase-duotone.svg");
 		pub const BRIEFCASE_METAL: &str = include_str!("../phosphor-core/assets/duotone/briefcase-metal-duotone.svg");
@@ -1475,16 +1764,27 @@ pub mod style {
 		pub const BUG: &str = include_str!("../phosphor-core/assets/duotone/bug-duotone.svg");
 		pub const BUG_BEETLE: &str = include_str!("../phosphor-core/assets/duotone/bug-beetle-duotone.svg");
 		pub const BUG_DROID: &str = include_str!("../phosphor-core/assets/duotone/bug-droid-duotone.svg");
+		pub const BUILDING: &str = include_str!("../phosphor-core/assets/duotone/building-duotone.svg");
+		pub const BUILDING_APARTMENT: &str = include_str!("../phosphor-core/assets/duotone/building-apartment-duotone.svg");
+		pub const BUILDING_OFFICE: &str = include_str!("../phosphor-core/assets/duotone/building-office-duotone.svg");
 		pub const BUILDINGS: &str = include_str!("../phosphor-core/assets/duotone/buildings-duotone.svg");
+		pub const BULLDOZER: &str = include_str!("../phosphor-core/assets/duotone/bulldozer-duotone.svg");
 		pub const BUS: &str = include_str!("../phosphor-core/assets/duotone/bus-duotone.svg");
 		pub const BUTTERFLY: &str = include_str!("../phosphor-core/assets/duotone/butterfly-duotone.svg");
+		pub const CABLE_CAR: &str = include_str!("../phosphor-core/assets/duotone/cable-car-duotone.svg");
 		pub const CACTUS: &str = include_str!("../phosphor-core/assets/duotone/cactus-duotone.svg");
 		pub const CAKE: &str = include_str!("../phosphor-core/assets/duotone/cake-duotone.svg");
 		pub const CALCULATOR: &str = include_str!("../phosphor-core/assets/duotone/calculator-duotone.svg");
 		pub const CALENDAR: &str = include_str!("../phosphor-core/assets/duotone/calendar-duotone.svg");
 		pub const CALENDAR_BLANK: &str = include_str!("../phosphor-core/assets/duotone/calendar-blank-duotone.svg");
 		pub const CALENDAR_CHECK: &str = include_str!("../phosphor-core/assets/duotone/calendar-check-duotone.svg");
+		pub const CALENDAR_DOT: &str = include_str!("../phosphor-core/assets/duotone/calendar-dot-duotone.svg");
+		pub const CALENDAR_DOTS: &str = include_str!("../phosphor-core/assets/duotone/calendar-dots-duotone.svg");
+		pub const CALENDAR_HEART: &str = include_str!("../phosphor-core/assets/duotone/calendar-heart-duotone.svg");
+		pub const CALENDAR_MINUS: &str = include_str!("../phosphor-core/assets/duotone/calendar-minus-duotone.svg");
 		pub const CALENDAR_PLUS: &str = include_str!("../phosphor-core/assets/duotone/calendar-plus-duotone.svg");
+		pub const CALENDAR_SLASH: &str = include_str!("../phosphor-core/assets/duotone/calendar-slash-duotone.svg");
+		pub const CALENDAR_STAR: &str = include_str!("../phosphor-core/assets/duotone/calendar-star-duotone.svg");
 		pub const CALENDAR_X: &str = include_str!("../phosphor-core/assets/duotone/calendar-x-duotone.svg");
 		pub const CALL_BELL: &str = include_str!("../phosphor-core/assets/duotone/call-bell-duotone.svg");
 		pub const CAMERA: &str = include_str!("../phosphor-core/assets/duotone/camera-duotone.svg");
@@ -1493,10 +1793,12 @@ pub mod style {
 		pub const CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/duotone/camera-slash-duotone.svg");
 		pub const CAMPFIRE: &str = include_str!("../phosphor-core/assets/duotone/campfire-duotone.svg");
 		pub const CAR: &str = include_str!("../phosphor-core/assets/duotone/car-duotone.svg");
+		pub const CAR_BATTERY: &str = include_str!("../phosphor-core/assets/duotone/car-battery-duotone.svg");
 		pub const CAR_PROFILE: &str = include_str!("../phosphor-core/assets/duotone/car-profile-duotone.svg");
 		pub const CAR_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/car-simple-duotone.svg");
 		pub const CARDHOLDER: &str = include_str!("../phosphor-core/assets/duotone/cardholder-duotone.svg");
 		pub const CARDS: &str = include_str!("../phosphor-core/assets/duotone/cards-duotone.svg");
+		pub const CARDS_THREE: &str = include_str!("../phosphor-core/assets/duotone/cards-three-duotone.svg");
 		pub const CARET_CIRCLE_DOUBLE_DOWN: &str = include_str!("../phosphor-core/assets/duotone/caret-circle-double-down-duotone.svg");
 		pub const CARET_CIRCLE_DOUBLE_LEFT: &str = include_str!("../phosphor-core/assets/duotone/caret-circle-double-left-duotone.svg");
 		pub const CARET_CIRCLE_DOUBLE_RIGHT: &str = include_str!("../phosphor-core/assets/duotone/caret-circle-double-right-duotone.svg");
@@ -1512,10 +1814,15 @@ pub mod style {
 		pub const CARET_DOUBLE_UP: &str = include_str!("../phosphor-core/assets/duotone/caret-double-up-duotone.svg");
 		pub const CARET_DOWN: &str = include_str!("../phosphor-core/assets/duotone/caret-down-duotone.svg");
 		pub const CARET_LEFT: &str = include_str!("../phosphor-core/assets/duotone/caret-left-duotone.svg");
+		pub const CARET_LINE_DOWN: &str = include_str!("../phosphor-core/assets/duotone/caret-line-down-duotone.svg");
+		pub const CARET_LINE_LEFT: &str = include_str!("../phosphor-core/assets/duotone/caret-line-left-duotone.svg");
+		pub const CARET_LINE_RIGHT: &str = include_str!("../phosphor-core/assets/duotone/caret-line-right-duotone.svg");
+		pub const CARET_LINE_UP: &str = include_str!("../phosphor-core/assets/duotone/caret-line-up-duotone.svg");
 		pub const CARET_RIGHT: &str = include_str!("../phosphor-core/assets/duotone/caret-right-duotone.svg");
 		pub const CARET_UP: &str = include_str!("../phosphor-core/assets/duotone/caret-up-duotone.svg");
 		pub const CARET_UP_DOWN: &str = include_str!("../phosphor-core/assets/duotone/caret-up-down-duotone.svg");
 		pub const CARROT: &str = include_str!("../phosphor-core/assets/duotone/carrot-duotone.svg");
+		pub const CASH_REGISTER: &str = include_str!("../phosphor-core/assets/duotone/cash-register-duotone.svg");
 		pub const CASSETTE_TAPE: &str = include_str!("../phosphor-core/assets/duotone/cassette-tape-duotone.svg");
 		pub const CASTLE_TURRET: &str = include_str!("../phosphor-core/assets/duotone/castle-turret-duotone.svg");
 		pub const CAT: &str = include_str!("../phosphor-core/assets/duotone/cat-duotone.svg");
@@ -1526,6 +1833,7 @@ pub mod style {
 		pub const CELL_SIGNAL_NONE: &str = include_str!("../phosphor-core/assets/duotone/cell-signal-none-duotone.svg");
 		pub const CELL_SIGNAL_SLASH: &str = include_str!("../phosphor-core/assets/duotone/cell-signal-slash-duotone.svg");
 		pub const CELL_SIGNAL_X: &str = include_str!("../phosphor-core/assets/duotone/cell-signal-x-duotone.svg");
+		pub const CELL_TOWER: &str = include_str!("../phosphor-core/assets/duotone/cell-tower-duotone.svg");
 		pub const CERTIFICATE: &str = include_str!("../phosphor-core/assets/duotone/certificate-duotone.svg");
 		pub const CHAIR: &str = include_str!("../phosphor-core/assets/duotone/chair-duotone.svg");
 		pub const CHALKBOARD: &str = include_str!("../phosphor-core/assets/duotone/chalkboard-duotone.svg");
@@ -1546,13 +1854,17 @@ pub mod style {
 		pub const CHAT: &str = include_str!("../phosphor-core/assets/duotone/chat-duotone.svg");
 		pub const CHAT_CENTERED: &str = include_str!("../phosphor-core/assets/duotone/chat-centered-duotone.svg");
 		pub const CHAT_CENTERED_DOTS: &str = include_str!("../phosphor-core/assets/duotone/chat-centered-dots-duotone.svg");
+		pub const CHAT_CENTERED_SLASH: &str = include_str!("../phosphor-core/assets/duotone/chat-centered-slash-duotone.svg");
 		pub const CHAT_CENTERED_TEXT: &str = include_str!("../phosphor-core/assets/duotone/chat-centered-text-duotone.svg");
 		pub const CHAT_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/chat-circle-duotone.svg");
 		pub const CHAT_CIRCLE_DOTS: &str = include_str!("../phosphor-core/assets/duotone/chat-circle-dots-duotone.svg");
+		pub const CHAT_CIRCLE_SLASH: &str = include_str!("../phosphor-core/assets/duotone/chat-circle-slash-duotone.svg");
 		pub const CHAT_CIRCLE_TEXT: &str = include_str!("../phosphor-core/assets/duotone/chat-circle-text-duotone.svg");
 		pub const CHAT_DOTS: &str = include_str!("../phosphor-core/assets/duotone/chat-dots-duotone.svg");
+		pub const CHAT_SLASH: &str = include_str!("../phosphor-core/assets/duotone/chat-slash-duotone.svg");
 		pub const CHAT_TEARDROP: &str = include_str!("../phosphor-core/assets/duotone/chat-teardrop-duotone.svg");
 		pub const CHAT_TEARDROP_DOTS: &str = include_str!("../phosphor-core/assets/duotone/chat-teardrop-dots-duotone.svg");
+		pub const CHAT_TEARDROP_SLASH: &str = include_str!("../phosphor-core/assets/duotone/chat-teardrop-slash-duotone.svg");
 		pub const CHAT_TEARDROP_TEXT: &str = include_str!("../phosphor-core/assets/duotone/chat-teardrop-text-duotone.svg");
 		pub const CHAT_TEXT: &str = include_str!("../phosphor-core/assets/duotone/chat-text-duotone.svg");
 		pub const CHATS: &str = include_str!("../phosphor-core/assets/duotone/chats-duotone.svg");
@@ -1563,8 +1875,15 @@ pub mod style {
 		pub const CHECK_FAT: &str = include_str!("../phosphor-core/assets/duotone/check-fat-duotone.svg");
 		pub const CHECK_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/check-square-duotone.svg");
 		pub const CHECK_SQUARE_OFFSET: &str = include_str!("../phosphor-core/assets/duotone/check-square-offset-duotone.svg");
+		pub const CHECKERBOARD: &str = include_str!("../phosphor-core/assets/duotone/checkerboard-duotone.svg");
 		pub const CHECKS: &str = include_str!("../phosphor-core/assets/duotone/checks-duotone.svg");
+		pub const CHEERS: &str = include_str!("../phosphor-core/assets/duotone/cheers-duotone.svg");
+		pub const CHEESE: &str = include_str!("../phosphor-core/assets/duotone/cheese-duotone.svg");
+		pub const CHEF_HAT: &str = include_str!("../phosphor-core/assets/duotone/chef-hat-duotone.svg");
+		pub const CHERRIES: &str = include_str!("../phosphor-core/assets/duotone/cherries-duotone.svg");
 		pub const CHURCH: &str = include_str!("../phosphor-core/assets/duotone/church-duotone.svg");
+		pub const CIGARETTE: &str = include_str!("../phosphor-core/assets/duotone/cigarette-duotone.svg");
+		pub const CIGARETTE_SLASH: &str = include_str!("../phosphor-core/assets/duotone/cigarette-slash-duotone.svg");
 		pub const CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/circle-duotone.svg");
 		pub const CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/duotone/circle-dashed-duotone.svg");
 		pub const CIRCLE_HALF: &str = include_str!("../phosphor-core/assets/duotone/circle-half-duotone.svg");
@@ -1574,6 +1893,7 @@ pub mod style {
 		pub const CIRCLES_THREE: &str = include_str!("../phosphor-core/assets/duotone/circles-three-duotone.svg");
 		pub const CIRCLES_THREE_PLUS: &str = include_str!("../phosphor-core/assets/duotone/circles-three-plus-duotone.svg");
 		pub const CIRCUITRY: &str = include_str!("../phosphor-core/assets/duotone/circuitry-duotone.svg");
+		pub const CITY: &str = include_str!("../phosphor-core/assets/duotone/city-duotone.svg");
 		pub const CLIPBOARD: &str = include_str!("../phosphor-core/assets/duotone/clipboard-duotone.svg");
 		pub const CLIPBOARD_TEXT: &str = include_str!("../phosphor-core/assets/duotone/clipboard-text-duotone.svg");
 		pub const CLOCK: &str = include_str!("../phosphor-core/assets/duotone/clock-duotone.svg");
@@ -1581,6 +1901,7 @@ pub mod style {
 		pub const CLOCK_CLOCKWISE: &str = include_str!("../phosphor-core/assets/duotone/clock-clockwise-duotone.svg");
 		pub const CLOCK_COUNTDOWN: &str = include_str!("../phosphor-core/assets/duotone/clock-countdown-duotone.svg");
 		pub const CLOCK_COUNTER_CLOCKWISE: &str = include_str!("../phosphor-core/assets/duotone/clock-counter-clockwise-duotone.svg");
+		pub const CLOCK_USER: &str = include_str!("../phosphor-core/assets/duotone/clock-user-duotone.svg");
 		pub const CLOSED_CAPTIONING: &str = include_str!("../phosphor-core/assets/duotone/closed-captioning-duotone.svg");
 		pub const CLOUD: &str = include_str!("../phosphor-core/assets/duotone/cloud-duotone.svg");
 		pub const CLOUD_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/duotone/cloud-arrow-down-duotone.svg");
@@ -1595,6 +1916,7 @@ pub mod style {
 		pub const CLOUD_SUN: &str = include_str!("../phosphor-core/assets/duotone/cloud-sun-duotone.svg");
 		pub const CLOUD_WARNING: &str = include_str!("../phosphor-core/assets/duotone/cloud-warning-duotone.svg");
 		pub const CLOUD_X: &str = include_str!("../phosphor-core/assets/duotone/cloud-x-duotone.svg");
+		pub const CLOVER: &str = include_str!("../phosphor-core/assets/duotone/clover-duotone.svg");
 		pub const CLUB: &str = include_str!("../phosphor-core/assets/duotone/club-duotone.svg");
 		pub const COAT_HANGER: &str = include_str!("../phosphor-core/assets/duotone/coat-hanger-duotone.svg");
 		pub const CODA_LOGO: &str = include_str!("../phosphor-core/assets/duotone/coda-logo-duotone.svg");
@@ -1604,12 +1926,16 @@ pub mod style {
 		pub const CODEPEN_LOGO: &str = include_str!("../phosphor-core/assets/duotone/codepen-logo-duotone.svg");
 		pub const CODESANDBOX_LOGO: &str = include_str!("../phosphor-core/assets/duotone/codesandbox-logo-duotone.svg");
 		pub const COFFEE: &str = include_str!("../phosphor-core/assets/duotone/coffee-duotone.svg");
+		pub const COFFEE_BEAN: &str = include_str!("../phosphor-core/assets/duotone/coffee-bean-duotone.svg");
 		pub const COIN: &str = include_str!("../phosphor-core/assets/duotone/coin-duotone.svg");
 		pub const COIN_VERTICAL: &str = include_str!("../phosphor-core/assets/duotone/coin-vertical-duotone.svg");
 		pub const COINS: &str = include_str!("../phosphor-core/assets/duotone/coins-duotone.svg");
 		pub const COLUMNS: &str = include_str!("../phosphor-core/assets/duotone/columns-duotone.svg");
+		pub const COLUMNS_PLUS_LEFT: &str = include_str!("../phosphor-core/assets/duotone/columns-plus-left-duotone.svg");
+		pub const COLUMNS_PLUS_RIGHT: &str = include_str!("../phosphor-core/assets/duotone/columns-plus-right-duotone.svg");
 		pub const COMMAND: &str = include_str!("../phosphor-core/assets/duotone/command-duotone.svg");
 		pub const COMPASS: &str = include_str!("../phosphor-core/assets/duotone/compass-duotone.svg");
+		pub const COMPASS_ROSE: &str = include_str!("../phosphor-core/assets/duotone/compass-rose-duotone.svg");
 		pub const COMPASS_TOOL: &str = include_str!("../phosphor-core/assets/duotone/compass-tool-duotone.svg");
 		pub const COMPUTER_TOWER: &str = include_str!("../phosphor-core/assets/duotone/computer-tower-duotone.svg");
 		pub const CONFETTI: &str = include_str!("../phosphor-core/assets/duotone/confetti-duotone.svg");
@@ -1624,13 +1950,20 @@ pub mod style {
 		pub const CORNERS_IN: &str = include_str!("../phosphor-core/assets/duotone/corners-in-duotone.svg");
 		pub const CORNERS_OUT: &str = include_str!("../phosphor-core/assets/duotone/corners-out-duotone.svg");
 		pub const COUCH: &str = include_str!("../phosphor-core/assets/duotone/couch-duotone.svg");
+		pub const COURT_BASKETBALL: &str = include_str!("../phosphor-core/assets/duotone/court-basketball-duotone.svg");
+		pub const COW: &str = include_str!("../phosphor-core/assets/duotone/cow-duotone.svg");
+		pub const COWBOY_HAT: &str = include_str!("../phosphor-core/assets/duotone/cowboy-hat-duotone.svg");
 		pub const CPU: &str = include_str!("../phosphor-core/assets/duotone/cpu-duotone.svg");
+		pub const CRANE: &str = include_str!("../phosphor-core/assets/duotone/crane-duotone.svg");
+		pub const CRANE_TOWER: &str = include_str!("../phosphor-core/assets/duotone/crane-tower-duotone.svg");
 		pub const CREDIT_CARD: &str = include_str!("../phosphor-core/assets/duotone/credit-card-duotone.svg");
+		pub const CRICKET: &str = include_str!("../phosphor-core/assets/duotone/cricket-duotone.svg");
 		pub const CROP: &str = include_str!("../phosphor-core/assets/duotone/crop-duotone.svg");
 		pub const CROSS: &str = include_str!("../phosphor-core/assets/duotone/cross-duotone.svg");
 		pub const CROSSHAIR: &str = include_str!("../phosphor-core/assets/duotone/crosshair-duotone.svg");
 		pub const CROSSHAIR_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/crosshair-simple-duotone.svg");
 		pub const CROWN: &str = include_str!("../phosphor-core/assets/duotone/crown-duotone.svg");
+		pub const CROWN_CROSS: &str = include_str!("../phosphor-core/assets/duotone/crown-cross-duotone.svg");
 		pub const CROWN_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/crown-simple-duotone.svg");
 		pub const CUBE: &str = include_str!("../phosphor-core/assets/duotone/cube-duotone.svg");
 		pub const CUBE_FOCUS: &str = include_str!("../phosphor-core/assets/duotone/cube-focus-duotone.svg");
@@ -1654,13 +1987,16 @@ pub mod style {
 		pub const CURSOR_TEXT: &str = include_str!("../phosphor-core/assets/duotone/cursor-text-duotone.svg");
 		pub const CYLINDER: &str = include_str!("../phosphor-core/assets/duotone/cylinder-duotone.svg");
 		pub const DATABASE: &str = include_str!("../phosphor-core/assets/duotone/database-duotone.svg");
+		pub const DESK: &str = include_str!("../phosphor-core/assets/duotone/desk-duotone.svg");
 		pub const DESKTOP: &str = include_str!("../phosphor-core/assets/duotone/desktop-duotone.svg");
 		pub const DESKTOP_TOWER: &str = include_str!("../phosphor-core/assets/duotone/desktop-tower-duotone.svg");
 		pub const DETECTIVE: &str = include_str!("../phosphor-core/assets/duotone/detective-duotone.svg");
 		pub const DEV_TO_LOGO: &str = include_str!("../phosphor-core/assets/duotone/dev-to-logo-duotone.svg");
 		pub const DEVICE_MOBILE: &str = include_str!("../phosphor-core/assets/duotone/device-mobile-duotone.svg");
 		pub const DEVICE_MOBILE_CAMERA: &str = include_str!("../phosphor-core/assets/duotone/device-mobile-camera-duotone.svg");
+		pub const DEVICE_MOBILE_SLASH: &str = include_str!("../phosphor-core/assets/duotone/device-mobile-slash-duotone.svg");
 		pub const DEVICE_MOBILE_SPEAKER: &str = include_str!("../phosphor-core/assets/duotone/device-mobile-speaker-duotone.svg");
+		pub const DEVICE_ROTATE: &str = include_str!("../phosphor-core/assets/duotone/device-rotate-duotone.svg");
 		pub const DEVICE_TABLET: &str = include_str!("../phosphor-core/assets/duotone/device-tablet-duotone.svg");
 		pub const DEVICE_TABLET_CAMERA: &str = include_str!("../phosphor-core/assets/duotone/device-tablet-camera-duotone.svg");
 		pub const DEVICE_TABLET_SPEAKER: &str = include_str!("../phosphor-core/assets/duotone/device-tablet-speaker-duotone.svg");
@@ -1674,6 +2010,7 @@ pub mod style {
 		pub const DICE_THREE: &str = include_str!("../phosphor-core/assets/duotone/dice-three-duotone.svg");
 		pub const DICE_TWO: &str = include_str!("../phosphor-core/assets/duotone/dice-two-duotone.svg");
 		pub const DISC: &str = include_str!("../phosphor-core/assets/duotone/disc-duotone.svg");
+		pub const DISCO_BALL: &str = include_str!("../phosphor-core/assets/duotone/disco-ball-duotone.svg");
 		pub const DISCORD_LOGO: &str = include_str!("../phosphor-core/assets/duotone/discord-logo-duotone.svg");
 		pub const DIVIDE: &str = include_str!("../phosphor-core/assets/duotone/divide-duotone.svg");
 		pub const DNA: &str = include_str!("../phosphor-core/assets/duotone/dna-duotone.svg");
@@ -1694,10 +2031,14 @@ pub mod style {
 		pub const DOWNLOAD: &str = include_str!("../phosphor-core/assets/duotone/download-duotone.svg");
 		pub const DOWNLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/download-simple-duotone.svg");
 		pub const DRESS: &str = include_str!("../phosphor-core/assets/duotone/dress-duotone.svg");
+		pub const DRESSER: &str = include_str!("../phosphor-core/assets/duotone/dresser-duotone.svg");
 		pub const DRIBBBLE_LOGO: &str = include_str!("../phosphor-core/assets/duotone/dribbble-logo-duotone.svg");
+		pub const DRONE: &str = include_str!("../phosphor-core/assets/duotone/drone-duotone.svg");
 		pub const DROP: &str = include_str!("../phosphor-core/assets/duotone/drop-duotone.svg");
 		pub const DROP_HALF: &str = include_str!("../phosphor-core/assets/duotone/drop-half-duotone.svg");
 		pub const DROP_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/duotone/drop-half-bottom-duotone.svg");
+		pub const DROP_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/drop-simple-duotone.svg");
+		pub const DROP_SLASH: &str = include_str!("../phosphor-core/assets/duotone/drop-slash-duotone.svg");
 		pub const DROPBOX_LOGO: &str = include_str!("../phosphor-core/assets/duotone/dropbox-logo-duotone.svg");
 		pub const EAR: &str = include_str!("../phosphor-core/assets/duotone/ear-duotone.svg");
 		pub const EAR_SLASH: &str = include_str!("../phosphor-core/assets/duotone/ear-slash-duotone.svg");
@@ -1706,6 +2047,7 @@ pub mod style {
 		pub const EJECT: &str = include_str!("../phosphor-core/assets/duotone/eject-duotone.svg");
 		pub const EJECT_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/eject-simple-duotone.svg");
 		pub const ELEVATOR: &str = include_str!("../phosphor-core/assets/duotone/elevator-duotone.svg");
+		pub const EMPTY: &str = include_str!("../phosphor-core/assets/duotone/empty-duotone.svg");
 		pub const ENGINE: &str = include_str!("../phosphor-core/assets/duotone/engine-duotone.svg");
 		pub const ENVELOPE: &str = include_str!("../phosphor-core/assets/duotone/envelope-duotone.svg");
 		pub const ENVELOPE_OPEN: &str = include_str!("../phosphor-core/assets/duotone/envelope-open-duotone.svg");
@@ -1717,6 +2059,7 @@ pub mod style {
 		pub const ESCALATOR_DOWN: &str = include_str!("../phosphor-core/assets/duotone/escalator-down-duotone.svg");
 		pub const ESCALATOR_UP: &str = include_str!("../phosphor-core/assets/duotone/escalator-up-duotone.svg");
 		pub const EXAM: &str = include_str!("../phosphor-core/assets/duotone/exam-duotone.svg");
+		pub const EXCLAMATION_MARK: &str = include_str!("../phosphor-core/assets/duotone/exclamation-mark-duotone.svg");
 		pub const EXCLUDE: &str = include_str!("../phosphor-core/assets/duotone/exclude-duotone.svg");
 		pub const EXCLUDE_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/exclude-square-duotone.svg");
 		pub const EXPORT: &str = include_str!("../phosphor-core/assets/duotone/export-duotone.svg");
@@ -1726,45 +2069,56 @@ pub mod style {
 		pub const EYEDROPPER: &str = include_str!("../phosphor-core/assets/duotone/eyedropper-duotone.svg");
 		pub const EYEDROPPER_SAMPLE: &str = include_str!("../phosphor-core/assets/duotone/eyedropper-sample-duotone.svg");
 		pub const EYEGLASSES: &str = include_str!("../phosphor-core/assets/duotone/eyeglasses-duotone.svg");
+		pub const EYES: &str = include_str!("../phosphor-core/assets/duotone/eyes-duotone.svg");
 		pub const FACE_MASK: &str = include_str!("../phosphor-core/assets/duotone/face-mask-duotone.svg");
 		pub const FACEBOOK_LOGO: &str = include_str!("../phosphor-core/assets/duotone/facebook-logo-duotone.svg");
 		pub const FACTORY: &str = include_str!("../phosphor-core/assets/duotone/factory-duotone.svg");
 		pub const FADERS: &str = include_str!("../phosphor-core/assets/duotone/faders-duotone.svg");
 		pub const FADERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/duotone/faders-horizontal-duotone.svg");
+		pub const FALLOUT_SHELTER: &str = include_str!("../phosphor-core/assets/duotone/fallout-shelter-duotone.svg");
 		pub const FAN: &str = include_str!("../phosphor-core/assets/duotone/fan-duotone.svg");
+		pub const FARM: &str = include_str!("../phosphor-core/assets/duotone/farm-duotone.svg");
 		pub const FAST_FORWARD: &str = include_str!("../phosphor-core/assets/duotone/fast-forward-duotone.svg");
 		pub const FAST_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/fast-forward-circle-duotone.svg");
 		pub const FEATHER: &str = include_str!("../phosphor-core/assets/duotone/feather-duotone.svg");
+		pub const FEDIVERSE_LOGO: &str = include_str!("../phosphor-core/assets/duotone/fediverse-logo-duotone.svg");
 		pub const FIGMA_LOGO: &str = include_str!("../phosphor-core/assets/duotone/figma-logo-duotone.svg");
 		pub const FILE: &str = include_str!("../phosphor-core/assets/duotone/file-duotone.svg");
 		pub const FILE_ARCHIVE: &str = include_str!("../phosphor-core/assets/duotone/file-archive-duotone.svg");
 		pub const FILE_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/duotone/file-arrow-down-duotone.svg");
 		pub const FILE_ARROW_UP: &str = include_str!("../phosphor-core/assets/duotone/file-arrow-up-duotone.svg");
 		pub const FILE_AUDIO: &str = include_str!("../phosphor-core/assets/duotone/file-audio-duotone.svg");
+		pub const FILE_C: &str = include_str!("../phosphor-core/assets/duotone/file-c-duotone.svg");
+		pub const FILE_C_SHARP: &str = include_str!("../phosphor-core/assets/duotone/file-c-sharp-duotone.svg");
 		pub const FILE_CLOUD: &str = include_str!("../phosphor-core/assets/duotone/file-cloud-duotone.svg");
 		pub const FILE_CODE: &str = include_str!("../phosphor-core/assets/duotone/file-code-duotone.svg");
+		pub const FILE_CPP: &str = include_str!("../phosphor-core/assets/duotone/file-cpp-duotone.svg");
 		pub const FILE_CSS: &str = include_str!("../phosphor-core/assets/duotone/file-css-duotone.svg");
 		pub const FILE_CSV: &str = include_str!("../phosphor-core/assets/duotone/file-csv-duotone.svg");
 		pub const FILE_DASHED: &str = include_str!("../phosphor-core/assets/duotone/file-dashed-duotone.svg");
 		pub const FILE_DOC: &str = include_str!("../phosphor-core/assets/duotone/file-doc-duotone.svg");
 		pub const FILE_HTML: &str = include_str!("../phosphor-core/assets/duotone/file-html-duotone.svg");
 		pub const FILE_IMAGE: &str = include_str!("../phosphor-core/assets/duotone/file-image-duotone.svg");
+		pub const FILE_INI: &str = include_str!("../phosphor-core/assets/duotone/file-ini-duotone.svg");
 		pub const FILE_JPG: &str = include_str!("../phosphor-core/assets/duotone/file-jpg-duotone.svg");
 		pub const FILE_JS: &str = include_str!("../phosphor-core/assets/duotone/file-js-duotone.svg");
 		pub const FILE_JSX: &str = include_str!("../phosphor-core/assets/duotone/file-jsx-duotone.svg");
 		pub const FILE_LOCK: &str = include_str!("../phosphor-core/assets/duotone/file-lock-duotone.svg");
 		pub const FILE_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/duotone/file-magnifying-glass-duotone.svg");
+		pub const FILE_MD: &str = include_str!("../phosphor-core/assets/duotone/file-md-duotone.svg");
 		pub const FILE_MINUS: &str = include_str!("../phosphor-core/assets/duotone/file-minus-duotone.svg");
 		pub const FILE_PDF: &str = include_str!("../phosphor-core/assets/duotone/file-pdf-duotone.svg");
 		pub const FILE_PLUS: &str = include_str!("../phosphor-core/assets/duotone/file-plus-duotone.svg");
 		pub const FILE_PNG: &str = include_str!("../phosphor-core/assets/duotone/file-png-duotone.svg");
 		pub const FILE_PPT: &str = include_str!("../phosphor-core/assets/duotone/file-ppt-duotone.svg");
+		pub const FILE_PY: &str = include_str!("../phosphor-core/assets/duotone/file-py-duotone.svg");
 		pub const FILE_RS: &str = include_str!("../phosphor-core/assets/duotone/file-rs-duotone.svg");
 		pub const FILE_SQL: &str = include_str!("../phosphor-core/assets/duotone/file-sql-duotone.svg");
 		pub const FILE_SVG: &str = include_str!("../phosphor-core/assets/duotone/file-svg-duotone.svg");
 		pub const FILE_TEXT: &str = include_str!("../phosphor-core/assets/duotone/file-text-duotone.svg");
 		pub const FILE_TS: &str = include_str!("../phosphor-core/assets/duotone/file-ts-duotone.svg");
 		pub const FILE_TSX: &str = include_str!("../phosphor-core/assets/duotone/file-tsx-duotone.svg");
+		pub const FILE_TXT: &str = include_str!("../phosphor-core/assets/duotone/file-txt-duotone.svg");
 		pub const FILE_VIDEO: &str = include_str!("../phosphor-core/assets/duotone/file-video-duotone.svg");
 		pub const FILE_VUE: &str = include_str!("../phosphor-core/assets/duotone/file-vue-duotone.svg");
 		pub const FILE_X: &str = include_str!("../phosphor-core/assets/duotone/file-x-duotone.svg");
@@ -1781,17 +2135,21 @@ pub mod style {
 		pub const FIRE: &str = include_str!("../phosphor-core/assets/duotone/fire-duotone.svg");
 		pub const FIRE_EXTINGUISHER: &str = include_str!("../phosphor-core/assets/duotone/fire-extinguisher-duotone.svg");
 		pub const FIRE_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/fire-simple-duotone.svg");
+		pub const FIRE_TRUCK: &str = include_str!("../phosphor-core/assets/duotone/fire-truck-duotone.svg");
 		pub const FIRST_AID: &str = include_str!("../phosphor-core/assets/duotone/first-aid-duotone.svg");
 		pub const FIRST_AID_KIT: &str = include_str!("../phosphor-core/assets/duotone/first-aid-kit-duotone.svg");
 		pub const FISH: &str = include_str!("../phosphor-core/assets/duotone/fish-duotone.svg");
 		pub const FISH_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/fish-simple-duotone.svg");
 		pub const FLAG: &str = include_str!("../phosphor-core/assets/duotone/flag-duotone.svg");
 		pub const FLAG_BANNER: &str = include_str!("../phosphor-core/assets/duotone/flag-banner-duotone.svg");
+		pub const FLAG_BANNER_FOLD: &str = include_str!("../phosphor-core/assets/duotone/flag-banner-fold-duotone.svg");
 		pub const FLAG_CHECKERED: &str = include_str!("../phosphor-core/assets/duotone/flag-checkered-duotone.svg");
 		pub const FLAG_PENNANT: &str = include_str!("../phosphor-core/assets/duotone/flag-pennant-duotone.svg");
 		pub const FLAME: &str = include_str!("../phosphor-core/assets/duotone/flame-duotone.svg");
 		pub const FLASHLIGHT: &str = include_str!("../phosphor-core/assets/duotone/flashlight-duotone.svg");
 		pub const FLASK: &str = include_str!("../phosphor-core/assets/duotone/flask-duotone.svg");
+		pub const FLIP_HORIZONTAL: &str = include_str!("../phosphor-core/assets/duotone/flip-horizontal-duotone.svg");
+		pub const FLIP_VERTICAL: &str = include_str!("../phosphor-core/assets/duotone/flip-vertical-duotone.svg");
 		pub const FLOPPY_DISK: &str = include_str!("../phosphor-core/assets/duotone/floppy-disk-duotone.svg");
 		pub const FLOPPY_DISK_BACK: &str = include_str!("../phosphor-core/assets/duotone/floppy-disk-back-duotone.svg");
 		pub const FLOW_ARROW: &str = include_str!("../phosphor-core/assets/duotone/flow-arrow-duotone.svg");
@@ -1803,10 +2161,6 @@ pub mod style {
 		pub const FOLDER_DASHED: &str = include_str!("../phosphor-core/assets/duotone/folder-dashed-duotone.svg");
 		pub const FOLDER_LOCK: &str = include_str!("../phosphor-core/assets/duotone/folder-lock-duotone.svg");
 		pub const FOLDER_MINUS: &str = include_str!("../phosphor-core/assets/duotone/folder-minus-duotone.svg");
-		pub const FOLDER_NOTCH: &str = include_str!("../phosphor-core/assets/duotone/folder-notch-duotone.svg");
-		pub const FOLDER_NOTCH_MINUS: &str = include_str!("../phosphor-core/assets/duotone/folder-notch-minus-duotone.svg");
-		pub const FOLDER_NOTCH_OPEN: &str = include_str!("../phosphor-core/assets/duotone/folder-notch-open-duotone.svg");
-		pub const FOLDER_NOTCH_PLUS: &str = include_str!("../phosphor-core/assets/duotone/folder-notch-plus-duotone.svg");
 		pub const FOLDER_OPEN: &str = include_str!("../phosphor-core/assets/duotone/folder-open-duotone.svg");
 		pub const FOLDER_PLUS: &str = include_str!("../phosphor-core/assets/duotone/folder-plus-duotone.svg");
 		pub const FOLDER_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/folder-simple-duotone.svg");
@@ -1820,13 +2174,17 @@ pub mod style {
 		pub const FOLDER_USER: &str = include_str!("../phosphor-core/assets/duotone/folder-user-duotone.svg");
 		pub const FOLDERS: &str = include_str!("../phosphor-core/assets/duotone/folders-duotone.svg");
 		pub const FOOTBALL: &str = include_str!("../phosphor-core/assets/duotone/football-duotone.svg");
+		pub const FOOTBALL_HELMET: &str = include_str!("../phosphor-core/assets/duotone/football-helmet-duotone.svg");
 		pub const FOOTPRINTS: &str = include_str!("../phosphor-core/assets/duotone/footprints-duotone.svg");
 		pub const FORK_KNIFE: &str = include_str!("../phosphor-core/assets/duotone/fork-knife-duotone.svg");
+		pub const FOUR_K: &str = include_str!("../phosphor-core/assets/duotone/four-k-duotone.svg");
 		pub const FRAME_CORNERS: &str = include_str!("../phosphor-core/assets/duotone/frame-corners-duotone.svg");
 		pub const FRAMER_LOGO: &str = include_str!("../phosphor-core/assets/duotone/framer-logo-duotone.svg");
 		pub const FUNCTION: &str = include_str!("../phosphor-core/assets/duotone/function-duotone.svg");
 		pub const FUNNEL: &str = include_str!("../phosphor-core/assets/duotone/funnel-duotone.svg");
 		pub const FUNNEL_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/funnel-simple-duotone.svg");
+		pub const FUNNEL_SIMPLE_X: &str = include_str!("../phosphor-core/assets/duotone/funnel-simple-x-duotone.svg");
+		pub const FUNNEL_X: &str = include_str!("../phosphor-core/assets/duotone/funnel-x-duotone.svg");
 		pub const GAME_CONTROLLER: &str = include_str!("../phosphor-core/assets/duotone/game-controller-duotone.svg");
 		pub const GARAGE: &str = include_str!("../phosphor-core/assets/duotone/garage-duotone.svg");
 		pub const GAS_CAN: &str = include_str!("../phosphor-core/assets/duotone/gas-can-duotone.svg");
@@ -1858,8 +2216,11 @@ pub mod style {
 		pub const GLOBE_HEMISPHERE_EAST: &str = include_str!("../phosphor-core/assets/duotone/globe-hemisphere-east-duotone.svg");
 		pub const GLOBE_HEMISPHERE_WEST: &str = include_str!("../phosphor-core/assets/duotone/globe-hemisphere-west-duotone.svg");
 		pub const GLOBE_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/globe-simple-duotone.svg");
+		pub const GLOBE_SIMPLE_X: &str = include_str!("../phosphor-core/assets/duotone/globe-simple-x-duotone.svg");
 		pub const GLOBE_STAND: &str = include_str!("../phosphor-core/assets/duotone/globe-stand-duotone.svg");
+		pub const GLOBE_X: &str = include_str!("../phosphor-core/assets/duotone/globe-x-duotone.svg");
 		pub const GOGGLES: &str = include_str!("../phosphor-core/assets/duotone/goggles-duotone.svg");
+		pub const GOLF: &str = include_str!("../phosphor-core/assets/duotone/golf-duotone.svg");
 		pub const GOODREADS_LOGO: &str = include_str!("../phosphor-core/assets/duotone/goodreads-logo-duotone.svg");
 		pub const GOOGLE_CARDBOARD_LOGO: &str = include_str!("../phosphor-core/assets/duotone/google-cardboard-logo-duotone.svg");
 		pub const GOOGLE_CHROME_LOGO: &str = include_str!("../phosphor-core/assets/duotone/google-chrome-logo-duotone.svg");
@@ -1868,29 +2229,41 @@ pub mod style {
 		pub const GOOGLE_PHOTOS_LOGO: &str = include_str!("../phosphor-core/assets/duotone/google-photos-logo-duotone.svg");
 		pub const GOOGLE_PLAY_LOGO: &str = include_str!("../phosphor-core/assets/duotone/google-play-logo-duotone.svg");
 		pub const GOOGLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/duotone/google-podcasts-logo-duotone.svg");
+		pub const GPS: &str = include_str!("../phosphor-core/assets/duotone/gps-duotone.svg");
+		pub const GPS_FIX: &str = include_str!("../phosphor-core/assets/duotone/gps-fix-duotone.svg");
+		pub const GPS_SLASH: &str = include_str!("../phosphor-core/assets/duotone/gps-slash-duotone.svg");
 		pub const GRADIENT: &str = include_str!("../phosphor-core/assets/duotone/gradient-duotone.svg");
 		pub const GRADUATION_CAP: &str = include_str!("../phosphor-core/assets/duotone/graduation-cap-duotone.svg");
 		pub const GRAINS: &str = include_str!("../phosphor-core/assets/duotone/grains-duotone.svg");
 		pub const GRAINS_SLASH: &str = include_str!("../phosphor-core/assets/duotone/grains-slash-duotone.svg");
 		pub const GRAPH: &str = include_str!("../phosphor-core/assets/duotone/graph-duotone.svg");
+		pub const GRAPHICS_CARD: &str = include_str!("../phosphor-core/assets/duotone/graphics-card-duotone.svg");
+		pub const GREATER_THAN: &str = include_str!("../phosphor-core/assets/duotone/greater-than-duotone.svg");
+		pub const GREATER_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/duotone/greater-than-or-equal-duotone.svg");
 		pub const GRID_FOUR: &str = include_str!("../phosphor-core/assets/duotone/grid-four-duotone.svg");
 		pub const GRID_NINE: &str = include_str!("../phosphor-core/assets/duotone/grid-nine-duotone.svg");
 		pub const GUITAR: &str = include_str!("../phosphor-core/assets/duotone/guitar-duotone.svg");
+		pub const HAIR_DRYER: &str = include_str!("../phosphor-core/assets/duotone/hair-dryer-duotone.svg");
 		pub const HAMBURGER: &str = include_str!("../phosphor-core/assets/duotone/hamburger-duotone.svg");
 		pub const HAMMER: &str = include_str!("../phosphor-core/assets/duotone/hammer-duotone.svg");
 		pub const HAND: &str = include_str!("../phosphor-core/assets/duotone/hand-duotone.svg");
+		pub const HAND_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/duotone/hand-arrow-down-duotone.svg");
+		pub const HAND_ARROW_UP: &str = include_str!("../phosphor-core/assets/duotone/hand-arrow-up-duotone.svg");
 		pub const HAND_COINS: &str = include_str!("../phosphor-core/assets/duotone/hand-coins-duotone.svg");
+		pub const HAND_DEPOSIT: &str = include_str!("../phosphor-core/assets/duotone/hand-deposit-duotone.svg");
 		pub const HAND_EYE: &str = include_str!("../phosphor-core/assets/duotone/hand-eye-duotone.svg");
 		pub const HAND_FIST: &str = include_str!("../phosphor-core/assets/duotone/hand-fist-duotone.svg");
 		pub const HAND_GRABBING: &str = include_str!("../phosphor-core/assets/duotone/hand-grabbing-duotone.svg");
 		pub const HAND_HEART: &str = include_str!("../phosphor-core/assets/duotone/hand-heart-duotone.svg");
 		pub const HAND_PALM: &str = include_str!("../phosphor-core/assets/duotone/hand-palm-duotone.svg");
+		pub const HAND_PEACE: &str = include_str!("../phosphor-core/assets/duotone/hand-peace-duotone.svg");
 		pub const HAND_POINTING: &str = include_str!("../phosphor-core/assets/duotone/hand-pointing-duotone.svg");
 		pub const HAND_SOAP: &str = include_str!("../phosphor-core/assets/duotone/hand-soap-duotone.svg");
 		pub const HAND_SWIPE_LEFT: &str = include_str!("../phosphor-core/assets/duotone/hand-swipe-left-duotone.svg");
 		pub const HAND_SWIPE_RIGHT: &str = include_str!("../phosphor-core/assets/duotone/hand-swipe-right-duotone.svg");
 		pub const HAND_TAP: &str = include_str!("../phosphor-core/assets/duotone/hand-tap-duotone.svg");
 		pub const HAND_WAVING: &str = include_str!("../phosphor-core/assets/duotone/hand-waving-duotone.svg");
+		pub const HAND_WITHDRAW: &str = include_str!("../phosphor-core/assets/duotone/hand-withdraw-duotone.svg");
 		pub const HANDBAG: &str = include_str!("../phosphor-core/assets/duotone/handbag-duotone.svg");
 		pub const HANDBAG_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/handbag-simple-duotone.svg");
 		pub const HANDS_CLAPPING: &str = include_str!("../phosphor-core/assets/duotone/hands-clapping-duotone.svg");
@@ -1898,8 +2271,10 @@ pub mod style {
 		pub const HANDSHAKE: &str = include_str!("../phosphor-core/assets/duotone/handshake-duotone.svg");
 		pub const HARD_DRIVE: &str = include_str!("../phosphor-core/assets/duotone/hard-drive-duotone.svg");
 		pub const HARD_DRIVES: &str = include_str!("../phosphor-core/assets/duotone/hard-drives-duotone.svg");
+		pub const HARD_HAT: &str = include_str!("../phosphor-core/assets/duotone/hard-hat-duotone.svg");
 		pub const HASH: &str = include_str!("../phosphor-core/assets/duotone/hash-duotone.svg");
 		pub const HASH_STRAIGHT: &str = include_str!("../phosphor-core/assets/duotone/hash-straight-duotone.svg");
+		pub const HEAD_CIRCUIT: &str = include_str!("../phosphor-core/assets/duotone/head-circuit-duotone.svg");
 		pub const HEADLIGHTS: &str = include_str!("../phosphor-core/assets/duotone/headlights-duotone.svg");
 		pub const HEADPHONES: &str = include_str!("../phosphor-core/assets/duotone/headphones-duotone.svg");
 		pub const HEADSET: &str = include_str!("../phosphor-core/assets/duotone/headset-duotone.svg");
@@ -1910,10 +2285,14 @@ pub mod style {
 		pub const HEART_STRAIGHT_BREAK: &str = include_str!("../phosphor-core/assets/duotone/heart-straight-break-duotone.svg");
 		pub const HEARTBEAT: &str = include_str!("../phosphor-core/assets/duotone/heartbeat-duotone.svg");
 		pub const HEXAGON: &str = include_str!("../phosphor-core/assets/duotone/hexagon-duotone.svg");
+		pub const HIGH_DEFINITION: &str = include_str!("../phosphor-core/assets/duotone/high-definition-duotone.svg");
 		pub const HIGH_HEEL: &str = include_str!("../phosphor-core/assets/duotone/high-heel-duotone.svg");
+		pub const HIGHLIGHTER: &str = include_str!("../phosphor-core/assets/duotone/highlighter-duotone.svg");
 		pub const HIGHLIGHTER_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/highlighter-circle-duotone.svg");
+		pub const HOCKEY: &str = include_str!("../phosphor-core/assets/duotone/hockey-duotone.svg");
 		pub const HOODIE: &str = include_str!("../phosphor-core/assets/duotone/hoodie-duotone.svg");
 		pub const HORSE: &str = include_str!("../phosphor-core/assets/duotone/horse-duotone.svg");
+		pub const HOSPITAL: &str = include_str!("../phosphor-core/assets/duotone/hospital-duotone.svg");
 		pub const HOURGLASS: &str = include_str!("../phosphor-core/assets/duotone/hourglass-duotone.svg");
 		pub const HOURGLASS_HIGH: &str = include_str!("../phosphor-core/assets/duotone/hourglass-high-duotone.svg");
 		pub const HOURGLASS_LOW: &str = include_str!("../phosphor-core/assets/duotone/hourglass-low-duotone.svg");
@@ -1925,10 +2304,12 @@ pub mod style {
 		pub const HOUSE: &str = include_str!("../phosphor-core/assets/duotone/house-duotone.svg");
 		pub const HOUSE_LINE: &str = include_str!("../phosphor-core/assets/duotone/house-line-duotone.svg");
 		pub const HOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/house-simple-duotone.svg");
+		pub const HURRICANE: &str = include_str!("../phosphor-core/assets/duotone/hurricane-duotone.svg");
 		pub const ICE_CREAM: &str = include_str!("../phosphor-core/assets/duotone/ice-cream-duotone.svg");
 		pub const IDENTIFICATION_BADGE: &str = include_str!("../phosphor-core/assets/duotone/identification-badge-duotone.svg");
 		pub const IDENTIFICATION_CARD: &str = include_str!("../phosphor-core/assets/duotone/identification-card-duotone.svg");
 		pub const IMAGE: &str = include_str!("../phosphor-core/assets/duotone/image-duotone.svg");
+		pub const IMAGE_BROKEN: &str = include_str!("../phosphor-core/assets/duotone/image-broken-duotone.svg");
 		pub const IMAGE_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/image-square-duotone.svg");
 		pub const IMAGES: &str = include_str!("../phosphor-core/assets/duotone/images-duotone.svg");
 		pub const IMAGES_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/images-square-duotone.svg");
@@ -1938,7 +2319,13 @@ pub mod style {
 		pub const INTERSECT: &str = include_str!("../phosphor-core/assets/duotone/intersect-duotone.svg");
 		pub const INTERSECT_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/intersect-square-duotone.svg");
 		pub const INTERSECT_THREE: &str = include_str!("../phosphor-core/assets/duotone/intersect-three-duotone.svg");
+		pub const INTERSECTION: &str = include_str!("../phosphor-core/assets/duotone/intersection-duotone.svg");
+		pub const INVOICE: &str = include_str!("../phosphor-core/assets/duotone/invoice-duotone.svg");
+		pub const ISLAND: &str = include_str!("../phosphor-core/assets/duotone/island-duotone.svg");
+		pub const JAR: &str = include_str!("../phosphor-core/assets/duotone/jar-duotone.svg");
+		pub const JAR_LABEL: &str = include_str!("../phosphor-core/assets/duotone/jar-label-duotone.svg");
 		pub const JEEP: &str = include_str!("../phosphor-core/assets/duotone/jeep-duotone.svg");
+		pub const JOYSTICK: &str = include_str!("../phosphor-core/assets/duotone/joystick-duotone.svg");
 		pub const KANBAN: &str = include_str!("../phosphor-core/assets/duotone/kanban-duotone.svg");
 		pub const KEY: &str = include_str!("../phosphor-core/assets/duotone/key-duotone.svg");
 		pub const KEY_RETURN: &str = include_str!("../phosphor-core/assets/duotone/key-return-duotone.svg");
@@ -1948,9 +2335,20 @@ pub mod style {
 		pub const LADDER: &str = include_str!("../phosphor-core/assets/duotone/ladder-duotone.svg");
 		pub const LADDER_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/ladder-simple-duotone.svg");
 		pub const LAMP: &str = include_str!("../phosphor-core/assets/duotone/lamp-duotone.svg");
+		pub const LAMP_PENDANT: &str = include_str!("../phosphor-core/assets/duotone/lamp-pendant-duotone.svg");
 		pub const LAPTOP: &str = include_str!("../phosphor-core/assets/duotone/laptop-duotone.svg");
+		pub const LASSO: &str = include_str!("../phosphor-core/assets/duotone/lasso-duotone.svg");
+		pub const LASTFM_LOGO: &str = include_str!("../phosphor-core/assets/duotone/lastfm-logo-duotone.svg");
 		pub const LAYOUT: &str = include_str!("../phosphor-core/assets/duotone/layout-duotone.svg");
 		pub const LEAF: &str = include_str!("../phosphor-core/assets/duotone/leaf-duotone.svg");
+		pub const LECTERN: &str = include_str!("../phosphor-core/assets/duotone/lectern-duotone.svg");
+		pub const LEGO: &str = include_str!("../phosphor-core/assets/duotone/lego-duotone.svg");
+		pub const LEGO_SMILEY: &str = include_str!("../phosphor-core/assets/duotone/lego-smiley-duotone.svg");
+		pub const LESS_THAN: &str = include_str!("../phosphor-core/assets/duotone/less-than-duotone.svg");
+		pub const LESS_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/duotone/less-than-or-equal-duotone.svg");
+		pub const LETTER_CIRCLE_H: &str = include_str!("../phosphor-core/assets/duotone/letter-circle-h-duotone.svg");
+		pub const LETTER_CIRCLE_P: &str = include_str!("../phosphor-core/assets/duotone/letter-circle-p-duotone.svg");
+		pub const LETTER_CIRCLE_V: &str = include_str!("../phosphor-core/assets/duotone/letter-circle-v-duotone.svg");
 		pub const LIFEBUOY: &str = include_str!("../phosphor-core/assets/duotone/lifebuoy-duotone.svg");
 		pub const LIGHTBULB: &str = include_str!("../phosphor-core/assets/duotone/lightbulb-duotone.svg");
 		pub const LIGHTBULB_FILAMENT: &str = include_str!("../phosphor-core/assets/duotone/lightbulb-filament-duotone.svg");
@@ -1960,6 +2358,7 @@ pub mod style {
 		pub const LIGHTNING_SLASH: &str = include_str!("../phosphor-core/assets/duotone/lightning-slash-duotone.svg");
 		pub const LINE_SEGMENT: &str = include_str!("../phosphor-core/assets/duotone/line-segment-duotone.svg");
 		pub const LINE_SEGMENTS: &str = include_str!("../phosphor-core/assets/duotone/line-segments-duotone.svg");
+		pub const LINE_VERTICAL: &str = include_str!("../phosphor-core/assets/duotone/line-vertical-duotone.svg");
 		pub const LINK: &str = include_str!("../phosphor-core/assets/duotone/link-duotone.svg");
 		pub const LINK_BREAK: &str = include_str!("../phosphor-core/assets/duotone/link-break-duotone.svg");
 		pub const LINK_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/link-simple-duotone.svg");
@@ -1967,14 +2366,17 @@ pub mod style {
 		pub const LINK_SIMPLE_HORIZONTAL: &str = include_str!("../phosphor-core/assets/duotone/link-simple-horizontal-duotone.svg");
 		pub const LINK_SIMPLE_HORIZONTAL_BREAK: &str = include_str!("../phosphor-core/assets/duotone/link-simple-horizontal-break-duotone.svg");
 		pub const LINKEDIN_LOGO: &str = include_str!("../phosphor-core/assets/duotone/linkedin-logo-duotone.svg");
+		pub const LINKTREE_LOGO: &str = include_str!("../phosphor-core/assets/duotone/linktree-logo-duotone.svg");
 		pub const LINUX_LOGO: &str = include_str!("../phosphor-core/assets/duotone/linux-logo-duotone.svg");
 		pub const LIST: &str = include_str!("../phosphor-core/assets/duotone/list-duotone.svg");
 		pub const LIST_BULLETS: &str = include_str!("../phosphor-core/assets/duotone/list-bullets-duotone.svg");
 		pub const LIST_CHECKS: &str = include_str!("../phosphor-core/assets/duotone/list-checks-duotone.svg");
 		pub const LIST_DASHES: &str = include_str!("../phosphor-core/assets/duotone/list-dashes-duotone.svg");
+		pub const LIST_HEART: &str = include_str!("../phosphor-core/assets/duotone/list-heart-duotone.svg");
 		pub const LIST_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/duotone/list-magnifying-glass-duotone.svg");
 		pub const LIST_NUMBERS: &str = include_str!("../phosphor-core/assets/duotone/list-numbers-duotone.svg");
 		pub const LIST_PLUS: &str = include_str!("../phosphor-core/assets/duotone/list-plus-duotone.svg");
+		pub const LIST_STAR: &str = include_str!("../phosphor-core/assets/duotone/list-star-duotone.svg");
 		pub const LOCK: &str = include_str!("../phosphor-core/assets/duotone/lock-duotone.svg");
 		pub const LOCK_KEY: &str = include_str!("../phosphor-core/assets/duotone/lock-key-duotone.svg");
 		pub const LOCK_KEY_OPEN: &str = include_str!("../phosphor-core/assets/duotone/lock-key-open-duotone.svg");
@@ -1984,31 +2386,45 @@ pub mod style {
 		pub const LOCK_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/lock-simple-duotone.svg");
 		pub const LOCK_SIMPLE_OPEN: &str = include_str!("../phosphor-core/assets/duotone/lock-simple-open-duotone.svg");
 		pub const LOCKERS: &str = include_str!("../phosphor-core/assets/duotone/lockers-duotone.svg");
+		pub const LOG: &str = include_str!("../phosphor-core/assets/duotone/log-duotone.svg");
 		pub const MAGIC_WAND: &str = include_str!("../phosphor-core/assets/duotone/magic-wand-duotone.svg");
 		pub const MAGNET: &str = include_str!("../phosphor-core/assets/duotone/magnet-duotone.svg");
 		pub const MAGNET_STRAIGHT: &str = include_str!("../phosphor-core/assets/duotone/magnet-straight-duotone.svg");
 		pub const MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/duotone/magnifying-glass-duotone.svg");
 		pub const MAGNIFYING_GLASS_MINUS: &str = include_str!("../phosphor-core/assets/duotone/magnifying-glass-minus-duotone.svg");
 		pub const MAGNIFYING_GLASS_PLUS: &str = include_str!("../phosphor-core/assets/duotone/magnifying-glass-plus-duotone.svg");
+		pub const MAILBOX: &str = include_str!("../phosphor-core/assets/duotone/mailbox-duotone.svg");
 		pub const MAP_PIN: &str = include_str!("../phosphor-core/assets/duotone/map-pin-duotone.svg");
+		pub const MAP_PIN_AREA: &str = include_str!("../phosphor-core/assets/duotone/map-pin-area-duotone.svg");
 		pub const MAP_PIN_LINE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-line-duotone.svg");
+		pub const MAP_PIN_PLUS: &str = include_str!("../phosphor-core/assets/duotone/map-pin-plus-duotone.svg");
+		pub const MAP_PIN_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-simple-duotone.svg");
+		pub const MAP_PIN_SIMPLE_AREA: &str = include_str!("../phosphor-core/assets/duotone/map-pin-simple-area-duotone.svg");
+		pub const MAP_PIN_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-simple-line-duotone.svg");
 		pub const MAP_TRIFOLD: &str = include_str!("../phosphor-core/assets/duotone/map-trifold-duotone.svg");
+		pub const MARKDOWN_LOGO: &str = include_str!("../phosphor-core/assets/duotone/markdown-logo-duotone.svg");
 		pub const MARKER_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/marker-circle-duotone.svg");
 		pub const MARTINI: &str = include_str!("../phosphor-core/assets/duotone/martini-duotone.svg");
 		pub const MASK_HAPPY: &str = include_str!("../phosphor-core/assets/duotone/mask-happy-duotone.svg");
 		pub const MASK_SAD: &str = include_str!("../phosphor-core/assets/duotone/mask-sad-duotone.svg");
+		pub const MASTODON_LOGO: &str = include_str!("../phosphor-core/assets/duotone/mastodon-logo-duotone.svg");
 		pub const MATH_OPERATIONS: &str = include_str!("../phosphor-core/assets/duotone/math-operations-duotone.svg");
+		pub const MATRIX_LOGO: &str = include_str!("../phosphor-core/assets/duotone/matrix-logo-duotone.svg");
 		pub const MEDAL: &str = include_str!("../phosphor-core/assets/duotone/medal-duotone.svg");
 		pub const MEDAL_MILITARY: &str = include_str!("../phosphor-core/assets/duotone/medal-military-duotone.svg");
 		pub const MEDIUM_LOGO: &str = include_str!("../phosphor-core/assets/duotone/medium-logo-duotone.svg");
 		pub const MEGAPHONE: &str = include_str!("../phosphor-core/assets/duotone/megaphone-duotone.svg");
 		pub const MEGAPHONE_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/megaphone-simple-duotone.svg");
+		pub const MEMBER_OF: &str = include_str!("../phosphor-core/assets/duotone/member-of-duotone.svg");
+		pub const MEMORY: &str = include_str!("../phosphor-core/assets/duotone/memory-duotone.svg");
 		pub const MESSENGER_LOGO: &str = include_str!("../phosphor-core/assets/duotone/messenger-logo-duotone.svg");
 		pub const META_LOGO: &str = include_str!("../phosphor-core/assets/duotone/meta-logo-duotone.svg");
+		pub const METEOR: &str = include_str!("../phosphor-core/assets/duotone/meteor-duotone.svg");
 		pub const METRONOME: &str = include_str!("../phosphor-core/assets/duotone/metronome-duotone.svg");
 		pub const MICROPHONE: &str = include_str!("../phosphor-core/assets/duotone/microphone-duotone.svg");
 		pub const MICROPHONE_SLASH: &str = include_str!("../phosphor-core/assets/duotone/microphone-slash-duotone.svg");
 		pub const MICROPHONE_STAGE: &str = include_str!("../phosphor-core/assets/duotone/microphone-stage-duotone.svg");
+		pub const MICROSCOPE: &str = include_str!("../phosphor-core/assets/duotone/microscope-duotone.svg");
 		pub const MICROSOFT_EXCEL_LOGO: &str = include_str!("../phosphor-core/assets/duotone/microsoft-excel-logo-duotone.svg");
 		pub const MICROSOFT_OUTLOOK_LOGO: &str = include_str!("../phosphor-core/assets/duotone/microsoft-outlook-logo-duotone.svg");
 		pub const MICROSOFT_POWERPOINT_LOGO: &str = include_str!("../phosphor-core/assets/duotone/microsoft-powerpoint-logo-duotone.svg");
@@ -2018,7 +2434,9 @@ pub mod style {
 		pub const MINUS_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/minus-circle-duotone.svg");
 		pub const MINUS_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/minus-square-duotone.svg");
 		pub const MONEY: &str = include_str!("../phosphor-core/assets/duotone/money-duotone.svg");
+		pub const MONEY_WAVY: &str = include_str!("../phosphor-core/assets/duotone/money-wavy-duotone.svg");
 		pub const MONITOR: &str = include_str!("../phosphor-core/assets/duotone/monitor-duotone.svg");
+		pub const MONITOR_ARROW_UP: &str = include_str!("../phosphor-core/assets/duotone/monitor-arrow-up-duotone.svg");
 		pub const MONITOR_PLAY: &str = include_str!("../phosphor-core/assets/duotone/monitor-play-duotone.svg");
 		pub const MOON: &str = include_str!("../phosphor-core/assets/duotone/moon-duotone.svg");
 		pub const MOON_STARS: &str = include_str!("../phosphor-core/assets/duotone/moon-stars-duotone.svg");
@@ -2028,16 +2446,28 @@ pub mod style {
 		pub const MOTORCYCLE: &str = include_str!("../phosphor-core/assets/duotone/motorcycle-duotone.svg");
 		pub const MOUNTAINS: &str = include_str!("../phosphor-core/assets/duotone/mountains-duotone.svg");
 		pub const MOUSE: &str = include_str!("../phosphor-core/assets/duotone/mouse-duotone.svg");
+		pub const MOUSE_LEFT_CLICK: &str = include_str!("../phosphor-core/assets/duotone/mouse-left-click-duotone.svg");
+		pub const MOUSE_MIDDLE_CLICK: &str = include_str!("../phosphor-core/assets/duotone/mouse-middle-click-duotone.svg");
+		pub const MOUSE_RIGHT_CLICK: &str = include_str!("../phosphor-core/assets/duotone/mouse-right-click-duotone.svg");
+		pub const MOUSE_SCROLL: &str = include_str!("../phosphor-core/assets/duotone/mouse-scroll-duotone.svg");
 		pub const MOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/mouse-simple-duotone.svg");
 		pub const MUSIC_NOTE: &str = include_str!("../phosphor-core/assets/duotone/music-note-duotone.svg");
 		pub const MUSIC_NOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/music-note-simple-duotone.svg");
 		pub const MUSIC_NOTES: &str = include_str!("../phosphor-core/assets/duotone/music-notes-duotone.svg");
+		pub const MUSIC_NOTES_MINUS: &str = include_str!("../phosphor-core/assets/duotone/music-notes-minus-duotone.svg");
 		pub const MUSIC_NOTES_PLUS: &str = include_str!("../phosphor-core/assets/duotone/music-notes-plus-duotone.svg");
 		pub const MUSIC_NOTES_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/music-notes-simple-duotone.svg");
 		pub const NAVIGATION_ARROW: &str = include_str!("../phosphor-core/assets/duotone/navigation-arrow-duotone.svg");
 		pub const NEEDLE: &str = include_str!("../phosphor-core/assets/duotone/needle-duotone.svg");
+		pub const NETWORK: &str = include_str!("../phosphor-core/assets/duotone/network-duotone.svg");
+		pub const NETWORK_SLASH: &str = include_str!("../phosphor-core/assets/duotone/network-slash-duotone.svg");
+		pub const NETWORK_X: &str = include_str!("../phosphor-core/assets/duotone/network-x-duotone.svg");
 		pub const NEWSPAPER: &str = include_str!("../phosphor-core/assets/duotone/newspaper-duotone.svg");
 		pub const NEWSPAPER_CLIPPING: &str = include_str!("../phosphor-core/assets/duotone/newspaper-clipping-duotone.svg");
+		pub const NOT_EQUALS: &str = include_str!("../phosphor-core/assets/duotone/not-equals-duotone.svg");
+		pub const NOT_MEMBER_OF: &str = include_str!("../phosphor-core/assets/duotone/not-member-of-duotone.svg");
+		pub const NOT_SUBSET_OF: &str = include_str!("../phosphor-core/assets/duotone/not-subset-of-duotone.svg");
+		pub const NOT_SUPERSET_OF: &str = include_str!("../phosphor-core/assets/duotone/not-superset-of-duotone.svg");
 		pub const NOTCHES: &str = include_str!("../phosphor-core/assets/duotone/notches-duotone.svg");
 		pub const NOTE: &str = include_str!("../phosphor-core/assets/duotone/note-duotone.svg");
 		pub const NOTE_BLANK: &str = include_str!("../phosphor-core/assets/duotone/note-blank-duotone.svg");
@@ -2046,6 +2476,7 @@ pub mod style {
 		pub const NOTEPAD: &str = include_str!("../phosphor-core/assets/duotone/notepad-duotone.svg");
 		pub const NOTIFICATION: &str = include_str!("../phosphor-core/assets/duotone/notification-duotone.svg");
 		pub const NOTION_LOGO: &str = include_str!("../phosphor-core/assets/duotone/notion-logo-duotone.svg");
+		pub const NUCLEAR_PLANT: &str = include_str!("../phosphor-core/assets/duotone/nuclear-plant-duotone.svg");
 		pub const NUMBER_CIRCLE_EIGHT: &str = include_str!("../phosphor-core/assets/duotone/number-circle-eight-duotone.svg");
 		pub const NUMBER_CIRCLE_FIVE: &str = include_str!("../phosphor-core/assets/duotone/number-circle-five-duotone.svg");
 		pub const NUMBER_CIRCLE_FOUR: &str = include_str!("../phosphor-core/assets/duotone/number-circle-four-duotone.svg");
@@ -2076,12 +2507,17 @@ pub mod style {
 		pub const NUMBER_THREE: &str = include_str!("../phosphor-core/assets/duotone/number-three-duotone.svg");
 		pub const NUMBER_TWO: &str = include_str!("../phosphor-core/assets/duotone/number-two-duotone.svg");
 		pub const NUMBER_ZERO: &str = include_str!("../phosphor-core/assets/duotone/number-zero-duotone.svg");
+		pub const NUMPAD: &str = include_str!("../phosphor-core/assets/duotone/numpad-duotone.svg");
 		pub const NUT: &str = include_str!("../phosphor-core/assets/duotone/nut-duotone.svg");
 		pub const NY_TIMES_LOGO: &str = include_str!("../phosphor-core/assets/duotone/ny-times-logo-duotone.svg");
 		pub const OCTAGON: &str = include_str!("../phosphor-core/assets/duotone/octagon-duotone.svg");
 		pub const OFFICE_CHAIR: &str = include_str!("../phosphor-core/assets/duotone/office-chair-duotone.svg");
+		pub const ONIGIRI: &str = include_str!("../phosphor-core/assets/duotone/onigiri-duotone.svg");
+		pub const OPEN_AI_LOGO: &str = include_str!("../phosphor-core/assets/duotone/open-ai-logo-duotone.svg");
 		pub const OPTION: &str = include_str!("../phosphor-core/assets/duotone/option-duotone.svg");
+		pub const ORANGE: &str = include_str!("../phosphor-core/assets/duotone/orange-duotone.svg");
 		pub const ORANGE_SLICE: &str = include_str!("../phosphor-core/assets/duotone/orange-slice-duotone.svg");
+		pub const OVEN: &str = include_str!("../phosphor-core/assets/duotone/oven-duotone.svg");
 		pub const PACKAGE: &str = include_str!("../phosphor-core/assets/duotone/package-duotone.svg");
 		pub const PAINT_BRUSH: &str = include_str!("../phosphor-core/assets/duotone/paint-brush-duotone.svg");
 		pub const PAINT_BRUSH_BROAD: &str = include_str!("../phosphor-core/assets/duotone/paint-brush-broad-duotone.svg");
@@ -2089,6 +2525,7 @@ pub mod style {
 		pub const PAINT_BUCKET: &str = include_str!("../phosphor-core/assets/duotone/paint-bucket-duotone.svg");
 		pub const PAINT_ROLLER: &str = include_str!("../phosphor-core/assets/duotone/paint-roller-duotone.svg");
 		pub const PALETTE: &str = include_str!("../phosphor-core/assets/duotone/palette-duotone.svg");
+		pub const PANORAMA: &str = include_str!("../phosphor-core/assets/duotone/panorama-duotone.svg");
 		pub const PANTS: &str = include_str!("../phosphor-core/assets/duotone/pants-duotone.svg");
 		pub const PAPER_PLANE: &str = include_str!("../phosphor-core/assets/duotone/paper-plane-duotone.svg");
 		pub const PAPER_PLANE_RIGHT: &str = include_str!("../phosphor-core/assets/duotone/paper-plane-right-duotone.svg");
@@ -2113,10 +2550,12 @@ pub mod style {
 		pub const PENCIL: &str = include_str!("../phosphor-core/assets/duotone/pencil-duotone.svg");
 		pub const PENCIL_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/pencil-circle-duotone.svg");
 		pub const PENCIL_LINE: &str = include_str!("../phosphor-core/assets/duotone/pencil-line-duotone.svg");
+		pub const PENCIL_RULER: &str = include_str!("../phosphor-core/assets/duotone/pencil-ruler-duotone.svg");
 		pub const PENCIL_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/pencil-simple-duotone.svg");
 		pub const PENCIL_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/duotone/pencil-simple-line-duotone.svg");
 		pub const PENCIL_SIMPLE_SLASH: &str = include_str!("../phosphor-core/assets/duotone/pencil-simple-slash-duotone.svg");
 		pub const PENCIL_SLASH: &str = include_str!("../phosphor-core/assets/duotone/pencil-slash-duotone.svg");
+		pub const PENTAGON: &str = include_str!("../phosphor-core/assets/duotone/pentagon-duotone.svg");
 		pub const PENTAGRAM: &str = include_str!("../phosphor-core/assets/duotone/pentagram-duotone.svg");
 		pub const PEPPER: &str = include_str!("../phosphor-core/assets/duotone/pepper-duotone.svg");
 		pub const PERCENT: &str = include_str!("../phosphor-core/assets/duotone/percent-duotone.svg");
@@ -2124,7 +2563,13 @@ pub mod style {
 		pub const PERSON_ARMS_SPREAD: &str = include_str!("../phosphor-core/assets/duotone/person-arms-spread-duotone.svg");
 		pub const PERSON_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-duotone.svg");
 		pub const PERSON_SIMPLE_BIKE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-bike-duotone.svg");
+		pub const PERSON_SIMPLE_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-circle-duotone.svg");
+		pub const PERSON_SIMPLE_HIKE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-hike-duotone.svg");
 		pub const PERSON_SIMPLE_RUN: &str = include_str!("../phosphor-core/assets/duotone/person-simple-run-duotone.svg");
+		pub const PERSON_SIMPLE_SKI: &str = include_str!("../phosphor-core/assets/duotone/person-simple-ski-duotone.svg");
+		pub const PERSON_SIMPLE_SNOWBOARD: &str = include_str!("../phosphor-core/assets/duotone/person-simple-snowboard-duotone.svg");
+		pub const PERSON_SIMPLE_SWIM: &str = include_str!("../phosphor-core/assets/duotone/person-simple-swim-duotone.svg");
+		pub const PERSON_SIMPLE_TAI_CHI: &str = include_str!("../phosphor-core/assets/duotone/person-simple-tai-chi-duotone.svg");
 		pub const PERSON_SIMPLE_THROW: &str = include_str!("../phosphor-core/assets/duotone/person-simple-throw-duotone.svg");
 		pub const PERSON_SIMPLE_WALK: &str = include_str!("../phosphor-core/assets/duotone/person-simple-walk-duotone.svg");
 		pub const PERSPECTIVE: &str = include_str!("../phosphor-core/assets/duotone/perspective-duotone.svg");
@@ -2132,18 +2577,27 @@ pub mod style {
 		pub const PHONE_CALL: &str = include_str!("../phosphor-core/assets/duotone/phone-call-duotone.svg");
 		pub const PHONE_DISCONNECT: &str = include_str!("../phosphor-core/assets/duotone/phone-disconnect-duotone.svg");
 		pub const PHONE_INCOMING: &str = include_str!("../phosphor-core/assets/duotone/phone-incoming-duotone.svg");
+		pub const PHONE_LIST: &str = include_str!("../phosphor-core/assets/duotone/phone-list-duotone.svg");
 		pub const PHONE_OUTGOING: &str = include_str!("../phosphor-core/assets/duotone/phone-outgoing-duotone.svg");
+		pub const PHONE_PAUSE: &str = include_str!("../phosphor-core/assets/duotone/phone-pause-duotone.svg");
 		pub const PHONE_PLUS: &str = include_str!("../phosphor-core/assets/duotone/phone-plus-duotone.svg");
 		pub const PHONE_SLASH: &str = include_str!("../phosphor-core/assets/duotone/phone-slash-duotone.svg");
+		pub const PHONE_TRANSFER: &str = include_str!("../phosphor-core/assets/duotone/phone-transfer-duotone.svg");
 		pub const PHONE_X: &str = include_str!("../phosphor-core/assets/duotone/phone-x-duotone.svg");
 		pub const PHOSPHOR_LOGO: &str = include_str!("../phosphor-core/assets/duotone/phosphor-logo-duotone.svg");
 		pub const PI: &str = include_str!("../phosphor-core/assets/duotone/pi-duotone.svg");
 		pub const PIANO_KEYS: &str = include_str!("../phosphor-core/assets/duotone/piano-keys-duotone.svg");
+		pub const PICNIC_TABLE: &str = include_str!("../phosphor-core/assets/duotone/picnic-table-duotone.svg");
 		pub const PICTURE_IN_PICTURE: &str = include_str!("../phosphor-core/assets/duotone/picture-in-picture-duotone.svg");
 		pub const PIGGY_BANK: &str = include_str!("../phosphor-core/assets/duotone/piggy-bank-duotone.svg");
 		pub const PILL: &str = include_str!("../phosphor-core/assets/duotone/pill-duotone.svg");
+		pub const PING_PONG: &str = include_str!("../phosphor-core/assets/duotone/ping-pong-duotone.svg");
+		pub const PINT_GLASS: &str = include_str!("../phosphor-core/assets/duotone/pint-glass-duotone.svg");
 		pub const PINTEREST_LOGO: &str = include_str!("../phosphor-core/assets/duotone/pinterest-logo-duotone.svg");
 		pub const PINWHEEL: &str = include_str!("../phosphor-core/assets/duotone/pinwheel-duotone.svg");
+		pub const PIPE: &str = include_str!("../phosphor-core/assets/duotone/pipe-duotone.svg");
+		pub const PIPE_WRENCH: &str = include_str!("../phosphor-core/assets/duotone/pipe-wrench-duotone.svg");
+		pub const PIX_LOGO: &str = include_str!("../phosphor-core/assets/duotone/pix-logo-duotone.svg");
 		pub const PIZZA: &str = include_str!("../phosphor-core/assets/duotone/pizza-duotone.svg");
 		pub const PLACEHOLDER: &str = include_str!("../phosphor-core/assets/duotone/placeholder-duotone.svg");
 		pub const PLANET: &str = include_str!("../phosphor-core/assets/duotone/planet-duotone.svg");
@@ -2164,6 +2618,7 @@ pub mod style {
 		pub const POLICE_CAR: &str = include_str!("../phosphor-core/assets/duotone/police-car-duotone.svg");
 		pub const POLYGON: &str = include_str!("../phosphor-core/assets/duotone/polygon-duotone.svg");
 		pub const POPCORN: &str = include_str!("../phosphor-core/assets/duotone/popcorn-duotone.svg");
+		pub const POPSICLE: &str = include_str!("../phosphor-core/assets/duotone/popsicle-duotone.svg");
 		pub const POTTED_PLANT: &str = include_str!("../phosphor-core/assets/duotone/potted-plant-duotone.svg");
 		pub const POWER: &str = include_str!("../phosphor-core/assets/duotone/power-duotone.svg");
 		pub const PRESCRIPTION: &str = include_str!("../phosphor-core/assets/duotone/prescription-duotone.svg");
@@ -2182,23 +2637,30 @@ pub mod style {
 		pub const PUZZLE_PIECE: &str = include_str!("../phosphor-core/assets/duotone/puzzle-piece-duotone.svg");
 		pub const QR_CODE: &str = include_str!("../phosphor-core/assets/duotone/qr-code-duotone.svg");
 		pub const QUESTION: &str = include_str!("../phosphor-core/assets/duotone/question-duotone.svg");
+		pub const QUESTION_MARK: &str = include_str!("../phosphor-core/assets/duotone/question-mark-duotone.svg");
 		pub const QUEUE: &str = include_str!("../phosphor-core/assets/duotone/queue-duotone.svg");
 		pub const QUOTES: &str = include_str!("../phosphor-core/assets/duotone/quotes-duotone.svg");
+		pub const RABBIT: &str = include_str!("../phosphor-core/assets/duotone/rabbit-duotone.svg");
+		pub const RACQUET: &str = include_str!("../phosphor-core/assets/duotone/racquet-duotone.svg");
 		pub const RADICAL: &str = include_str!("../phosphor-core/assets/duotone/radical-duotone.svg");
 		pub const RADIO: &str = include_str!("../phosphor-core/assets/duotone/radio-duotone.svg");
 		pub const RADIO_BUTTON: &str = include_str!("../phosphor-core/assets/duotone/radio-button-duotone.svg");
 		pub const RADIOACTIVE: &str = include_str!("../phosphor-core/assets/duotone/radioactive-duotone.svg");
 		pub const RAINBOW: &str = include_str!("../phosphor-core/assets/duotone/rainbow-duotone.svg");
 		pub const RAINBOW_CLOUD: &str = include_str!("../phosphor-core/assets/duotone/rainbow-cloud-duotone.svg");
+		pub const RANKING: &str = include_str!("../phosphor-core/assets/duotone/ranking-duotone.svg");
 		pub const READ_CV_LOGO: &str = include_str!("../phosphor-core/assets/duotone/read-cv-logo-duotone.svg");
 		pub const RECEIPT: &str = include_str!("../phosphor-core/assets/duotone/receipt-duotone.svg");
 		pub const RECEIPT_X: &str = include_str!("../phosphor-core/assets/duotone/receipt-x-duotone.svg");
 		pub const RECORD: &str = include_str!("../phosphor-core/assets/duotone/record-duotone.svg");
 		pub const RECTANGLE: &str = include_str!("../phosphor-core/assets/duotone/rectangle-duotone.svg");
+		pub const RECTANGLE_DASHED: &str = include_str!("../phosphor-core/assets/duotone/rectangle-dashed-duotone.svg");
 		pub const RECYCLE: &str = include_str!("../phosphor-core/assets/duotone/recycle-duotone.svg");
 		pub const REDDIT_LOGO: &str = include_str!("../phosphor-core/assets/duotone/reddit-logo-duotone.svg");
 		pub const REPEAT: &str = include_str!("../phosphor-core/assets/duotone/repeat-duotone.svg");
 		pub const REPEAT_ONCE: &str = include_str!("../phosphor-core/assets/duotone/repeat-once-duotone.svg");
+		pub const REPLIT_LOGO: &str = include_str!("../phosphor-core/assets/duotone/replit-logo-duotone.svg");
+		pub const RESIZE: &str = include_str!("../phosphor-core/assets/duotone/resize-duotone.svg");
 		pub const REWIND: &str = include_str!("../phosphor-core/assets/duotone/rewind-duotone.svg");
 		pub const REWIND_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/rewind-circle-duotone.svg");
 		pub const ROAD_HORIZON: &str = include_str!("../phosphor-core/assets/duotone/road-horizon-duotone.svg");
@@ -2206,21 +2668,31 @@ pub mod style {
 		pub const ROCKET: &str = include_str!("../phosphor-core/assets/duotone/rocket-duotone.svg");
 		pub const ROCKET_LAUNCH: &str = include_str!("../phosphor-core/assets/duotone/rocket-launch-duotone.svg");
 		pub const ROWS: &str = include_str!("../phosphor-core/assets/duotone/rows-duotone.svg");
+		pub const ROWS_PLUS_BOTTOM: &str = include_str!("../phosphor-core/assets/duotone/rows-plus-bottom-duotone.svg");
+		pub const ROWS_PLUS_TOP: &str = include_str!("../phosphor-core/assets/duotone/rows-plus-top-duotone.svg");
 		pub const RSS: &str = include_str!("../phosphor-core/assets/duotone/rss-duotone.svg");
 		pub const RSS_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/rss-simple-duotone.svg");
 		pub const RUG: &str = include_str!("../phosphor-core/assets/duotone/rug-duotone.svg");
 		pub const RULER: &str = include_str!("../phosphor-core/assets/duotone/ruler-duotone.svg");
+		pub const SAILBOAT: &str = include_str!("../phosphor-core/assets/duotone/sailboat-duotone.svg");
 		pub const SCALES: &str = include_str!("../phosphor-core/assets/duotone/scales-duotone.svg");
 		pub const SCAN: &str = include_str!("../phosphor-core/assets/duotone/scan-duotone.svg");
+		pub const SCAN_SMILEY: &str = include_str!("../phosphor-core/assets/duotone/scan-smiley-duotone.svg");
 		pub const SCISSORS: &str = include_str!("../phosphor-core/assets/duotone/scissors-duotone.svg");
 		pub const SCOOTER: &str = include_str!("../phosphor-core/assets/duotone/scooter-duotone.svg");
 		pub const SCREENCAST: &str = include_str!("../phosphor-core/assets/duotone/screencast-duotone.svg");
+		pub const SCREWDRIVER: &str = include_str!("../phosphor-core/assets/duotone/screwdriver-duotone.svg");
+		pub const SCRIBBLE: &str = include_str!("../phosphor-core/assets/duotone/scribble-duotone.svg");
 		pub const SCRIBBLE_LOOP: &str = include_str!("../phosphor-core/assets/duotone/scribble-loop-duotone.svg");
 		pub const SCROLL: &str = include_str!("../phosphor-core/assets/duotone/scroll-duotone.svg");
 		pub const SEAL: &str = include_str!("../phosphor-core/assets/duotone/seal-duotone.svg");
 		pub const SEAL_CHECK: &str = include_str!("../phosphor-core/assets/duotone/seal-check-duotone.svg");
+		pub const SEAL_PERCENT: &str = include_str!("../phosphor-core/assets/duotone/seal-percent-duotone.svg");
 		pub const SEAL_QUESTION: &str = include_str!("../phosphor-core/assets/duotone/seal-question-duotone.svg");
 		pub const SEAL_WARNING: &str = include_str!("../phosphor-core/assets/duotone/seal-warning-duotone.svg");
+		pub const SEAT: &str = include_str!("../phosphor-core/assets/duotone/seat-duotone.svg");
+		pub const SEATBELT: &str = include_str!("../phosphor-core/assets/duotone/seatbelt-duotone.svg");
+		pub const SECURITY_CAMERA: &str = include_str!("../phosphor-core/assets/duotone/security-camera-duotone.svg");
 		pub const SELECTION: &str = include_str!("../phosphor-core/assets/duotone/selection-duotone.svg");
 		pub const SELECTION_ALL: &str = include_str!("../phosphor-core/assets/duotone/selection-all-duotone.svg");
 		pub const SELECTION_BACKGROUND: &str = include_str!("../phosphor-core/assets/duotone/selection-background-duotone.svg");
@@ -2240,12 +2712,14 @@ pub mod style {
 		pub const SHIELD_SLASH: &str = include_str!("../phosphor-core/assets/duotone/shield-slash-duotone.svg");
 		pub const SHIELD_STAR: &str = include_str!("../phosphor-core/assets/duotone/shield-star-duotone.svg");
 		pub const SHIELD_WARNING: &str = include_str!("../phosphor-core/assets/duotone/shield-warning-duotone.svg");
+		pub const SHIPPING_CONTAINER: &str = include_str!("../phosphor-core/assets/duotone/shipping-container-duotone.svg");
 		pub const SHIRT_FOLDED: &str = include_str!("../phosphor-core/assets/duotone/shirt-folded-duotone.svg");
 		pub const SHOOTING_STAR: &str = include_str!("../phosphor-core/assets/duotone/shooting-star-duotone.svg");
 		pub const SHOPPING_BAG: &str = include_str!("../phosphor-core/assets/duotone/shopping-bag-duotone.svg");
 		pub const SHOPPING_BAG_OPEN: &str = include_str!("../phosphor-core/assets/duotone/shopping-bag-open-duotone.svg");
 		pub const SHOPPING_CART: &str = include_str!("../phosphor-core/assets/duotone/shopping-cart-duotone.svg");
 		pub const SHOPPING_CART_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/shopping-cart-simple-duotone.svg");
+		pub const SHOVEL: &str = include_str!("../phosphor-core/assets/duotone/shovel-duotone.svg");
 		pub const SHOWER: &str = include_str!("../phosphor-core/assets/duotone/shower-duotone.svg");
 		pub const SHRIMP: &str = include_str!("../phosphor-core/assets/duotone/shrimp-duotone.svg");
 		pub const SHUFFLE: &str = include_str!("../phosphor-core/assets/duotone/shuffle-duotone.svg");
@@ -2266,6 +2740,7 @@ pub mod style {
 		pub const SKIP_FORWARD: &str = include_str!("../phosphor-core/assets/duotone/skip-forward-duotone.svg");
 		pub const SKIP_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/skip-forward-circle-duotone.svg");
 		pub const SKULL: &str = include_str!("../phosphor-core/assets/duotone/skull-duotone.svg");
+		pub const SKYPE_LOGO: &str = include_str!("../phosphor-core/assets/duotone/skype-logo-duotone.svg");
 		pub const SLACK_LOGO: &str = include_str!("../phosphor-core/assets/duotone/slack-logo-duotone.svg");
 		pub const SLIDERS: &str = include_str!("../phosphor-core/assets/duotone/sliders-duotone.svg");
 		pub const SLIDERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/duotone/sliders-horizontal-duotone.svg");
@@ -2274,6 +2749,7 @@ pub mod style {
 		pub const SMILEY_ANGRY: &str = include_str!("../phosphor-core/assets/duotone/smiley-angry-duotone.svg");
 		pub const SMILEY_BLANK: &str = include_str!("../phosphor-core/assets/duotone/smiley-blank-duotone.svg");
 		pub const SMILEY_MEH: &str = include_str!("../phosphor-core/assets/duotone/smiley-meh-duotone.svg");
+		pub const SMILEY_MELTING: &str = include_str!("../phosphor-core/assets/duotone/smiley-melting-duotone.svg");
 		pub const SMILEY_NERVOUS: &str = include_str!("../phosphor-core/assets/duotone/smiley-nervous-duotone.svg");
 		pub const SMILEY_SAD: &str = include_str!("../phosphor-core/assets/duotone/smiley-sad-duotone.svg");
 		pub const SMILEY_STICKER: &str = include_str!("../phosphor-core/assets/duotone/smiley-sticker-duotone.svg");
@@ -2284,6 +2760,9 @@ pub mod style {
 		pub const SNEAKER_MOVE: &str = include_str!("../phosphor-core/assets/duotone/sneaker-move-duotone.svg");
 		pub const SNOWFLAKE: &str = include_str!("../phosphor-core/assets/duotone/snowflake-duotone.svg");
 		pub const SOCCER_BALL: &str = include_str!("../phosphor-core/assets/duotone/soccer-ball-duotone.svg");
+		pub const SOCK: &str = include_str!("../phosphor-core/assets/duotone/sock-duotone.svg");
+		pub const SOLAR_PANEL: &str = include_str!("../phosphor-core/assets/duotone/solar-panel-duotone.svg");
+		pub const SOLAR_ROOF: &str = include_str!("../phosphor-core/assets/duotone/solar-roof-duotone.svg");
 		pub const SORT_ASCENDING: &str = include_str!("../phosphor-core/assets/duotone/sort-ascending-duotone.svg");
 		pub const SORT_DESCENDING: &str = include_str!("../phosphor-core/assets/duotone/sort-descending-duotone.svg");
 		pub const SOUNDCLOUD_LOGO: &str = include_str!("../phosphor-core/assets/duotone/soundcloud-logo-duotone.svg");
@@ -2300,12 +2779,16 @@ pub mod style {
 		pub const SPEAKER_SIMPLE_X: &str = include_str!("../phosphor-core/assets/duotone/speaker-simple-x-duotone.svg");
 		pub const SPEAKER_SLASH: &str = include_str!("../phosphor-core/assets/duotone/speaker-slash-duotone.svg");
 		pub const SPEAKER_X: &str = include_str!("../phosphor-core/assets/duotone/speaker-x-duotone.svg");
+		pub const SPEEDOMETER: &str = include_str!("../phosphor-core/assets/duotone/speedometer-duotone.svg");
+		pub const SPHERE: &str = include_str!("../phosphor-core/assets/duotone/sphere-duotone.svg");
 		pub const SPINNER: &str = include_str!("../phosphor-core/assets/duotone/spinner-duotone.svg");
+		pub const SPINNER_BALL: &str = include_str!("../phosphor-core/assets/duotone/spinner-ball-duotone.svg");
 		pub const SPINNER_GAP: &str = include_str!("../phosphor-core/assets/duotone/spinner-gap-duotone.svg");
 		pub const SPIRAL: &str = include_str!("../phosphor-core/assets/duotone/spiral-duotone.svg");
 		pub const SPLIT_HORIZONTAL: &str = include_str!("../phosphor-core/assets/duotone/split-horizontal-duotone.svg");
 		pub const SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/duotone/split-vertical-duotone.svg");
 		pub const SPOTIFY_LOGO: &str = include_str!("../phosphor-core/assets/duotone/spotify-logo-duotone.svg");
+		pub const SPRAY_BOTTLE: &str = include_str!("../phosphor-core/assets/duotone/spray-bottle-duotone.svg");
 		pub const SQUARE: &str = include_str!("../phosphor-core/assets/duotone/square-duotone.svg");
 		pub const SQUARE_HALF: &str = include_str!("../phosphor-core/assets/duotone/square-half-duotone.svg");
 		pub const SQUARE_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/duotone/square-half-bottom-duotone.svg");
@@ -2314,15 +2797,19 @@ pub mod style {
 		pub const SQUARE_SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/duotone/square-split-vertical-duotone.svg");
 		pub const SQUARES_FOUR: &str = include_str!("../phosphor-core/assets/duotone/squares-four-duotone.svg");
 		pub const STACK: &str = include_str!("../phosphor-core/assets/duotone/stack-duotone.svg");
+		pub const STACK_MINUS: &str = include_str!("../phosphor-core/assets/duotone/stack-minus-duotone.svg");
 		pub const STACK_OVERFLOW_LOGO: &str = include_str!("../phosphor-core/assets/duotone/stack-overflow-logo-duotone.svg");
+		pub const STACK_PLUS: &str = include_str!("../phosphor-core/assets/duotone/stack-plus-duotone.svg");
 		pub const STACK_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/stack-simple-duotone.svg");
 		pub const STAIRS: &str = include_str!("../phosphor-core/assets/duotone/stairs-duotone.svg");
 		pub const STAMP: &str = include_str!("../phosphor-core/assets/duotone/stamp-duotone.svg");
+		pub const STANDARD_DEFINITION: &str = include_str!("../phosphor-core/assets/duotone/standard-definition-duotone.svg");
 		pub const STAR: &str = include_str!("../phosphor-core/assets/duotone/star-duotone.svg");
 		pub const STAR_AND_CRESCENT: &str = include_str!("../phosphor-core/assets/duotone/star-and-crescent-duotone.svg");
 		pub const STAR_FOUR: &str = include_str!("../phosphor-core/assets/duotone/star-four-duotone.svg");
 		pub const STAR_HALF: &str = include_str!("../phosphor-core/assets/duotone/star-half-duotone.svg");
 		pub const STAR_OF_DAVID: &str = include_str!("../phosphor-core/assets/duotone/star-of-david-duotone.svg");
+		pub const STEAM_LOGO: &str = include_str!("../phosphor-core/assets/duotone/steam-logo-duotone.svg");
 		pub const STEERING_WHEEL: &str = include_str!("../phosphor-core/assets/duotone/steering-wheel-duotone.svg");
 		pub const STEPS: &str = include_str!("../phosphor-core/assets/duotone/steps-duotone.svg");
 		pub const STETHOSCOPE: &str = include_str!("../phosphor-core/assets/duotone/stethoscope-duotone.svg");
@@ -2334,9 +2821,13 @@ pub mod style {
 		pub const STRATEGY: &str = include_str!("../phosphor-core/assets/duotone/strategy-duotone.svg");
 		pub const STRIPE_LOGO: &str = include_str!("../phosphor-core/assets/duotone/stripe-logo-duotone.svg");
 		pub const STUDENT: &str = include_str!("../phosphor-core/assets/duotone/student-duotone.svg");
+		pub const SUBSET_OF: &str = include_str!("../phosphor-core/assets/duotone/subset-of-duotone.svg");
+		pub const SUBSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/duotone/subset-proper-of-duotone.svg");
 		pub const SUBTITLES: &str = include_str!("../phosphor-core/assets/duotone/subtitles-duotone.svg");
+		pub const SUBTITLES_SLASH: &str = include_str!("../phosphor-core/assets/duotone/subtitles-slash-duotone.svg");
 		pub const SUBTRACT: &str = include_str!("../phosphor-core/assets/duotone/subtract-duotone.svg");
 		pub const SUBTRACT_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/subtract-square-duotone.svg");
+		pub const SUBWAY: &str = include_str!("../phosphor-core/assets/duotone/subway-duotone.svg");
 		pub const SUITCASE: &str = include_str!("../phosphor-core/assets/duotone/suitcase-duotone.svg");
 		pub const SUITCASE_ROLLING: &str = include_str!("../phosphor-core/assets/duotone/suitcase-rolling-duotone.svg");
 		pub const SUITCASE_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/suitcase-simple-duotone.svg");
@@ -2344,6 +2835,8 @@ pub mod style {
 		pub const SUN_DIM: &str = include_str!("../phosphor-core/assets/duotone/sun-dim-duotone.svg");
 		pub const SUN_HORIZON: &str = include_str!("../phosphor-core/assets/duotone/sun-horizon-duotone.svg");
 		pub const SUNGLASSES: &str = include_str!("../phosphor-core/assets/duotone/sunglasses-duotone.svg");
+		pub const SUPERSET_OF: &str = include_str!("../phosphor-core/assets/duotone/superset-of-duotone.svg");
+		pub const SUPERSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/duotone/superset-proper-of-duotone.svg");
 		pub const SWAP: &str = include_str!("../phosphor-core/assets/duotone/swap-duotone.svg");
 		pub const SWATCHES: &str = include_str!("../phosphor-core/assets/duotone/swatches-duotone.svg");
 		pub const SWIMMING_POOL: &str = include_str!("../phosphor-core/assets/duotone/swimming-pool-duotone.svg");
@@ -2358,6 +2851,7 @@ pub mod style {
 		pub const TAG_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/tag-simple-duotone.svg");
 		pub const TARGET: &str = include_str!("../phosphor-core/assets/duotone/target-duotone.svg");
 		pub const TAXI: &str = include_str!("../phosphor-core/assets/duotone/taxi-duotone.svg");
+		pub const TEA_BAG: &str = include_str!("../phosphor-core/assets/duotone/tea-bag-duotone.svg");
 		pub const TELEGRAM_LOGO: &str = include_str!("../phosphor-core/assets/duotone/telegram-logo-duotone.svg");
 		pub const TELEVISION: &str = include_str!("../phosphor-core/assets/duotone/television-duotone.svg");
 		pub const TELEVISION_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/television-simple-duotone.svg");
@@ -2385,28 +2879,39 @@ pub mod style {
 		pub const TEXT_ITALIC: &str = include_str!("../phosphor-core/assets/duotone/text-italic-duotone.svg");
 		pub const TEXT_OUTDENT: &str = include_str!("../phosphor-core/assets/duotone/text-outdent-duotone.svg");
 		pub const TEXT_STRIKETHROUGH: &str = include_str!("../phosphor-core/assets/duotone/text-strikethrough-duotone.svg");
+		pub const TEXT_SUBSCRIPT: &str = include_str!("../phosphor-core/assets/duotone/text-subscript-duotone.svg");
+		pub const TEXT_SUPERSCRIPT: &str = include_str!("../phosphor-core/assets/duotone/text-superscript-duotone.svg");
 		pub const TEXT_T: &str = include_str!("../phosphor-core/assets/duotone/text-t-duotone.svg");
+		pub const TEXT_T_SLASH: &str = include_str!("../phosphor-core/assets/duotone/text-t-slash-duotone.svg");
 		pub const TEXT_UNDERLINE: &str = include_str!("../phosphor-core/assets/duotone/text-underline-duotone.svg");
 		pub const TEXTBOX: &str = include_str!("../phosphor-core/assets/duotone/textbox-duotone.svg");
 		pub const THERMOMETER: &str = include_str!("../phosphor-core/assets/duotone/thermometer-duotone.svg");
 		pub const THERMOMETER_COLD: &str = include_str!("../phosphor-core/assets/duotone/thermometer-cold-duotone.svg");
 		pub const THERMOMETER_HOT: &str = include_str!("../phosphor-core/assets/duotone/thermometer-hot-duotone.svg");
 		pub const THERMOMETER_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/thermometer-simple-duotone.svg");
+		pub const THREADS_LOGO: &str = include_str!("../phosphor-core/assets/duotone/threads-logo-duotone.svg");
+		pub const THREE_D: &str = include_str!("../phosphor-core/assets/duotone/three-d-duotone.svg");
 		pub const THUMBS_DOWN: &str = include_str!("../phosphor-core/assets/duotone/thumbs-down-duotone.svg");
 		pub const THUMBS_UP: &str = include_str!("../phosphor-core/assets/duotone/thumbs-up-duotone.svg");
 		pub const TICKET: &str = include_str!("../phosphor-core/assets/duotone/ticket-duotone.svg");
 		pub const TIDAL_LOGO: &str = include_str!("../phosphor-core/assets/duotone/tidal-logo-duotone.svg");
 		pub const TIKTOK_LOGO: &str = include_str!("../phosphor-core/assets/duotone/tiktok-logo-duotone.svg");
+		pub const TILDE: &str = include_str!("../phosphor-core/assets/duotone/tilde-duotone.svg");
 		pub const TIMER: &str = include_str!("../phosphor-core/assets/duotone/timer-duotone.svg");
+		pub const TIP_JAR: &str = include_str!("../phosphor-core/assets/duotone/tip-jar-duotone.svg");
 		pub const TIPI: &str = include_str!("../phosphor-core/assets/duotone/tipi-duotone.svg");
+		pub const TIRE: &str = include_str!("../phosphor-core/assets/duotone/tire-duotone.svg");
 		pub const TOGGLE_LEFT: &str = include_str!("../phosphor-core/assets/duotone/toggle-left-duotone.svg");
 		pub const TOGGLE_RIGHT: &str = include_str!("../phosphor-core/assets/duotone/toggle-right-duotone.svg");
 		pub const TOILET: &str = include_str!("../phosphor-core/assets/duotone/toilet-duotone.svg");
 		pub const TOILET_PAPER: &str = include_str!("../phosphor-core/assets/duotone/toilet-paper-duotone.svg");
 		pub const TOOLBOX: &str = include_str!("../phosphor-core/assets/duotone/toolbox-duotone.svg");
 		pub const TOOTH: &str = include_str!("../phosphor-core/assets/duotone/tooth-duotone.svg");
+		pub const TORNADO: &str = include_str!("../phosphor-core/assets/duotone/tornado-duotone.svg");
 		pub const TOTE: &str = include_str!("../phosphor-core/assets/duotone/tote-duotone.svg");
 		pub const TOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/tote-simple-duotone.svg");
+		pub const TOWEL: &str = include_str!("../phosphor-core/assets/duotone/towel-duotone.svg");
+		pub const TRACTOR: &str = include_str!("../phosphor-core/assets/duotone/tractor-duotone.svg");
 		pub const TRADEMARK: &str = include_str!("../phosphor-core/assets/duotone/trademark-duotone.svg");
 		pub const TRADEMARK_REGISTERED: &str = include_str!("../phosphor-core/assets/duotone/trademark-registered-duotone.svg");
 		pub const TRAFFIC_CONE: &str = include_str!("../phosphor-core/assets/duotone/traffic-cone-duotone.svg");
@@ -2420,26 +2925,39 @@ pub mod style {
 		pub const TRASH: &str = include_str!("../phosphor-core/assets/duotone/trash-duotone.svg");
 		pub const TRASH_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/trash-simple-duotone.svg");
 		pub const TRAY: &str = include_str!("../phosphor-core/assets/duotone/tray-duotone.svg");
+		pub const TRAY_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/duotone/tray-arrow-down-duotone.svg");
+		pub const TRAY_ARROW_UP: &str = include_str!("../phosphor-core/assets/duotone/tray-arrow-up-duotone.svg");
+		pub const TREASURE_CHEST: &str = include_str!("../phosphor-core/assets/duotone/treasure-chest-duotone.svg");
 		pub const TREE: &str = include_str!("../phosphor-core/assets/duotone/tree-duotone.svg");
 		pub const TREE_EVERGREEN: &str = include_str!("../phosphor-core/assets/duotone/tree-evergreen-duotone.svg");
 		pub const TREE_PALM: &str = include_str!("../phosphor-core/assets/duotone/tree-palm-duotone.svg");
 		pub const TREE_STRUCTURE: &str = include_str!("../phosphor-core/assets/duotone/tree-structure-duotone.svg");
+		pub const TREE_VIEW: &str = include_str!("../phosphor-core/assets/duotone/tree-view-duotone.svg");
 		pub const TREND_DOWN: &str = include_str!("../phosphor-core/assets/duotone/trend-down-duotone.svg");
 		pub const TREND_UP: &str = include_str!("../phosphor-core/assets/duotone/trend-up-duotone.svg");
 		pub const TRIANGLE: &str = include_str!("../phosphor-core/assets/duotone/triangle-duotone.svg");
+		pub const TRIANGLE_DASHED: &str = include_str!("../phosphor-core/assets/duotone/triangle-dashed-duotone.svg");
+		pub const TROLLEY: &str = include_str!("../phosphor-core/assets/duotone/trolley-duotone.svg");
+		pub const TROLLEY_SUITCASE: &str = include_str!("../phosphor-core/assets/duotone/trolley-suitcase-duotone.svg");
 		pub const TROPHY: &str = include_str!("../phosphor-core/assets/duotone/trophy-duotone.svg");
 		pub const TRUCK: &str = include_str!("../phosphor-core/assets/duotone/truck-duotone.svg");
+		pub const TRUCK_TRAILER: &str = include_str!("../phosphor-core/assets/duotone/truck-trailer-duotone.svg");
+		pub const TUMBLR_LOGO: &str = include_str!("../phosphor-core/assets/duotone/tumblr-logo-duotone.svg");
 		pub const TWITCH_LOGO: &str = include_str!("../phosphor-core/assets/duotone/twitch-logo-duotone.svg");
 		pub const TWITTER_LOGO: &str = include_str!("../phosphor-core/assets/duotone/twitter-logo-duotone.svg");
 		pub const UMBRELLA: &str = include_str!("../phosphor-core/assets/duotone/umbrella-duotone.svg");
 		pub const UMBRELLA_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/umbrella-simple-duotone.svg");
+		pub const UNION: &str = include_str!("../phosphor-core/assets/duotone/union-duotone.svg");
 		pub const UNITE: &str = include_str!("../phosphor-core/assets/duotone/unite-duotone.svg");
 		pub const UNITE_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/unite-square-duotone.svg");
 		pub const UPLOAD: &str = include_str!("../phosphor-core/assets/duotone/upload-duotone.svg");
 		pub const UPLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/duotone/upload-simple-duotone.svg");
 		pub const USB: &str = include_str!("../phosphor-core/assets/duotone/usb-duotone.svg");
 		pub const USER: &str = include_str!("../phosphor-core/assets/duotone/user-duotone.svg");
+		pub const USER_CHECK: &str = include_str!("../phosphor-core/assets/duotone/user-check-duotone.svg");
 		pub const USER_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/user-circle-duotone.svg");
+		pub const USER_CIRCLE_CHECK: &str = include_str!("../phosphor-core/assets/duotone/user-circle-check-duotone.svg");
+		pub const USER_CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/duotone/user-circle-dashed-duotone.svg");
 		pub const USER_CIRCLE_GEAR: &str = include_str!("../phosphor-core/assets/duotone/user-circle-gear-duotone.svg");
 		pub const USER_CIRCLE_MINUS: &str = include_str!("../phosphor-core/assets/duotone/user-circle-minus-duotone.svg");
 		pub const USER_CIRCLE_PLUS: &str = include_str!("../phosphor-core/assets/duotone/user-circle-plus-duotone.svg");
@@ -2449,6 +2967,7 @@ pub mod style {
 		pub const USER_MINUS: &str = include_str!("../phosphor-core/assets/duotone/user-minus-duotone.svg");
 		pub const USER_PLUS: &str = include_str!("../phosphor-core/assets/duotone/user-plus-duotone.svg");
 		pub const USER_RECTANGLE: &str = include_str!("../phosphor-core/assets/duotone/user-rectangle-duotone.svg");
+		pub const USER_SOUND: &str = include_str!("../phosphor-core/assets/duotone/user-sound-duotone.svg");
 		pub const USER_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/user-square-duotone.svg");
 		pub const USER_SWITCH: &str = include_str!("../phosphor-core/assets/duotone/user-switch-duotone.svg");
 		pub const USERS: &str = include_str!("../phosphor-core/assets/duotone/users-duotone.svg");
@@ -2456,14 +2975,18 @@ pub mod style {
 		pub const USERS_THREE: &str = include_str!("../phosphor-core/assets/duotone/users-three-duotone.svg");
 		pub const VAN: &str = include_str!("../phosphor-core/assets/duotone/van-duotone.svg");
 		pub const VAULT: &str = include_str!("../phosphor-core/assets/duotone/vault-duotone.svg");
+		pub const VECTOR_THREE: &str = include_str!("../phosphor-core/assets/duotone/vector-three-duotone.svg");
+		pub const VECTOR_TWO: &str = include_str!("../phosphor-core/assets/duotone/vector-two-duotone.svg");
 		pub const VIBRATE: &str = include_str!("../phosphor-core/assets/duotone/vibrate-duotone.svg");
 		pub const VIDEO: &str = include_str!("../phosphor-core/assets/duotone/video-duotone.svg");
 		pub const VIDEO_CAMERA: &str = include_str!("../phosphor-core/assets/duotone/video-camera-duotone.svg");
 		pub const VIDEO_CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/duotone/video-camera-slash-duotone.svg");
+		pub const VIDEO_CONFERENCE: &str = include_str!("../phosphor-core/assets/duotone/video-conference-duotone.svg");
 		pub const VIGNETTE: &str = include_str!("../phosphor-core/assets/duotone/vignette-duotone.svg");
 		pub const VINYL_RECORD: &str = include_str!("../phosphor-core/assets/duotone/vinyl-record-duotone.svg");
 		pub const VIRTUAL_REALITY: &str = include_str!("../phosphor-core/assets/duotone/virtual-reality-duotone.svg");
 		pub const VIRUS: &str = include_str!("../phosphor-core/assets/duotone/virus-duotone.svg");
+		pub const VISOR: &str = include_str!("../phosphor-core/assets/duotone/visor-duotone.svg");
 		pub const VOICEMAIL: &str = include_str!("../phosphor-core/assets/duotone/voicemail-duotone.svg");
 		pub const VOLLEYBALL: &str = include_str!("../phosphor-core/assets/duotone/volleyball-duotone.svg");
 		pub const WALL: &str = include_str!("../phosphor-core/assets/duotone/wall-duotone.svg");
@@ -2473,12 +2996,14 @@ pub mod style {
 		pub const WARNING_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/warning-circle-duotone.svg");
 		pub const WARNING_DIAMOND: &str = include_str!("../phosphor-core/assets/duotone/warning-diamond-duotone.svg");
 		pub const WARNING_OCTAGON: &str = include_str!("../phosphor-core/assets/duotone/warning-octagon-duotone.svg");
+		pub const WASHING_MACHINE: &str = include_str!("../phosphor-core/assets/duotone/washing-machine-duotone.svg");
 		pub const WATCH: &str = include_str!("../phosphor-core/assets/duotone/watch-duotone.svg");
 		pub const WAVE_SAWTOOTH: &str = include_str!("../phosphor-core/assets/duotone/wave-sawtooth-duotone.svg");
 		pub const WAVE_SINE: &str = include_str!("../phosphor-core/assets/duotone/wave-sine-duotone.svg");
 		pub const WAVE_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/wave-square-duotone.svg");
 		pub const WAVE_TRIANGLE: &str = include_str!("../phosphor-core/assets/duotone/wave-triangle-duotone.svg");
 		pub const WAVEFORM: &str = include_str!("../phosphor-core/assets/duotone/waveform-duotone.svg");
+		pub const WAVEFORM_SLASH: &str = include_str!("../phosphor-core/assets/duotone/waveform-slash-duotone.svg");
 		pub const WAVES: &str = include_str!("../phosphor-core/assets/duotone/waves-duotone.svg");
 		pub const WEBCAM: &str = include_str!("../phosphor-core/assets/duotone/webcam-duotone.svg");
 		pub const WEBCAM_SLASH: &str = include_str!("../phosphor-core/assets/duotone/webcam-slash-duotone.svg");
@@ -2494,22 +3019,28 @@ pub mod style {
 		pub const WIFI_SLASH: &str = include_str!("../phosphor-core/assets/duotone/wifi-slash-duotone.svg");
 		pub const WIFI_X: &str = include_str!("../phosphor-core/assets/duotone/wifi-x-duotone.svg");
 		pub const WIND: &str = include_str!("../phosphor-core/assets/duotone/wind-duotone.svg");
+		pub const WINDMILL: &str = include_str!("../phosphor-core/assets/duotone/windmill-duotone.svg");
 		pub const WINDOWS_LOGO: &str = include_str!("../phosphor-core/assets/duotone/windows-logo-duotone.svg");
 		pub const WINE: &str = include_str!("../phosphor-core/assets/duotone/wine-duotone.svg");
 		pub const WRENCH: &str = include_str!("../phosphor-core/assets/duotone/wrench-duotone.svg");
 		pub const X: &str = include_str!("../phosphor-core/assets/duotone/x-duotone.svg");
 		pub const X_CIRCLE: &str = include_str!("../phosphor-core/assets/duotone/x-circle-duotone.svg");
+		pub const X_LOGO: &str = include_str!("../phosphor-core/assets/duotone/x-logo-duotone.svg");
 		pub const X_SQUARE: &str = include_str!("../phosphor-core/assets/duotone/x-square-duotone.svg");
+		pub const YARN: &str = include_str!("../phosphor-core/assets/duotone/yarn-duotone.svg");
 		pub const YIN_YANG: &str = include_str!("../phosphor-core/assets/duotone/yin-yang-duotone.svg");
 		pub const YOUTUBE_LOGO: &str = include_str!("../phosphor-core/assets/duotone/youtube-logo-duotone.svg");
 	}
 	pub mod fill {
+		pub const ACORN: &str = include_str!("../phosphor-core/assets/fill/acorn-fill.svg");
 		pub const ADDRESS_BOOK: &str = include_str!("../phosphor-core/assets/fill/address-book-fill.svg");
+		pub const ADDRESS_BOOK_TABS: &str = include_str!("../phosphor-core/assets/fill/address-book-tabs-fill.svg");
 		pub const AIR_TRAFFIC_CONTROL: &str = include_str!("../phosphor-core/assets/fill/air-traffic-control-fill.svg");
 		pub const AIRPLANE: &str = include_str!("../phosphor-core/assets/fill/airplane-fill.svg");
 		pub const AIRPLANE_IN_FLIGHT: &str = include_str!("../phosphor-core/assets/fill/airplane-in-flight-fill.svg");
 		pub const AIRPLANE_LANDING: &str = include_str!("../phosphor-core/assets/fill/airplane-landing-fill.svg");
 		pub const AIRPLANE_TAKEOFF: &str = include_str!("../phosphor-core/assets/fill/airplane-takeoff-fill.svg");
+		pub const AIRPLANE_TAXIING: &str = include_str!("../phosphor-core/assets/fill/airplane-taxiing-fill.svg");
 		pub const AIRPLANE_TILT: &str = include_str!("../phosphor-core/assets/fill/airplane-tilt-fill.svg");
 		pub const AIRPLAY: &str = include_str!("../phosphor-core/assets/fill/airplay-fill.svg");
 		pub const ALARM: &str = include_str!("../phosphor-core/assets/fill/alarm-fill.svg");
@@ -2527,18 +3058,19 @@ pub mod style {
 		pub const ALIGN_TOP: &str = include_str!("../phosphor-core/assets/fill/align-top-fill.svg");
 		pub const ALIGN_TOP_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/align-top-simple-fill.svg");
 		pub const AMAZON_LOGO: &str = include_str!("../phosphor-core/assets/fill/amazon-logo-fill.svg");
+		pub const AMBULANCE: &str = include_str!("../phosphor-core/assets/fill/ambulance-fill.svg");
 		pub const ANCHOR: &str = include_str!("../phosphor-core/assets/fill/anchor-fill.svg");
 		pub const ANCHOR_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/anchor-simple-fill.svg");
 		pub const ANDROID_LOGO: &str = include_str!("../phosphor-core/assets/fill/android-logo-fill.svg");
+		pub const ANGLE: &str = include_str!("../phosphor-core/assets/fill/angle-fill.svg");
 		pub const ANGULAR_LOGO: &str = include_str!("../phosphor-core/assets/fill/angular-logo-fill.svg");
 		pub const APERTURE: &str = include_str!("../phosphor-core/assets/fill/aperture-fill.svg");
 		pub const APP_STORE_LOGO: &str = include_str!("../phosphor-core/assets/fill/app-store-logo-fill.svg");
 		pub const APP_WINDOW: &str = include_str!("../phosphor-core/assets/fill/app-window-fill.svg");
 		pub const APPLE_LOGO: &str = include_str!("../phosphor-core/assets/fill/apple-logo-fill.svg");
 		pub const APPLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/fill/apple-podcasts-logo-fill.svg");
+		pub const APPROXIMATE_EQUALS: &str = include_str!("../phosphor-core/assets/fill/approximate-equals-fill.svg");
 		pub const ARCHIVE: &str = include_str!("../phosphor-core/assets/fill/archive-fill.svg");
-		pub const ARCHIVE_BOX: &str = include_str!("../phosphor-core/assets/fill/archive-box-fill.svg");
-		pub const ARCHIVE_TRAY: &str = include_str!("../phosphor-core/assets/fill/archive-tray-fill.svg");
 		pub const ARMCHAIR: &str = include_str!("../phosphor-core/assets/fill/armchair-fill.svg");
 		pub const ARROW_ARC_LEFT: &str = include_str!("../phosphor-core/assets/fill/arrow-arc-left-fill.svg");
 		pub const ARROW_ARC_RIGHT: &str = include_str!("../phosphor-core/assets/fill/arrow-arc-right-fill.svg");
@@ -2639,11 +3171,15 @@ pub mod style {
 		pub const ARTICLE: &str = include_str!("../phosphor-core/assets/fill/article-fill.svg");
 		pub const ARTICLE_MEDIUM: &str = include_str!("../phosphor-core/assets/fill/article-medium-fill.svg");
 		pub const ARTICLE_NY_TIMES: &str = include_str!("../phosphor-core/assets/fill/article-ny-times-fill.svg");
+		pub const ASCLEPIUS: &str = include_str!("../phosphor-core/assets/fill/asclepius-fill.svg");
 		pub const ASTERISK: &str = include_str!("../phosphor-core/assets/fill/asterisk-fill.svg");
 		pub const ASTERISK_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/asterisk-simple-fill.svg");
 		pub const AT: &str = include_str!("../phosphor-core/assets/fill/at-fill.svg");
 		pub const ATOM: &str = include_str!("../phosphor-core/assets/fill/atom-fill.svg");
+		pub const AVOCADO: &str = include_str!("../phosphor-core/assets/fill/avocado-fill.svg");
+		pub const AXE: &str = include_str!("../phosphor-core/assets/fill/axe-fill.svg");
 		pub const BABY: &str = include_str!("../phosphor-core/assets/fill/baby-fill.svg");
+		pub const BABY_CARRIAGE: &str = include_str!("../phosphor-core/assets/fill/baby-carriage-fill.svg");
 		pub const BACKPACK: &str = include_str!("../phosphor-core/assets/fill/backpack-fill.svg");
 		pub const BACKSPACE: &str = include_str!("../phosphor-core/assets/fill/backspace-fill.svg");
 		pub const BAG: &str = include_str!("../phosphor-core/assets/fill/bag-fill.svg");
@@ -2653,9 +3189,11 @@ pub mod style {
 		pub const BANK: &str = include_str!("../phosphor-core/assets/fill/bank-fill.svg");
 		pub const BARBELL: &str = include_str!("../phosphor-core/assets/fill/barbell-fill.svg");
 		pub const BARCODE: &str = include_str!("../phosphor-core/assets/fill/barcode-fill.svg");
+		pub const BARN: &str = include_str!("../phosphor-core/assets/fill/barn-fill.svg");
 		pub const BARRICADE: &str = include_str!("../phosphor-core/assets/fill/barricade-fill.svg");
 		pub const BASEBALL: &str = include_str!("../phosphor-core/assets/fill/baseball-fill.svg");
 		pub const BASEBALL_CAP: &str = include_str!("../phosphor-core/assets/fill/baseball-cap-fill.svg");
+		pub const BASEBALL_HELMET: &str = include_str!("../phosphor-core/assets/fill/baseball-helmet-fill.svg");
 		pub const BASKET: &str = include_str!("../phosphor-core/assets/fill/basket-fill.svg");
 		pub const BASKETBALL: &str = include_str!("../phosphor-core/assets/fill/basketball-fill.svg");
 		pub const BATHTUB: &str = include_str!("../phosphor-core/assets/fill/bathtub-fill.svg");
@@ -2675,6 +3213,8 @@ pub mod style {
 		pub const BATTERY_VERTICAL_MEDIUM: &str = include_str!("../phosphor-core/assets/fill/battery-vertical-medium-fill.svg");
 		pub const BATTERY_WARNING: &str = include_str!("../phosphor-core/assets/fill/battery-warning-fill.svg");
 		pub const BATTERY_WARNING_VERTICAL: &str = include_str!("../phosphor-core/assets/fill/battery-warning-vertical-fill.svg");
+		pub const BEACH_BALL: &str = include_str!("../phosphor-core/assets/fill/beach-ball-fill.svg");
+		pub const BEANIE: &str = include_str!("../phosphor-core/assets/fill/beanie-fill.svg");
 		pub const BED: &str = include_str!("../phosphor-core/assets/fill/bed-fill.svg");
 		pub const BEER_BOTTLE: &str = include_str!("../phosphor-core/assets/fill/beer-bottle-fill.svg");
 		pub const BEER_STEIN: &str = include_str!("../phosphor-core/assets/fill/beer-stein-fill.svg");
@@ -2687,34 +3227,47 @@ pub mod style {
 		pub const BELL_SIMPLE_Z: &str = include_str!("../phosphor-core/assets/fill/bell-simple-z-fill.svg");
 		pub const BELL_SLASH: &str = include_str!("../phosphor-core/assets/fill/bell-slash-fill.svg");
 		pub const BELL_Z: &str = include_str!("../phosphor-core/assets/fill/bell-z-fill.svg");
+		pub const BELT: &str = include_str!("../phosphor-core/assets/fill/belt-fill.svg");
 		pub const BEZIER_CURVE: &str = include_str!("../phosphor-core/assets/fill/bezier-curve-fill.svg");
 		pub const BICYCLE: &str = include_str!("../phosphor-core/assets/fill/bicycle-fill.svg");
+		pub const BINARY: &str = include_str!("../phosphor-core/assets/fill/binary-fill.svg");
 		pub const BINOCULARS: &str = include_str!("../phosphor-core/assets/fill/binoculars-fill.svg");
+		pub const BIOHAZARD: &str = include_str!("../phosphor-core/assets/fill/biohazard-fill.svg");
 		pub const BIRD: &str = include_str!("../phosphor-core/assets/fill/bird-fill.svg");
+		pub const BLUEPRINT: &str = include_str!("../phosphor-core/assets/fill/blueprint-fill.svg");
 		pub const BLUETOOTH: &str = include_str!("../phosphor-core/assets/fill/bluetooth-fill.svg");
 		pub const BLUETOOTH_CONNECTED: &str = include_str!("../phosphor-core/assets/fill/bluetooth-connected-fill.svg");
 		pub const BLUETOOTH_SLASH: &str = include_str!("../phosphor-core/assets/fill/bluetooth-slash-fill.svg");
 		pub const BLUETOOTH_X: &str = include_str!("../phosphor-core/assets/fill/bluetooth-x-fill.svg");
 		pub const BOAT: &str = include_str!("../phosphor-core/assets/fill/boat-fill.svg");
+		pub const BOMB: &str = include_str!("../phosphor-core/assets/fill/bomb-fill.svg");
 		pub const BONE: &str = include_str!("../phosphor-core/assets/fill/bone-fill.svg");
 		pub const BOOK: &str = include_str!("../phosphor-core/assets/fill/book-fill.svg");
 		pub const BOOK_BOOKMARK: &str = include_str!("../phosphor-core/assets/fill/book-bookmark-fill.svg");
 		pub const BOOK_OPEN: &str = include_str!("../phosphor-core/assets/fill/book-open-fill.svg");
 		pub const BOOK_OPEN_TEXT: &str = include_str!("../phosphor-core/assets/fill/book-open-text-fill.svg");
+		pub const BOOK_OPEN_USER: &str = include_str!("../phosphor-core/assets/fill/book-open-user-fill.svg");
 		pub const BOOKMARK: &str = include_str!("../phosphor-core/assets/fill/bookmark-fill.svg");
 		pub const BOOKMARK_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/bookmark-simple-fill.svg");
 		pub const BOOKMARKS: &str = include_str!("../phosphor-core/assets/fill/bookmarks-fill.svg");
 		pub const BOOKMARKS_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/bookmarks-simple-fill.svg");
 		pub const BOOKS: &str = include_str!("../phosphor-core/assets/fill/books-fill.svg");
 		pub const BOOT: &str = include_str!("../phosphor-core/assets/fill/boot-fill.svg");
+		pub const BOULES: &str = include_str!("../phosphor-core/assets/fill/boules-fill.svg");
 		pub const BOUNDING_BOX: &str = include_str!("../phosphor-core/assets/fill/bounding-box-fill.svg");
 		pub const BOWL_FOOD: &str = include_str!("../phosphor-core/assets/fill/bowl-food-fill.svg");
+		pub const BOWL_STEAM: &str = include_str!("../phosphor-core/assets/fill/bowl-steam-fill.svg");
+		pub const BOWLING_BALL: &str = include_str!("../phosphor-core/assets/fill/bowling-ball-fill.svg");
+		pub const BOX_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/fill/box-arrow-down-fill.svg");
+		pub const BOX_ARROW_UP: &str = include_str!("../phosphor-core/assets/fill/box-arrow-up-fill.svg");
+		pub const BOXING_GLOVE: &str = include_str!("../phosphor-core/assets/fill/boxing-glove-fill.svg");
 		pub const BRACKETS_ANGLE: &str = include_str!("../phosphor-core/assets/fill/brackets-angle-fill.svg");
 		pub const BRACKETS_CURLY: &str = include_str!("../phosphor-core/assets/fill/brackets-curly-fill.svg");
 		pub const BRACKETS_ROUND: &str = include_str!("../phosphor-core/assets/fill/brackets-round-fill.svg");
 		pub const BRACKETS_SQUARE: &str = include_str!("../phosphor-core/assets/fill/brackets-square-fill.svg");
 		pub const BRAIN: &str = include_str!("../phosphor-core/assets/fill/brain-fill.svg");
 		pub const BRANDY: &str = include_str!("../phosphor-core/assets/fill/brandy-fill.svg");
+		pub const BREAD: &str = include_str!("../phosphor-core/assets/fill/bread-fill.svg");
 		pub const BRIDGE: &str = include_str!("../phosphor-core/assets/fill/bridge-fill.svg");
 		pub const BRIEFCASE: &str = include_str!("../phosphor-core/assets/fill/briefcase-fill.svg");
 		pub const BRIEFCASE_METAL: &str = include_str!("../phosphor-core/assets/fill/briefcase-metal-fill.svg");
@@ -2725,16 +3278,27 @@ pub mod style {
 		pub const BUG: &str = include_str!("../phosphor-core/assets/fill/bug-fill.svg");
 		pub const BUG_BEETLE: &str = include_str!("../phosphor-core/assets/fill/bug-beetle-fill.svg");
 		pub const BUG_DROID: &str = include_str!("../phosphor-core/assets/fill/bug-droid-fill.svg");
+		pub const BUILDING: &str = include_str!("../phosphor-core/assets/fill/building-fill.svg");
+		pub const BUILDING_APARTMENT: &str = include_str!("../phosphor-core/assets/fill/building-apartment-fill.svg");
+		pub const BUILDING_OFFICE: &str = include_str!("../phosphor-core/assets/fill/building-office-fill.svg");
 		pub const BUILDINGS: &str = include_str!("../phosphor-core/assets/fill/buildings-fill.svg");
+		pub const BULLDOZER: &str = include_str!("../phosphor-core/assets/fill/bulldozer-fill.svg");
 		pub const BUS: &str = include_str!("../phosphor-core/assets/fill/bus-fill.svg");
 		pub const BUTTERFLY: &str = include_str!("../phosphor-core/assets/fill/butterfly-fill.svg");
+		pub const CABLE_CAR: &str = include_str!("../phosphor-core/assets/fill/cable-car-fill.svg");
 		pub const CACTUS: &str = include_str!("../phosphor-core/assets/fill/cactus-fill.svg");
 		pub const CAKE: &str = include_str!("../phosphor-core/assets/fill/cake-fill.svg");
 		pub const CALCULATOR: &str = include_str!("../phosphor-core/assets/fill/calculator-fill.svg");
 		pub const CALENDAR: &str = include_str!("../phosphor-core/assets/fill/calendar-fill.svg");
 		pub const CALENDAR_BLANK: &str = include_str!("../phosphor-core/assets/fill/calendar-blank-fill.svg");
 		pub const CALENDAR_CHECK: &str = include_str!("../phosphor-core/assets/fill/calendar-check-fill.svg");
+		pub const CALENDAR_DOT: &str = include_str!("../phosphor-core/assets/fill/calendar-dot-fill.svg");
+		pub const CALENDAR_DOTS: &str = include_str!("../phosphor-core/assets/fill/calendar-dots-fill.svg");
+		pub const CALENDAR_HEART: &str = include_str!("../phosphor-core/assets/fill/calendar-heart-fill.svg");
+		pub const CALENDAR_MINUS: &str = include_str!("../phosphor-core/assets/fill/calendar-minus-fill.svg");
 		pub const CALENDAR_PLUS: &str = include_str!("../phosphor-core/assets/fill/calendar-plus-fill.svg");
+		pub const CALENDAR_SLASH: &str = include_str!("../phosphor-core/assets/fill/calendar-slash-fill.svg");
+		pub const CALENDAR_STAR: &str = include_str!("../phosphor-core/assets/fill/calendar-star-fill.svg");
 		pub const CALENDAR_X: &str = include_str!("../phosphor-core/assets/fill/calendar-x-fill.svg");
 		pub const CALL_BELL: &str = include_str!("../phosphor-core/assets/fill/call-bell-fill.svg");
 		pub const CAMERA: &str = include_str!("../phosphor-core/assets/fill/camera-fill.svg");
@@ -2743,10 +3307,12 @@ pub mod style {
 		pub const CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/fill/camera-slash-fill.svg");
 		pub const CAMPFIRE: &str = include_str!("../phosphor-core/assets/fill/campfire-fill.svg");
 		pub const CAR: &str = include_str!("../phosphor-core/assets/fill/car-fill.svg");
+		pub const CAR_BATTERY: &str = include_str!("../phosphor-core/assets/fill/car-battery-fill.svg");
 		pub const CAR_PROFILE: &str = include_str!("../phosphor-core/assets/fill/car-profile-fill.svg");
 		pub const CAR_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/car-simple-fill.svg");
 		pub const CARDHOLDER: &str = include_str!("../phosphor-core/assets/fill/cardholder-fill.svg");
 		pub const CARDS: &str = include_str!("../phosphor-core/assets/fill/cards-fill.svg");
+		pub const CARDS_THREE: &str = include_str!("../phosphor-core/assets/fill/cards-three-fill.svg");
 		pub const CARET_CIRCLE_DOUBLE_DOWN: &str = include_str!("../phosphor-core/assets/fill/caret-circle-double-down-fill.svg");
 		pub const CARET_CIRCLE_DOUBLE_LEFT: &str = include_str!("../phosphor-core/assets/fill/caret-circle-double-left-fill.svg");
 		pub const CARET_CIRCLE_DOUBLE_RIGHT: &str = include_str!("../phosphor-core/assets/fill/caret-circle-double-right-fill.svg");
@@ -2762,10 +3328,15 @@ pub mod style {
 		pub const CARET_DOUBLE_UP: &str = include_str!("../phosphor-core/assets/fill/caret-double-up-fill.svg");
 		pub const CARET_DOWN: &str = include_str!("../phosphor-core/assets/fill/caret-down-fill.svg");
 		pub const CARET_LEFT: &str = include_str!("../phosphor-core/assets/fill/caret-left-fill.svg");
+		pub const CARET_LINE_DOWN: &str = include_str!("../phosphor-core/assets/fill/caret-line-down-fill.svg");
+		pub const CARET_LINE_LEFT: &str = include_str!("../phosphor-core/assets/fill/caret-line-left-fill.svg");
+		pub const CARET_LINE_RIGHT: &str = include_str!("../phosphor-core/assets/fill/caret-line-right-fill.svg");
+		pub const CARET_LINE_UP: &str = include_str!("../phosphor-core/assets/fill/caret-line-up-fill.svg");
 		pub const CARET_RIGHT: &str = include_str!("../phosphor-core/assets/fill/caret-right-fill.svg");
 		pub const CARET_UP: &str = include_str!("../phosphor-core/assets/fill/caret-up-fill.svg");
 		pub const CARET_UP_DOWN: &str = include_str!("../phosphor-core/assets/fill/caret-up-down-fill.svg");
 		pub const CARROT: &str = include_str!("../phosphor-core/assets/fill/carrot-fill.svg");
+		pub const CASH_REGISTER: &str = include_str!("../phosphor-core/assets/fill/cash-register-fill.svg");
 		pub const CASSETTE_TAPE: &str = include_str!("../phosphor-core/assets/fill/cassette-tape-fill.svg");
 		pub const CASTLE_TURRET: &str = include_str!("../phosphor-core/assets/fill/castle-turret-fill.svg");
 		pub const CAT: &str = include_str!("../phosphor-core/assets/fill/cat-fill.svg");
@@ -2776,6 +3347,7 @@ pub mod style {
 		pub const CELL_SIGNAL_NONE: &str = include_str!("../phosphor-core/assets/fill/cell-signal-none-fill.svg");
 		pub const CELL_SIGNAL_SLASH: &str = include_str!("../phosphor-core/assets/fill/cell-signal-slash-fill.svg");
 		pub const CELL_SIGNAL_X: &str = include_str!("../phosphor-core/assets/fill/cell-signal-x-fill.svg");
+		pub const CELL_TOWER: &str = include_str!("../phosphor-core/assets/fill/cell-tower-fill.svg");
 		pub const CERTIFICATE: &str = include_str!("../phosphor-core/assets/fill/certificate-fill.svg");
 		pub const CHAIR: &str = include_str!("../phosphor-core/assets/fill/chair-fill.svg");
 		pub const CHALKBOARD: &str = include_str!("../phosphor-core/assets/fill/chalkboard-fill.svg");
@@ -2796,13 +3368,17 @@ pub mod style {
 		pub const CHAT: &str = include_str!("../phosphor-core/assets/fill/chat-fill.svg");
 		pub const CHAT_CENTERED: &str = include_str!("../phosphor-core/assets/fill/chat-centered-fill.svg");
 		pub const CHAT_CENTERED_DOTS: &str = include_str!("../phosphor-core/assets/fill/chat-centered-dots-fill.svg");
+		pub const CHAT_CENTERED_SLASH: &str = include_str!("../phosphor-core/assets/fill/chat-centered-slash-fill.svg");
 		pub const CHAT_CENTERED_TEXT: &str = include_str!("../phosphor-core/assets/fill/chat-centered-text-fill.svg");
 		pub const CHAT_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/chat-circle-fill.svg");
 		pub const CHAT_CIRCLE_DOTS: &str = include_str!("../phosphor-core/assets/fill/chat-circle-dots-fill.svg");
+		pub const CHAT_CIRCLE_SLASH: &str = include_str!("../phosphor-core/assets/fill/chat-circle-slash-fill.svg");
 		pub const CHAT_CIRCLE_TEXT: &str = include_str!("../phosphor-core/assets/fill/chat-circle-text-fill.svg");
 		pub const CHAT_DOTS: &str = include_str!("../phosphor-core/assets/fill/chat-dots-fill.svg");
+		pub const CHAT_SLASH: &str = include_str!("../phosphor-core/assets/fill/chat-slash-fill.svg");
 		pub const CHAT_TEARDROP: &str = include_str!("../phosphor-core/assets/fill/chat-teardrop-fill.svg");
 		pub const CHAT_TEARDROP_DOTS: &str = include_str!("../phosphor-core/assets/fill/chat-teardrop-dots-fill.svg");
+		pub const CHAT_TEARDROP_SLASH: &str = include_str!("../phosphor-core/assets/fill/chat-teardrop-slash-fill.svg");
 		pub const CHAT_TEARDROP_TEXT: &str = include_str!("../phosphor-core/assets/fill/chat-teardrop-text-fill.svg");
 		pub const CHAT_TEXT: &str = include_str!("../phosphor-core/assets/fill/chat-text-fill.svg");
 		pub const CHATS: &str = include_str!("../phosphor-core/assets/fill/chats-fill.svg");
@@ -2813,8 +3389,15 @@ pub mod style {
 		pub const CHECK_FAT: &str = include_str!("../phosphor-core/assets/fill/check-fat-fill.svg");
 		pub const CHECK_SQUARE: &str = include_str!("../phosphor-core/assets/fill/check-square-fill.svg");
 		pub const CHECK_SQUARE_OFFSET: &str = include_str!("../phosphor-core/assets/fill/check-square-offset-fill.svg");
+		pub const CHECKERBOARD: &str = include_str!("../phosphor-core/assets/fill/checkerboard-fill.svg");
 		pub const CHECKS: &str = include_str!("../phosphor-core/assets/fill/checks-fill.svg");
+		pub const CHEERS: &str = include_str!("../phosphor-core/assets/fill/cheers-fill.svg");
+		pub const CHEESE: &str = include_str!("../phosphor-core/assets/fill/cheese-fill.svg");
+		pub const CHEF_HAT: &str = include_str!("../phosphor-core/assets/fill/chef-hat-fill.svg");
+		pub const CHERRIES: &str = include_str!("../phosphor-core/assets/fill/cherries-fill.svg");
 		pub const CHURCH: &str = include_str!("../phosphor-core/assets/fill/church-fill.svg");
+		pub const CIGARETTE: &str = include_str!("../phosphor-core/assets/fill/cigarette-fill.svg");
+		pub const CIGARETTE_SLASH: &str = include_str!("../phosphor-core/assets/fill/cigarette-slash-fill.svg");
 		pub const CIRCLE: &str = include_str!("../phosphor-core/assets/fill/circle-fill.svg");
 		pub const CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/fill/circle-dashed-fill.svg");
 		pub const CIRCLE_HALF: &str = include_str!("../phosphor-core/assets/fill/circle-half-fill.svg");
@@ -2824,6 +3407,7 @@ pub mod style {
 		pub const CIRCLES_THREE: &str = include_str!("../phosphor-core/assets/fill/circles-three-fill.svg");
 		pub const CIRCLES_THREE_PLUS: &str = include_str!("../phosphor-core/assets/fill/circles-three-plus-fill.svg");
 		pub const CIRCUITRY: &str = include_str!("../phosphor-core/assets/fill/circuitry-fill.svg");
+		pub const CITY: &str = include_str!("../phosphor-core/assets/fill/city-fill.svg");
 		pub const CLIPBOARD: &str = include_str!("../phosphor-core/assets/fill/clipboard-fill.svg");
 		pub const CLIPBOARD_TEXT: &str = include_str!("../phosphor-core/assets/fill/clipboard-text-fill.svg");
 		pub const CLOCK: &str = include_str!("../phosphor-core/assets/fill/clock-fill.svg");
@@ -2831,6 +3415,7 @@ pub mod style {
 		pub const CLOCK_CLOCKWISE: &str = include_str!("../phosphor-core/assets/fill/clock-clockwise-fill.svg");
 		pub const CLOCK_COUNTDOWN: &str = include_str!("../phosphor-core/assets/fill/clock-countdown-fill.svg");
 		pub const CLOCK_COUNTER_CLOCKWISE: &str = include_str!("../phosphor-core/assets/fill/clock-counter-clockwise-fill.svg");
+		pub const CLOCK_USER: &str = include_str!("../phosphor-core/assets/fill/clock-user-fill.svg");
 		pub const CLOSED_CAPTIONING: &str = include_str!("../phosphor-core/assets/fill/closed-captioning-fill.svg");
 		pub const CLOUD: &str = include_str!("../phosphor-core/assets/fill/cloud-fill.svg");
 		pub const CLOUD_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/fill/cloud-arrow-down-fill.svg");
@@ -2845,6 +3430,7 @@ pub mod style {
 		pub const CLOUD_SUN: &str = include_str!("../phosphor-core/assets/fill/cloud-sun-fill.svg");
 		pub const CLOUD_WARNING: &str = include_str!("../phosphor-core/assets/fill/cloud-warning-fill.svg");
 		pub const CLOUD_X: &str = include_str!("../phosphor-core/assets/fill/cloud-x-fill.svg");
+		pub const CLOVER: &str = include_str!("../phosphor-core/assets/fill/clover-fill.svg");
 		pub const CLUB: &str = include_str!("../phosphor-core/assets/fill/club-fill.svg");
 		pub const COAT_HANGER: &str = include_str!("../phosphor-core/assets/fill/coat-hanger-fill.svg");
 		pub const CODA_LOGO: &str = include_str!("../phosphor-core/assets/fill/coda-logo-fill.svg");
@@ -2854,12 +3440,16 @@ pub mod style {
 		pub const CODEPEN_LOGO: &str = include_str!("../phosphor-core/assets/fill/codepen-logo-fill.svg");
 		pub const CODESANDBOX_LOGO: &str = include_str!("../phosphor-core/assets/fill/codesandbox-logo-fill.svg");
 		pub const COFFEE: &str = include_str!("../phosphor-core/assets/fill/coffee-fill.svg");
+		pub const COFFEE_BEAN: &str = include_str!("../phosphor-core/assets/fill/coffee-bean-fill.svg");
 		pub const COIN: &str = include_str!("../phosphor-core/assets/fill/coin-fill.svg");
 		pub const COIN_VERTICAL: &str = include_str!("../phosphor-core/assets/fill/coin-vertical-fill.svg");
 		pub const COINS: &str = include_str!("../phosphor-core/assets/fill/coins-fill.svg");
 		pub const COLUMNS: &str = include_str!("../phosphor-core/assets/fill/columns-fill.svg");
+		pub const COLUMNS_PLUS_LEFT: &str = include_str!("../phosphor-core/assets/fill/columns-plus-left-fill.svg");
+		pub const COLUMNS_PLUS_RIGHT: &str = include_str!("../phosphor-core/assets/fill/columns-plus-right-fill.svg");
 		pub const COMMAND: &str = include_str!("../phosphor-core/assets/fill/command-fill.svg");
 		pub const COMPASS: &str = include_str!("../phosphor-core/assets/fill/compass-fill.svg");
+		pub const COMPASS_ROSE: &str = include_str!("../phosphor-core/assets/fill/compass-rose-fill.svg");
 		pub const COMPASS_TOOL: &str = include_str!("../phosphor-core/assets/fill/compass-tool-fill.svg");
 		pub const COMPUTER_TOWER: &str = include_str!("../phosphor-core/assets/fill/computer-tower-fill.svg");
 		pub const CONFETTI: &str = include_str!("../phosphor-core/assets/fill/confetti-fill.svg");
@@ -2874,13 +3464,20 @@ pub mod style {
 		pub const CORNERS_IN: &str = include_str!("../phosphor-core/assets/fill/corners-in-fill.svg");
 		pub const CORNERS_OUT: &str = include_str!("../phosphor-core/assets/fill/corners-out-fill.svg");
 		pub const COUCH: &str = include_str!("../phosphor-core/assets/fill/couch-fill.svg");
+		pub const COURT_BASKETBALL: &str = include_str!("../phosphor-core/assets/fill/court-basketball-fill.svg");
+		pub const COW: &str = include_str!("../phosphor-core/assets/fill/cow-fill.svg");
+		pub const COWBOY_HAT: &str = include_str!("../phosphor-core/assets/fill/cowboy-hat-fill.svg");
 		pub const CPU: &str = include_str!("../phosphor-core/assets/fill/cpu-fill.svg");
+		pub const CRANE: &str = include_str!("../phosphor-core/assets/fill/crane-fill.svg");
+		pub const CRANE_TOWER: &str = include_str!("../phosphor-core/assets/fill/crane-tower-fill.svg");
 		pub const CREDIT_CARD: &str = include_str!("../phosphor-core/assets/fill/credit-card-fill.svg");
+		pub const CRICKET: &str = include_str!("../phosphor-core/assets/fill/cricket-fill.svg");
 		pub const CROP: &str = include_str!("../phosphor-core/assets/fill/crop-fill.svg");
 		pub const CROSS: &str = include_str!("../phosphor-core/assets/fill/cross-fill.svg");
 		pub const CROSSHAIR: &str = include_str!("../phosphor-core/assets/fill/crosshair-fill.svg");
 		pub const CROSSHAIR_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/crosshair-simple-fill.svg");
 		pub const CROWN: &str = include_str!("../phosphor-core/assets/fill/crown-fill.svg");
+		pub const CROWN_CROSS: &str = include_str!("../phosphor-core/assets/fill/crown-cross-fill.svg");
 		pub const CROWN_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/crown-simple-fill.svg");
 		pub const CUBE: &str = include_str!("../phosphor-core/assets/fill/cube-fill.svg");
 		pub const CUBE_FOCUS: &str = include_str!("../phosphor-core/assets/fill/cube-focus-fill.svg");
@@ -2904,13 +3501,16 @@ pub mod style {
 		pub const CURSOR_TEXT: &str = include_str!("../phosphor-core/assets/fill/cursor-text-fill.svg");
 		pub const CYLINDER: &str = include_str!("../phosphor-core/assets/fill/cylinder-fill.svg");
 		pub const DATABASE: &str = include_str!("../phosphor-core/assets/fill/database-fill.svg");
+		pub const DESK: &str = include_str!("../phosphor-core/assets/fill/desk-fill.svg");
 		pub const DESKTOP: &str = include_str!("../phosphor-core/assets/fill/desktop-fill.svg");
 		pub const DESKTOP_TOWER: &str = include_str!("../phosphor-core/assets/fill/desktop-tower-fill.svg");
 		pub const DETECTIVE: &str = include_str!("../phosphor-core/assets/fill/detective-fill.svg");
 		pub const DEV_TO_LOGO: &str = include_str!("../phosphor-core/assets/fill/dev-to-logo-fill.svg");
 		pub const DEVICE_MOBILE: &str = include_str!("../phosphor-core/assets/fill/device-mobile-fill.svg");
 		pub const DEVICE_MOBILE_CAMERA: &str = include_str!("../phosphor-core/assets/fill/device-mobile-camera-fill.svg");
+		pub const DEVICE_MOBILE_SLASH: &str = include_str!("../phosphor-core/assets/fill/device-mobile-slash-fill.svg");
 		pub const DEVICE_MOBILE_SPEAKER: &str = include_str!("../phosphor-core/assets/fill/device-mobile-speaker-fill.svg");
+		pub const DEVICE_ROTATE: &str = include_str!("../phosphor-core/assets/fill/device-rotate-fill.svg");
 		pub const DEVICE_TABLET: &str = include_str!("../phosphor-core/assets/fill/device-tablet-fill.svg");
 		pub const DEVICE_TABLET_CAMERA: &str = include_str!("../phosphor-core/assets/fill/device-tablet-camera-fill.svg");
 		pub const DEVICE_TABLET_SPEAKER: &str = include_str!("../phosphor-core/assets/fill/device-tablet-speaker-fill.svg");
@@ -2924,6 +3524,7 @@ pub mod style {
 		pub const DICE_THREE: &str = include_str!("../phosphor-core/assets/fill/dice-three-fill.svg");
 		pub const DICE_TWO: &str = include_str!("../phosphor-core/assets/fill/dice-two-fill.svg");
 		pub const DISC: &str = include_str!("../phosphor-core/assets/fill/disc-fill.svg");
+		pub const DISCO_BALL: &str = include_str!("../phosphor-core/assets/fill/disco-ball-fill.svg");
 		pub const DISCORD_LOGO: &str = include_str!("../phosphor-core/assets/fill/discord-logo-fill.svg");
 		pub const DIVIDE: &str = include_str!("../phosphor-core/assets/fill/divide-fill.svg");
 		pub const DNA: &str = include_str!("../phosphor-core/assets/fill/dna-fill.svg");
@@ -2944,10 +3545,14 @@ pub mod style {
 		pub const DOWNLOAD: &str = include_str!("../phosphor-core/assets/fill/download-fill.svg");
 		pub const DOWNLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/download-simple-fill.svg");
 		pub const DRESS: &str = include_str!("../phosphor-core/assets/fill/dress-fill.svg");
+		pub const DRESSER: &str = include_str!("../phosphor-core/assets/fill/dresser-fill.svg");
 		pub const DRIBBBLE_LOGO: &str = include_str!("../phosphor-core/assets/fill/dribbble-logo-fill.svg");
+		pub const DRONE: &str = include_str!("../phosphor-core/assets/fill/drone-fill.svg");
 		pub const DROP: &str = include_str!("../phosphor-core/assets/fill/drop-fill.svg");
 		pub const DROP_HALF: &str = include_str!("../phosphor-core/assets/fill/drop-half-fill.svg");
 		pub const DROP_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/fill/drop-half-bottom-fill.svg");
+		pub const DROP_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/drop-simple-fill.svg");
+		pub const DROP_SLASH: &str = include_str!("../phosphor-core/assets/fill/drop-slash-fill.svg");
 		pub const DROPBOX_LOGO: &str = include_str!("../phosphor-core/assets/fill/dropbox-logo-fill.svg");
 		pub const EAR: &str = include_str!("../phosphor-core/assets/fill/ear-fill.svg");
 		pub const EAR_SLASH: &str = include_str!("../phosphor-core/assets/fill/ear-slash-fill.svg");
@@ -2956,6 +3561,7 @@ pub mod style {
 		pub const EJECT: &str = include_str!("../phosphor-core/assets/fill/eject-fill.svg");
 		pub const EJECT_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/eject-simple-fill.svg");
 		pub const ELEVATOR: &str = include_str!("../phosphor-core/assets/fill/elevator-fill.svg");
+		pub const EMPTY: &str = include_str!("../phosphor-core/assets/fill/empty-fill.svg");
 		pub const ENGINE: &str = include_str!("../phosphor-core/assets/fill/engine-fill.svg");
 		pub const ENVELOPE: &str = include_str!("../phosphor-core/assets/fill/envelope-fill.svg");
 		pub const ENVELOPE_OPEN: &str = include_str!("../phosphor-core/assets/fill/envelope-open-fill.svg");
@@ -2967,6 +3573,7 @@ pub mod style {
 		pub const ESCALATOR_DOWN: &str = include_str!("../phosphor-core/assets/fill/escalator-down-fill.svg");
 		pub const ESCALATOR_UP: &str = include_str!("../phosphor-core/assets/fill/escalator-up-fill.svg");
 		pub const EXAM: &str = include_str!("../phosphor-core/assets/fill/exam-fill.svg");
+		pub const EXCLAMATION_MARK: &str = include_str!("../phosphor-core/assets/fill/exclamation-mark-fill.svg");
 		pub const EXCLUDE: &str = include_str!("../phosphor-core/assets/fill/exclude-fill.svg");
 		pub const EXCLUDE_SQUARE: &str = include_str!("../phosphor-core/assets/fill/exclude-square-fill.svg");
 		pub const EXPORT: &str = include_str!("../phosphor-core/assets/fill/export-fill.svg");
@@ -2976,45 +3583,56 @@ pub mod style {
 		pub const EYEDROPPER: &str = include_str!("../phosphor-core/assets/fill/eyedropper-fill.svg");
 		pub const EYEDROPPER_SAMPLE: &str = include_str!("../phosphor-core/assets/fill/eyedropper-sample-fill.svg");
 		pub const EYEGLASSES: &str = include_str!("../phosphor-core/assets/fill/eyeglasses-fill.svg");
+		pub const EYES: &str = include_str!("../phosphor-core/assets/fill/eyes-fill.svg");
 		pub const FACE_MASK: &str = include_str!("../phosphor-core/assets/fill/face-mask-fill.svg");
 		pub const FACEBOOK_LOGO: &str = include_str!("../phosphor-core/assets/fill/facebook-logo-fill.svg");
 		pub const FACTORY: &str = include_str!("../phosphor-core/assets/fill/factory-fill.svg");
 		pub const FADERS: &str = include_str!("../phosphor-core/assets/fill/faders-fill.svg");
 		pub const FADERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/fill/faders-horizontal-fill.svg");
+		pub const FALLOUT_SHELTER: &str = include_str!("../phosphor-core/assets/fill/fallout-shelter-fill.svg");
 		pub const FAN: &str = include_str!("../phosphor-core/assets/fill/fan-fill.svg");
+		pub const FARM: &str = include_str!("../phosphor-core/assets/fill/farm-fill.svg");
 		pub const FAST_FORWARD: &str = include_str!("../phosphor-core/assets/fill/fast-forward-fill.svg");
 		pub const FAST_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/fast-forward-circle-fill.svg");
 		pub const FEATHER: &str = include_str!("../phosphor-core/assets/fill/feather-fill.svg");
+		pub const FEDIVERSE_LOGO: &str = include_str!("../phosphor-core/assets/fill/fediverse-logo-fill.svg");
 		pub const FIGMA_LOGO: &str = include_str!("../phosphor-core/assets/fill/figma-logo-fill.svg");
 		pub const FILE: &str = include_str!("../phosphor-core/assets/fill/file-fill.svg");
 		pub const FILE_ARCHIVE: &str = include_str!("../phosphor-core/assets/fill/file-archive-fill.svg");
 		pub const FILE_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/fill/file-arrow-down-fill.svg");
 		pub const FILE_ARROW_UP: &str = include_str!("../phosphor-core/assets/fill/file-arrow-up-fill.svg");
 		pub const FILE_AUDIO: &str = include_str!("../phosphor-core/assets/fill/file-audio-fill.svg");
+		pub const FILE_C: &str = include_str!("../phosphor-core/assets/fill/file-c-fill.svg");
+		pub const FILE_C_SHARP: &str = include_str!("../phosphor-core/assets/fill/file-c-sharp-fill.svg");
 		pub const FILE_CLOUD: &str = include_str!("../phosphor-core/assets/fill/file-cloud-fill.svg");
 		pub const FILE_CODE: &str = include_str!("../phosphor-core/assets/fill/file-code-fill.svg");
+		pub const FILE_CPP: &str = include_str!("../phosphor-core/assets/fill/file-cpp-fill.svg");
 		pub const FILE_CSS: &str = include_str!("../phosphor-core/assets/fill/file-css-fill.svg");
 		pub const FILE_CSV: &str = include_str!("../phosphor-core/assets/fill/file-csv-fill.svg");
 		pub const FILE_DASHED: &str = include_str!("../phosphor-core/assets/fill/file-dashed-fill.svg");
 		pub const FILE_DOC: &str = include_str!("../phosphor-core/assets/fill/file-doc-fill.svg");
 		pub const FILE_HTML: &str = include_str!("../phosphor-core/assets/fill/file-html-fill.svg");
 		pub const FILE_IMAGE: &str = include_str!("../phosphor-core/assets/fill/file-image-fill.svg");
+		pub const FILE_INI: &str = include_str!("../phosphor-core/assets/fill/file-ini-fill.svg");
 		pub const FILE_JPG: &str = include_str!("../phosphor-core/assets/fill/file-jpg-fill.svg");
 		pub const FILE_JS: &str = include_str!("../phosphor-core/assets/fill/file-js-fill.svg");
 		pub const FILE_JSX: &str = include_str!("../phosphor-core/assets/fill/file-jsx-fill.svg");
 		pub const FILE_LOCK: &str = include_str!("../phosphor-core/assets/fill/file-lock-fill.svg");
 		pub const FILE_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/fill/file-magnifying-glass-fill.svg");
+		pub const FILE_MD: &str = include_str!("../phosphor-core/assets/fill/file-md-fill.svg");
 		pub const FILE_MINUS: &str = include_str!("../phosphor-core/assets/fill/file-minus-fill.svg");
 		pub const FILE_PDF: &str = include_str!("../phosphor-core/assets/fill/file-pdf-fill.svg");
 		pub const FILE_PLUS: &str = include_str!("../phosphor-core/assets/fill/file-plus-fill.svg");
 		pub const FILE_PNG: &str = include_str!("../phosphor-core/assets/fill/file-png-fill.svg");
 		pub const FILE_PPT: &str = include_str!("../phosphor-core/assets/fill/file-ppt-fill.svg");
+		pub const FILE_PY: &str = include_str!("../phosphor-core/assets/fill/file-py-fill.svg");
 		pub const FILE_RS: &str = include_str!("../phosphor-core/assets/fill/file-rs-fill.svg");
 		pub const FILE_SQL: &str = include_str!("../phosphor-core/assets/fill/file-sql-fill.svg");
 		pub const FILE_SVG: &str = include_str!("../phosphor-core/assets/fill/file-svg-fill.svg");
 		pub const FILE_TEXT: &str = include_str!("../phosphor-core/assets/fill/file-text-fill.svg");
 		pub const FILE_TS: &str = include_str!("../phosphor-core/assets/fill/file-ts-fill.svg");
 		pub const FILE_TSX: &str = include_str!("../phosphor-core/assets/fill/file-tsx-fill.svg");
+		pub const FILE_TXT: &str = include_str!("../phosphor-core/assets/fill/file-txt-fill.svg");
 		pub const FILE_VIDEO: &str = include_str!("../phosphor-core/assets/fill/file-video-fill.svg");
 		pub const FILE_VUE: &str = include_str!("../phosphor-core/assets/fill/file-vue-fill.svg");
 		pub const FILE_X: &str = include_str!("../phosphor-core/assets/fill/file-x-fill.svg");
@@ -3031,17 +3649,21 @@ pub mod style {
 		pub const FIRE: &str = include_str!("../phosphor-core/assets/fill/fire-fill.svg");
 		pub const FIRE_EXTINGUISHER: &str = include_str!("../phosphor-core/assets/fill/fire-extinguisher-fill.svg");
 		pub const FIRE_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/fire-simple-fill.svg");
+		pub const FIRE_TRUCK: &str = include_str!("../phosphor-core/assets/fill/fire-truck-fill.svg");
 		pub const FIRST_AID: &str = include_str!("../phosphor-core/assets/fill/first-aid-fill.svg");
 		pub const FIRST_AID_KIT: &str = include_str!("../phosphor-core/assets/fill/first-aid-kit-fill.svg");
 		pub const FISH: &str = include_str!("../phosphor-core/assets/fill/fish-fill.svg");
 		pub const FISH_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/fish-simple-fill.svg");
 		pub const FLAG: &str = include_str!("../phosphor-core/assets/fill/flag-fill.svg");
 		pub const FLAG_BANNER: &str = include_str!("../phosphor-core/assets/fill/flag-banner-fill.svg");
+		pub const FLAG_BANNER_FOLD: &str = include_str!("../phosphor-core/assets/fill/flag-banner-fold-fill.svg");
 		pub const FLAG_CHECKERED: &str = include_str!("../phosphor-core/assets/fill/flag-checkered-fill.svg");
 		pub const FLAG_PENNANT: &str = include_str!("../phosphor-core/assets/fill/flag-pennant-fill.svg");
 		pub const FLAME: &str = include_str!("../phosphor-core/assets/fill/flame-fill.svg");
 		pub const FLASHLIGHT: &str = include_str!("../phosphor-core/assets/fill/flashlight-fill.svg");
 		pub const FLASK: &str = include_str!("../phosphor-core/assets/fill/flask-fill.svg");
+		pub const FLIP_HORIZONTAL: &str = include_str!("../phosphor-core/assets/fill/flip-horizontal-fill.svg");
+		pub const FLIP_VERTICAL: &str = include_str!("../phosphor-core/assets/fill/flip-vertical-fill.svg");
 		pub const FLOPPY_DISK: &str = include_str!("../phosphor-core/assets/fill/floppy-disk-fill.svg");
 		pub const FLOPPY_DISK_BACK: &str = include_str!("../phosphor-core/assets/fill/floppy-disk-back-fill.svg");
 		pub const FLOW_ARROW: &str = include_str!("../phosphor-core/assets/fill/flow-arrow-fill.svg");
@@ -3053,10 +3675,6 @@ pub mod style {
 		pub const FOLDER_DASHED: &str = include_str!("../phosphor-core/assets/fill/folder-dashed-fill.svg");
 		pub const FOLDER_LOCK: &str = include_str!("../phosphor-core/assets/fill/folder-lock-fill.svg");
 		pub const FOLDER_MINUS: &str = include_str!("../phosphor-core/assets/fill/folder-minus-fill.svg");
-		pub const FOLDER_NOTCH: &str = include_str!("../phosphor-core/assets/fill/folder-notch-fill.svg");
-		pub const FOLDER_NOTCH_MINUS: &str = include_str!("../phosphor-core/assets/fill/folder-notch-minus-fill.svg");
-		pub const FOLDER_NOTCH_OPEN: &str = include_str!("../phosphor-core/assets/fill/folder-notch-open-fill.svg");
-		pub const FOLDER_NOTCH_PLUS: &str = include_str!("../phosphor-core/assets/fill/folder-notch-plus-fill.svg");
 		pub const FOLDER_OPEN: &str = include_str!("../phosphor-core/assets/fill/folder-open-fill.svg");
 		pub const FOLDER_PLUS: &str = include_str!("../phosphor-core/assets/fill/folder-plus-fill.svg");
 		pub const FOLDER_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/folder-simple-fill.svg");
@@ -3070,13 +3688,17 @@ pub mod style {
 		pub const FOLDER_USER: &str = include_str!("../phosphor-core/assets/fill/folder-user-fill.svg");
 		pub const FOLDERS: &str = include_str!("../phosphor-core/assets/fill/folders-fill.svg");
 		pub const FOOTBALL: &str = include_str!("../phosphor-core/assets/fill/football-fill.svg");
+		pub const FOOTBALL_HELMET: &str = include_str!("../phosphor-core/assets/fill/football-helmet-fill.svg");
 		pub const FOOTPRINTS: &str = include_str!("../phosphor-core/assets/fill/footprints-fill.svg");
 		pub const FORK_KNIFE: &str = include_str!("../phosphor-core/assets/fill/fork-knife-fill.svg");
+		pub const FOUR_K: &str = include_str!("../phosphor-core/assets/fill/four-k-fill.svg");
 		pub const FRAME_CORNERS: &str = include_str!("../phosphor-core/assets/fill/frame-corners-fill.svg");
 		pub const FRAMER_LOGO: &str = include_str!("../phosphor-core/assets/fill/framer-logo-fill.svg");
 		pub const FUNCTION: &str = include_str!("../phosphor-core/assets/fill/function-fill.svg");
 		pub const FUNNEL: &str = include_str!("../phosphor-core/assets/fill/funnel-fill.svg");
 		pub const FUNNEL_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/funnel-simple-fill.svg");
+		pub const FUNNEL_SIMPLE_X: &str = include_str!("../phosphor-core/assets/fill/funnel-simple-x-fill.svg");
+		pub const FUNNEL_X: &str = include_str!("../phosphor-core/assets/fill/funnel-x-fill.svg");
 		pub const GAME_CONTROLLER: &str = include_str!("../phosphor-core/assets/fill/game-controller-fill.svg");
 		pub const GARAGE: &str = include_str!("../phosphor-core/assets/fill/garage-fill.svg");
 		pub const GAS_CAN: &str = include_str!("../phosphor-core/assets/fill/gas-can-fill.svg");
@@ -3108,8 +3730,11 @@ pub mod style {
 		pub const GLOBE_HEMISPHERE_EAST: &str = include_str!("../phosphor-core/assets/fill/globe-hemisphere-east-fill.svg");
 		pub const GLOBE_HEMISPHERE_WEST: &str = include_str!("../phosphor-core/assets/fill/globe-hemisphere-west-fill.svg");
 		pub const GLOBE_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/globe-simple-fill.svg");
+		pub const GLOBE_SIMPLE_X: &str = include_str!("../phosphor-core/assets/fill/globe-simple-x-fill.svg");
 		pub const GLOBE_STAND: &str = include_str!("../phosphor-core/assets/fill/globe-stand-fill.svg");
+		pub const GLOBE_X: &str = include_str!("../phosphor-core/assets/fill/globe-x-fill.svg");
 		pub const GOGGLES: &str = include_str!("../phosphor-core/assets/fill/goggles-fill.svg");
+		pub const GOLF: &str = include_str!("../phosphor-core/assets/fill/golf-fill.svg");
 		pub const GOODREADS_LOGO: &str = include_str!("../phosphor-core/assets/fill/goodreads-logo-fill.svg");
 		pub const GOOGLE_CARDBOARD_LOGO: &str = include_str!("../phosphor-core/assets/fill/google-cardboard-logo-fill.svg");
 		pub const GOOGLE_CHROME_LOGO: &str = include_str!("../phosphor-core/assets/fill/google-chrome-logo-fill.svg");
@@ -3118,29 +3743,41 @@ pub mod style {
 		pub const GOOGLE_PHOTOS_LOGO: &str = include_str!("../phosphor-core/assets/fill/google-photos-logo-fill.svg");
 		pub const GOOGLE_PLAY_LOGO: &str = include_str!("../phosphor-core/assets/fill/google-play-logo-fill.svg");
 		pub const GOOGLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/fill/google-podcasts-logo-fill.svg");
+		pub const GPS: &str = include_str!("../phosphor-core/assets/fill/gps-fill.svg");
+		pub const GPS_FIX: &str = include_str!("../phosphor-core/assets/fill/gps-fix-fill.svg");
+		pub const GPS_SLASH: &str = include_str!("../phosphor-core/assets/fill/gps-slash-fill.svg");
 		pub const GRADIENT: &str = include_str!("../phosphor-core/assets/fill/gradient-fill.svg");
 		pub const GRADUATION_CAP: &str = include_str!("../phosphor-core/assets/fill/graduation-cap-fill.svg");
 		pub const GRAINS: &str = include_str!("../phosphor-core/assets/fill/grains-fill.svg");
 		pub const GRAINS_SLASH: &str = include_str!("../phosphor-core/assets/fill/grains-slash-fill.svg");
 		pub const GRAPH: &str = include_str!("../phosphor-core/assets/fill/graph-fill.svg");
+		pub const GRAPHICS_CARD: &str = include_str!("../phosphor-core/assets/fill/graphics-card-fill.svg");
+		pub const GREATER_THAN: &str = include_str!("../phosphor-core/assets/fill/greater-than-fill.svg");
+		pub const GREATER_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/fill/greater-than-or-equal-fill.svg");
 		pub const GRID_FOUR: &str = include_str!("../phosphor-core/assets/fill/grid-four-fill.svg");
 		pub const GRID_NINE: &str = include_str!("../phosphor-core/assets/fill/grid-nine-fill.svg");
 		pub const GUITAR: &str = include_str!("../phosphor-core/assets/fill/guitar-fill.svg");
+		pub const HAIR_DRYER: &str = include_str!("../phosphor-core/assets/fill/hair-dryer-fill.svg");
 		pub const HAMBURGER: &str = include_str!("../phosphor-core/assets/fill/hamburger-fill.svg");
 		pub const HAMMER: &str = include_str!("../phosphor-core/assets/fill/hammer-fill.svg");
 		pub const HAND: &str = include_str!("../phosphor-core/assets/fill/hand-fill.svg");
+		pub const HAND_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/fill/hand-arrow-down-fill.svg");
+		pub const HAND_ARROW_UP: &str = include_str!("../phosphor-core/assets/fill/hand-arrow-up-fill.svg");
 		pub const HAND_COINS: &str = include_str!("../phosphor-core/assets/fill/hand-coins-fill.svg");
+		pub const HAND_DEPOSIT: &str = include_str!("../phosphor-core/assets/fill/hand-deposit-fill.svg");
 		pub const HAND_EYE: &str = include_str!("../phosphor-core/assets/fill/hand-eye-fill.svg");
 		pub const HAND_FIST: &str = include_str!("../phosphor-core/assets/fill/hand-fist-fill.svg");
 		pub const HAND_GRABBING: &str = include_str!("../phosphor-core/assets/fill/hand-grabbing-fill.svg");
 		pub const HAND_HEART: &str = include_str!("../phosphor-core/assets/fill/hand-heart-fill.svg");
 		pub const HAND_PALM: &str = include_str!("../phosphor-core/assets/fill/hand-palm-fill.svg");
+		pub const HAND_PEACE: &str = include_str!("../phosphor-core/assets/fill/hand-peace-fill.svg");
 		pub const HAND_POINTING: &str = include_str!("../phosphor-core/assets/fill/hand-pointing-fill.svg");
 		pub const HAND_SOAP: &str = include_str!("../phosphor-core/assets/fill/hand-soap-fill.svg");
 		pub const HAND_SWIPE_LEFT: &str = include_str!("../phosphor-core/assets/fill/hand-swipe-left-fill.svg");
 		pub const HAND_SWIPE_RIGHT: &str = include_str!("../phosphor-core/assets/fill/hand-swipe-right-fill.svg");
 		pub const HAND_TAP: &str = include_str!("../phosphor-core/assets/fill/hand-tap-fill.svg");
 		pub const HAND_WAVING: &str = include_str!("../phosphor-core/assets/fill/hand-waving-fill.svg");
+		pub const HAND_WITHDRAW: &str = include_str!("../phosphor-core/assets/fill/hand-withdraw-fill.svg");
 		pub const HANDBAG: &str = include_str!("../phosphor-core/assets/fill/handbag-fill.svg");
 		pub const HANDBAG_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/handbag-simple-fill.svg");
 		pub const HANDS_CLAPPING: &str = include_str!("../phosphor-core/assets/fill/hands-clapping-fill.svg");
@@ -3148,8 +3785,10 @@ pub mod style {
 		pub const HANDSHAKE: &str = include_str!("../phosphor-core/assets/fill/handshake-fill.svg");
 		pub const HARD_DRIVE: &str = include_str!("../phosphor-core/assets/fill/hard-drive-fill.svg");
 		pub const HARD_DRIVES: &str = include_str!("../phosphor-core/assets/fill/hard-drives-fill.svg");
+		pub const HARD_HAT: &str = include_str!("../phosphor-core/assets/fill/hard-hat-fill.svg");
 		pub const HASH: &str = include_str!("../phosphor-core/assets/fill/hash-fill.svg");
 		pub const HASH_STRAIGHT: &str = include_str!("../phosphor-core/assets/fill/hash-straight-fill.svg");
+		pub const HEAD_CIRCUIT: &str = include_str!("../phosphor-core/assets/fill/head-circuit-fill.svg");
 		pub const HEADLIGHTS: &str = include_str!("../phosphor-core/assets/fill/headlights-fill.svg");
 		pub const HEADPHONES: &str = include_str!("../phosphor-core/assets/fill/headphones-fill.svg");
 		pub const HEADSET: &str = include_str!("../phosphor-core/assets/fill/headset-fill.svg");
@@ -3160,10 +3799,14 @@ pub mod style {
 		pub const HEART_STRAIGHT_BREAK: &str = include_str!("../phosphor-core/assets/fill/heart-straight-break-fill.svg");
 		pub const HEARTBEAT: &str = include_str!("../phosphor-core/assets/fill/heartbeat-fill.svg");
 		pub const HEXAGON: &str = include_str!("../phosphor-core/assets/fill/hexagon-fill.svg");
+		pub const HIGH_DEFINITION: &str = include_str!("../phosphor-core/assets/fill/high-definition-fill.svg");
 		pub const HIGH_HEEL: &str = include_str!("../phosphor-core/assets/fill/high-heel-fill.svg");
+		pub const HIGHLIGHTER: &str = include_str!("../phosphor-core/assets/fill/highlighter-fill.svg");
 		pub const HIGHLIGHTER_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/highlighter-circle-fill.svg");
+		pub const HOCKEY: &str = include_str!("../phosphor-core/assets/fill/hockey-fill.svg");
 		pub const HOODIE: &str = include_str!("../phosphor-core/assets/fill/hoodie-fill.svg");
 		pub const HORSE: &str = include_str!("../phosphor-core/assets/fill/horse-fill.svg");
+		pub const HOSPITAL: &str = include_str!("../phosphor-core/assets/fill/hospital-fill.svg");
 		pub const HOURGLASS: &str = include_str!("../phosphor-core/assets/fill/hourglass-fill.svg");
 		pub const HOURGLASS_HIGH: &str = include_str!("../phosphor-core/assets/fill/hourglass-high-fill.svg");
 		pub const HOURGLASS_LOW: &str = include_str!("../phosphor-core/assets/fill/hourglass-low-fill.svg");
@@ -3175,10 +3818,12 @@ pub mod style {
 		pub const HOUSE: &str = include_str!("../phosphor-core/assets/fill/house-fill.svg");
 		pub const HOUSE_LINE: &str = include_str!("../phosphor-core/assets/fill/house-line-fill.svg");
 		pub const HOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/house-simple-fill.svg");
+		pub const HURRICANE: &str = include_str!("../phosphor-core/assets/fill/hurricane-fill.svg");
 		pub const ICE_CREAM: &str = include_str!("../phosphor-core/assets/fill/ice-cream-fill.svg");
 		pub const IDENTIFICATION_BADGE: &str = include_str!("../phosphor-core/assets/fill/identification-badge-fill.svg");
 		pub const IDENTIFICATION_CARD: &str = include_str!("../phosphor-core/assets/fill/identification-card-fill.svg");
 		pub const IMAGE: &str = include_str!("../phosphor-core/assets/fill/image-fill.svg");
+		pub const IMAGE_BROKEN: &str = include_str!("../phosphor-core/assets/fill/image-broken-fill.svg");
 		pub const IMAGE_SQUARE: &str = include_str!("../phosphor-core/assets/fill/image-square-fill.svg");
 		pub const IMAGES: &str = include_str!("../phosphor-core/assets/fill/images-fill.svg");
 		pub const IMAGES_SQUARE: &str = include_str!("../phosphor-core/assets/fill/images-square-fill.svg");
@@ -3188,7 +3833,13 @@ pub mod style {
 		pub const INTERSECT: &str = include_str!("../phosphor-core/assets/fill/intersect-fill.svg");
 		pub const INTERSECT_SQUARE: &str = include_str!("../phosphor-core/assets/fill/intersect-square-fill.svg");
 		pub const INTERSECT_THREE: &str = include_str!("../phosphor-core/assets/fill/intersect-three-fill.svg");
+		pub const INTERSECTION: &str = include_str!("../phosphor-core/assets/fill/intersection-fill.svg");
+		pub const INVOICE: &str = include_str!("../phosphor-core/assets/fill/invoice-fill.svg");
+		pub const ISLAND: &str = include_str!("../phosphor-core/assets/fill/island-fill.svg");
+		pub const JAR: &str = include_str!("../phosphor-core/assets/fill/jar-fill.svg");
+		pub const JAR_LABEL: &str = include_str!("../phosphor-core/assets/fill/jar-label-fill.svg");
 		pub const JEEP: &str = include_str!("../phosphor-core/assets/fill/jeep-fill.svg");
+		pub const JOYSTICK: &str = include_str!("../phosphor-core/assets/fill/joystick-fill.svg");
 		pub const KANBAN: &str = include_str!("../phosphor-core/assets/fill/kanban-fill.svg");
 		pub const KEY: &str = include_str!("../phosphor-core/assets/fill/key-fill.svg");
 		pub const KEY_RETURN: &str = include_str!("../phosphor-core/assets/fill/key-return-fill.svg");
@@ -3198,9 +3849,20 @@ pub mod style {
 		pub const LADDER: &str = include_str!("../phosphor-core/assets/fill/ladder-fill.svg");
 		pub const LADDER_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/ladder-simple-fill.svg");
 		pub const LAMP: &str = include_str!("../phosphor-core/assets/fill/lamp-fill.svg");
+		pub const LAMP_PENDANT: &str = include_str!("../phosphor-core/assets/fill/lamp-pendant-fill.svg");
 		pub const LAPTOP: &str = include_str!("../phosphor-core/assets/fill/laptop-fill.svg");
+		pub const LASSO: &str = include_str!("../phosphor-core/assets/fill/lasso-fill.svg");
+		pub const LASTFM_LOGO: &str = include_str!("../phosphor-core/assets/fill/lastfm-logo-fill.svg");
 		pub const LAYOUT: &str = include_str!("../phosphor-core/assets/fill/layout-fill.svg");
 		pub const LEAF: &str = include_str!("../phosphor-core/assets/fill/leaf-fill.svg");
+		pub const LECTERN: &str = include_str!("../phosphor-core/assets/fill/lectern-fill.svg");
+		pub const LEGO: &str = include_str!("../phosphor-core/assets/fill/lego-fill.svg");
+		pub const LEGO_SMILEY: &str = include_str!("../phosphor-core/assets/fill/lego-smiley-fill.svg");
+		pub const LESS_THAN: &str = include_str!("../phosphor-core/assets/fill/less-than-fill.svg");
+		pub const LESS_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/fill/less-than-or-equal-fill.svg");
+		pub const LETTER_CIRCLE_H: &str = include_str!("../phosphor-core/assets/fill/letter-circle-h-fill.svg");
+		pub const LETTER_CIRCLE_P: &str = include_str!("../phosphor-core/assets/fill/letter-circle-p-fill.svg");
+		pub const LETTER_CIRCLE_V: &str = include_str!("../phosphor-core/assets/fill/letter-circle-v-fill.svg");
 		pub const LIFEBUOY: &str = include_str!("../phosphor-core/assets/fill/lifebuoy-fill.svg");
 		pub const LIGHTBULB: &str = include_str!("../phosphor-core/assets/fill/lightbulb-fill.svg");
 		pub const LIGHTBULB_FILAMENT: &str = include_str!("../phosphor-core/assets/fill/lightbulb-filament-fill.svg");
@@ -3210,6 +3872,7 @@ pub mod style {
 		pub const LIGHTNING_SLASH: &str = include_str!("../phosphor-core/assets/fill/lightning-slash-fill.svg");
 		pub const LINE_SEGMENT: &str = include_str!("../phosphor-core/assets/fill/line-segment-fill.svg");
 		pub const LINE_SEGMENTS: &str = include_str!("../phosphor-core/assets/fill/line-segments-fill.svg");
+		pub const LINE_VERTICAL: &str = include_str!("../phosphor-core/assets/fill/line-vertical-fill.svg");
 		pub const LINK: &str = include_str!("../phosphor-core/assets/fill/link-fill.svg");
 		pub const LINK_BREAK: &str = include_str!("../phosphor-core/assets/fill/link-break-fill.svg");
 		pub const LINK_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/link-simple-fill.svg");
@@ -3217,14 +3880,17 @@ pub mod style {
 		pub const LINK_SIMPLE_HORIZONTAL: &str = include_str!("../phosphor-core/assets/fill/link-simple-horizontal-fill.svg");
 		pub const LINK_SIMPLE_HORIZONTAL_BREAK: &str = include_str!("../phosphor-core/assets/fill/link-simple-horizontal-break-fill.svg");
 		pub const LINKEDIN_LOGO: &str = include_str!("../phosphor-core/assets/fill/linkedin-logo-fill.svg");
+		pub const LINKTREE_LOGO: &str = include_str!("../phosphor-core/assets/fill/linktree-logo-fill.svg");
 		pub const LINUX_LOGO: &str = include_str!("../phosphor-core/assets/fill/linux-logo-fill.svg");
 		pub const LIST: &str = include_str!("../phosphor-core/assets/fill/list-fill.svg");
 		pub const LIST_BULLETS: &str = include_str!("../phosphor-core/assets/fill/list-bullets-fill.svg");
 		pub const LIST_CHECKS: &str = include_str!("../phosphor-core/assets/fill/list-checks-fill.svg");
 		pub const LIST_DASHES: &str = include_str!("../phosphor-core/assets/fill/list-dashes-fill.svg");
+		pub const LIST_HEART: &str = include_str!("../phosphor-core/assets/fill/list-heart-fill.svg");
 		pub const LIST_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/fill/list-magnifying-glass-fill.svg");
 		pub const LIST_NUMBERS: &str = include_str!("../phosphor-core/assets/fill/list-numbers-fill.svg");
 		pub const LIST_PLUS: &str = include_str!("../phosphor-core/assets/fill/list-plus-fill.svg");
+		pub const LIST_STAR: &str = include_str!("../phosphor-core/assets/fill/list-star-fill.svg");
 		pub const LOCK: &str = include_str!("../phosphor-core/assets/fill/lock-fill.svg");
 		pub const LOCK_KEY: &str = include_str!("../phosphor-core/assets/fill/lock-key-fill.svg");
 		pub const LOCK_KEY_OPEN: &str = include_str!("../phosphor-core/assets/fill/lock-key-open-fill.svg");
@@ -3234,31 +3900,45 @@ pub mod style {
 		pub const LOCK_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/lock-simple-fill.svg");
 		pub const LOCK_SIMPLE_OPEN: &str = include_str!("../phosphor-core/assets/fill/lock-simple-open-fill.svg");
 		pub const LOCKERS: &str = include_str!("../phosphor-core/assets/fill/lockers-fill.svg");
+		pub const LOG: &str = include_str!("../phosphor-core/assets/fill/log-fill.svg");
 		pub const MAGIC_WAND: &str = include_str!("../phosphor-core/assets/fill/magic-wand-fill.svg");
 		pub const MAGNET: &str = include_str!("../phosphor-core/assets/fill/magnet-fill.svg");
 		pub const MAGNET_STRAIGHT: &str = include_str!("../phosphor-core/assets/fill/magnet-straight-fill.svg");
 		pub const MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/fill/magnifying-glass-fill.svg");
 		pub const MAGNIFYING_GLASS_MINUS: &str = include_str!("../phosphor-core/assets/fill/magnifying-glass-minus-fill.svg");
 		pub const MAGNIFYING_GLASS_PLUS: &str = include_str!("../phosphor-core/assets/fill/magnifying-glass-plus-fill.svg");
+		pub const MAILBOX: &str = include_str!("../phosphor-core/assets/fill/mailbox-fill.svg");
 		pub const MAP_PIN: &str = include_str!("../phosphor-core/assets/fill/map-pin-fill.svg");
+		pub const MAP_PIN_AREA: &str = include_str!("../phosphor-core/assets/fill/map-pin-area-fill.svg");
 		pub const MAP_PIN_LINE: &str = include_str!("../phosphor-core/assets/fill/map-pin-line-fill.svg");
+		pub const MAP_PIN_PLUS: &str = include_str!("../phosphor-core/assets/fill/map-pin-plus-fill.svg");
+		pub const MAP_PIN_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/map-pin-simple-fill.svg");
+		pub const MAP_PIN_SIMPLE_AREA: &str = include_str!("../phosphor-core/assets/fill/map-pin-simple-area-fill.svg");
+		pub const MAP_PIN_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/fill/map-pin-simple-line-fill.svg");
 		pub const MAP_TRIFOLD: &str = include_str!("../phosphor-core/assets/fill/map-trifold-fill.svg");
+		pub const MARKDOWN_LOGO: &str = include_str!("../phosphor-core/assets/fill/markdown-logo-fill.svg");
 		pub const MARKER_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/marker-circle-fill.svg");
 		pub const MARTINI: &str = include_str!("../phosphor-core/assets/fill/martini-fill.svg");
 		pub const MASK_HAPPY: &str = include_str!("../phosphor-core/assets/fill/mask-happy-fill.svg");
 		pub const MASK_SAD: &str = include_str!("../phosphor-core/assets/fill/mask-sad-fill.svg");
+		pub const MASTODON_LOGO: &str = include_str!("../phosphor-core/assets/fill/mastodon-logo-fill.svg");
 		pub const MATH_OPERATIONS: &str = include_str!("../phosphor-core/assets/fill/math-operations-fill.svg");
+		pub const MATRIX_LOGO: &str = include_str!("../phosphor-core/assets/fill/matrix-logo-fill.svg");
 		pub const MEDAL: &str = include_str!("../phosphor-core/assets/fill/medal-fill.svg");
 		pub const MEDAL_MILITARY: &str = include_str!("../phosphor-core/assets/fill/medal-military-fill.svg");
 		pub const MEDIUM_LOGO: &str = include_str!("../phosphor-core/assets/fill/medium-logo-fill.svg");
 		pub const MEGAPHONE: &str = include_str!("../phosphor-core/assets/fill/megaphone-fill.svg");
 		pub const MEGAPHONE_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/megaphone-simple-fill.svg");
+		pub const MEMBER_OF: &str = include_str!("../phosphor-core/assets/fill/member-of-fill.svg");
+		pub const MEMORY: &str = include_str!("../phosphor-core/assets/fill/memory-fill.svg");
 		pub const MESSENGER_LOGO: &str = include_str!("../phosphor-core/assets/fill/messenger-logo-fill.svg");
 		pub const META_LOGO: &str = include_str!("../phosphor-core/assets/fill/meta-logo-fill.svg");
+		pub const METEOR: &str = include_str!("../phosphor-core/assets/fill/meteor-fill.svg");
 		pub const METRONOME: &str = include_str!("../phosphor-core/assets/fill/metronome-fill.svg");
 		pub const MICROPHONE: &str = include_str!("../phosphor-core/assets/fill/microphone-fill.svg");
 		pub const MICROPHONE_SLASH: &str = include_str!("../phosphor-core/assets/fill/microphone-slash-fill.svg");
 		pub const MICROPHONE_STAGE: &str = include_str!("../phosphor-core/assets/fill/microphone-stage-fill.svg");
+		pub const MICROSCOPE: &str = include_str!("../phosphor-core/assets/fill/microscope-fill.svg");
 		pub const MICROSOFT_EXCEL_LOGO: &str = include_str!("../phosphor-core/assets/fill/microsoft-excel-logo-fill.svg");
 		pub const MICROSOFT_OUTLOOK_LOGO: &str = include_str!("../phosphor-core/assets/fill/microsoft-outlook-logo-fill.svg");
 		pub const MICROSOFT_POWERPOINT_LOGO: &str = include_str!("../phosphor-core/assets/fill/microsoft-powerpoint-logo-fill.svg");
@@ -3268,7 +3948,9 @@ pub mod style {
 		pub const MINUS_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/minus-circle-fill.svg");
 		pub const MINUS_SQUARE: &str = include_str!("../phosphor-core/assets/fill/minus-square-fill.svg");
 		pub const MONEY: &str = include_str!("../phosphor-core/assets/fill/money-fill.svg");
+		pub const MONEY_WAVY: &str = include_str!("../phosphor-core/assets/fill/money-wavy-fill.svg");
 		pub const MONITOR: &str = include_str!("../phosphor-core/assets/fill/monitor-fill.svg");
+		pub const MONITOR_ARROW_UP: &str = include_str!("../phosphor-core/assets/fill/monitor-arrow-up-fill.svg");
 		pub const MONITOR_PLAY: &str = include_str!("../phosphor-core/assets/fill/monitor-play-fill.svg");
 		pub const MOON: &str = include_str!("../phosphor-core/assets/fill/moon-fill.svg");
 		pub const MOON_STARS: &str = include_str!("../phosphor-core/assets/fill/moon-stars-fill.svg");
@@ -3278,16 +3960,28 @@ pub mod style {
 		pub const MOTORCYCLE: &str = include_str!("../phosphor-core/assets/fill/motorcycle-fill.svg");
 		pub const MOUNTAINS: &str = include_str!("../phosphor-core/assets/fill/mountains-fill.svg");
 		pub const MOUSE: &str = include_str!("../phosphor-core/assets/fill/mouse-fill.svg");
+		pub const MOUSE_LEFT_CLICK: &str = include_str!("../phosphor-core/assets/fill/mouse-left-click-fill.svg");
+		pub const MOUSE_MIDDLE_CLICK: &str = include_str!("../phosphor-core/assets/fill/mouse-middle-click-fill.svg");
+		pub const MOUSE_RIGHT_CLICK: &str = include_str!("../phosphor-core/assets/fill/mouse-right-click-fill.svg");
+		pub const MOUSE_SCROLL: &str = include_str!("../phosphor-core/assets/fill/mouse-scroll-fill.svg");
 		pub const MOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/mouse-simple-fill.svg");
 		pub const MUSIC_NOTE: &str = include_str!("../phosphor-core/assets/fill/music-note-fill.svg");
 		pub const MUSIC_NOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/music-note-simple-fill.svg");
 		pub const MUSIC_NOTES: &str = include_str!("../phosphor-core/assets/fill/music-notes-fill.svg");
+		pub const MUSIC_NOTES_MINUS: &str = include_str!("../phosphor-core/assets/fill/music-notes-minus-fill.svg");
 		pub const MUSIC_NOTES_PLUS: &str = include_str!("../phosphor-core/assets/fill/music-notes-plus-fill.svg");
 		pub const MUSIC_NOTES_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/music-notes-simple-fill.svg");
 		pub const NAVIGATION_ARROW: &str = include_str!("../phosphor-core/assets/fill/navigation-arrow-fill.svg");
 		pub const NEEDLE: &str = include_str!("../phosphor-core/assets/fill/needle-fill.svg");
+		pub const NETWORK: &str = include_str!("../phosphor-core/assets/fill/network-fill.svg");
+		pub const NETWORK_SLASH: &str = include_str!("../phosphor-core/assets/fill/network-slash-fill.svg");
+		pub const NETWORK_X: &str = include_str!("../phosphor-core/assets/fill/network-x-fill.svg");
 		pub const NEWSPAPER: &str = include_str!("../phosphor-core/assets/fill/newspaper-fill.svg");
 		pub const NEWSPAPER_CLIPPING: &str = include_str!("../phosphor-core/assets/fill/newspaper-clipping-fill.svg");
+		pub const NOT_EQUALS: &str = include_str!("../phosphor-core/assets/fill/not-equals-fill.svg");
+		pub const NOT_MEMBER_OF: &str = include_str!("../phosphor-core/assets/fill/not-member-of-fill.svg");
+		pub const NOT_SUBSET_OF: &str = include_str!("../phosphor-core/assets/fill/not-subset-of-fill.svg");
+		pub const NOT_SUPERSET_OF: &str = include_str!("../phosphor-core/assets/fill/not-superset-of-fill.svg");
 		pub const NOTCHES: &str = include_str!("../phosphor-core/assets/fill/notches-fill.svg");
 		pub const NOTE: &str = include_str!("../phosphor-core/assets/fill/note-fill.svg");
 		pub const NOTE_BLANK: &str = include_str!("../phosphor-core/assets/fill/note-blank-fill.svg");
@@ -3296,6 +3990,7 @@ pub mod style {
 		pub const NOTEPAD: &str = include_str!("../phosphor-core/assets/fill/notepad-fill.svg");
 		pub const NOTIFICATION: &str = include_str!("../phosphor-core/assets/fill/notification-fill.svg");
 		pub const NOTION_LOGO: &str = include_str!("../phosphor-core/assets/fill/notion-logo-fill.svg");
+		pub const NUCLEAR_PLANT: &str = include_str!("../phosphor-core/assets/fill/nuclear-plant-fill.svg");
 		pub const NUMBER_CIRCLE_EIGHT: &str = include_str!("../phosphor-core/assets/fill/number-circle-eight-fill.svg");
 		pub const NUMBER_CIRCLE_FIVE: &str = include_str!("../phosphor-core/assets/fill/number-circle-five-fill.svg");
 		pub const NUMBER_CIRCLE_FOUR: &str = include_str!("../phosphor-core/assets/fill/number-circle-four-fill.svg");
@@ -3326,12 +4021,17 @@ pub mod style {
 		pub const NUMBER_THREE: &str = include_str!("../phosphor-core/assets/fill/number-three-fill.svg");
 		pub const NUMBER_TWO: &str = include_str!("../phosphor-core/assets/fill/number-two-fill.svg");
 		pub const NUMBER_ZERO: &str = include_str!("../phosphor-core/assets/fill/number-zero-fill.svg");
+		pub const NUMPAD: &str = include_str!("../phosphor-core/assets/fill/numpad-fill.svg");
 		pub const NUT: &str = include_str!("../phosphor-core/assets/fill/nut-fill.svg");
 		pub const NY_TIMES_LOGO: &str = include_str!("../phosphor-core/assets/fill/ny-times-logo-fill.svg");
 		pub const OCTAGON: &str = include_str!("../phosphor-core/assets/fill/octagon-fill.svg");
 		pub const OFFICE_CHAIR: &str = include_str!("../phosphor-core/assets/fill/office-chair-fill.svg");
+		pub const ONIGIRI: &str = include_str!("../phosphor-core/assets/fill/onigiri-fill.svg");
+		pub const OPEN_AI_LOGO: &str = include_str!("../phosphor-core/assets/fill/open-ai-logo-fill.svg");
 		pub const OPTION: &str = include_str!("../phosphor-core/assets/fill/option-fill.svg");
+		pub const ORANGE: &str = include_str!("../phosphor-core/assets/fill/orange-fill.svg");
 		pub const ORANGE_SLICE: &str = include_str!("../phosphor-core/assets/fill/orange-slice-fill.svg");
+		pub const OVEN: &str = include_str!("../phosphor-core/assets/fill/oven-fill.svg");
 		pub const PACKAGE: &str = include_str!("../phosphor-core/assets/fill/package-fill.svg");
 		pub const PAINT_BRUSH: &str = include_str!("../phosphor-core/assets/fill/paint-brush-fill.svg");
 		pub const PAINT_BRUSH_BROAD: &str = include_str!("../phosphor-core/assets/fill/paint-brush-broad-fill.svg");
@@ -3339,6 +4039,7 @@ pub mod style {
 		pub const PAINT_BUCKET: &str = include_str!("../phosphor-core/assets/fill/paint-bucket-fill.svg");
 		pub const PAINT_ROLLER: &str = include_str!("../phosphor-core/assets/fill/paint-roller-fill.svg");
 		pub const PALETTE: &str = include_str!("../phosphor-core/assets/fill/palette-fill.svg");
+		pub const PANORAMA: &str = include_str!("../phosphor-core/assets/fill/panorama-fill.svg");
 		pub const PANTS: &str = include_str!("../phosphor-core/assets/fill/pants-fill.svg");
 		pub const PAPER_PLANE: &str = include_str!("../phosphor-core/assets/fill/paper-plane-fill.svg");
 		pub const PAPER_PLANE_RIGHT: &str = include_str!("../phosphor-core/assets/fill/paper-plane-right-fill.svg");
@@ -3363,10 +4064,12 @@ pub mod style {
 		pub const PENCIL: &str = include_str!("../phosphor-core/assets/fill/pencil-fill.svg");
 		pub const PENCIL_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/pencil-circle-fill.svg");
 		pub const PENCIL_LINE: &str = include_str!("../phosphor-core/assets/fill/pencil-line-fill.svg");
+		pub const PENCIL_RULER: &str = include_str!("../phosphor-core/assets/fill/pencil-ruler-fill.svg");
 		pub const PENCIL_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/pencil-simple-fill.svg");
 		pub const PENCIL_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/fill/pencil-simple-line-fill.svg");
 		pub const PENCIL_SIMPLE_SLASH: &str = include_str!("../phosphor-core/assets/fill/pencil-simple-slash-fill.svg");
 		pub const PENCIL_SLASH: &str = include_str!("../phosphor-core/assets/fill/pencil-slash-fill.svg");
+		pub const PENTAGON: &str = include_str!("../phosphor-core/assets/fill/pentagon-fill.svg");
 		pub const PENTAGRAM: &str = include_str!("../phosphor-core/assets/fill/pentagram-fill.svg");
 		pub const PEPPER: &str = include_str!("../phosphor-core/assets/fill/pepper-fill.svg");
 		pub const PERCENT: &str = include_str!("../phosphor-core/assets/fill/percent-fill.svg");
@@ -3374,7 +4077,13 @@ pub mod style {
 		pub const PERSON_ARMS_SPREAD: &str = include_str!("../phosphor-core/assets/fill/person-arms-spread-fill.svg");
 		pub const PERSON_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/person-simple-fill.svg");
 		pub const PERSON_SIMPLE_BIKE: &str = include_str!("../phosphor-core/assets/fill/person-simple-bike-fill.svg");
+		pub const PERSON_SIMPLE_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/person-simple-circle-fill.svg");
+		pub const PERSON_SIMPLE_HIKE: &str = include_str!("../phosphor-core/assets/fill/person-simple-hike-fill.svg");
 		pub const PERSON_SIMPLE_RUN: &str = include_str!("../phosphor-core/assets/fill/person-simple-run-fill.svg");
+		pub const PERSON_SIMPLE_SKI: &str = include_str!("../phosphor-core/assets/fill/person-simple-ski-fill.svg");
+		pub const PERSON_SIMPLE_SNOWBOARD: &str = include_str!("../phosphor-core/assets/fill/person-simple-snowboard-fill.svg");
+		pub const PERSON_SIMPLE_SWIM: &str = include_str!("../phosphor-core/assets/fill/person-simple-swim-fill.svg");
+		pub const PERSON_SIMPLE_TAI_CHI: &str = include_str!("../phosphor-core/assets/fill/person-simple-tai-chi-fill.svg");
 		pub const PERSON_SIMPLE_THROW: &str = include_str!("../phosphor-core/assets/fill/person-simple-throw-fill.svg");
 		pub const PERSON_SIMPLE_WALK: &str = include_str!("../phosphor-core/assets/fill/person-simple-walk-fill.svg");
 		pub const PERSPECTIVE: &str = include_str!("../phosphor-core/assets/fill/perspective-fill.svg");
@@ -3382,18 +4091,27 @@ pub mod style {
 		pub const PHONE_CALL: &str = include_str!("../phosphor-core/assets/fill/phone-call-fill.svg");
 		pub const PHONE_DISCONNECT: &str = include_str!("../phosphor-core/assets/fill/phone-disconnect-fill.svg");
 		pub const PHONE_INCOMING: &str = include_str!("../phosphor-core/assets/fill/phone-incoming-fill.svg");
+		pub const PHONE_LIST: &str = include_str!("../phosphor-core/assets/fill/phone-list-fill.svg");
 		pub const PHONE_OUTGOING: &str = include_str!("../phosphor-core/assets/fill/phone-outgoing-fill.svg");
+		pub const PHONE_PAUSE: &str = include_str!("../phosphor-core/assets/fill/phone-pause-fill.svg");
 		pub const PHONE_PLUS: &str = include_str!("../phosphor-core/assets/fill/phone-plus-fill.svg");
 		pub const PHONE_SLASH: &str = include_str!("../phosphor-core/assets/fill/phone-slash-fill.svg");
+		pub const PHONE_TRANSFER: &str = include_str!("../phosphor-core/assets/fill/phone-transfer-fill.svg");
 		pub const PHONE_X: &str = include_str!("../phosphor-core/assets/fill/phone-x-fill.svg");
 		pub const PHOSPHOR_LOGO: &str = include_str!("../phosphor-core/assets/fill/phosphor-logo-fill.svg");
 		pub const PI: &str = include_str!("../phosphor-core/assets/fill/pi-fill.svg");
 		pub const PIANO_KEYS: &str = include_str!("../phosphor-core/assets/fill/piano-keys-fill.svg");
+		pub const PICNIC_TABLE: &str = include_str!("../phosphor-core/assets/fill/picnic-table-fill.svg");
 		pub const PICTURE_IN_PICTURE: &str = include_str!("../phosphor-core/assets/fill/picture-in-picture-fill.svg");
 		pub const PIGGY_BANK: &str = include_str!("../phosphor-core/assets/fill/piggy-bank-fill.svg");
 		pub const PILL: &str = include_str!("../phosphor-core/assets/fill/pill-fill.svg");
+		pub const PING_PONG: &str = include_str!("../phosphor-core/assets/fill/ping-pong-fill.svg");
+		pub const PINT_GLASS: &str = include_str!("../phosphor-core/assets/fill/pint-glass-fill.svg");
 		pub const PINTEREST_LOGO: &str = include_str!("../phosphor-core/assets/fill/pinterest-logo-fill.svg");
 		pub const PINWHEEL: &str = include_str!("../phosphor-core/assets/fill/pinwheel-fill.svg");
+		pub const PIPE: &str = include_str!("../phosphor-core/assets/fill/pipe-fill.svg");
+		pub const PIPE_WRENCH: &str = include_str!("../phosphor-core/assets/fill/pipe-wrench-fill.svg");
+		pub const PIX_LOGO: &str = include_str!("../phosphor-core/assets/fill/pix-logo-fill.svg");
 		pub const PIZZA: &str = include_str!("../phosphor-core/assets/fill/pizza-fill.svg");
 		pub const PLACEHOLDER: &str = include_str!("../phosphor-core/assets/fill/placeholder-fill.svg");
 		pub const PLANET: &str = include_str!("../phosphor-core/assets/fill/planet-fill.svg");
@@ -3414,6 +4132,7 @@ pub mod style {
 		pub const POLICE_CAR: &str = include_str!("../phosphor-core/assets/fill/police-car-fill.svg");
 		pub const POLYGON: &str = include_str!("../phosphor-core/assets/fill/polygon-fill.svg");
 		pub const POPCORN: &str = include_str!("../phosphor-core/assets/fill/popcorn-fill.svg");
+		pub const POPSICLE: &str = include_str!("../phosphor-core/assets/fill/popsicle-fill.svg");
 		pub const POTTED_PLANT: &str = include_str!("../phosphor-core/assets/fill/potted-plant-fill.svg");
 		pub const POWER: &str = include_str!("../phosphor-core/assets/fill/power-fill.svg");
 		pub const PRESCRIPTION: &str = include_str!("../phosphor-core/assets/fill/prescription-fill.svg");
@@ -3432,23 +4151,30 @@ pub mod style {
 		pub const PUZZLE_PIECE: &str = include_str!("../phosphor-core/assets/fill/puzzle-piece-fill.svg");
 		pub const QR_CODE: &str = include_str!("../phosphor-core/assets/fill/qr-code-fill.svg");
 		pub const QUESTION: &str = include_str!("../phosphor-core/assets/fill/question-fill.svg");
+		pub const QUESTION_MARK: &str = include_str!("../phosphor-core/assets/fill/question-mark-fill.svg");
 		pub const QUEUE: &str = include_str!("../phosphor-core/assets/fill/queue-fill.svg");
 		pub const QUOTES: &str = include_str!("../phosphor-core/assets/fill/quotes-fill.svg");
+		pub const RABBIT: &str = include_str!("../phosphor-core/assets/fill/rabbit-fill.svg");
+		pub const RACQUET: &str = include_str!("../phosphor-core/assets/fill/racquet-fill.svg");
 		pub const RADICAL: &str = include_str!("../phosphor-core/assets/fill/radical-fill.svg");
 		pub const RADIO: &str = include_str!("../phosphor-core/assets/fill/radio-fill.svg");
 		pub const RADIO_BUTTON: &str = include_str!("../phosphor-core/assets/fill/radio-button-fill.svg");
 		pub const RADIOACTIVE: &str = include_str!("../phosphor-core/assets/fill/radioactive-fill.svg");
 		pub const RAINBOW: &str = include_str!("../phosphor-core/assets/fill/rainbow-fill.svg");
 		pub const RAINBOW_CLOUD: &str = include_str!("../phosphor-core/assets/fill/rainbow-cloud-fill.svg");
+		pub const RANKING: &str = include_str!("../phosphor-core/assets/fill/ranking-fill.svg");
 		pub const READ_CV_LOGO: &str = include_str!("../phosphor-core/assets/fill/read-cv-logo-fill.svg");
 		pub const RECEIPT: &str = include_str!("../phosphor-core/assets/fill/receipt-fill.svg");
 		pub const RECEIPT_X: &str = include_str!("../phosphor-core/assets/fill/receipt-x-fill.svg");
 		pub const RECORD: &str = include_str!("../phosphor-core/assets/fill/record-fill.svg");
 		pub const RECTANGLE: &str = include_str!("../phosphor-core/assets/fill/rectangle-fill.svg");
+		pub const RECTANGLE_DASHED: &str = include_str!("../phosphor-core/assets/fill/rectangle-dashed-fill.svg");
 		pub const RECYCLE: &str = include_str!("../phosphor-core/assets/fill/recycle-fill.svg");
 		pub const REDDIT_LOGO: &str = include_str!("../phosphor-core/assets/fill/reddit-logo-fill.svg");
 		pub const REPEAT: &str = include_str!("../phosphor-core/assets/fill/repeat-fill.svg");
 		pub const REPEAT_ONCE: &str = include_str!("../phosphor-core/assets/fill/repeat-once-fill.svg");
+		pub const REPLIT_LOGO: &str = include_str!("../phosphor-core/assets/fill/replit-logo-fill.svg");
+		pub const RESIZE: &str = include_str!("../phosphor-core/assets/fill/resize-fill.svg");
 		pub const REWIND: &str = include_str!("../phosphor-core/assets/fill/rewind-fill.svg");
 		pub const REWIND_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/rewind-circle-fill.svg");
 		pub const ROAD_HORIZON: &str = include_str!("../phosphor-core/assets/fill/road-horizon-fill.svg");
@@ -3456,21 +4182,31 @@ pub mod style {
 		pub const ROCKET: &str = include_str!("../phosphor-core/assets/fill/rocket-fill.svg");
 		pub const ROCKET_LAUNCH: &str = include_str!("../phosphor-core/assets/fill/rocket-launch-fill.svg");
 		pub const ROWS: &str = include_str!("../phosphor-core/assets/fill/rows-fill.svg");
+		pub const ROWS_PLUS_BOTTOM: &str = include_str!("../phosphor-core/assets/fill/rows-plus-bottom-fill.svg");
+		pub const ROWS_PLUS_TOP: &str = include_str!("../phosphor-core/assets/fill/rows-plus-top-fill.svg");
 		pub const RSS: &str = include_str!("../phosphor-core/assets/fill/rss-fill.svg");
 		pub const RSS_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/rss-simple-fill.svg");
 		pub const RUG: &str = include_str!("../phosphor-core/assets/fill/rug-fill.svg");
 		pub const RULER: &str = include_str!("../phosphor-core/assets/fill/ruler-fill.svg");
+		pub const SAILBOAT: &str = include_str!("../phosphor-core/assets/fill/sailboat-fill.svg");
 		pub const SCALES: &str = include_str!("../phosphor-core/assets/fill/scales-fill.svg");
 		pub const SCAN: &str = include_str!("../phosphor-core/assets/fill/scan-fill.svg");
+		pub const SCAN_SMILEY: &str = include_str!("../phosphor-core/assets/fill/scan-smiley-fill.svg");
 		pub const SCISSORS: &str = include_str!("../phosphor-core/assets/fill/scissors-fill.svg");
 		pub const SCOOTER: &str = include_str!("../phosphor-core/assets/fill/scooter-fill.svg");
 		pub const SCREENCAST: &str = include_str!("../phosphor-core/assets/fill/screencast-fill.svg");
+		pub const SCREWDRIVER: &str = include_str!("../phosphor-core/assets/fill/screwdriver-fill.svg");
+		pub const SCRIBBLE: &str = include_str!("../phosphor-core/assets/fill/scribble-fill.svg");
 		pub const SCRIBBLE_LOOP: &str = include_str!("../phosphor-core/assets/fill/scribble-loop-fill.svg");
 		pub const SCROLL: &str = include_str!("../phosphor-core/assets/fill/scroll-fill.svg");
 		pub const SEAL: &str = include_str!("../phosphor-core/assets/fill/seal-fill.svg");
 		pub const SEAL_CHECK: &str = include_str!("../phosphor-core/assets/fill/seal-check-fill.svg");
+		pub const SEAL_PERCENT: &str = include_str!("../phosphor-core/assets/fill/seal-percent-fill.svg");
 		pub const SEAL_QUESTION: &str = include_str!("../phosphor-core/assets/fill/seal-question-fill.svg");
 		pub const SEAL_WARNING: &str = include_str!("../phosphor-core/assets/fill/seal-warning-fill.svg");
+		pub const SEAT: &str = include_str!("../phosphor-core/assets/fill/seat-fill.svg");
+		pub const SEATBELT: &str = include_str!("../phosphor-core/assets/fill/seatbelt-fill.svg");
+		pub const SECURITY_CAMERA: &str = include_str!("../phosphor-core/assets/fill/security-camera-fill.svg");
 		pub const SELECTION: &str = include_str!("../phosphor-core/assets/fill/selection-fill.svg");
 		pub const SELECTION_ALL: &str = include_str!("../phosphor-core/assets/fill/selection-all-fill.svg");
 		pub const SELECTION_BACKGROUND: &str = include_str!("../phosphor-core/assets/fill/selection-background-fill.svg");
@@ -3490,12 +4226,14 @@ pub mod style {
 		pub const SHIELD_SLASH: &str = include_str!("../phosphor-core/assets/fill/shield-slash-fill.svg");
 		pub const SHIELD_STAR: &str = include_str!("../phosphor-core/assets/fill/shield-star-fill.svg");
 		pub const SHIELD_WARNING: &str = include_str!("../phosphor-core/assets/fill/shield-warning-fill.svg");
+		pub const SHIPPING_CONTAINER: &str = include_str!("../phosphor-core/assets/fill/shipping-container-fill.svg");
 		pub const SHIRT_FOLDED: &str = include_str!("../phosphor-core/assets/fill/shirt-folded-fill.svg");
 		pub const SHOOTING_STAR: &str = include_str!("../phosphor-core/assets/fill/shooting-star-fill.svg");
 		pub const SHOPPING_BAG: &str = include_str!("../phosphor-core/assets/fill/shopping-bag-fill.svg");
 		pub const SHOPPING_BAG_OPEN: &str = include_str!("../phosphor-core/assets/fill/shopping-bag-open-fill.svg");
 		pub const SHOPPING_CART: &str = include_str!("../phosphor-core/assets/fill/shopping-cart-fill.svg");
 		pub const SHOPPING_CART_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/shopping-cart-simple-fill.svg");
+		pub const SHOVEL: &str = include_str!("../phosphor-core/assets/fill/shovel-fill.svg");
 		pub const SHOWER: &str = include_str!("../phosphor-core/assets/fill/shower-fill.svg");
 		pub const SHRIMP: &str = include_str!("../phosphor-core/assets/fill/shrimp-fill.svg");
 		pub const SHUFFLE: &str = include_str!("../phosphor-core/assets/fill/shuffle-fill.svg");
@@ -3516,6 +4254,7 @@ pub mod style {
 		pub const SKIP_FORWARD: &str = include_str!("../phosphor-core/assets/fill/skip-forward-fill.svg");
 		pub const SKIP_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/skip-forward-circle-fill.svg");
 		pub const SKULL: &str = include_str!("../phosphor-core/assets/fill/skull-fill.svg");
+		pub const SKYPE_LOGO: &str = include_str!("../phosphor-core/assets/fill/skype-logo-fill.svg");
 		pub const SLACK_LOGO: &str = include_str!("../phosphor-core/assets/fill/slack-logo-fill.svg");
 		pub const SLIDERS: &str = include_str!("../phosphor-core/assets/fill/sliders-fill.svg");
 		pub const SLIDERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/fill/sliders-horizontal-fill.svg");
@@ -3524,6 +4263,7 @@ pub mod style {
 		pub const SMILEY_ANGRY: &str = include_str!("../phosphor-core/assets/fill/smiley-angry-fill.svg");
 		pub const SMILEY_BLANK: &str = include_str!("../phosphor-core/assets/fill/smiley-blank-fill.svg");
 		pub const SMILEY_MEH: &str = include_str!("../phosphor-core/assets/fill/smiley-meh-fill.svg");
+		pub const SMILEY_MELTING: &str = include_str!("../phosphor-core/assets/fill/smiley-melting-fill.svg");
 		pub const SMILEY_NERVOUS: &str = include_str!("../phosphor-core/assets/fill/smiley-nervous-fill.svg");
 		pub const SMILEY_SAD: &str = include_str!("../phosphor-core/assets/fill/smiley-sad-fill.svg");
 		pub const SMILEY_STICKER: &str = include_str!("../phosphor-core/assets/fill/smiley-sticker-fill.svg");
@@ -3534,6 +4274,9 @@ pub mod style {
 		pub const SNEAKER_MOVE: &str = include_str!("../phosphor-core/assets/fill/sneaker-move-fill.svg");
 		pub const SNOWFLAKE: &str = include_str!("../phosphor-core/assets/fill/snowflake-fill.svg");
 		pub const SOCCER_BALL: &str = include_str!("../phosphor-core/assets/fill/soccer-ball-fill.svg");
+		pub const SOCK: &str = include_str!("../phosphor-core/assets/fill/sock-fill.svg");
+		pub const SOLAR_PANEL: &str = include_str!("../phosphor-core/assets/fill/solar-panel-fill.svg");
+		pub const SOLAR_ROOF: &str = include_str!("../phosphor-core/assets/fill/solar-roof-fill.svg");
 		pub const SORT_ASCENDING: &str = include_str!("../phosphor-core/assets/fill/sort-ascending-fill.svg");
 		pub const SORT_DESCENDING: &str = include_str!("../phosphor-core/assets/fill/sort-descending-fill.svg");
 		pub const SOUNDCLOUD_LOGO: &str = include_str!("../phosphor-core/assets/fill/soundcloud-logo-fill.svg");
@@ -3550,12 +4293,16 @@ pub mod style {
 		pub const SPEAKER_SIMPLE_X: &str = include_str!("../phosphor-core/assets/fill/speaker-simple-x-fill.svg");
 		pub const SPEAKER_SLASH: &str = include_str!("../phosphor-core/assets/fill/speaker-slash-fill.svg");
 		pub const SPEAKER_X: &str = include_str!("../phosphor-core/assets/fill/speaker-x-fill.svg");
+		pub const SPEEDOMETER: &str = include_str!("../phosphor-core/assets/fill/speedometer-fill.svg");
+		pub const SPHERE: &str = include_str!("../phosphor-core/assets/fill/sphere-fill.svg");
 		pub const SPINNER: &str = include_str!("../phosphor-core/assets/fill/spinner-fill.svg");
+		pub const SPINNER_BALL: &str = include_str!("../phosphor-core/assets/fill/spinner-ball-fill.svg");
 		pub const SPINNER_GAP: &str = include_str!("../phosphor-core/assets/fill/spinner-gap-fill.svg");
 		pub const SPIRAL: &str = include_str!("../phosphor-core/assets/fill/spiral-fill.svg");
 		pub const SPLIT_HORIZONTAL: &str = include_str!("../phosphor-core/assets/fill/split-horizontal-fill.svg");
 		pub const SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/fill/split-vertical-fill.svg");
 		pub const SPOTIFY_LOGO: &str = include_str!("../phosphor-core/assets/fill/spotify-logo-fill.svg");
+		pub const SPRAY_BOTTLE: &str = include_str!("../phosphor-core/assets/fill/spray-bottle-fill.svg");
 		pub const SQUARE: &str = include_str!("../phosphor-core/assets/fill/square-fill.svg");
 		pub const SQUARE_HALF: &str = include_str!("../phosphor-core/assets/fill/square-half-fill.svg");
 		pub const SQUARE_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/fill/square-half-bottom-fill.svg");
@@ -3564,15 +4311,19 @@ pub mod style {
 		pub const SQUARE_SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/fill/square-split-vertical-fill.svg");
 		pub const SQUARES_FOUR: &str = include_str!("../phosphor-core/assets/fill/squares-four-fill.svg");
 		pub const STACK: &str = include_str!("../phosphor-core/assets/fill/stack-fill.svg");
+		pub const STACK_MINUS: &str = include_str!("../phosphor-core/assets/fill/stack-minus-fill.svg");
 		pub const STACK_OVERFLOW_LOGO: &str = include_str!("../phosphor-core/assets/fill/stack-overflow-logo-fill.svg");
+		pub const STACK_PLUS: &str = include_str!("../phosphor-core/assets/fill/stack-plus-fill.svg");
 		pub const STACK_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/stack-simple-fill.svg");
 		pub const STAIRS: &str = include_str!("../phosphor-core/assets/fill/stairs-fill.svg");
 		pub const STAMP: &str = include_str!("../phosphor-core/assets/fill/stamp-fill.svg");
+		pub const STANDARD_DEFINITION: &str = include_str!("../phosphor-core/assets/fill/standard-definition-fill.svg");
 		pub const STAR: &str = include_str!("../phosphor-core/assets/fill/star-fill.svg");
 		pub const STAR_AND_CRESCENT: &str = include_str!("../phosphor-core/assets/fill/star-and-crescent-fill.svg");
 		pub const STAR_FOUR: &str = include_str!("../phosphor-core/assets/fill/star-four-fill.svg");
 		pub const STAR_HALF: &str = include_str!("../phosphor-core/assets/fill/star-half-fill.svg");
 		pub const STAR_OF_DAVID: &str = include_str!("../phosphor-core/assets/fill/star-of-david-fill.svg");
+		pub const STEAM_LOGO: &str = include_str!("../phosphor-core/assets/fill/steam-logo-fill.svg");
 		pub const STEERING_WHEEL: &str = include_str!("../phosphor-core/assets/fill/steering-wheel-fill.svg");
 		pub const STEPS: &str = include_str!("../phosphor-core/assets/fill/steps-fill.svg");
 		pub const STETHOSCOPE: &str = include_str!("../phosphor-core/assets/fill/stethoscope-fill.svg");
@@ -3584,9 +4335,13 @@ pub mod style {
 		pub const STRATEGY: &str = include_str!("../phosphor-core/assets/fill/strategy-fill.svg");
 		pub const STRIPE_LOGO: &str = include_str!("../phosphor-core/assets/fill/stripe-logo-fill.svg");
 		pub const STUDENT: &str = include_str!("../phosphor-core/assets/fill/student-fill.svg");
+		pub const SUBSET_OF: &str = include_str!("../phosphor-core/assets/fill/subset-of-fill.svg");
+		pub const SUBSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/fill/subset-proper-of-fill.svg");
 		pub const SUBTITLES: &str = include_str!("../phosphor-core/assets/fill/subtitles-fill.svg");
+		pub const SUBTITLES_SLASH: &str = include_str!("../phosphor-core/assets/fill/subtitles-slash-fill.svg");
 		pub const SUBTRACT: &str = include_str!("../phosphor-core/assets/fill/subtract-fill.svg");
 		pub const SUBTRACT_SQUARE: &str = include_str!("../phosphor-core/assets/fill/subtract-square-fill.svg");
+		pub const SUBWAY: &str = include_str!("../phosphor-core/assets/fill/subway-fill.svg");
 		pub const SUITCASE: &str = include_str!("../phosphor-core/assets/fill/suitcase-fill.svg");
 		pub const SUITCASE_ROLLING: &str = include_str!("../phosphor-core/assets/fill/suitcase-rolling-fill.svg");
 		pub const SUITCASE_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/suitcase-simple-fill.svg");
@@ -3594,6 +4349,8 @@ pub mod style {
 		pub const SUN_DIM: &str = include_str!("../phosphor-core/assets/fill/sun-dim-fill.svg");
 		pub const SUN_HORIZON: &str = include_str!("../phosphor-core/assets/fill/sun-horizon-fill.svg");
 		pub const SUNGLASSES: &str = include_str!("../phosphor-core/assets/fill/sunglasses-fill.svg");
+		pub const SUPERSET_OF: &str = include_str!("../phosphor-core/assets/fill/superset-of-fill.svg");
+		pub const SUPERSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/fill/superset-proper-of-fill.svg");
 		pub const SWAP: &str = include_str!("../phosphor-core/assets/fill/swap-fill.svg");
 		pub const SWATCHES: &str = include_str!("../phosphor-core/assets/fill/swatches-fill.svg");
 		pub const SWIMMING_POOL: &str = include_str!("../phosphor-core/assets/fill/swimming-pool-fill.svg");
@@ -3608,6 +4365,7 @@ pub mod style {
 		pub const TAG_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/tag-simple-fill.svg");
 		pub const TARGET: &str = include_str!("../phosphor-core/assets/fill/target-fill.svg");
 		pub const TAXI: &str = include_str!("../phosphor-core/assets/fill/taxi-fill.svg");
+		pub const TEA_BAG: &str = include_str!("../phosphor-core/assets/fill/tea-bag-fill.svg");
 		pub const TELEGRAM_LOGO: &str = include_str!("../phosphor-core/assets/fill/telegram-logo-fill.svg");
 		pub const TELEVISION: &str = include_str!("../phosphor-core/assets/fill/television-fill.svg");
 		pub const TELEVISION_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/television-simple-fill.svg");
@@ -3635,28 +4393,39 @@ pub mod style {
 		pub const TEXT_ITALIC: &str = include_str!("../phosphor-core/assets/fill/text-italic-fill.svg");
 		pub const TEXT_OUTDENT: &str = include_str!("../phosphor-core/assets/fill/text-outdent-fill.svg");
 		pub const TEXT_STRIKETHROUGH: &str = include_str!("../phosphor-core/assets/fill/text-strikethrough-fill.svg");
+		pub const TEXT_SUBSCRIPT: &str = include_str!("../phosphor-core/assets/fill/text-subscript-fill.svg");
+		pub const TEXT_SUPERSCRIPT: &str = include_str!("../phosphor-core/assets/fill/text-superscript-fill.svg");
 		pub const TEXT_T: &str = include_str!("../phosphor-core/assets/fill/text-t-fill.svg");
+		pub const TEXT_T_SLASH: &str = include_str!("../phosphor-core/assets/fill/text-t-slash-fill.svg");
 		pub const TEXT_UNDERLINE: &str = include_str!("../phosphor-core/assets/fill/text-underline-fill.svg");
 		pub const TEXTBOX: &str = include_str!("../phosphor-core/assets/fill/textbox-fill.svg");
 		pub const THERMOMETER: &str = include_str!("../phosphor-core/assets/fill/thermometer-fill.svg");
 		pub const THERMOMETER_COLD: &str = include_str!("../phosphor-core/assets/fill/thermometer-cold-fill.svg");
 		pub const THERMOMETER_HOT: &str = include_str!("../phosphor-core/assets/fill/thermometer-hot-fill.svg");
 		pub const THERMOMETER_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/thermometer-simple-fill.svg");
+		pub const THREADS_LOGO: &str = include_str!("../phosphor-core/assets/fill/threads-logo-fill.svg");
+		pub const THREE_D: &str = include_str!("../phosphor-core/assets/fill/three-d-fill.svg");
 		pub const THUMBS_DOWN: &str = include_str!("../phosphor-core/assets/fill/thumbs-down-fill.svg");
 		pub const THUMBS_UP: &str = include_str!("../phosphor-core/assets/fill/thumbs-up-fill.svg");
 		pub const TICKET: &str = include_str!("../phosphor-core/assets/fill/ticket-fill.svg");
 		pub const TIDAL_LOGO: &str = include_str!("../phosphor-core/assets/fill/tidal-logo-fill.svg");
 		pub const TIKTOK_LOGO: &str = include_str!("../phosphor-core/assets/fill/tiktok-logo-fill.svg");
+		pub const TILDE: &str = include_str!("../phosphor-core/assets/fill/tilde-fill.svg");
 		pub const TIMER: &str = include_str!("../phosphor-core/assets/fill/timer-fill.svg");
+		pub const TIP_JAR: &str = include_str!("../phosphor-core/assets/fill/tip-jar-fill.svg");
 		pub const TIPI: &str = include_str!("../phosphor-core/assets/fill/tipi-fill.svg");
+		pub const TIRE: &str = include_str!("../phosphor-core/assets/fill/tire-fill.svg");
 		pub const TOGGLE_LEFT: &str = include_str!("../phosphor-core/assets/fill/toggle-left-fill.svg");
 		pub const TOGGLE_RIGHT: &str = include_str!("../phosphor-core/assets/fill/toggle-right-fill.svg");
 		pub const TOILET: &str = include_str!("../phosphor-core/assets/fill/toilet-fill.svg");
 		pub const TOILET_PAPER: &str = include_str!("../phosphor-core/assets/fill/toilet-paper-fill.svg");
 		pub const TOOLBOX: &str = include_str!("../phosphor-core/assets/fill/toolbox-fill.svg");
 		pub const TOOTH: &str = include_str!("../phosphor-core/assets/fill/tooth-fill.svg");
+		pub const TORNADO: &str = include_str!("../phosphor-core/assets/fill/tornado-fill.svg");
 		pub const TOTE: &str = include_str!("../phosphor-core/assets/fill/tote-fill.svg");
 		pub const TOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/tote-simple-fill.svg");
+		pub const TOWEL: &str = include_str!("../phosphor-core/assets/fill/towel-fill.svg");
+		pub const TRACTOR: &str = include_str!("../phosphor-core/assets/fill/tractor-fill.svg");
 		pub const TRADEMARK: &str = include_str!("../phosphor-core/assets/fill/trademark-fill.svg");
 		pub const TRADEMARK_REGISTERED: &str = include_str!("../phosphor-core/assets/fill/trademark-registered-fill.svg");
 		pub const TRAFFIC_CONE: &str = include_str!("../phosphor-core/assets/fill/traffic-cone-fill.svg");
@@ -3670,26 +4439,39 @@ pub mod style {
 		pub const TRASH: &str = include_str!("../phosphor-core/assets/fill/trash-fill.svg");
 		pub const TRASH_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/trash-simple-fill.svg");
 		pub const TRAY: &str = include_str!("../phosphor-core/assets/fill/tray-fill.svg");
+		pub const TRAY_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/fill/tray-arrow-down-fill.svg");
+		pub const TRAY_ARROW_UP: &str = include_str!("../phosphor-core/assets/fill/tray-arrow-up-fill.svg");
+		pub const TREASURE_CHEST: &str = include_str!("../phosphor-core/assets/fill/treasure-chest-fill.svg");
 		pub const TREE: &str = include_str!("../phosphor-core/assets/fill/tree-fill.svg");
 		pub const TREE_EVERGREEN: &str = include_str!("../phosphor-core/assets/fill/tree-evergreen-fill.svg");
 		pub const TREE_PALM: &str = include_str!("../phosphor-core/assets/fill/tree-palm-fill.svg");
 		pub const TREE_STRUCTURE: &str = include_str!("../phosphor-core/assets/fill/tree-structure-fill.svg");
+		pub const TREE_VIEW: &str = include_str!("../phosphor-core/assets/fill/tree-view-fill.svg");
 		pub const TREND_DOWN: &str = include_str!("../phosphor-core/assets/fill/trend-down-fill.svg");
 		pub const TREND_UP: &str = include_str!("../phosphor-core/assets/fill/trend-up-fill.svg");
 		pub const TRIANGLE: &str = include_str!("../phosphor-core/assets/fill/triangle-fill.svg");
+		pub const TRIANGLE_DASHED: &str = include_str!("../phosphor-core/assets/fill/triangle-dashed-fill.svg");
+		pub const TROLLEY: &str = include_str!("../phosphor-core/assets/fill/trolley-fill.svg");
+		pub const TROLLEY_SUITCASE: &str = include_str!("../phosphor-core/assets/fill/trolley-suitcase-fill.svg");
 		pub const TROPHY: &str = include_str!("../phosphor-core/assets/fill/trophy-fill.svg");
 		pub const TRUCK: &str = include_str!("../phosphor-core/assets/fill/truck-fill.svg");
+		pub const TRUCK_TRAILER: &str = include_str!("../phosphor-core/assets/fill/truck-trailer-fill.svg");
+		pub const TUMBLR_LOGO: &str = include_str!("../phosphor-core/assets/fill/tumblr-logo-fill.svg");
 		pub const TWITCH_LOGO: &str = include_str!("../phosphor-core/assets/fill/twitch-logo-fill.svg");
 		pub const TWITTER_LOGO: &str = include_str!("../phosphor-core/assets/fill/twitter-logo-fill.svg");
 		pub const UMBRELLA: &str = include_str!("../phosphor-core/assets/fill/umbrella-fill.svg");
 		pub const UMBRELLA_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/umbrella-simple-fill.svg");
+		pub const UNION: &str = include_str!("../phosphor-core/assets/fill/union-fill.svg");
 		pub const UNITE: &str = include_str!("../phosphor-core/assets/fill/unite-fill.svg");
 		pub const UNITE_SQUARE: &str = include_str!("../phosphor-core/assets/fill/unite-square-fill.svg");
 		pub const UPLOAD: &str = include_str!("../phosphor-core/assets/fill/upload-fill.svg");
 		pub const UPLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/fill/upload-simple-fill.svg");
 		pub const USB: &str = include_str!("../phosphor-core/assets/fill/usb-fill.svg");
 		pub const USER: &str = include_str!("../phosphor-core/assets/fill/user-fill.svg");
+		pub const USER_CHECK: &str = include_str!("../phosphor-core/assets/fill/user-check-fill.svg");
 		pub const USER_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/user-circle-fill.svg");
+		pub const USER_CIRCLE_CHECK: &str = include_str!("../phosphor-core/assets/fill/user-circle-check-fill.svg");
+		pub const USER_CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/fill/user-circle-dashed-fill.svg");
 		pub const USER_CIRCLE_GEAR: &str = include_str!("../phosphor-core/assets/fill/user-circle-gear-fill.svg");
 		pub const USER_CIRCLE_MINUS: &str = include_str!("../phosphor-core/assets/fill/user-circle-minus-fill.svg");
 		pub const USER_CIRCLE_PLUS: &str = include_str!("../phosphor-core/assets/fill/user-circle-plus-fill.svg");
@@ -3699,6 +4481,7 @@ pub mod style {
 		pub const USER_MINUS: &str = include_str!("../phosphor-core/assets/fill/user-minus-fill.svg");
 		pub const USER_PLUS: &str = include_str!("../phosphor-core/assets/fill/user-plus-fill.svg");
 		pub const USER_RECTANGLE: &str = include_str!("../phosphor-core/assets/fill/user-rectangle-fill.svg");
+		pub const USER_SOUND: &str = include_str!("../phosphor-core/assets/fill/user-sound-fill.svg");
 		pub const USER_SQUARE: &str = include_str!("../phosphor-core/assets/fill/user-square-fill.svg");
 		pub const USER_SWITCH: &str = include_str!("../phosphor-core/assets/fill/user-switch-fill.svg");
 		pub const USERS: &str = include_str!("../phosphor-core/assets/fill/users-fill.svg");
@@ -3706,14 +4489,18 @@ pub mod style {
 		pub const USERS_THREE: &str = include_str!("../phosphor-core/assets/fill/users-three-fill.svg");
 		pub const VAN: &str = include_str!("../phosphor-core/assets/fill/van-fill.svg");
 		pub const VAULT: &str = include_str!("../phosphor-core/assets/fill/vault-fill.svg");
+		pub const VECTOR_THREE: &str = include_str!("../phosphor-core/assets/fill/vector-three-fill.svg");
+		pub const VECTOR_TWO: &str = include_str!("../phosphor-core/assets/fill/vector-two-fill.svg");
 		pub const VIBRATE: &str = include_str!("../phosphor-core/assets/fill/vibrate-fill.svg");
 		pub const VIDEO: &str = include_str!("../phosphor-core/assets/fill/video-fill.svg");
 		pub const VIDEO_CAMERA: &str = include_str!("../phosphor-core/assets/fill/video-camera-fill.svg");
 		pub const VIDEO_CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/fill/video-camera-slash-fill.svg");
+		pub const VIDEO_CONFERENCE: &str = include_str!("../phosphor-core/assets/fill/video-conference-fill.svg");
 		pub const VIGNETTE: &str = include_str!("../phosphor-core/assets/fill/vignette-fill.svg");
 		pub const VINYL_RECORD: &str = include_str!("../phosphor-core/assets/fill/vinyl-record-fill.svg");
 		pub const VIRTUAL_REALITY: &str = include_str!("../phosphor-core/assets/fill/virtual-reality-fill.svg");
 		pub const VIRUS: &str = include_str!("../phosphor-core/assets/fill/virus-fill.svg");
+		pub const VISOR: &str = include_str!("../phosphor-core/assets/fill/visor-fill.svg");
 		pub const VOICEMAIL: &str = include_str!("../phosphor-core/assets/fill/voicemail-fill.svg");
 		pub const VOLLEYBALL: &str = include_str!("../phosphor-core/assets/fill/volleyball-fill.svg");
 		pub const WALL: &str = include_str!("../phosphor-core/assets/fill/wall-fill.svg");
@@ -3723,12 +4510,14 @@ pub mod style {
 		pub const WARNING_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/warning-circle-fill.svg");
 		pub const WARNING_DIAMOND: &str = include_str!("../phosphor-core/assets/fill/warning-diamond-fill.svg");
 		pub const WARNING_OCTAGON: &str = include_str!("../phosphor-core/assets/fill/warning-octagon-fill.svg");
+		pub const WASHING_MACHINE: &str = include_str!("../phosphor-core/assets/fill/washing-machine-fill.svg");
 		pub const WATCH: &str = include_str!("../phosphor-core/assets/fill/watch-fill.svg");
 		pub const WAVE_SAWTOOTH: &str = include_str!("../phosphor-core/assets/fill/wave-sawtooth-fill.svg");
 		pub const WAVE_SINE: &str = include_str!("../phosphor-core/assets/fill/wave-sine-fill.svg");
 		pub const WAVE_SQUARE: &str = include_str!("../phosphor-core/assets/fill/wave-square-fill.svg");
 		pub const WAVE_TRIANGLE: &str = include_str!("../phosphor-core/assets/fill/wave-triangle-fill.svg");
 		pub const WAVEFORM: &str = include_str!("../phosphor-core/assets/fill/waveform-fill.svg");
+		pub const WAVEFORM_SLASH: &str = include_str!("../phosphor-core/assets/fill/waveform-slash-fill.svg");
 		pub const WAVES: &str = include_str!("../phosphor-core/assets/fill/waves-fill.svg");
 		pub const WEBCAM: &str = include_str!("../phosphor-core/assets/fill/webcam-fill.svg");
 		pub const WEBCAM_SLASH: &str = include_str!("../phosphor-core/assets/fill/webcam-slash-fill.svg");
@@ -3744,22 +4533,28 @@ pub mod style {
 		pub const WIFI_SLASH: &str = include_str!("../phosphor-core/assets/fill/wifi-slash-fill.svg");
 		pub const WIFI_X: &str = include_str!("../phosphor-core/assets/fill/wifi-x-fill.svg");
 		pub const WIND: &str = include_str!("../phosphor-core/assets/fill/wind-fill.svg");
+		pub const WINDMILL: &str = include_str!("../phosphor-core/assets/fill/windmill-fill.svg");
 		pub const WINDOWS_LOGO: &str = include_str!("../phosphor-core/assets/fill/windows-logo-fill.svg");
 		pub const WINE: &str = include_str!("../phosphor-core/assets/fill/wine-fill.svg");
 		pub const WRENCH: &str = include_str!("../phosphor-core/assets/fill/wrench-fill.svg");
 		pub const X: &str = include_str!("../phosphor-core/assets/fill/x-fill.svg");
 		pub const X_CIRCLE: &str = include_str!("../phosphor-core/assets/fill/x-circle-fill.svg");
+		pub const X_LOGO: &str = include_str!("../phosphor-core/assets/fill/x-logo-fill.svg");
 		pub const X_SQUARE: &str = include_str!("../phosphor-core/assets/fill/x-square-fill.svg");
+		pub const YARN: &str = include_str!("../phosphor-core/assets/fill/yarn-fill.svg");
 		pub const YIN_YANG: &str = include_str!("../phosphor-core/assets/fill/yin-yang-fill.svg");
 		pub const YOUTUBE_LOGO: &str = include_str!("../phosphor-core/assets/fill/youtube-logo-fill.svg");
 	}
 	pub mod light {
+		pub const ACORN: &str = include_str!("../phosphor-core/assets/light/acorn-light.svg");
 		pub const ADDRESS_BOOK: &str = include_str!("../phosphor-core/assets/light/address-book-light.svg");
+		pub const ADDRESS_BOOK_TABS: &str = include_str!("../phosphor-core/assets/light/address-book-tabs-light.svg");
 		pub const AIR_TRAFFIC_CONTROL: &str = include_str!("../phosphor-core/assets/light/air-traffic-control-light.svg");
 		pub const AIRPLANE: &str = include_str!("../phosphor-core/assets/light/airplane-light.svg");
 		pub const AIRPLANE_IN_FLIGHT: &str = include_str!("../phosphor-core/assets/light/airplane-in-flight-light.svg");
 		pub const AIRPLANE_LANDING: &str = include_str!("../phosphor-core/assets/light/airplane-landing-light.svg");
 		pub const AIRPLANE_TAKEOFF: &str = include_str!("../phosphor-core/assets/light/airplane-takeoff-light.svg");
+		pub const AIRPLANE_TAXIING: &str = include_str!("../phosphor-core/assets/light/airplane-taxiing-light.svg");
 		pub const AIRPLANE_TILT: &str = include_str!("../phosphor-core/assets/light/airplane-tilt-light.svg");
 		pub const AIRPLAY: &str = include_str!("../phosphor-core/assets/light/airplay-light.svg");
 		pub const ALARM: &str = include_str!("../phosphor-core/assets/light/alarm-light.svg");
@@ -3777,18 +4572,19 @@ pub mod style {
 		pub const ALIGN_TOP: &str = include_str!("../phosphor-core/assets/light/align-top-light.svg");
 		pub const ALIGN_TOP_SIMPLE: &str = include_str!("../phosphor-core/assets/light/align-top-simple-light.svg");
 		pub const AMAZON_LOGO: &str = include_str!("../phosphor-core/assets/light/amazon-logo-light.svg");
+		pub const AMBULANCE: &str = include_str!("../phosphor-core/assets/light/ambulance-light.svg");
 		pub const ANCHOR: &str = include_str!("../phosphor-core/assets/light/anchor-light.svg");
 		pub const ANCHOR_SIMPLE: &str = include_str!("../phosphor-core/assets/light/anchor-simple-light.svg");
 		pub const ANDROID_LOGO: &str = include_str!("../phosphor-core/assets/light/android-logo-light.svg");
+		pub const ANGLE: &str = include_str!("../phosphor-core/assets/light/angle-light.svg");
 		pub const ANGULAR_LOGO: &str = include_str!("../phosphor-core/assets/light/angular-logo-light.svg");
 		pub const APERTURE: &str = include_str!("../phosphor-core/assets/light/aperture-light.svg");
 		pub const APP_STORE_LOGO: &str = include_str!("../phosphor-core/assets/light/app-store-logo-light.svg");
 		pub const APP_WINDOW: &str = include_str!("../phosphor-core/assets/light/app-window-light.svg");
 		pub const APPLE_LOGO: &str = include_str!("../phosphor-core/assets/light/apple-logo-light.svg");
 		pub const APPLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/light/apple-podcasts-logo-light.svg");
+		pub const APPROXIMATE_EQUALS: &str = include_str!("../phosphor-core/assets/light/approximate-equals-light.svg");
 		pub const ARCHIVE: &str = include_str!("../phosphor-core/assets/light/archive-light.svg");
-		pub const ARCHIVE_BOX: &str = include_str!("../phosphor-core/assets/light/archive-box-light.svg");
-		pub const ARCHIVE_TRAY: &str = include_str!("../phosphor-core/assets/light/archive-tray-light.svg");
 		pub const ARMCHAIR: &str = include_str!("../phosphor-core/assets/light/armchair-light.svg");
 		pub const ARROW_ARC_LEFT: &str = include_str!("../phosphor-core/assets/light/arrow-arc-left-light.svg");
 		pub const ARROW_ARC_RIGHT: &str = include_str!("../phosphor-core/assets/light/arrow-arc-right-light.svg");
@@ -3889,11 +4685,15 @@ pub mod style {
 		pub const ARTICLE: &str = include_str!("../phosphor-core/assets/light/article-light.svg");
 		pub const ARTICLE_MEDIUM: &str = include_str!("../phosphor-core/assets/light/article-medium-light.svg");
 		pub const ARTICLE_NY_TIMES: &str = include_str!("../phosphor-core/assets/light/article-ny-times-light.svg");
+		pub const ASCLEPIUS: &str = include_str!("../phosphor-core/assets/light/asclepius-light.svg");
 		pub const ASTERISK: &str = include_str!("../phosphor-core/assets/light/asterisk-light.svg");
 		pub const ASTERISK_SIMPLE: &str = include_str!("../phosphor-core/assets/light/asterisk-simple-light.svg");
 		pub const AT: &str = include_str!("../phosphor-core/assets/light/at-light.svg");
 		pub const ATOM: &str = include_str!("../phosphor-core/assets/light/atom-light.svg");
+		pub const AVOCADO: &str = include_str!("../phosphor-core/assets/light/avocado-light.svg");
+		pub const AXE: &str = include_str!("../phosphor-core/assets/light/axe-light.svg");
 		pub const BABY: &str = include_str!("../phosphor-core/assets/light/baby-light.svg");
+		pub const BABY_CARRIAGE: &str = include_str!("../phosphor-core/assets/light/baby-carriage-light.svg");
 		pub const BACKPACK: &str = include_str!("../phosphor-core/assets/light/backpack-light.svg");
 		pub const BACKSPACE: &str = include_str!("../phosphor-core/assets/light/backspace-light.svg");
 		pub const BAG: &str = include_str!("../phosphor-core/assets/light/bag-light.svg");
@@ -3903,9 +4703,11 @@ pub mod style {
 		pub const BANK: &str = include_str!("../phosphor-core/assets/light/bank-light.svg");
 		pub const BARBELL: &str = include_str!("../phosphor-core/assets/light/barbell-light.svg");
 		pub const BARCODE: &str = include_str!("../phosphor-core/assets/light/barcode-light.svg");
+		pub const BARN: &str = include_str!("../phosphor-core/assets/light/barn-light.svg");
 		pub const BARRICADE: &str = include_str!("../phosphor-core/assets/light/barricade-light.svg");
 		pub const BASEBALL: &str = include_str!("../phosphor-core/assets/light/baseball-light.svg");
 		pub const BASEBALL_CAP: &str = include_str!("../phosphor-core/assets/light/baseball-cap-light.svg");
+		pub const BASEBALL_HELMET: &str = include_str!("../phosphor-core/assets/light/baseball-helmet-light.svg");
 		pub const BASKET: &str = include_str!("../phosphor-core/assets/light/basket-light.svg");
 		pub const BASKETBALL: &str = include_str!("../phosphor-core/assets/light/basketball-light.svg");
 		pub const BATHTUB: &str = include_str!("../phosphor-core/assets/light/bathtub-light.svg");
@@ -3925,6 +4727,8 @@ pub mod style {
 		pub const BATTERY_VERTICAL_MEDIUM: &str = include_str!("../phosphor-core/assets/light/battery-vertical-medium-light.svg");
 		pub const BATTERY_WARNING: &str = include_str!("../phosphor-core/assets/light/battery-warning-light.svg");
 		pub const BATTERY_WARNING_VERTICAL: &str = include_str!("../phosphor-core/assets/light/battery-warning-vertical-light.svg");
+		pub const BEACH_BALL: &str = include_str!("../phosphor-core/assets/light/beach-ball-light.svg");
+		pub const BEANIE: &str = include_str!("../phosphor-core/assets/light/beanie-light.svg");
 		pub const BED: &str = include_str!("../phosphor-core/assets/light/bed-light.svg");
 		pub const BEER_BOTTLE: &str = include_str!("../phosphor-core/assets/light/beer-bottle-light.svg");
 		pub const BEER_STEIN: &str = include_str!("../phosphor-core/assets/light/beer-stein-light.svg");
@@ -3937,34 +4741,47 @@ pub mod style {
 		pub const BELL_SIMPLE_Z: &str = include_str!("../phosphor-core/assets/light/bell-simple-z-light.svg");
 		pub const BELL_SLASH: &str = include_str!("../phosphor-core/assets/light/bell-slash-light.svg");
 		pub const BELL_Z: &str = include_str!("../phosphor-core/assets/light/bell-z-light.svg");
+		pub const BELT: &str = include_str!("../phosphor-core/assets/light/belt-light.svg");
 		pub const BEZIER_CURVE: &str = include_str!("../phosphor-core/assets/light/bezier-curve-light.svg");
 		pub const BICYCLE: &str = include_str!("../phosphor-core/assets/light/bicycle-light.svg");
+		pub const BINARY: &str = include_str!("../phosphor-core/assets/light/binary-light.svg");
 		pub const BINOCULARS: &str = include_str!("../phosphor-core/assets/light/binoculars-light.svg");
+		pub const BIOHAZARD: &str = include_str!("../phosphor-core/assets/light/biohazard-light.svg");
 		pub const BIRD: &str = include_str!("../phosphor-core/assets/light/bird-light.svg");
+		pub const BLUEPRINT: &str = include_str!("../phosphor-core/assets/light/blueprint-light.svg");
 		pub const BLUETOOTH: &str = include_str!("../phosphor-core/assets/light/bluetooth-light.svg");
 		pub const BLUETOOTH_CONNECTED: &str = include_str!("../phosphor-core/assets/light/bluetooth-connected-light.svg");
 		pub const BLUETOOTH_SLASH: &str = include_str!("../phosphor-core/assets/light/bluetooth-slash-light.svg");
 		pub const BLUETOOTH_X: &str = include_str!("../phosphor-core/assets/light/bluetooth-x-light.svg");
 		pub const BOAT: &str = include_str!("../phosphor-core/assets/light/boat-light.svg");
+		pub const BOMB: &str = include_str!("../phosphor-core/assets/light/bomb-light.svg");
 		pub const BONE: &str = include_str!("../phosphor-core/assets/light/bone-light.svg");
 		pub const BOOK: &str = include_str!("../phosphor-core/assets/light/book-light.svg");
 		pub const BOOK_BOOKMARK: &str = include_str!("../phosphor-core/assets/light/book-bookmark-light.svg");
 		pub const BOOK_OPEN: &str = include_str!("../phosphor-core/assets/light/book-open-light.svg");
 		pub const BOOK_OPEN_TEXT: &str = include_str!("../phosphor-core/assets/light/book-open-text-light.svg");
+		pub const BOOK_OPEN_USER: &str = include_str!("../phosphor-core/assets/light/book-open-user-light.svg");
 		pub const BOOKMARK: &str = include_str!("../phosphor-core/assets/light/bookmark-light.svg");
 		pub const BOOKMARK_SIMPLE: &str = include_str!("../phosphor-core/assets/light/bookmark-simple-light.svg");
 		pub const BOOKMARKS: &str = include_str!("../phosphor-core/assets/light/bookmarks-light.svg");
 		pub const BOOKMARKS_SIMPLE: &str = include_str!("../phosphor-core/assets/light/bookmarks-simple-light.svg");
 		pub const BOOKS: &str = include_str!("../phosphor-core/assets/light/books-light.svg");
 		pub const BOOT: &str = include_str!("../phosphor-core/assets/light/boot-light.svg");
+		pub const BOULES: &str = include_str!("../phosphor-core/assets/light/boules-light.svg");
 		pub const BOUNDING_BOX: &str = include_str!("../phosphor-core/assets/light/bounding-box-light.svg");
 		pub const BOWL_FOOD: &str = include_str!("../phosphor-core/assets/light/bowl-food-light.svg");
+		pub const BOWL_STEAM: &str = include_str!("../phosphor-core/assets/light/bowl-steam-light.svg");
+		pub const BOWLING_BALL: &str = include_str!("../phosphor-core/assets/light/bowling-ball-light.svg");
+		pub const BOX_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/light/box-arrow-down-light.svg");
+		pub const BOX_ARROW_UP: &str = include_str!("../phosphor-core/assets/light/box-arrow-up-light.svg");
+		pub const BOXING_GLOVE: &str = include_str!("../phosphor-core/assets/light/boxing-glove-light.svg");
 		pub const BRACKETS_ANGLE: &str = include_str!("../phosphor-core/assets/light/brackets-angle-light.svg");
 		pub const BRACKETS_CURLY: &str = include_str!("../phosphor-core/assets/light/brackets-curly-light.svg");
 		pub const BRACKETS_ROUND: &str = include_str!("../phosphor-core/assets/light/brackets-round-light.svg");
 		pub const BRACKETS_SQUARE: &str = include_str!("../phosphor-core/assets/light/brackets-square-light.svg");
 		pub const BRAIN: &str = include_str!("../phosphor-core/assets/light/brain-light.svg");
 		pub const BRANDY: &str = include_str!("../phosphor-core/assets/light/brandy-light.svg");
+		pub const BREAD: &str = include_str!("../phosphor-core/assets/light/bread-light.svg");
 		pub const BRIDGE: &str = include_str!("../phosphor-core/assets/light/bridge-light.svg");
 		pub const BRIEFCASE: &str = include_str!("../phosphor-core/assets/light/briefcase-light.svg");
 		pub const BRIEFCASE_METAL: &str = include_str!("../phosphor-core/assets/light/briefcase-metal-light.svg");
@@ -3975,16 +4792,27 @@ pub mod style {
 		pub const BUG: &str = include_str!("../phosphor-core/assets/light/bug-light.svg");
 		pub const BUG_BEETLE: &str = include_str!("../phosphor-core/assets/light/bug-beetle-light.svg");
 		pub const BUG_DROID: &str = include_str!("../phosphor-core/assets/light/bug-droid-light.svg");
+		pub const BUILDING: &str = include_str!("../phosphor-core/assets/light/building-light.svg");
+		pub const BUILDING_APARTMENT: &str = include_str!("../phosphor-core/assets/light/building-apartment-light.svg");
+		pub const BUILDING_OFFICE: &str = include_str!("../phosphor-core/assets/light/building-office-light.svg");
 		pub const BUILDINGS: &str = include_str!("../phosphor-core/assets/light/buildings-light.svg");
+		pub const BULLDOZER: &str = include_str!("../phosphor-core/assets/light/bulldozer-light.svg");
 		pub const BUS: &str = include_str!("../phosphor-core/assets/light/bus-light.svg");
 		pub const BUTTERFLY: &str = include_str!("../phosphor-core/assets/light/butterfly-light.svg");
+		pub const CABLE_CAR: &str = include_str!("../phosphor-core/assets/light/cable-car-light.svg");
 		pub const CACTUS: &str = include_str!("../phosphor-core/assets/light/cactus-light.svg");
 		pub const CAKE: &str = include_str!("../phosphor-core/assets/light/cake-light.svg");
 		pub const CALCULATOR: &str = include_str!("../phosphor-core/assets/light/calculator-light.svg");
 		pub const CALENDAR: &str = include_str!("../phosphor-core/assets/light/calendar-light.svg");
 		pub const CALENDAR_BLANK: &str = include_str!("../phosphor-core/assets/light/calendar-blank-light.svg");
 		pub const CALENDAR_CHECK: &str = include_str!("../phosphor-core/assets/light/calendar-check-light.svg");
+		pub const CALENDAR_DOT: &str = include_str!("../phosphor-core/assets/light/calendar-dot-light.svg");
+		pub const CALENDAR_DOTS: &str = include_str!("../phosphor-core/assets/light/calendar-dots-light.svg");
+		pub const CALENDAR_HEART: &str = include_str!("../phosphor-core/assets/light/calendar-heart-light.svg");
+		pub const CALENDAR_MINUS: &str = include_str!("../phosphor-core/assets/light/calendar-minus-light.svg");
 		pub const CALENDAR_PLUS: &str = include_str!("../phosphor-core/assets/light/calendar-plus-light.svg");
+		pub const CALENDAR_SLASH: &str = include_str!("../phosphor-core/assets/light/calendar-slash-light.svg");
+		pub const CALENDAR_STAR: &str = include_str!("../phosphor-core/assets/light/calendar-star-light.svg");
 		pub const CALENDAR_X: &str = include_str!("../phosphor-core/assets/light/calendar-x-light.svg");
 		pub const CALL_BELL: &str = include_str!("../phosphor-core/assets/light/call-bell-light.svg");
 		pub const CAMERA: &str = include_str!("../phosphor-core/assets/light/camera-light.svg");
@@ -3993,10 +4821,12 @@ pub mod style {
 		pub const CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/light/camera-slash-light.svg");
 		pub const CAMPFIRE: &str = include_str!("../phosphor-core/assets/light/campfire-light.svg");
 		pub const CAR: &str = include_str!("../phosphor-core/assets/light/car-light.svg");
+		pub const CAR_BATTERY: &str = include_str!("../phosphor-core/assets/light/car-battery-light.svg");
 		pub const CAR_PROFILE: &str = include_str!("../phosphor-core/assets/light/car-profile-light.svg");
 		pub const CAR_SIMPLE: &str = include_str!("../phosphor-core/assets/light/car-simple-light.svg");
 		pub const CARDHOLDER: &str = include_str!("../phosphor-core/assets/light/cardholder-light.svg");
 		pub const CARDS: &str = include_str!("../phosphor-core/assets/light/cards-light.svg");
+		pub const CARDS_THREE: &str = include_str!("../phosphor-core/assets/light/cards-three-light.svg");
 		pub const CARET_CIRCLE_DOUBLE_DOWN: &str = include_str!("../phosphor-core/assets/light/caret-circle-double-down-light.svg");
 		pub const CARET_CIRCLE_DOUBLE_LEFT: &str = include_str!("../phosphor-core/assets/light/caret-circle-double-left-light.svg");
 		pub const CARET_CIRCLE_DOUBLE_RIGHT: &str = include_str!("../phosphor-core/assets/light/caret-circle-double-right-light.svg");
@@ -4012,10 +4842,15 @@ pub mod style {
 		pub const CARET_DOUBLE_UP: &str = include_str!("../phosphor-core/assets/light/caret-double-up-light.svg");
 		pub const CARET_DOWN: &str = include_str!("../phosphor-core/assets/light/caret-down-light.svg");
 		pub const CARET_LEFT: &str = include_str!("../phosphor-core/assets/light/caret-left-light.svg");
+		pub const CARET_LINE_DOWN: &str = include_str!("../phosphor-core/assets/light/caret-line-down-light.svg");
+		pub const CARET_LINE_LEFT: &str = include_str!("../phosphor-core/assets/light/caret-line-left-light.svg");
+		pub const CARET_LINE_RIGHT: &str = include_str!("../phosphor-core/assets/light/caret-line-right-light.svg");
+		pub const CARET_LINE_UP: &str = include_str!("../phosphor-core/assets/light/caret-line-up-light.svg");
 		pub const CARET_RIGHT: &str = include_str!("../phosphor-core/assets/light/caret-right-light.svg");
 		pub const CARET_UP: &str = include_str!("../phosphor-core/assets/light/caret-up-light.svg");
 		pub const CARET_UP_DOWN: &str = include_str!("../phosphor-core/assets/light/caret-up-down-light.svg");
 		pub const CARROT: &str = include_str!("../phosphor-core/assets/light/carrot-light.svg");
+		pub const CASH_REGISTER: &str = include_str!("../phosphor-core/assets/light/cash-register-light.svg");
 		pub const CASSETTE_TAPE: &str = include_str!("../phosphor-core/assets/light/cassette-tape-light.svg");
 		pub const CASTLE_TURRET: &str = include_str!("../phosphor-core/assets/light/castle-turret-light.svg");
 		pub const CAT: &str = include_str!("../phosphor-core/assets/light/cat-light.svg");
@@ -4026,6 +4861,7 @@ pub mod style {
 		pub const CELL_SIGNAL_NONE: &str = include_str!("../phosphor-core/assets/light/cell-signal-none-light.svg");
 		pub const CELL_SIGNAL_SLASH: &str = include_str!("../phosphor-core/assets/light/cell-signal-slash-light.svg");
 		pub const CELL_SIGNAL_X: &str = include_str!("../phosphor-core/assets/light/cell-signal-x-light.svg");
+		pub const CELL_TOWER: &str = include_str!("../phosphor-core/assets/light/cell-tower-light.svg");
 		pub const CERTIFICATE: &str = include_str!("../phosphor-core/assets/light/certificate-light.svg");
 		pub const CHAIR: &str = include_str!("../phosphor-core/assets/light/chair-light.svg");
 		pub const CHALKBOARD: &str = include_str!("../phosphor-core/assets/light/chalkboard-light.svg");
@@ -4046,13 +4882,17 @@ pub mod style {
 		pub const CHAT: &str = include_str!("../phosphor-core/assets/light/chat-light.svg");
 		pub const CHAT_CENTERED: &str = include_str!("../phosphor-core/assets/light/chat-centered-light.svg");
 		pub const CHAT_CENTERED_DOTS: &str = include_str!("../phosphor-core/assets/light/chat-centered-dots-light.svg");
+		pub const CHAT_CENTERED_SLASH: &str = include_str!("../phosphor-core/assets/light/chat-centered-slash-light.svg");
 		pub const CHAT_CENTERED_TEXT: &str = include_str!("../phosphor-core/assets/light/chat-centered-text-light.svg");
 		pub const CHAT_CIRCLE: &str = include_str!("../phosphor-core/assets/light/chat-circle-light.svg");
 		pub const CHAT_CIRCLE_DOTS: &str = include_str!("../phosphor-core/assets/light/chat-circle-dots-light.svg");
+		pub const CHAT_CIRCLE_SLASH: &str = include_str!("../phosphor-core/assets/light/chat-circle-slash-light.svg");
 		pub const CHAT_CIRCLE_TEXT: &str = include_str!("../phosphor-core/assets/light/chat-circle-text-light.svg");
 		pub const CHAT_DOTS: &str = include_str!("../phosphor-core/assets/light/chat-dots-light.svg");
+		pub const CHAT_SLASH: &str = include_str!("../phosphor-core/assets/light/chat-slash-light.svg");
 		pub const CHAT_TEARDROP: &str = include_str!("../phosphor-core/assets/light/chat-teardrop-light.svg");
 		pub const CHAT_TEARDROP_DOTS: &str = include_str!("../phosphor-core/assets/light/chat-teardrop-dots-light.svg");
+		pub const CHAT_TEARDROP_SLASH: &str = include_str!("../phosphor-core/assets/light/chat-teardrop-slash-light.svg");
 		pub const CHAT_TEARDROP_TEXT: &str = include_str!("../phosphor-core/assets/light/chat-teardrop-text-light.svg");
 		pub const CHAT_TEXT: &str = include_str!("../phosphor-core/assets/light/chat-text-light.svg");
 		pub const CHATS: &str = include_str!("../phosphor-core/assets/light/chats-light.svg");
@@ -4063,8 +4903,15 @@ pub mod style {
 		pub const CHECK_FAT: &str = include_str!("../phosphor-core/assets/light/check-fat-light.svg");
 		pub const CHECK_SQUARE: &str = include_str!("../phosphor-core/assets/light/check-square-light.svg");
 		pub const CHECK_SQUARE_OFFSET: &str = include_str!("../phosphor-core/assets/light/check-square-offset-light.svg");
+		pub const CHECKERBOARD: &str = include_str!("../phosphor-core/assets/light/checkerboard-light.svg");
 		pub const CHECKS: &str = include_str!("../phosphor-core/assets/light/checks-light.svg");
+		pub const CHEERS: &str = include_str!("../phosphor-core/assets/light/cheers-light.svg");
+		pub const CHEESE: &str = include_str!("../phosphor-core/assets/light/cheese-light.svg");
+		pub const CHEF_HAT: &str = include_str!("../phosphor-core/assets/light/chef-hat-light.svg");
+		pub const CHERRIES: &str = include_str!("../phosphor-core/assets/light/cherries-light.svg");
 		pub const CHURCH: &str = include_str!("../phosphor-core/assets/light/church-light.svg");
+		pub const CIGARETTE: &str = include_str!("../phosphor-core/assets/light/cigarette-light.svg");
+		pub const CIGARETTE_SLASH: &str = include_str!("../phosphor-core/assets/light/cigarette-slash-light.svg");
 		pub const CIRCLE: &str = include_str!("../phosphor-core/assets/light/circle-light.svg");
 		pub const CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/light/circle-dashed-light.svg");
 		pub const CIRCLE_HALF: &str = include_str!("../phosphor-core/assets/light/circle-half-light.svg");
@@ -4074,6 +4921,7 @@ pub mod style {
 		pub const CIRCLES_THREE: &str = include_str!("../phosphor-core/assets/light/circles-three-light.svg");
 		pub const CIRCLES_THREE_PLUS: &str = include_str!("../phosphor-core/assets/light/circles-three-plus-light.svg");
 		pub const CIRCUITRY: &str = include_str!("../phosphor-core/assets/light/circuitry-light.svg");
+		pub const CITY: &str = include_str!("../phosphor-core/assets/light/city-light.svg");
 		pub const CLIPBOARD: &str = include_str!("../phosphor-core/assets/light/clipboard-light.svg");
 		pub const CLIPBOARD_TEXT: &str = include_str!("../phosphor-core/assets/light/clipboard-text-light.svg");
 		pub const CLOCK: &str = include_str!("../phosphor-core/assets/light/clock-light.svg");
@@ -4081,6 +4929,7 @@ pub mod style {
 		pub const CLOCK_CLOCKWISE: &str = include_str!("../phosphor-core/assets/light/clock-clockwise-light.svg");
 		pub const CLOCK_COUNTDOWN: &str = include_str!("../phosphor-core/assets/light/clock-countdown-light.svg");
 		pub const CLOCK_COUNTER_CLOCKWISE: &str = include_str!("../phosphor-core/assets/light/clock-counter-clockwise-light.svg");
+		pub const CLOCK_USER: &str = include_str!("../phosphor-core/assets/light/clock-user-light.svg");
 		pub const CLOSED_CAPTIONING: &str = include_str!("../phosphor-core/assets/light/closed-captioning-light.svg");
 		pub const CLOUD: &str = include_str!("../phosphor-core/assets/light/cloud-light.svg");
 		pub const CLOUD_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/light/cloud-arrow-down-light.svg");
@@ -4095,6 +4944,7 @@ pub mod style {
 		pub const CLOUD_SUN: &str = include_str!("../phosphor-core/assets/light/cloud-sun-light.svg");
 		pub const CLOUD_WARNING: &str = include_str!("../phosphor-core/assets/light/cloud-warning-light.svg");
 		pub const CLOUD_X: &str = include_str!("../phosphor-core/assets/light/cloud-x-light.svg");
+		pub const CLOVER: &str = include_str!("../phosphor-core/assets/light/clover-light.svg");
 		pub const CLUB: &str = include_str!("../phosphor-core/assets/light/club-light.svg");
 		pub const COAT_HANGER: &str = include_str!("../phosphor-core/assets/light/coat-hanger-light.svg");
 		pub const CODA_LOGO: &str = include_str!("../phosphor-core/assets/light/coda-logo-light.svg");
@@ -4104,12 +4954,16 @@ pub mod style {
 		pub const CODEPEN_LOGO: &str = include_str!("../phosphor-core/assets/light/codepen-logo-light.svg");
 		pub const CODESANDBOX_LOGO: &str = include_str!("../phosphor-core/assets/light/codesandbox-logo-light.svg");
 		pub const COFFEE: &str = include_str!("../phosphor-core/assets/light/coffee-light.svg");
+		pub const COFFEE_BEAN: &str = include_str!("../phosphor-core/assets/light/coffee-bean-light.svg");
 		pub const COIN: &str = include_str!("../phosphor-core/assets/light/coin-light.svg");
 		pub const COIN_VERTICAL: &str = include_str!("../phosphor-core/assets/light/coin-vertical-light.svg");
 		pub const COINS: &str = include_str!("../phosphor-core/assets/light/coins-light.svg");
 		pub const COLUMNS: &str = include_str!("../phosphor-core/assets/light/columns-light.svg");
+		pub const COLUMNS_PLUS_LEFT: &str = include_str!("../phosphor-core/assets/light/columns-plus-left-light.svg");
+		pub const COLUMNS_PLUS_RIGHT: &str = include_str!("../phosphor-core/assets/light/columns-plus-right-light.svg");
 		pub const COMMAND: &str = include_str!("../phosphor-core/assets/light/command-light.svg");
 		pub const COMPASS: &str = include_str!("../phosphor-core/assets/light/compass-light.svg");
+		pub const COMPASS_ROSE: &str = include_str!("../phosphor-core/assets/light/compass-rose-light.svg");
 		pub const COMPASS_TOOL: &str = include_str!("../phosphor-core/assets/light/compass-tool-light.svg");
 		pub const COMPUTER_TOWER: &str = include_str!("../phosphor-core/assets/light/computer-tower-light.svg");
 		pub const CONFETTI: &str = include_str!("../phosphor-core/assets/light/confetti-light.svg");
@@ -4124,13 +4978,20 @@ pub mod style {
 		pub const CORNERS_IN: &str = include_str!("../phosphor-core/assets/light/corners-in-light.svg");
 		pub const CORNERS_OUT: &str = include_str!("../phosphor-core/assets/light/corners-out-light.svg");
 		pub const COUCH: &str = include_str!("../phosphor-core/assets/light/couch-light.svg");
+		pub const COURT_BASKETBALL: &str = include_str!("../phosphor-core/assets/light/court-basketball-light.svg");
+		pub const COW: &str = include_str!("../phosphor-core/assets/light/cow-light.svg");
+		pub const COWBOY_HAT: &str = include_str!("../phosphor-core/assets/light/cowboy-hat-light.svg");
 		pub const CPU: &str = include_str!("../phosphor-core/assets/light/cpu-light.svg");
+		pub const CRANE: &str = include_str!("../phosphor-core/assets/light/crane-light.svg");
+		pub const CRANE_TOWER: &str = include_str!("../phosphor-core/assets/light/crane-tower-light.svg");
 		pub const CREDIT_CARD: &str = include_str!("../phosphor-core/assets/light/credit-card-light.svg");
+		pub const CRICKET: &str = include_str!("../phosphor-core/assets/light/cricket-light.svg");
 		pub const CROP: &str = include_str!("../phosphor-core/assets/light/crop-light.svg");
 		pub const CROSS: &str = include_str!("../phosphor-core/assets/light/cross-light.svg");
 		pub const CROSSHAIR: &str = include_str!("../phosphor-core/assets/light/crosshair-light.svg");
 		pub const CROSSHAIR_SIMPLE: &str = include_str!("../phosphor-core/assets/light/crosshair-simple-light.svg");
 		pub const CROWN: &str = include_str!("../phosphor-core/assets/light/crown-light.svg");
+		pub const CROWN_CROSS: &str = include_str!("../phosphor-core/assets/light/crown-cross-light.svg");
 		pub const CROWN_SIMPLE: &str = include_str!("../phosphor-core/assets/light/crown-simple-light.svg");
 		pub const CUBE: &str = include_str!("../phosphor-core/assets/light/cube-light.svg");
 		pub const CUBE_FOCUS: &str = include_str!("../phosphor-core/assets/light/cube-focus-light.svg");
@@ -4154,13 +5015,16 @@ pub mod style {
 		pub const CURSOR_TEXT: &str = include_str!("../phosphor-core/assets/light/cursor-text-light.svg");
 		pub const CYLINDER: &str = include_str!("../phosphor-core/assets/light/cylinder-light.svg");
 		pub const DATABASE: &str = include_str!("../phosphor-core/assets/light/database-light.svg");
+		pub const DESK: &str = include_str!("../phosphor-core/assets/light/desk-light.svg");
 		pub const DESKTOP: &str = include_str!("../phosphor-core/assets/light/desktop-light.svg");
 		pub const DESKTOP_TOWER: &str = include_str!("../phosphor-core/assets/light/desktop-tower-light.svg");
 		pub const DETECTIVE: &str = include_str!("../phosphor-core/assets/light/detective-light.svg");
 		pub const DEV_TO_LOGO: &str = include_str!("../phosphor-core/assets/light/dev-to-logo-light.svg");
 		pub const DEVICE_MOBILE: &str = include_str!("../phosphor-core/assets/light/device-mobile-light.svg");
 		pub const DEVICE_MOBILE_CAMERA: &str = include_str!("../phosphor-core/assets/light/device-mobile-camera-light.svg");
+		pub const DEVICE_MOBILE_SLASH: &str = include_str!("../phosphor-core/assets/light/device-mobile-slash-light.svg");
 		pub const DEVICE_MOBILE_SPEAKER: &str = include_str!("../phosphor-core/assets/light/device-mobile-speaker-light.svg");
+		pub const DEVICE_ROTATE: &str = include_str!("../phosphor-core/assets/light/device-rotate-light.svg");
 		pub const DEVICE_TABLET: &str = include_str!("../phosphor-core/assets/light/device-tablet-light.svg");
 		pub const DEVICE_TABLET_CAMERA: &str = include_str!("../phosphor-core/assets/light/device-tablet-camera-light.svg");
 		pub const DEVICE_TABLET_SPEAKER: &str = include_str!("../phosphor-core/assets/light/device-tablet-speaker-light.svg");
@@ -4174,6 +5038,7 @@ pub mod style {
 		pub const DICE_THREE: &str = include_str!("../phosphor-core/assets/light/dice-three-light.svg");
 		pub const DICE_TWO: &str = include_str!("../phosphor-core/assets/light/dice-two-light.svg");
 		pub const DISC: &str = include_str!("../phosphor-core/assets/light/disc-light.svg");
+		pub const DISCO_BALL: &str = include_str!("../phosphor-core/assets/light/disco-ball-light.svg");
 		pub const DISCORD_LOGO: &str = include_str!("../phosphor-core/assets/light/discord-logo-light.svg");
 		pub const DIVIDE: &str = include_str!("../phosphor-core/assets/light/divide-light.svg");
 		pub const DNA: &str = include_str!("../phosphor-core/assets/light/dna-light.svg");
@@ -4194,10 +5059,14 @@ pub mod style {
 		pub const DOWNLOAD: &str = include_str!("../phosphor-core/assets/light/download-light.svg");
 		pub const DOWNLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/light/download-simple-light.svg");
 		pub const DRESS: &str = include_str!("../phosphor-core/assets/light/dress-light.svg");
+		pub const DRESSER: &str = include_str!("../phosphor-core/assets/light/dresser-light.svg");
 		pub const DRIBBBLE_LOGO: &str = include_str!("../phosphor-core/assets/light/dribbble-logo-light.svg");
+		pub const DRONE: &str = include_str!("../phosphor-core/assets/light/drone-light.svg");
 		pub const DROP: &str = include_str!("../phosphor-core/assets/light/drop-light.svg");
 		pub const DROP_HALF: &str = include_str!("../phosphor-core/assets/light/drop-half-light.svg");
 		pub const DROP_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/light/drop-half-bottom-light.svg");
+		pub const DROP_SIMPLE: &str = include_str!("../phosphor-core/assets/light/drop-simple-light.svg");
+		pub const DROP_SLASH: &str = include_str!("../phosphor-core/assets/light/drop-slash-light.svg");
 		pub const DROPBOX_LOGO: &str = include_str!("../phosphor-core/assets/light/dropbox-logo-light.svg");
 		pub const EAR: &str = include_str!("../phosphor-core/assets/light/ear-light.svg");
 		pub const EAR_SLASH: &str = include_str!("../phosphor-core/assets/light/ear-slash-light.svg");
@@ -4206,6 +5075,7 @@ pub mod style {
 		pub const EJECT: &str = include_str!("../phosphor-core/assets/light/eject-light.svg");
 		pub const EJECT_SIMPLE: &str = include_str!("../phosphor-core/assets/light/eject-simple-light.svg");
 		pub const ELEVATOR: &str = include_str!("../phosphor-core/assets/light/elevator-light.svg");
+		pub const EMPTY: &str = include_str!("../phosphor-core/assets/light/empty-light.svg");
 		pub const ENGINE: &str = include_str!("../phosphor-core/assets/light/engine-light.svg");
 		pub const ENVELOPE: &str = include_str!("../phosphor-core/assets/light/envelope-light.svg");
 		pub const ENVELOPE_OPEN: &str = include_str!("../phosphor-core/assets/light/envelope-open-light.svg");
@@ -4217,6 +5087,7 @@ pub mod style {
 		pub const ESCALATOR_DOWN: &str = include_str!("../phosphor-core/assets/light/escalator-down-light.svg");
 		pub const ESCALATOR_UP: &str = include_str!("../phosphor-core/assets/light/escalator-up-light.svg");
 		pub const EXAM: &str = include_str!("../phosphor-core/assets/light/exam-light.svg");
+		pub const EXCLAMATION_MARK: &str = include_str!("../phosphor-core/assets/light/exclamation-mark-light.svg");
 		pub const EXCLUDE: &str = include_str!("../phosphor-core/assets/light/exclude-light.svg");
 		pub const EXCLUDE_SQUARE: &str = include_str!("../phosphor-core/assets/light/exclude-square-light.svg");
 		pub const EXPORT: &str = include_str!("../phosphor-core/assets/light/export-light.svg");
@@ -4226,45 +5097,56 @@ pub mod style {
 		pub const EYEDROPPER: &str = include_str!("../phosphor-core/assets/light/eyedropper-light.svg");
 		pub const EYEDROPPER_SAMPLE: &str = include_str!("../phosphor-core/assets/light/eyedropper-sample-light.svg");
 		pub const EYEGLASSES: &str = include_str!("../phosphor-core/assets/light/eyeglasses-light.svg");
+		pub const EYES: &str = include_str!("../phosphor-core/assets/light/eyes-light.svg");
 		pub const FACE_MASK: &str = include_str!("../phosphor-core/assets/light/face-mask-light.svg");
 		pub const FACEBOOK_LOGO: &str = include_str!("../phosphor-core/assets/light/facebook-logo-light.svg");
 		pub const FACTORY: &str = include_str!("../phosphor-core/assets/light/factory-light.svg");
 		pub const FADERS: &str = include_str!("../phosphor-core/assets/light/faders-light.svg");
 		pub const FADERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/light/faders-horizontal-light.svg");
+		pub const FALLOUT_SHELTER: &str = include_str!("../phosphor-core/assets/light/fallout-shelter-light.svg");
 		pub const FAN: &str = include_str!("../phosphor-core/assets/light/fan-light.svg");
+		pub const FARM: &str = include_str!("../phosphor-core/assets/light/farm-light.svg");
 		pub const FAST_FORWARD: &str = include_str!("../phosphor-core/assets/light/fast-forward-light.svg");
 		pub const FAST_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/light/fast-forward-circle-light.svg");
 		pub const FEATHER: &str = include_str!("../phosphor-core/assets/light/feather-light.svg");
+		pub const FEDIVERSE_LOGO: &str = include_str!("../phosphor-core/assets/light/fediverse-logo-light.svg");
 		pub const FIGMA_LOGO: &str = include_str!("../phosphor-core/assets/light/figma-logo-light.svg");
 		pub const FILE: &str = include_str!("../phosphor-core/assets/light/file-light.svg");
 		pub const FILE_ARCHIVE: &str = include_str!("../phosphor-core/assets/light/file-archive-light.svg");
 		pub const FILE_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/light/file-arrow-down-light.svg");
 		pub const FILE_ARROW_UP: &str = include_str!("../phosphor-core/assets/light/file-arrow-up-light.svg");
 		pub const FILE_AUDIO: &str = include_str!("../phosphor-core/assets/light/file-audio-light.svg");
+		pub const FILE_C: &str = include_str!("../phosphor-core/assets/light/file-c-light.svg");
+		pub const FILE_C_SHARP: &str = include_str!("../phosphor-core/assets/light/file-c-sharp-light.svg");
 		pub const FILE_CLOUD: &str = include_str!("../phosphor-core/assets/light/file-cloud-light.svg");
 		pub const FILE_CODE: &str = include_str!("../phosphor-core/assets/light/file-code-light.svg");
+		pub const FILE_CPP: &str = include_str!("../phosphor-core/assets/light/file-cpp-light.svg");
 		pub const FILE_CSS: &str = include_str!("../phosphor-core/assets/light/file-css-light.svg");
 		pub const FILE_CSV: &str = include_str!("../phosphor-core/assets/light/file-csv-light.svg");
 		pub const FILE_DASHED: &str = include_str!("../phosphor-core/assets/light/file-dashed-light.svg");
 		pub const FILE_DOC: &str = include_str!("../phosphor-core/assets/light/file-doc-light.svg");
 		pub const FILE_HTML: &str = include_str!("../phosphor-core/assets/light/file-html-light.svg");
 		pub const FILE_IMAGE: &str = include_str!("../phosphor-core/assets/light/file-image-light.svg");
+		pub const FILE_INI: &str = include_str!("../phosphor-core/assets/light/file-ini-light.svg");
 		pub const FILE_JPG: &str = include_str!("../phosphor-core/assets/light/file-jpg-light.svg");
 		pub const FILE_JS: &str = include_str!("../phosphor-core/assets/light/file-js-light.svg");
 		pub const FILE_JSX: &str = include_str!("../phosphor-core/assets/light/file-jsx-light.svg");
 		pub const FILE_LOCK: &str = include_str!("../phosphor-core/assets/light/file-lock-light.svg");
 		pub const FILE_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/light/file-magnifying-glass-light.svg");
+		pub const FILE_MD: &str = include_str!("../phosphor-core/assets/light/file-md-light.svg");
 		pub const FILE_MINUS: &str = include_str!("../phosphor-core/assets/light/file-minus-light.svg");
 		pub const FILE_PDF: &str = include_str!("../phosphor-core/assets/light/file-pdf-light.svg");
 		pub const FILE_PLUS: &str = include_str!("../phosphor-core/assets/light/file-plus-light.svg");
 		pub const FILE_PNG: &str = include_str!("../phosphor-core/assets/light/file-png-light.svg");
 		pub const FILE_PPT: &str = include_str!("../phosphor-core/assets/light/file-ppt-light.svg");
+		pub const FILE_PY: &str = include_str!("../phosphor-core/assets/light/file-py-light.svg");
 		pub const FILE_RS: &str = include_str!("../phosphor-core/assets/light/file-rs-light.svg");
 		pub const FILE_SQL: &str = include_str!("../phosphor-core/assets/light/file-sql-light.svg");
 		pub const FILE_SVG: &str = include_str!("../phosphor-core/assets/light/file-svg-light.svg");
 		pub const FILE_TEXT: &str = include_str!("../phosphor-core/assets/light/file-text-light.svg");
 		pub const FILE_TS: &str = include_str!("../phosphor-core/assets/light/file-ts-light.svg");
 		pub const FILE_TSX: &str = include_str!("../phosphor-core/assets/light/file-tsx-light.svg");
+		pub const FILE_TXT: &str = include_str!("../phosphor-core/assets/light/file-txt-light.svg");
 		pub const FILE_VIDEO: &str = include_str!("../phosphor-core/assets/light/file-video-light.svg");
 		pub const FILE_VUE: &str = include_str!("../phosphor-core/assets/light/file-vue-light.svg");
 		pub const FILE_X: &str = include_str!("../phosphor-core/assets/light/file-x-light.svg");
@@ -4281,17 +5163,21 @@ pub mod style {
 		pub const FIRE: &str = include_str!("../phosphor-core/assets/light/fire-light.svg");
 		pub const FIRE_EXTINGUISHER: &str = include_str!("../phosphor-core/assets/light/fire-extinguisher-light.svg");
 		pub const FIRE_SIMPLE: &str = include_str!("../phosphor-core/assets/light/fire-simple-light.svg");
+		pub const FIRE_TRUCK: &str = include_str!("../phosphor-core/assets/light/fire-truck-light.svg");
 		pub const FIRST_AID: &str = include_str!("../phosphor-core/assets/light/first-aid-light.svg");
 		pub const FIRST_AID_KIT: &str = include_str!("../phosphor-core/assets/light/first-aid-kit-light.svg");
 		pub const FISH: &str = include_str!("../phosphor-core/assets/light/fish-light.svg");
 		pub const FISH_SIMPLE: &str = include_str!("../phosphor-core/assets/light/fish-simple-light.svg");
 		pub const FLAG: &str = include_str!("../phosphor-core/assets/light/flag-light.svg");
 		pub const FLAG_BANNER: &str = include_str!("../phosphor-core/assets/light/flag-banner-light.svg");
+		pub const FLAG_BANNER_FOLD: &str = include_str!("../phosphor-core/assets/light/flag-banner-fold-light.svg");
 		pub const FLAG_CHECKERED: &str = include_str!("../phosphor-core/assets/light/flag-checkered-light.svg");
 		pub const FLAG_PENNANT: &str = include_str!("../phosphor-core/assets/light/flag-pennant-light.svg");
 		pub const FLAME: &str = include_str!("../phosphor-core/assets/light/flame-light.svg");
 		pub const FLASHLIGHT: &str = include_str!("../phosphor-core/assets/light/flashlight-light.svg");
 		pub const FLASK: &str = include_str!("../phosphor-core/assets/light/flask-light.svg");
+		pub const FLIP_HORIZONTAL: &str = include_str!("../phosphor-core/assets/light/flip-horizontal-light.svg");
+		pub const FLIP_VERTICAL: &str = include_str!("../phosphor-core/assets/light/flip-vertical-light.svg");
 		pub const FLOPPY_DISK: &str = include_str!("../phosphor-core/assets/light/floppy-disk-light.svg");
 		pub const FLOPPY_DISK_BACK: &str = include_str!("../phosphor-core/assets/light/floppy-disk-back-light.svg");
 		pub const FLOW_ARROW: &str = include_str!("../phosphor-core/assets/light/flow-arrow-light.svg");
@@ -4303,10 +5189,6 @@ pub mod style {
 		pub const FOLDER_DASHED: &str = include_str!("../phosphor-core/assets/light/folder-dashed-light.svg");
 		pub const FOLDER_LOCK: &str = include_str!("../phosphor-core/assets/light/folder-lock-light.svg");
 		pub const FOLDER_MINUS: &str = include_str!("../phosphor-core/assets/light/folder-minus-light.svg");
-		pub const FOLDER_NOTCH: &str = include_str!("../phosphor-core/assets/light/folder-notch-light.svg");
-		pub const FOLDER_NOTCH_MINUS: &str = include_str!("../phosphor-core/assets/light/folder-notch-minus-light.svg");
-		pub const FOLDER_NOTCH_OPEN: &str = include_str!("../phosphor-core/assets/light/folder-notch-open-light.svg");
-		pub const FOLDER_NOTCH_PLUS: &str = include_str!("../phosphor-core/assets/light/folder-notch-plus-light.svg");
 		pub const FOLDER_OPEN: &str = include_str!("../phosphor-core/assets/light/folder-open-light.svg");
 		pub const FOLDER_PLUS: &str = include_str!("../phosphor-core/assets/light/folder-plus-light.svg");
 		pub const FOLDER_SIMPLE: &str = include_str!("../phosphor-core/assets/light/folder-simple-light.svg");
@@ -4320,13 +5202,17 @@ pub mod style {
 		pub const FOLDER_USER: &str = include_str!("../phosphor-core/assets/light/folder-user-light.svg");
 		pub const FOLDERS: &str = include_str!("../phosphor-core/assets/light/folders-light.svg");
 		pub const FOOTBALL: &str = include_str!("../phosphor-core/assets/light/football-light.svg");
+		pub const FOOTBALL_HELMET: &str = include_str!("../phosphor-core/assets/light/football-helmet-light.svg");
 		pub const FOOTPRINTS: &str = include_str!("../phosphor-core/assets/light/footprints-light.svg");
 		pub const FORK_KNIFE: &str = include_str!("../phosphor-core/assets/light/fork-knife-light.svg");
+		pub const FOUR_K: &str = include_str!("../phosphor-core/assets/light/four-k-light.svg");
 		pub const FRAME_CORNERS: &str = include_str!("../phosphor-core/assets/light/frame-corners-light.svg");
 		pub const FRAMER_LOGO: &str = include_str!("../phosphor-core/assets/light/framer-logo-light.svg");
 		pub const FUNCTION: &str = include_str!("../phosphor-core/assets/light/function-light.svg");
 		pub const FUNNEL: &str = include_str!("../phosphor-core/assets/light/funnel-light.svg");
 		pub const FUNNEL_SIMPLE: &str = include_str!("../phosphor-core/assets/light/funnel-simple-light.svg");
+		pub const FUNNEL_SIMPLE_X: &str = include_str!("../phosphor-core/assets/light/funnel-simple-x-light.svg");
+		pub const FUNNEL_X: &str = include_str!("../phosphor-core/assets/light/funnel-x-light.svg");
 		pub const GAME_CONTROLLER: &str = include_str!("../phosphor-core/assets/light/game-controller-light.svg");
 		pub const GARAGE: &str = include_str!("../phosphor-core/assets/light/garage-light.svg");
 		pub const GAS_CAN: &str = include_str!("../phosphor-core/assets/light/gas-can-light.svg");
@@ -4358,8 +5244,11 @@ pub mod style {
 		pub const GLOBE_HEMISPHERE_EAST: &str = include_str!("../phosphor-core/assets/light/globe-hemisphere-east-light.svg");
 		pub const GLOBE_HEMISPHERE_WEST: &str = include_str!("../phosphor-core/assets/light/globe-hemisphere-west-light.svg");
 		pub const GLOBE_SIMPLE: &str = include_str!("../phosphor-core/assets/light/globe-simple-light.svg");
+		pub const GLOBE_SIMPLE_X: &str = include_str!("../phosphor-core/assets/light/globe-simple-x-light.svg");
 		pub const GLOBE_STAND: &str = include_str!("../phosphor-core/assets/light/globe-stand-light.svg");
+		pub const GLOBE_X: &str = include_str!("../phosphor-core/assets/light/globe-x-light.svg");
 		pub const GOGGLES: &str = include_str!("../phosphor-core/assets/light/goggles-light.svg");
+		pub const GOLF: &str = include_str!("../phosphor-core/assets/light/golf-light.svg");
 		pub const GOODREADS_LOGO: &str = include_str!("../phosphor-core/assets/light/goodreads-logo-light.svg");
 		pub const GOOGLE_CARDBOARD_LOGO: &str = include_str!("../phosphor-core/assets/light/google-cardboard-logo-light.svg");
 		pub const GOOGLE_CHROME_LOGO: &str = include_str!("../phosphor-core/assets/light/google-chrome-logo-light.svg");
@@ -4368,29 +5257,41 @@ pub mod style {
 		pub const GOOGLE_PHOTOS_LOGO: &str = include_str!("../phosphor-core/assets/light/google-photos-logo-light.svg");
 		pub const GOOGLE_PLAY_LOGO: &str = include_str!("../phosphor-core/assets/light/google-play-logo-light.svg");
 		pub const GOOGLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/light/google-podcasts-logo-light.svg");
+		pub const GPS: &str = include_str!("../phosphor-core/assets/light/gps-light.svg");
+		pub const GPS_FIX: &str = include_str!("../phosphor-core/assets/light/gps-fix-light.svg");
+		pub const GPS_SLASH: &str = include_str!("../phosphor-core/assets/light/gps-slash-light.svg");
 		pub const GRADIENT: &str = include_str!("../phosphor-core/assets/light/gradient-light.svg");
 		pub const GRADUATION_CAP: &str = include_str!("../phosphor-core/assets/light/graduation-cap-light.svg");
 		pub const GRAINS: &str = include_str!("../phosphor-core/assets/light/grains-light.svg");
 		pub const GRAINS_SLASH: &str = include_str!("../phosphor-core/assets/light/grains-slash-light.svg");
 		pub const GRAPH: &str = include_str!("../phosphor-core/assets/light/graph-light.svg");
+		pub const GRAPHICS_CARD: &str = include_str!("../phosphor-core/assets/light/graphics-card-light.svg");
+		pub const GREATER_THAN: &str = include_str!("../phosphor-core/assets/light/greater-than-light.svg");
+		pub const GREATER_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/light/greater-than-or-equal-light.svg");
 		pub const GRID_FOUR: &str = include_str!("../phosphor-core/assets/light/grid-four-light.svg");
 		pub const GRID_NINE: &str = include_str!("../phosphor-core/assets/light/grid-nine-light.svg");
 		pub const GUITAR: &str = include_str!("../phosphor-core/assets/light/guitar-light.svg");
+		pub const HAIR_DRYER: &str = include_str!("../phosphor-core/assets/light/hair-dryer-light.svg");
 		pub const HAMBURGER: &str = include_str!("../phosphor-core/assets/light/hamburger-light.svg");
 		pub const HAMMER: &str = include_str!("../phosphor-core/assets/light/hammer-light.svg");
 		pub const HAND: &str = include_str!("../phosphor-core/assets/light/hand-light.svg");
+		pub const HAND_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/light/hand-arrow-down-light.svg");
+		pub const HAND_ARROW_UP: &str = include_str!("../phosphor-core/assets/light/hand-arrow-up-light.svg");
 		pub const HAND_COINS: &str = include_str!("../phosphor-core/assets/light/hand-coins-light.svg");
+		pub const HAND_DEPOSIT: &str = include_str!("../phosphor-core/assets/light/hand-deposit-light.svg");
 		pub const HAND_EYE: &str = include_str!("../phosphor-core/assets/light/hand-eye-light.svg");
 		pub const HAND_FIST: &str = include_str!("../phosphor-core/assets/light/hand-fist-light.svg");
 		pub const HAND_GRABBING: &str = include_str!("../phosphor-core/assets/light/hand-grabbing-light.svg");
 		pub const HAND_HEART: &str = include_str!("../phosphor-core/assets/light/hand-heart-light.svg");
 		pub const HAND_PALM: &str = include_str!("../phosphor-core/assets/light/hand-palm-light.svg");
+		pub const HAND_PEACE: &str = include_str!("../phosphor-core/assets/light/hand-peace-light.svg");
 		pub const HAND_POINTING: &str = include_str!("../phosphor-core/assets/light/hand-pointing-light.svg");
 		pub const HAND_SOAP: &str = include_str!("../phosphor-core/assets/light/hand-soap-light.svg");
 		pub const HAND_SWIPE_LEFT: &str = include_str!("../phosphor-core/assets/light/hand-swipe-left-light.svg");
 		pub const HAND_SWIPE_RIGHT: &str = include_str!("../phosphor-core/assets/light/hand-swipe-right-light.svg");
 		pub const HAND_TAP: &str = include_str!("../phosphor-core/assets/light/hand-tap-light.svg");
 		pub const HAND_WAVING: &str = include_str!("../phosphor-core/assets/light/hand-waving-light.svg");
+		pub const HAND_WITHDRAW: &str = include_str!("../phosphor-core/assets/light/hand-withdraw-light.svg");
 		pub const HANDBAG: &str = include_str!("../phosphor-core/assets/light/handbag-light.svg");
 		pub const HANDBAG_SIMPLE: &str = include_str!("../phosphor-core/assets/light/handbag-simple-light.svg");
 		pub const HANDS_CLAPPING: &str = include_str!("../phosphor-core/assets/light/hands-clapping-light.svg");
@@ -4398,8 +5299,10 @@ pub mod style {
 		pub const HANDSHAKE: &str = include_str!("../phosphor-core/assets/light/handshake-light.svg");
 		pub const HARD_DRIVE: &str = include_str!("../phosphor-core/assets/light/hard-drive-light.svg");
 		pub const HARD_DRIVES: &str = include_str!("../phosphor-core/assets/light/hard-drives-light.svg");
+		pub const HARD_HAT: &str = include_str!("../phosphor-core/assets/light/hard-hat-light.svg");
 		pub const HASH: &str = include_str!("../phosphor-core/assets/light/hash-light.svg");
 		pub const HASH_STRAIGHT: &str = include_str!("../phosphor-core/assets/light/hash-straight-light.svg");
+		pub const HEAD_CIRCUIT: &str = include_str!("../phosphor-core/assets/light/head-circuit-light.svg");
 		pub const HEADLIGHTS: &str = include_str!("../phosphor-core/assets/light/headlights-light.svg");
 		pub const HEADPHONES: &str = include_str!("../phosphor-core/assets/light/headphones-light.svg");
 		pub const HEADSET: &str = include_str!("../phosphor-core/assets/light/headset-light.svg");
@@ -4410,10 +5313,14 @@ pub mod style {
 		pub const HEART_STRAIGHT_BREAK: &str = include_str!("../phosphor-core/assets/light/heart-straight-break-light.svg");
 		pub const HEARTBEAT: &str = include_str!("../phosphor-core/assets/light/heartbeat-light.svg");
 		pub const HEXAGON: &str = include_str!("../phosphor-core/assets/light/hexagon-light.svg");
+		pub const HIGH_DEFINITION: &str = include_str!("../phosphor-core/assets/light/high-definition-light.svg");
 		pub const HIGH_HEEL: &str = include_str!("../phosphor-core/assets/light/high-heel-light.svg");
+		pub const HIGHLIGHTER: &str = include_str!("../phosphor-core/assets/light/highlighter-light.svg");
 		pub const HIGHLIGHTER_CIRCLE: &str = include_str!("../phosphor-core/assets/light/highlighter-circle-light.svg");
+		pub const HOCKEY: &str = include_str!("../phosphor-core/assets/light/hockey-light.svg");
 		pub const HOODIE: &str = include_str!("../phosphor-core/assets/light/hoodie-light.svg");
 		pub const HORSE: &str = include_str!("../phosphor-core/assets/light/horse-light.svg");
+		pub const HOSPITAL: &str = include_str!("../phosphor-core/assets/light/hospital-light.svg");
 		pub const HOURGLASS: &str = include_str!("../phosphor-core/assets/light/hourglass-light.svg");
 		pub const HOURGLASS_HIGH: &str = include_str!("../phosphor-core/assets/light/hourglass-high-light.svg");
 		pub const HOURGLASS_LOW: &str = include_str!("../phosphor-core/assets/light/hourglass-low-light.svg");
@@ -4425,10 +5332,12 @@ pub mod style {
 		pub const HOUSE: &str = include_str!("../phosphor-core/assets/light/house-light.svg");
 		pub const HOUSE_LINE: &str = include_str!("../phosphor-core/assets/light/house-line-light.svg");
 		pub const HOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/light/house-simple-light.svg");
+		pub const HURRICANE: &str = include_str!("../phosphor-core/assets/light/hurricane-light.svg");
 		pub const ICE_CREAM: &str = include_str!("../phosphor-core/assets/light/ice-cream-light.svg");
 		pub const IDENTIFICATION_BADGE: &str = include_str!("../phosphor-core/assets/light/identification-badge-light.svg");
 		pub const IDENTIFICATION_CARD: &str = include_str!("../phosphor-core/assets/light/identification-card-light.svg");
 		pub const IMAGE: &str = include_str!("../phosphor-core/assets/light/image-light.svg");
+		pub const IMAGE_BROKEN: &str = include_str!("../phosphor-core/assets/light/image-broken-light.svg");
 		pub const IMAGE_SQUARE: &str = include_str!("../phosphor-core/assets/light/image-square-light.svg");
 		pub const IMAGES: &str = include_str!("../phosphor-core/assets/light/images-light.svg");
 		pub const IMAGES_SQUARE: &str = include_str!("../phosphor-core/assets/light/images-square-light.svg");
@@ -4438,7 +5347,13 @@ pub mod style {
 		pub const INTERSECT: &str = include_str!("../phosphor-core/assets/light/intersect-light.svg");
 		pub const INTERSECT_SQUARE: &str = include_str!("../phosphor-core/assets/light/intersect-square-light.svg");
 		pub const INTERSECT_THREE: &str = include_str!("../phosphor-core/assets/light/intersect-three-light.svg");
+		pub const INTERSECTION: &str = include_str!("../phosphor-core/assets/light/intersection-light.svg");
+		pub const INVOICE: &str = include_str!("../phosphor-core/assets/light/invoice-light.svg");
+		pub const ISLAND: &str = include_str!("../phosphor-core/assets/light/island-light.svg");
+		pub const JAR: &str = include_str!("../phosphor-core/assets/light/jar-light.svg");
+		pub const JAR_LABEL: &str = include_str!("../phosphor-core/assets/light/jar-label-light.svg");
 		pub const JEEP: &str = include_str!("../phosphor-core/assets/light/jeep-light.svg");
+		pub const JOYSTICK: &str = include_str!("../phosphor-core/assets/light/joystick-light.svg");
 		pub const KANBAN: &str = include_str!("../phosphor-core/assets/light/kanban-light.svg");
 		pub const KEY: &str = include_str!("../phosphor-core/assets/light/key-light.svg");
 		pub const KEY_RETURN: &str = include_str!("../phosphor-core/assets/light/key-return-light.svg");
@@ -4448,9 +5363,20 @@ pub mod style {
 		pub const LADDER: &str = include_str!("../phosphor-core/assets/light/ladder-light.svg");
 		pub const LADDER_SIMPLE: &str = include_str!("../phosphor-core/assets/light/ladder-simple-light.svg");
 		pub const LAMP: &str = include_str!("../phosphor-core/assets/light/lamp-light.svg");
+		pub const LAMP_PENDANT: &str = include_str!("../phosphor-core/assets/light/lamp-pendant-light.svg");
 		pub const LAPTOP: &str = include_str!("../phosphor-core/assets/light/laptop-light.svg");
+		pub const LASSO: &str = include_str!("../phosphor-core/assets/light/lasso-light.svg");
+		pub const LASTFM_LOGO: &str = include_str!("../phosphor-core/assets/light/lastfm-logo-light.svg");
 		pub const LAYOUT: &str = include_str!("../phosphor-core/assets/light/layout-light.svg");
 		pub const LEAF: &str = include_str!("../phosphor-core/assets/light/leaf-light.svg");
+		pub const LECTERN: &str = include_str!("../phosphor-core/assets/light/lectern-light.svg");
+		pub const LEGO: &str = include_str!("../phosphor-core/assets/light/lego-light.svg");
+		pub const LEGO_SMILEY: &str = include_str!("../phosphor-core/assets/light/lego-smiley-light.svg");
+		pub const LESS_THAN: &str = include_str!("../phosphor-core/assets/light/less-than-light.svg");
+		pub const LESS_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/light/less-than-or-equal-light.svg");
+		pub const LETTER_CIRCLE_H: &str = include_str!("../phosphor-core/assets/light/letter-circle-h-light.svg");
+		pub const LETTER_CIRCLE_P: &str = include_str!("../phosphor-core/assets/light/letter-circle-p-light.svg");
+		pub const LETTER_CIRCLE_V: &str = include_str!("../phosphor-core/assets/light/letter-circle-v-light.svg");
 		pub const LIFEBUOY: &str = include_str!("../phosphor-core/assets/light/lifebuoy-light.svg");
 		pub const LIGHTBULB: &str = include_str!("../phosphor-core/assets/light/lightbulb-light.svg");
 		pub const LIGHTBULB_FILAMENT: &str = include_str!("../phosphor-core/assets/light/lightbulb-filament-light.svg");
@@ -4460,6 +5386,7 @@ pub mod style {
 		pub const LIGHTNING_SLASH: &str = include_str!("../phosphor-core/assets/light/lightning-slash-light.svg");
 		pub const LINE_SEGMENT: &str = include_str!("../phosphor-core/assets/light/line-segment-light.svg");
 		pub const LINE_SEGMENTS: &str = include_str!("../phosphor-core/assets/light/line-segments-light.svg");
+		pub const LINE_VERTICAL: &str = include_str!("../phosphor-core/assets/light/line-vertical-light.svg");
 		pub const LINK: &str = include_str!("../phosphor-core/assets/light/link-light.svg");
 		pub const LINK_BREAK: &str = include_str!("../phosphor-core/assets/light/link-break-light.svg");
 		pub const LINK_SIMPLE: &str = include_str!("../phosphor-core/assets/light/link-simple-light.svg");
@@ -4467,14 +5394,17 @@ pub mod style {
 		pub const LINK_SIMPLE_HORIZONTAL: &str = include_str!("../phosphor-core/assets/light/link-simple-horizontal-light.svg");
 		pub const LINK_SIMPLE_HORIZONTAL_BREAK: &str = include_str!("../phosphor-core/assets/light/link-simple-horizontal-break-light.svg");
 		pub const LINKEDIN_LOGO: &str = include_str!("../phosphor-core/assets/light/linkedin-logo-light.svg");
+		pub const LINKTREE_LOGO: &str = include_str!("../phosphor-core/assets/light/linktree-logo-light.svg");
 		pub const LINUX_LOGO: &str = include_str!("../phosphor-core/assets/light/linux-logo-light.svg");
 		pub const LIST: &str = include_str!("../phosphor-core/assets/light/list-light.svg");
 		pub const LIST_BULLETS: &str = include_str!("../phosphor-core/assets/light/list-bullets-light.svg");
 		pub const LIST_CHECKS: &str = include_str!("../phosphor-core/assets/light/list-checks-light.svg");
 		pub const LIST_DASHES: &str = include_str!("../phosphor-core/assets/light/list-dashes-light.svg");
+		pub const LIST_HEART: &str = include_str!("../phosphor-core/assets/light/list-heart-light.svg");
 		pub const LIST_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/light/list-magnifying-glass-light.svg");
 		pub const LIST_NUMBERS: &str = include_str!("../phosphor-core/assets/light/list-numbers-light.svg");
 		pub const LIST_PLUS: &str = include_str!("../phosphor-core/assets/light/list-plus-light.svg");
+		pub const LIST_STAR: &str = include_str!("../phosphor-core/assets/light/list-star-light.svg");
 		pub const LOCK: &str = include_str!("../phosphor-core/assets/light/lock-light.svg");
 		pub const LOCK_KEY: &str = include_str!("../phosphor-core/assets/light/lock-key-light.svg");
 		pub const LOCK_KEY_OPEN: &str = include_str!("../phosphor-core/assets/light/lock-key-open-light.svg");
@@ -4484,31 +5414,45 @@ pub mod style {
 		pub const LOCK_SIMPLE: &str = include_str!("../phosphor-core/assets/light/lock-simple-light.svg");
 		pub const LOCK_SIMPLE_OPEN: &str = include_str!("../phosphor-core/assets/light/lock-simple-open-light.svg");
 		pub const LOCKERS: &str = include_str!("../phosphor-core/assets/light/lockers-light.svg");
+		pub const LOG: &str = include_str!("../phosphor-core/assets/light/log-light.svg");
 		pub const MAGIC_WAND: &str = include_str!("../phosphor-core/assets/light/magic-wand-light.svg");
 		pub const MAGNET: &str = include_str!("../phosphor-core/assets/light/magnet-light.svg");
 		pub const MAGNET_STRAIGHT: &str = include_str!("../phosphor-core/assets/light/magnet-straight-light.svg");
 		pub const MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/light/magnifying-glass-light.svg");
 		pub const MAGNIFYING_GLASS_MINUS: &str = include_str!("../phosphor-core/assets/light/magnifying-glass-minus-light.svg");
 		pub const MAGNIFYING_GLASS_PLUS: &str = include_str!("../phosphor-core/assets/light/magnifying-glass-plus-light.svg");
+		pub const MAILBOX: &str = include_str!("../phosphor-core/assets/light/mailbox-light.svg");
 		pub const MAP_PIN: &str = include_str!("../phosphor-core/assets/light/map-pin-light.svg");
+		pub const MAP_PIN_AREA: &str = include_str!("../phosphor-core/assets/light/map-pin-area-light.svg");
 		pub const MAP_PIN_LINE: &str = include_str!("../phosphor-core/assets/light/map-pin-line-light.svg");
+		pub const MAP_PIN_PLUS: &str = include_str!("../phosphor-core/assets/light/map-pin-plus-light.svg");
+		pub const MAP_PIN_SIMPLE: &str = include_str!("../phosphor-core/assets/light/map-pin-simple-light.svg");
+		pub const MAP_PIN_SIMPLE_AREA: &str = include_str!("../phosphor-core/assets/light/map-pin-simple-area-light.svg");
+		pub const MAP_PIN_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/light/map-pin-simple-line-light.svg");
 		pub const MAP_TRIFOLD: &str = include_str!("../phosphor-core/assets/light/map-trifold-light.svg");
+		pub const MARKDOWN_LOGO: &str = include_str!("../phosphor-core/assets/light/markdown-logo-light.svg");
 		pub const MARKER_CIRCLE: &str = include_str!("../phosphor-core/assets/light/marker-circle-light.svg");
 		pub const MARTINI: &str = include_str!("../phosphor-core/assets/light/martini-light.svg");
 		pub const MASK_HAPPY: &str = include_str!("../phosphor-core/assets/light/mask-happy-light.svg");
 		pub const MASK_SAD: &str = include_str!("../phosphor-core/assets/light/mask-sad-light.svg");
+		pub const MASTODON_LOGO: &str = include_str!("../phosphor-core/assets/light/mastodon-logo-light.svg");
 		pub const MATH_OPERATIONS: &str = include_str!("../phosphor-core/assets/light/math-operations-light.svg");
+		pub const MATRIX_LOGO: &str = include_str!("../phosphor-core/assets/light/matrix-logo-light.svg");
 		pub const MEDAL: &str = include_str!("../phosphor-core/assets/light/medal-light.svg");
 		pub const MEDAL_MILITARY: &str = include_str!("../phosphor-core/assets/light/medal-military-light.svg");
 		pub const MEDIUM_LOGO: &str = include_str!("../phosphor-core/assets/light/medium-logo-light.svg");
 		pub const MEGAPHONE: &str = include_str!("../phosphor-core/assets/light/megaphone-light.svg");
 		pub const MEGAPHONE_SIMPLE: &str = include_str!("../phosphor-core/assets/light/megaphone-simple-light.svg");
+		pub const MEMBER_OF: &str = include_str!("../phosphor-core/assets/light/member-of-light.svg");
+		pub const MEMORY: &str = include_str!("../phosphor-core/assets/light/memory-light.svg");
 		pub const MESSENGER_LOGO: &str = include_str!("../phosphor-core/assets/light/messenger-logo-light.svg");
 		pub const META_LOGO: &str = include_str!("../phosphor-core/assets/light/meta-logo-light.svg");
+		pub const METEOR: &str = include_str!("../phosphor-core/assets/light/meteor-light.svg");
 		pub const METRONOME: &str = include_str!("../phosphor-core/assets/light/metronome-light.svg");
 		pub const MICROPHONE: &str = include_str!("../phosphor-core/assets/light/microphone-light.svg");
 		pub const MICROPHONE_SLASH: &str = include_str!("../phosphor-core/assets/light/microphone-slash-light.svg");
 		pub const MICROPHONE_STAGE: &str = include_str!("../phosphor-core/assets/light/microphone-stage-light.svg");
+		pub const MICROSCOPE: &str = include_str!("../phosphor-core/assets/light/microscope-light.svg");
 		pub const MICROSOFT_EXCEL_LOGO: &str = include_str!("../phosphor-core/assets/light/microsoft-excel-logo-light.svg");
 		pub const MICROSOFT_OUTLOOK_LOGO: &str = include_str!("../phosphor-core/assets/light/microsoft-outlook-logo-light.svg");
 		pub const MICROSOFT_POWERPOINT_LOGO: &str = include_str!("../phosphor-core/assets/light/microsoft-powerpoint-logo-light.svg");
@@ -4518,7 +5462,9 @@ pub mod style {
 		pub const MINUS_CIRCLE: &str = include_str!("../phosphor-core/assets/light/minus-circle-light.svg");
 		pub const MINUS_SQUARE: &str = include_str!("../phosphor-core/assets/light/minus-square-light.svg");
 		pub const MONEY: &str = include_str!("../phosphor-core/assets/light/money-light.svg");
+		pub const MONEY_WAVY: &str = include_str!("../phosphor-core/assets/light/money-wavy-light.svg");
 		pub const MONITOR: &str = include_str!("../phosphor-core/assets/light/monitor-light.svg");
+		pub const MONITOR_ARROW_UP: &str = include_str!("../phosphor-core/assets/light/monitor-arrow-up-light.svg");
 		pub const MONITOR_PLAY: &str = include_str!("../phosphor-core/assets/light/monitor-play-light.svg");
 		pub const MOON: &str = include_str!("../phosphor-core/assets/light/moon-light.svg");
 		pub const MOON_STARS: &str = include_str!("../phosphor-core/assets/light/moon-stars-light.svg");
@@ -4528,16 +5474,28 @@ pub mod style {
 		pub const MOTORCYCLE: &str = include_str!("../phosphor-core/assets/light/motorcycle-light.svg");
 		pub const MOUNTAINS: &str = include_str!("../phosphor-core/assets/light/mountains-light.svg");
 		pub const MOUSE: &str = include_str!("../phosphor-core/assets/light/mouse-light.svg");
+		pub const MOUSE_LEFT_CLICK: &str = include_str!("../phosphor-core/assets/light/mouse-left-click-light.svg");
+		pub const MOUSE_MIDDLE_CLICK: &str = include_str!("../phosphor-core/assets/light/mouse-middle-click-light.svg");
+		pub const MOUSE_RIGHT_CLICK: &str = include_str!("../phosphor-core/assets/light/mouse-right-click-light.svg");
+		pub const MOUSE_SCROLL: &str = include_str!("../phosphor-core/assets/light/mouse-scroll-light.svg");
 		pub const MOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/light/mouse-simple-light.svg");
 		pub const MUSIC_NOTE: &str = include_str!("../phosphor-core/assets/light/music-note-light.svg");
 		pub const MUSIC_NOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/light/music-note-simple-light.svg");
 		pub const MUSIC_NOTES: &str = include_str!("../phosphor-core/assets/light/music-notes-light.svg");
+		pub const MUSIC_NOTES_MINUS: &str = include_str!("../phosphor-core/assets/light/music-notes-minus-light.svg");
 		pub const MUSIC_NOTES_PLUS: &str = include_str!("../phosphor-core/assets/light/music-notes-plus-light.svg");
 		pub const MUSIC_NOTES_SIMPLE: &str = include_str!("../phosphor-core/assets/light/music-notes-simple-light.svg");
 		pub const NAVIGATION_ARROW: &str = include_str!("../phosphor-core/assets/light/navigation-arrow-light.svg");
 		pub const NEEDLE: &str = include_str!("../phosphor-core/assets/light/needle-light.svg");
+		pub const NETWORK: &str = include_str!("../phosphor-core/assets/light/network-light.svg");
+		pub const NETWORK_SLASH: &str = include_str!("../phosphor-core/assets/light/network-slash-light.svg");
+		pub const NETWORK_X: &str = include_str!("../phosphor-core/assets/light/network-x-light.svg");
 		pub const NEWSPAPER: &str = include_str!("../phosphor-core/assets/light/newspaper-light.svg");
 		pub const NEWSPAPER_CLIPPING: &str = include_str!("../phosphor-core/assets/light/newspaper-clipping-light.svg");
+		pub const NOT_EQUALS: &str = include_str!("../phosphor-core/assets/light/not-equals-light.svg");
+		pub const NOT_MEMBER_OF: &str = include_str!("../phosphor-core/assets/light/not-member-of-light.svg");
+		pub const NOT_SUBSET_OF: &str = include_str!("../phosphor-core/assets/light/not-subset-of-light.svg");
+		pub const NOT_SUPERSET_OF: &str = include_str!("../phosphor-core/assets/light/not-superset-of-light.svg");
 		pub const NOTCHES: &str = include_str!("../phosphor-core/assets/light/notches-light.svg");
 		pub const NOTE: &str = include_str!("../phosphor-core/assets/light/note-light.svg");
 		pub const NOTE_BLANK: &str = include_str!("../phosphor-core/assets/light/note-blank-light.svg");
@@ -4546,6 +5504,7 @@ pub mod style {
 		pub const NOTEPAD: &str = include_str!("../phosphor-core/assets/light/notepad-light.svg");
 		pub const NOTIFICATION: &str = include_str!("../phosphor-core/assets/light/notification-light.svg");
 		pub const NOTION_LOGO: &str = include_str!("../phosphor-core/assets/light/notion-logo-light.svg");
+		pub const NUCLEAR_PLANT: &str = include_str!("../phosphor-core/assets/light/nuclear-plant-light.svg");
 		pub const NUMBER_CIRCLE_EIGHT: &str = include_str!("../phosphor-core/assets/light/number-circle-eight-light.svg");
 		pub const NUMBER_CIRCLE_FIVE: &str = include_str!("../phosphor-core/assets/light/number-circle-five-light.svg");
 		pub const NUMBER_CIRCLE_FOUR: &str = include_str!("../phosphor-core/assets/light/number-circle-four-light.svg");
@@ -4576,12 +5535,17 @@ pub mod style {
 		pub const NUMBER_THREE: &str = include_str!("../phosphor-core/assets/light/number-three-light.svg");
 		pub const NUMBER_TWO: &str = include_str!("../phosphor-core/assets/light/number-two-light.svg");
 		pub const NUMBER_ZERO: &str = include_str!("../phosphor-core/assets/light/number-zero-light.svg");
+		pub const NUMPAD: &str = include_str!("../phosphor-core/assets/light/numpad-light.svg");
 		pub const NUT: &str = include_str!("../phosphor-core/assets/light/nut-light.svg");
 		pub const NY_TIMES_LOGO: &str = include_str!("../phosphor-core/assets/light/ny-times-logo-light.svg");
 		pub const OCTAGON: &str = include_str!("../phosphor-core/assets/light/octagon-light.svg");
 		pub const OFFICE_CHAIR: &str = include_str!("../phosphor-core/assets/light/office-chair-light.svg");
+		pub const ONIGIRI: &str = include_str!("../phosphor-core/assets/light/onigiri-light.svg");
+		pub const OPEN_AI_LOGO: &str = include_str!("../phosphor-core/assets/light/open-ai-logo-light.svg");
 		pub const OPTION: &str = include_str!("../phosphor-core/assets/light/option-light.svg");
+		pub const ORANGE: &str = include_str!("../phosphor-core/assets/light/orange-light.svg");
 		pub const ORANGE_SLICE: &str = include_str!("../phosphor-core/assets/light/orange-slice-light.svg");
+		pub const OVEN: &str = include_str!("../phosphor-core/assets/light/oven-light.svg");
 		pub const PACKAGE: &str = include_str!("../phosphor-core/assets/light/package-light.svg");
 		pub const PAINT_BRUSH: &str = include_str!("../phosphor-core/assets/light/paint-brush-light.svg");
 		pub const PAINT_BRUSH_BROAD: &str = include_str!("../phosphor-core/assets/light/paint-brush-broad-light.svg");
@@ -4589,6 +5553,7 @@ pub mod style {
 		pub const PAINT_BUCKET: &str = include_str!("../phosphor-core/assets/light/paint-bucket-light.svg");
 		pub const PAINT_ROLLER: &str = include_str!("../phosphor-core/assets/light/paint-roller-light.svg");
 		pub const PALETTE: &str = include_str!("../phosphor-core/assets/light/palette-light.svg");
+		pub const PANORAMA: &str = include_str!("../phosphor-core/assets/light/panorama-light.svg");
 		pub const PANTS: &str = include_str!("../phosphor-core/assets/light/pants-light.svg");
 		pub const PAPER_PLANE: &str = include_str!("../phosphor-core/assets/light/paper-plane-light.svg");
 		pub const PAPER_PLANE_RIGHT: &str = include_str!("../phosphor-core/assets/light/paper-plane-right-light.svg");
@@ -4613,10 +5578,12 @@ pub mod style {
 		pub const PENCIL: &str = include_str!("../phosphor-core/assets/light/pencil-light.svg");
 		pub const PENCIL_CIRCLE: &str = include_str!("../phosphor-core/assets/light/pencil-circle-light.svg");
 		pub const PENCIL_LINE: &str = include_str!("../phosphor-core/assets/light/pencil-line-light.svg");
+		pub const PENCIL_RULER: &str = include_str!("../phosphor-core/assets/light/pencil-ruler-light.svg");
 		pub const PENCIL_SIMPLE: &str = include_str!("../phosphor-core/assets/light/pencil-simple-light.svg");
 		pub const PENCIL_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/light/pencil-simple-line-light.svg");
 		pub const PENCIL_SIMPLE_SLASH: &str = include_str!("../phosphor-core/assets/light/pencil-simple-slash-light.svg");
 		pub const PENCIL_SLASH: &str = include_str!("../phosphor-core/assets/light/pencil-slash-light.svg");
+		pub const PENTAGON: &str = include_str!("../phosphor-core/assets/light/pentagon-light.svg");
 		pub const PENTAGRAM: &str = include_str!("../phosphor-core/assets/light/pentagram-light.svg");
 		pub const PEPPER: &str = include_str!("../phosphor-core/assets/light/pepper-light.svg");
 		pub const PERCENT: &str = include_str!("../phosphor-core/assets/light/percent-light.svg");
@@ -4624,7 +5591,13 @@ pub mod style {
 		pub const PERSON_ARMS_SPREAD: &str = include_str!("../phosphor-core/assets/light/person-arms-spread-light.svg");
 		pub const PERSON_SIMPLE: &str = include_str!("../phosphor-core/assets/light/person-simple-light.svg");
 		pub const PERSON_SIMPLE_BIKE: &str = include_str!("../phosphor-core/assets/light/person-simple-bike-light.svg");
+		pub const PERSON_SIMPLE_CIRCLE: &str = include_str!("../phosphor-core/assets/light/person-simple-circle-light.svg");
+		pub const PERSON_SIMPLE_HIKE: &str = include_str!("../phosphor-core/assets/light/person-simple-hike-light.svg");
 		pub const PERSON_SIMPLE_RUN: &str = include_str!("../phosphor-core/assets/light/person-simple-run-light.svg");
+		pub const PERSON_SIMPLE_SKI: &str = include_str!("../phosphor-core/assets/light/person-simple-ski-light.svg");
+		pub const PERSON_SIMPLE_SNOWBOARD: &str = include_str!("../phosphor-core/assets/light/person-simple-snowboard-light.svg");
+		pub const PERSON_SIMPLE_SWIM: &str = include_str!("../phosphor-core/assets/light/person-simple-swim-light.svg");
+		pub const PERSON_SIMPLE_TAI_CHI: &str = include_str!("../phosphor-core/assets/light/person-simple-tai-chi-light.svg");
 		pub const PERSON_SIMPLE_THROW: &str = include_str!("../phosphor-core/assets/light/person-simple-throw-light.svg");
 		pub const PERSON_SIMPLE_WALK: &str = include_str!("../phosphor-core/assets/light/person-simple-walk-light.svg");
 		pub const PERSPECTIVE: &str = include_str!("../phosphor-core/assets/light/perspective-light.svg");
@@ -4632,18 +5605,27 @@ pub mod style {
 		pub const PHONE_CALL: &str = include_str!("../phosphor-core/assets/light/phone-call-light.svg");
 		pub const PHONE_DISCONNECT: &str = include_str!("../phosphor-core/assets/light/phone-disconnect-light.svg");
 		pub const PHONE_INCOMING: &str = include_str!("../phosphor-core/assets/light/phone-incoming-light.svg");
+		pub const PHONE_LIST: &str = include_str!("../phosphor-core/assets/light/phone-list-light.svg");
 		pub const PHONE_OUTGOING: &str = include_str!("../phosphor-core/assets/light/phone-outgoing-light.svg");
+		pub const PHONE_PAUSE: &str = include_str!("../phosphor-core/assets/light/phone-pause-light.svg");
 		pub const PHONE_PLUS: &str = include_str!("../phosphor-core/assets/light/phone-plus-light.svg");
 		pub const PHONE_SLASH: &str = include_str!("../phosphor-core/assets/light/phone-slash-light.svg");
+		pub const PHONE_TRANSFER: &str = include_str!("../phosphor-core/assets/light/phone-transfer-light.svg");
 		pub const PHONE_X: &str = include_str!("../phosphor-core/assets/light/phone-x-light.svg");
 		pub const PHOSPHOR_LOGO: &str = include_str!("../phosphor-core/assets/light/phosphor-logo-light.svg");
 		pub const PI: &str = include_str!("../phosphor-core/assets/light/pi-light.svg");
 		pub const PIANO_KEYS: &str = include_str!("../phosphor-core/assets/light/piano-keys-light.svg");
+		pub const PICNIC_TABLE: &str = include_str!("../phosphor-core/assets/light/picnic-table-light.svg");
 		pub const PICTURE_IN_PICTURE: &str = include_str!("../phosphor-core/assets/light/picture-in-picture-light.svg");
 		pub const PIGGY_BANK: &str = include_str!("../phosphor-core/assets/light/piggy-bank-light.svg");
 		pub const PILL: &str = include_str!("../phosphor-core/assets/light/pill-light.svg");
+		pub const PING_PONG: &str = include_str!("../phosphor-core/assets/light/ping-pong-light.svg");
+		pub const PINT_GLASS: &str = include_str!("../phosphor-core/assets/light/pint-glass-light.svg");
 		pub const PINTEREST_LOGO: &str = include_str!("../phosphor-core/assets/light/pinterest-logo-light.svg");
 		pub const PINWHEEL: &str = include_str!("../phosphor-core/assets/light/pinwheel-light.svg");
+		pub const PIPE: &str = include_str!("../phosphor-core/assets/light/pipe-light.svg");
+		pub const PIPE_WRENCH: &str = include_str!("../phosphor-core/assets/light/pipe-wrench-light.svg");
+		pub const PIX_LOGO: &str = include_str!("../phosphor-core/assets/light/pix-logo-light.svg");
 		pub const PIZZA: &str = include_str!("../phosphor-core/assets/light/pizza-light.svg");
 		pub const PLACEHOLDER: &str = include_str!("../phosphor-core/assets/light/placeholder-light.svg");
 		pub const PLANET: &str = include_str!("../phosphor-core/assets/light/planet-light.svg");
@@ -4664,6 +5646,7 @@ pub mod style {
 		pub const POLICE_CAR: &str = include_str!("../phosphor-core/assets/light/police-car-light.svg");
 		pub const POLYGON: &str = include_str!("../phosphor-core/assets/light/polygon-light.svg");
 		pub const POPCORN: &str = include_str!("../phosphor-core/assets/light/popcorn-light.svg");
+		pub const POPSICLE: &str = include_str!("../phosphor-core/assets/light/popsicle-light.svg");
 		pub const POTTED_PLANT: &str = include_str!("../phosphor-core/assets/light/potted-plant-light.svg");
 		pub const POWER: &str = include_str!("../phosphor-core/assets/light/power-light.svg");
 		pub const PRESCRIPTION: &str = include_str!("../phosphor-core/assets/light/prescription-light.svg");
@@ -4682,23 +5665,30 @@ pub mod style {
 		pub const PUZZLE_PIECE: &str = include_str!("../phosphor-core/assets/light/puzzle-piece-light.svg");
 		pub const QR_CODE: &str = include_str!("../phosphor-core/assets/light/qr-code-light.svg");
 		pub const QUESTION: &str = include_str!("../phosphor-core/assets/light/question-light.svg");
+		pub const QUESTION_MARK: &str = include_str!("../phosphor-core/assets/light/question-mark-light.svg");
 		pub const QUEUE: &str = include_str!("../phosphor-core/assets/light/queue-light.svg");
 		pub const QUOTES: &str = include_str!("../phosphor-core/assets/light/quotes-light.svg");
+		pub const RABBIT: &str = include_str!("../phosphor-core/assets/light/rabbit-light.svg");
+		pub const RACQUET: &str = include_str!("../phosphor-core/assets/light/racquet-light.svg");
 		pub const RADICAL: &str = include_str!("../phosphor-core/assets/light/radical-light.svg");
 		pub const RADIO: &str = include_str!("../phosphor-core/assets/light/radio-light.svg");
 		pub const RADIO_BUTTON: &str = include_str!("../phosphor-core/assets/light/radio-button-light.svg");
 		pub const RADIOACTIVE: &str = include_str!("../phosphor-core/assets/light/radioactive-light.svg");
 		pub const RAINBOW: &str = include_str!("../phosphor-core/assets/light/rainbow-light.svg");
 		pub const RAINBOW_CLOUD: &str = include_str!("../phosphor-core/assets/light/rainbow-cloud-light.svg");
+		pub const RANKING: &str = include_str!("../phosphor-core/assets/light/ranking-light.svg");
 		pub const READ_CV_LOGO: &str = include_str!("../phosphor-core/assets/light/read-cv-logo-light.svg");
 		pub const RECEIPT: &str = include_str!("../phosphor-core/assets/light/receipt-light.svg");
 		pub const RECEIPT_X: &str = include_str!("../phosphor-core/assets/light/receipt-x-light.svg");
 		pub const RECORD: &str = include_str!("../phosphor-core/assets/light/record-light.svg");
 		pub const RECTANGLE: &str = include_str!("../phosphor-core/assets/light/rectangle-light.svg");
+		pub const RECTANGLE_DASHED: &str = include_str!("../phosphor-core/assets/light/rectangle-dashed-light.svg");
 		pub const RECYCLE: &str = include_str!("../phosphor-core/assets/light/recycle-light.svg");
 		pub const REDDIT_LOGO: &str = include_str!("../phosphor-core/assets/light/reddit-logo-light.svg");
 		pub const REPEAT: &str = include_str!("../phosphor-core/assets/light/repeat-light.svg");
 		pub const REPEAT_ONCE: &str = include_str!("../phosphor-core/assets/light/repeat-once-light.svg");
+		pub const REPLIT_LOGO: &str = include_str!("../phosphor-core/assets/light/replit-logo-light.svg");
+		pub const RESIZE: &str = include_str!("../phosphor-core/assets/light/resize-light.svg");
 		pub const REWIND: &str = include_str!("../phosphor-core/assets/light/rewind-light.svg");
 		pub const REWIND_CIRCLE: &str = include_str!("../phosphor-core/assets/light/rewind-circle-light.svg");
 		pub const ROAD_HORIZON: &str = include_str!("../phosphor-core/assets/light/road-horizon-light.svg");
@@ -4706,21 +5696,31 @@ pub mod style {
 		pub const ROCKET: &str = include_str!("../phosphor-core/assets/light/rocket-light.svg");
 		pub const ROCKET_LAUNCH: &str = include_str!("../phosphor-core/assets/light/rocket-launch-light.svg");
 		pub const ROWS: &str = include_str!("../phosphor-core/assets/light/rows-light.svg");
+		pub const ROWS_PLUS_BOTTOM: &str = include_str!("../phosphor-core/assets/light/rows-plus-bottom-light.svg");
+		pub const ROWS_PLUS_TOP: &str = include_str!("../phosphor-core/assets/light/rows-plus-top-light.svg");
 		pub const RSS: &str = include_str!("../phosphor-core/assets/light/rss-light.svg");
 		pub const RSS_SIMPLE: &str = include_str!("../phosphor-core/assets/light/rss-simple-light.svg");
 		pub const RUG: &str = include_str!("../phosphor-core/assets/light/rug-light.svg");
 		pub const RULER: &str = include_str!("../phosphor-core/assets/light/ruler-light.svg");
+		pub const SAILBOAT: &str = include_str!("../phosphor-core/assets/light/sailboat-light.svg");
 		pub const SCALES: &str = include_str!("../phosphor-core/assets/light/scales-light.svg");
 		pub const SCAN: &str = include_str!("../phosphor-core/assets/light/scan-light.svg");
+		pub const SCAN_SMILEY: &str = include_str!("../phosphor-core/assets/light/scan-smiley-light.svg");
 		pub const SCISSORS: &str = include_str!("../phosphor-core/assets/light/scissors-light.svg");
 		pub const SCOOTER: &str = include_str!("../phosphor-core/assets/light/scooter-light.svg");
 		pub const SCREENCAST: &str = include_str!("../phosphor-core/assets/light/screencast-light.svg");
+		pub const SCREWDRIVER: &str = include_str!("../phosphor-core/assets/light/screwdriver-light.svg");
+		pub const SCRIBBLE: &str = include_str!("../phosphor-core/assets/light/scribble-light.svg");
 		pub const SCRIBBLE_LOOP: &str = include_str!("../phosphor-core/assets/light/scribble-loop-light.svg");
 		pub const SCROLL: &str = include_str!("../phosphor-core/assets/light/scroll-light.svg");
 		pub const SEAL: &str = include_str!("../phosphor-core/assets/light/seal-light.svg");
 		pub const SEAL_CHECK: &str = include_str!("../phosphor-core/assets/light/seal-check-light.svg");
+		pub const SEAL_PERCENT: &str = include_str!("../phosphor-core/assets/light/seal-percent-light.svg");
 		pub const SEAL_QUESTION: &str = include_str!("../phosphor-core/assets/light/seal-question-light.svg");
 		pub const SEAL_WARNING: &str = include_str!("../phosphor-core/assets/light/seal-warning-light.svg");
+		pub const SEAT: &str = include_str!("../phosphor-core/assets/light/seat-light.svg");
+		pub const SEATBELT: &str = include_str!("../phosphor-core/assets/light/seatbelt-light.svg");
+		pub const SECURITY_CAMERA: &str = include_str!("../phosphor-core/assets/light/security-camera-light.svg");
 		pub const SELECTION: &str = include_str!("../phosphor-core/assets/light/selection-light.svg");
 		pub const SELECTION_ALL: &str = include_str!("../phosphor-core/assets/light/selection-all-light.svg");
 		pub const SELECTION_BACKGROUND: &str = include_str!("../phosphor-core/assets/light/selection-background-light.svg");
@@ -4740,12 +5740,14 @@ pub mod style {
 		pub const SHIELD_SLASH: &str = include_str!("../phosphor-core/assets/light/shield-slash-light.svg");
 		pub const SHIELD_STAR: &str = include_str!("../phosphor-core/assets/light/shield-star-light.svg");
 		pub const SHIELD_WARNING: &str = include_str!("../phosphor-core/assets/light/shield-warning-light.svg");
+		pub const SHIPPING_CONTAINER: &str = include_str!("../phosphor-core/assets/light/shipping-container-light.svg");
 		pub const SHIRT_FOLDED: &str = include_str!("../phosphor-core/assets/light/shirt-folded-light.svg");
 		pub const SHOOTING_STAR: &str = include_str!("../phosphor-core/assets/light/shooting-star-light.svg");
 		pub const SHOPPING_BAG: &str = include_str!("../phosphor-core/assets/light/shopping-bag-light.svg");
 		pub const SHOPPING_BAG_OPEN: &str = include_str!("../phosphor-core/assets/light/shopping-bag-open-light.svg");
 		pub const SHOPPING_CART: &str = include_str!("../phosphor-core/assets/light/shopping-cart-light.svg");
 		pub const SHOPPING_CART_SIMPLE: &str = include_str!("../phosphor-core/assets/light/shopping-cart-simple-light.svg");
+		pub const SHOVEL: &str = include_str!("../phosphor-core/assets/light/shovel-light.svg");
 		pub const SHOWER: &str = include_str!("../phosphor-core/assets/light/shower-light.svg");
 		pub const SHRIMP: &str = include_str!("../phosphor-core/assets/light/shrimp-light.svg");
 		pub const SHUFFLE: &str = include_str!("../phosphor-core/assets/light/shuffle-light.svg");
@@ -4766,6 +5768,7 @@ pub mod style {
 		pub const SKIP_FORWARD: &str = include_str!("../phosphor-core/assets/light/skip-forward-light.svg");
 		pub const SKIP_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/light/skip-forward-circle-light.svg");
 		pub const SKULL: &str = include_str!("../phosphor-core/assets/light/skull-light.svg");
+		pub const SKYPE_LOGO: &str = include_str!("../phosphor-core/assets/light/skype-logo-light.svg");
 		pub const SLACK_LOGO: &str = include_str!("../phosphor-core/assets/light/slack-logo-light.svg");
 		pub const SLIDERS: &str = include_str!("../phosphor-core/assets/light/sliders-light.svg");
 		pub const SLIDERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/light/sliders-horizontal-light.svg");
@@ -4774,6 +5777,7 @@ pub mod style {
 		pub const SMILEY_ANGRY: &str = include_str!("../phosphor-core/assets/light/smiley-angry-light.svg");
 		pub const SMILEY_BLANK: &str = include_str!("../phosphor-core/assets/light/smiley-blank-light.svg");
 		pub const SMILEY_MEH: &str = include_str!("../phosphor-core/assets/light/smiley-meh-light.svg");
+		pub const SMILEY_MELTING: &str = include_str!("../phosphor-core/assets/light/smiley-melting-light.svg");
 		pub const SMILEY_NERVOUS: &str = include_str!("../phosphor-core/assets/light/smiley-nervous-light.svg");
 		pub const SMILEY_SAD: &str = include_str!("../phosphor-core/assets/light/smiley-sad-light.svg");
 		pub const SMILEY_STICKER: &str = include_str!("../phosphor-core/assets/light/smiley-sticker-light.svg");
@@ -4784,6 +5788,9 @@ pub mod style {
 		pub const SNEAKER_MOVE: &str = include_str!("../phosphor-core/assets/light/sneaker-move-light.svg");
 		pub const SNOWFLAKE: &str = include_str!("../phosphor-core/assets/light/snowflake-light.svg");
 		pub const SOCCER_BALL: &str = include_str!("../phosphor-core/assets/light/soccer-ball-light.svg");
+		pub const SOCK: &str = include_str!("../phosphor-core/assets/light/sock-light.svg");
+		pub const SOLAR_PANEL: &str = include_str!("../phosphor-core/assets/light/solar-panel-light.svg");
+		pub const SOLAR_ROOF: &str = include_str!("../phosphor-core/assets/light/solar-roof-light.svg");
 		pub const SORT_ASCENDING: &str = include_str!("../phosphor-core/assets/light/sort-ascending-light.svg");
 		pub const SORT_DESCENDING: &str = include_str!("../phosphor-core/assets/light/sort-descending-light.svg");
 		pub const SOUNDCLOUD_LOGO: &str = include_str!("../phosphor-core/assets/light/soundcloud-logo-light.svg");
@@ -4800,12 +5807,16 @@ pub mod style {
 		pub const SPEAKER_SIMPLE_X: &str = include_str!("../phosphor-core/assets/light/speaker-simple-x-light.svg");
 		pub const SPEAKER_SLASH: &str = include_str!("../phosphor-core/assets/light/speaker-slash-light.svg");
 		pub const SPEAKER_X: &str = include_str!("../phosphor-core/assets/light/speaker-x-light.svg");
+		pub const SPEEDOMETER: &str = include_str!("../phosphor-core/assets/light/speedometer-light.svg");
+		pub const SPHERE: &str = include_str!("../phosphor-core/assets/light/sphere-light.svg");
 		pub const SPINNER: &str = include_str!("../phosphor-core/assets/light/spinner-light.svg");
+		pub const SPINNER_BALL: &str = include_str!("../phosphor-core/assets/light/spinner-ball-light.svg");
 		pub const SPINNER_GAP: &str = include_str!("../phosphor-core/assets/light/spinner-gap-light.svg");
 		pub const SPIRAL: &str = include_str!("../phosphor-core/assets/light/spiral-light.svg");
 		pub const SPLIT_HORIZONTAL: &str = include_str!("../phosphor-core/assets/light/split-horizontal-light.svg");
 		pub const SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/light/split-vertical-light.svg");
 		pub const SPOTIFY_LOGO: &str = include_str!("../phosphor-core/assets/light/spotify-logo-light.svg");
+		pub const SPRAY_BOTTLE: &str = include_str!("../phosphor-core/assets/light/spray-bottle-light.svg");
 		pub const SQUARE: &str = include_str!("../phosphor-core/assets/light/square-light.svg");
 		pub const SQUARE_HALF: &str = include_str!("../phosphor-core/assets/light/square-half-light.svg");
 		pub const SQUARE_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/light/square-half-bottom-light.svg");
@@ -4814,15 +5825,19 @@ pub mod style {
 		pub const SQUARE_SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/light/square-split-vertical-light.svg");
 		pub const SQUARES_FOUR: &str = include_str!("../phosphor-core/assets/light/squares-four-light.svg");
 		pub const STACK: &str = include_str!("../phosphor-core/assets/light/stack-light.svg");
+		pub const STACK_MINUS: &str = include_str!("../phosphor-core/assets/light/stack-minus-light.svg");
 		pub const STACK_OVERFLOW_LOGO: &str = include_str!("../phosphor-core/assets/light/stack-overflow-logo-light.svg");
+		pub const STACK_PLUS: &str = include_str!("../phosphor-core/assets/light/stack-plus-light.svg");
 		pub const STACK_SIMPLE: &str = include_str!("../phosphor-core/assets/light/stack-simple-light.svg");
 		pub const STAIRS: &str = include_str!("../phosphor-core/assets/light/stairs-light.svg");
 		pub const STAMP: &str = include_str!("../phosphor-core/assets/light/stamp-light.svg");
+		pub const STANDARD_DEFINITION: &str = include_str!("../phosphor-core/assets/light/standard-definition-light.svg");
 		pub const STAR: &str = include_str!("../phosphor-core/assets/light/star-light.svg");
 		pub const STAR_AND_CRESCENT: &str = include_str!("../phosphor-core/assets/light/star-and-crescent-light.svg");
 		pub const STAR_FOUR: &str = include_str!("../phosphor-core/assets/light/star-four-light.svg");
 		pub const STAR_HALF: &str = include_str!("../phosphor-core/assets/light/star-half-light.svg");
 		pub const STAR_OF_DAVID: &str = include_str!("../phosphor-core/assets/light/star-of-david-light.svg");
+		pub const STEAM_LOGO: &str = include_str!("../phosphor-core/assets/light/steam-logo-light.svg");
 		pub const STEERING_WHEEL: &str = include_str!("../phosphor-core/assets/light/steering-wheel-light.svg");
 		pub const STEPS: &str = include_str!("../phosphor-core/assets/light/steps-light.svg");
 		pub const STETHOSCOPE: &str = include_str!("../phosphor-core/assets/light/stethoscope-light.svg");
@@ -4834,9 +5849,13 @@ pub mod style {
 		pub const STRATEGY: &str = include_str!("../phosphor-core/assets/light/strategy-light.svg");
 		pub const STRIPE_LOGO: &str = include_str!("../phosphor-core/assets/light/stripe-logo-light.svg");
 		pub const STUDENT: &str = include_str!("../phosphor-core/assets/light/student-light.svg");
+		pub const SUBSET_OF: &str = include_str!("../phosphor-core/assets/light/subset-of-light.svg");
+		pub const SUBSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/light/subset-proper-of-light.svg");
 		pub const SUBTITLES: &str = include_str!("../phosphor-core/assets/light/subtitles-light.svg");
+		pub const SUBTITLES_SLASH: &str = include_str!("../phosphor-core/assets/light/subtitles-slash-light.svg");
 		pub const SUBTRACT: &str = include_str!("../phosphor-core/assets/light/subtract-light.svg");
 		pub const SUBTRACT_SQUARE: &str = include_str!("../phosphor-core/assets/light/subtract-square-light.svg");
+		pub const SUBWAY: &str = include_str!("../phosphor-core/assets/light/subway-light.svg");
 		pub const SUITCASE: &str = include_str!("../phosphor-core/assets/light/suitcase-light.svg");
 		pub const SUITCASE_ROLLING: &str = include_str!("../phosphor-core/assets/light/suitcase-rolling-light.svg");
 		pub const SUITCASE_SIMPLE: &str = include_str!("../phosphor-core/assets/light/suitcase-simple-light.svg");
@@ -4844,6 +5863,8 @@ pub mod style {
 		pub const SUN_DIM: &str = include_str!("../phosphor-core/assets/light/sun-dim-light.svg");
 		pub const SUN_HORIZON: &str = include_str!("../phosphor-core/assets/light/sun-horizon-light.svg");
 		pub const SUNGLASSES: &str = include_str!("../phosphor-core/assets/light/sunglasses-light.svg");
+		pub const SUPERSET_OF: &str = include_str!("../phosphor-core/assets/light/superset-of-light.svg");
+		pub const SUPERSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/light/superset-proper-of-light.svg");
 		pub const SWAP: &str = include_str!("../phosphor-core/assets/light/swap-light.svg");
 		pub const SWATCHES: &str = include_str!("../phosphor-core/assets/light/swatches-light.svg");
 		pub const SWIMMING_POOL: &str = include_str!("../phosphor-core/assets/light/swimming-pool-light.svg");
@@ -4858,6 +5879,7 @@ pub mod style {
 		pub const TAG_SIMPLE: &str = include_str!("../phosphor-core/assets/light/tag-simple-light.svg");
 		pub const TARGET: &str = include_str!("../phosphor-core/assets/light/target-light.svg");
 		pub const TAXI: &str = include_str!("../phosphor-core/assets/light/taxi-light.svg");
+		pub const TEA_BAG: &str = include_str!("../phosphor-core/assets/light/tea-bag-light.svg");
 		pub const TELEGRAM_LOGO: &str = include_str!("../phosphor-core/assets/light/telegram-logo-light.svg");
 		pub const TELEVISION: &str = include_str!("../phosphor-core/assets/light/television-light.svg");
 		pub const TELEVISION_SIMPLE: &str = include_str!("../phosphor-core/assets/light/television-simple-light.svg");
@@ -4885,28 +5907,39 @@ pub mod style {
 		pub const TEXT_ITALIC: &str = include_str!("../phosphor-core/assets/light/text-italic-light.svg");
 		pub const TEXT_OUTDENT: &str = include_str!("../phosphor-core/assets/light/text-outdent-light.svg");
 		pub const TEXT_STRIKETHROUGH: &str = include_str!("../phosphor-core/assets/light/text-strikethrough-light.svg");
+		pub const TEXT_SUBSCRIPT: &str = include_str!("../phosphor-core/assets/light/text-subscript-light.svg");
+		pub const TEXT_SUPERSCRIPT: &str = include_str!("../phosphor-core/assets/light/text-superscript-light.svg");
 		pub const TEXT_T: &str = include_str!("../phosphor-core/assets/light/text-t-light.svg");
+		pub const TEXT_T_SLASH: &str = include_str!("../phosphor-core/assets/light/text-t-slash-light.svg");
 		pub const TEXT_UNDERLINE: &str = include_str!("../phosphor-core/assets/light/text-underline-light.svg");
 		pub const TEXTBOX: &str = include_str!("../phosphor-core/assets/light/textbox-light.svg");
 		pub const THERMOMETER: &str = include_str!("../phosphor-core/assets/light/thermometer-light.svg");
 		pub const THERMOMETER_COLD: &str = include_str!("../phosphor-core/assets/light/thermometer-cold-light.svg");
 		pub const THERMOMETER_HOT: &str = include_str!("../phosphor-core/assets/light/thermometer-hot-light.svg");
 		pub const THERMOMETER_SIMPLE: &str = include_str!("../phosphor-core/assets/light/thermometer-simple-light.svg");
+		pub const THREADS_LOGO: &str = include_str!("../phosphor-core/assets/light/threads-logo-light.svg");
+		pub const THREE_D: &str = include_str!("../phosphor-core/assets/light/three-d-light.svg");
 		pub const THUMBS_DOWN: &str = include_str!("../phosphor-core/assets/light/thumbs-down-light.svg");
 		pub const THUMBS_UP: &str = include_str!("../phosphor-core/assets/light/thumbs-up-light.svg");
 		pub const TICKET: &str = include_str!("../phosphor-core/assets/light/ticket-light.svg");
 		pub const TIDAL_LOGO: &str = include_str!("../phosphor-core/assets/light/tidal-logo-light.svg");
 		pub const TIKTOK_LOGO: &str = include_str!("../phosphor-core/assets/light/tiktok-logo-light.svg");
+		pub const TILDE: &str = include_str!("../phosphor-core/assets/light/tilde-light.svg");
 		pub const TIMER: &str = include_str!("../phosphor-core/assets/light/timer-light.svg");
+		pub const TIP_JAR: &str = include_str!("../phosphor-core/assets/light/tip-jar-light.svg");
 		pub const TIPI: &str = include_str!("../phosphor-core/assets/light/tipi-light.svg");
+		pub const TIRE: &str = include_str!("../phosphor-core/assets/light/tire-light.svg");
 		pub const TOGGLE_LEFT: &str = include_str!("../phosphor-core/assets/light/toggle-left-light.svg");
 		pub const TOGGLE_RIGHT: &str = include_str!("../phosphor-core/assets/light/toggle-right-light.svg");
 		pub const TOILET: &str = include_str!("../phosphor-core/assets/light/toilet-light.svg");
 		pub const TOILET_PAPER: &str = include_str!("../phosphor-core/assets/light/toilet-paper-light.svg");
 		pub const TOOLBOX: &str = include_str!("../phosphor-core/assets/light/toolbox-light.svg");
 		pub const TOOTH: &str = include_str!("../phosphor-core/assets/light/tooth-light.svg");
+		pub const TORNADO: &str = include_str!("../phosphor-core/assets/light/tornado-light.svg");
 		pub const TOTE: &str = include_str!("../phosphor-core/assets/light/tote-light.svg");
 		pub const TOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/light/tote-simple-light.svg");
+		pub const TOWEL: &str = include_str!("../phosphor-core/assets/light/towel-light.svg");
+		pub const TRACTOR: &str = include_str!("../phosphor-core/assets/light/tractor-light.svg");
 		pub const TRADEMARK: &str = include_str!("../phosphor-core/assets/light/trademark-light.svg");
 		pub const TRADEMARK_REGISTERED: &str = include_str!("../phosphor-core/assets/light/trademark-registered-light.svg");
 		pub const TRAFFIC_CONE: &str = include_str!("../phosphor-core/assets/light/traffic-cone-light.svg");
@@ -4920,26 +5953,39 @@ pub mod style {
 		pub const TRASH: &str = include_str!("../phosphor-core/assets/light/trash-light.svg");
 		pub const TRASH_SIMPLE: &str = include_str!("../phosphor-core/assets/light/trash-simple-light.svg");
 		pub const TRAY: &str = include_str!("../phosphor-core/assets/light/tray-light.svg");
+		pub const TRAY_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/light/tray-arrow-down-light.svg");
+		pub const TRAY_ARROW_UP: &str = include_str!("../phosphor-core/assets/light/tray-arrow-up-light.svg");
+		pub const TREASURE_CHEST: &str = include_str!("../phosphor-core/assets/light/treasure-chest-light.svg");
 		pub const TREE: &str = include_str!("../phosphor-core/assets/light/tree-light.svg");
 		pub const TREE_EVERGREEN: &str = include_str!("../phosphor-core/assets/light/tree-evergreen-light.svg");
 		pub const TREE_PALM: &str = include_str!("../phosphor-core/assets/light/tree-palm-light.svg");
 		pub const TREE_STRUCTURE: &str = include_str!("../phosphor-core/assets/light/tree-structure-light.svg");
+		pub const TREE_VIEW: &str = include_str!("../phosphor-core/assets/light/tree-view-light.svg");
 		pub const TREND_DOWN: &str = include_str!("../phosphor-core/assets/light/trend-down-light.svg");
 		pub const TREND_UP: &str = include_str!("../phosphor-core/assets/light/trend-up-light.svg");
 		pub const TRIANGLE: &str = include_str!("../phosphor-core/assets/light/triangle-light.svg");
+		pub const TRIANGLE_DASHED: &str = include_str!("../phosphor-core/assets/light/triangle-dashed-light.svg");
+		pub const TROLLEY: &str = include_str!("../phosphor-core/assets/light/trolley-light.svg");
+		pub const TROLLEY_SUITCASE: &str = include_str!("../phosphor-core/assets/light/trolley-suitcase-light.svg");
 		pub const TROPHY: &str = include_str!("../phosphor-core/assets/light/trophy-light.svg");
 		pub const TRUCK: &str = include_str!("../phosphor-core/assets/light/truck-light.svg");
+		pub const TRUCK_TRAILER: &str = include_str!("../phosphor-core/assets/light/truck-trailer-light.svg");
+		pub const TUMBLR_LOGO: &str = include_str!("../phosphor-core/assets/light/tumblr-logo-light.svg");
 		pub const TWITCH_LOGO: &str = include_str!("../phosphor-core/assets/light/twitch-logo-light.svg");
 		pub const TWITTER_LOGO: &str = include_str!("../phosphor-core/assets/light/twitter-logo-light.svg");
 		pub const UMBRELLA: &str = include_str!("../phosphor-core/assets/light/umbrella-light.svg");
 		pub const UMBRELLA_SIMPLE: &str = include_str!("../phosphor-core/assets/light/umbrella-simple-light.svg");
+		pub const UNION: &str = include_str!("../phosphor-core/assets/light/union-light.svg");
 		pub const UNITE: &str = include_str!("../phosphor-core/assets/light/unite-light.svg");
 		pub const UNITE_SQUARE: &str = include_str!("../phosphor-core/assets/light/unite-square-light.svg");
 		pub const UPLOAD: &str = include_str!("../phosphor-core/assets/light/upload-light.svg");
 		pub const UPLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/light/upload-simple-light.svg");
 		pub const USB: &str = include_str!("../phosphor-core/assets/light/usb-light.svg");
 		pub const USER: &str = include_str!("../phosphor-core/assets/light/user-light.svg");
+		pub const USER_CHECK: &str = include_str!("../phosphor-core/assets/light/user-check-light.svg");
 		pub const USER_CIRCLE: &str = include_str!("../phosphor-core/assets/light/user-circle-light.svg");
+		pub const USER_CIRCLE_CHECK: &str = include_str!("../phosphor-core/assets/light/user-circle-check-light.svg");
+		pub const USER_CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/light/user-circle-dashed-light.svg");
 		pub const USER_CIRCLE_GEAR: &str = include_str!("../phosphor-core/assets/light/user-circle-gear-light.svg");
 		pub const USER_CIRCLE_MINUS: &str = include_str!("../phosphor-core/assets/light/user-circle-minus-light.svg");
 		pub const USER_CIRCLE_PLUS: &str = include_str!("../phosphor-core/assets/light/user-circle-plus-light.svg");
@@ -4949,6 +5995,7 @@ pub mod style {
 		pub const USER_MINUS: &str = include_str!("../phosphor-core/assets/light/user-minus-light.svg");
 		pub const USER_PLUS: &str = include_str!("../phosphor-core/assets/light/user-plus-light.svg");
 		pub const USER_RECTANGLE: &str = include_str!("../phosphor-core/assets/light/user-rectangle-light.svg");
+		pub const USER_SOUND: &str = include_str!("../phosphor-core/assets/light/user-sound-light.svg");
 		pub const USER_SQUARE: &str = include_str!("../phosphor-core/assets/light/user-square-light.svg");
 		pub const USER_SWITCH: &str = include_str!("../phosphor-core/assets/light/user-switch-light.svg");
 		pub const USERS: &str = include_str!("../phosphor-core/assets/light/users-light.svg");
@@ -4956,14 +6003,18 @@ pub mod style {
 		pub const USERS_THREE: &str = include_str!("../phosphor-core/assets/light/users-three-light.svg");
 		pub const VAN: &str = include_str!("../phosphor-core/assets/light/van-light.svg");
 		pub const VAULT: &str = include_str!("../phosphor-core/assets/light/vault-light.svg");
+		pub const VECTOR_THREE: &str = include_str!("../phosphor-core/assets/light/vector-three-light.svg");
+		pub const VECTOR_TWO: &str = include_str!("../phosphor-core/assets/light/vector-two-light.svg");
 		pub const VIBRATE: &str = include_str!("../phosphor-core/assets/light/vibrate-light.svg");
 		pub const VIDEO: &str = include_str!("../phosphor-core/assets/light/video-light.svg");
 		pub const VIDEO_CAMERA: &str = include_str!("../phosphor-core/assets/light/video-camera-light.svg");
 		pub const VIDEO_CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/light/video-camera-slash-light.svg");
+		pub const VIDEO_CONFERENCE: &str = include_str!("../phosphor-core/assets/light/video-conference-light.svg");
 		pub const VIGNETTE: &str = include_str!("../phosphor-core/assets/light/vignette-light.svg");
 		pub const VINYL_RECORD: &str = include_str!("../phosphor-core/assets/light/vinyl-record-light.svg");
 		pub const VIRTUAL_REALITY: &str = include_str!("../phosphor-core/assets/light/virtual-reality-light.svg");
 		pub const VIRUS: &str = include_str!("../phosphor-core/assets/light/virus-light.svg");
+		pub const VISOR: &str = include_str!("../phosphor-core/assets/light/visor-light.svg");
 		pub const VOICEMAIL: &str = include_str!("../phosphor-core/assets/light/voicemail-light.svg");
 		pub const VOLLEYBALL: &str = include_str!("../phosphor-core/assets/light/volleyball-light.svg");
 		pub const WALL: &str = include_str!("../phosphor-core/assets/light/wall-light.svg");
@@ -4973,12 +6024,14 @@ pub mod style {
 		pub const WARNING_CIRCLE: &str = include_str!("../phosphor-core/assets/light/warning-circle-light.svg");
 		pub const WARNING_DIAMOND: &str = include_str!("../phosphor-core/assets/light/warning-diamond-light.svg");
 		pub const WARNING_OCTAGON: &str = include_str!("../phosphor-core/assets/light/warning-octagon-light.svg");
+		pub const WASHING_MACHINE: &str = include_str!("../phosphor-core/assets/light/washing-machine-light.svg");
 		pub const WATCH: &str = include_str!("../phosphor-core/assets/light/watch-light.svg");
 		pub const WAVE_SAWTOOTH: &str = include_str!("../phosphor-core/assets/light/wave-sawtooth-light.svg");
 		pub const WAVE_SINE: &str = include_str!("../phosphor-core/assets/light/wave-sine-light.svg");
 		pub const WAVE_SQUARE: &str = include_str!("../phosphor-core/assets/light/wave-square-light.svg");
 		pub const WAVE_TRIANGLE: &str = include_str!("../phosphor-core/assets/light/wave-triangle-light.svg");
 		pub const WAVEFORM: &str = include_str!("../phosphor-core/assets/light/waveform-light.svg");
+		pub const WAVEFORM_SLASH: &str = include_str!("../phosphor-core/assets/light/waveform-slash-light.svg");
 		pub const WAVES: &str = include_str!("../phosphor-core/assets/light/waves-light.svg");
 		pub const WEBCAM: &str = include_str!("../phosphor-core/assets/light/webcam-light.svg");
 		pub const WEBCAM_SLASH: &str = include_str!("../phosphor-core/assets/light/webcam-slash-light.svg");
@@ -4994,22 +6047,28 @@ pub mod style {
 		pub const WIFI_SLASH: &str = include_str!("../phosphor-core/assets/light/wifi-slash-light.svg");
 		pub const WIFI_X: &str = include_str!("../phosphor-core/assets/light/wifi-x-light.svg");
 		pub const WIND: &str = include_str!("../phosphor-core/assets/light/wind-light.svg");
+		pub const WINDMILL: &str = include_str!("../phosphor-core/assets/light/windmill-light.svg");
 		pub const WINDOWS_LOGO: &str = include_str!("../phosphor-core/assets/light/windows-logo-light.svg");
 		pub const WINE: &str = include_str!("../phosphor-core/assets/light/wine-light.svg");
 		pub const WRENCH: &str = include_str!("../phosphor-core/assets/light/wrench-light.svg");
 		pub const X: &str = include_str!("../phosphor-core/assets/light/x-light.svg");
 		pub const X_CIRCLE: &str = include_str!("../phosphor-core/assets/light/x-circle-light.svg");
+		pub const X_LOGO: &str = include_str!("../phosphor-core/assets/light/x-logo-light.svg");
 		pub const X_SQUARE: &str = include_str!("../phosphor-core/assets/light/x-square-light.svg");
+		pub const YARN: &str = include_str!("../phosphor-core/assets/light/yarn-light.svg");
 		pub const YIN_YANG: &str = include_str!("../phosphor-core/assets/light/yin-yang-light.svg");
 		pub const YOUTUBE_LOGO: &str = include_str!("../phosphor-core/assets/light/youtube-logo-light.svg");
 	}
 	pub mod regular {
+		pub const ACORN: &str = include_str!("../phosphor-core/assets/regular/acorn.svg");
 		pub const ADDRESS_BOOK: &str = include_str!("../phosphor-core/assets/regular/address-book.svg");
+		pub const ADDRESS_BOOK_TABS: &str = include_str!("../phosphor-core/assets/regular/address-book-tabs.svg");
 		pub const AIR_TRAFFIC_CONTROL: &str = include_str!("../phosphor-core/assets/regular/air-traffic-control.svg");
 		pub const AIRPLANE: &str = include_str!("../phosphor-core/assets/regular/airplane.svg");
 		pub const AIRPLANE_IN_FLIGHT: &str = include_str!("../phosphor-core/assets/regular/airplane-in-flight.svg");
 		pub const AIRPLANE_LANDING: &str = include_str!("../phosphor-core/assets/regular/airplane-landing.svg");
 		pub const AIRPLANE_TAKEOFF: &str = include_str!("../phosphor-core/assets/regular/airplane-takeoff.svg");
+		pub const AIRPLANE_TAXIING: &str = include_str!("../phosphor-core/assets/regular/airplane-taxiing.svg");
 		pub const AIRPLANE_TILT: &str = include_str!("../phosphor-core/assets/regular/airplane-tilt.svg");
 		pub const AIRPLAY: &str = include_str!("../phosphor-core/assets/regular/airplay.svg");
 		pub const ALARM: &str = include_str!("../phosphor-core/assets/regular/alarm.svg");
@@ -5027,18 +6086,19 @@ pub mod style {
 		pub const ALIGN_TOP: &str = include_str!("../phosphor-core/assets/regular/align-top.svg");
 		pub const ALIGN_TOP_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/align-top-simple.svg");
 		pub const AMAZON_LOGO: &str = include_str!("../phosphor-core/assets/regular/amazon-logo.svg");
+		pub const AMBULANCE: &str = include_str!("../phosphor-core/assets/regular/ambulance.svg");
 		pub const ANCHOR: &str = include_str!("../phosphor-core/assets/regular/anchor.svg");
 		pub const ANCHOR_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/anchor-simple.svg");
 		pub const ANDROID_LOGO: &str = include_str!("../phosphor-core/assets/regular/android-logo.svg");
+		pub const ANGLE: &str = include_str!("../phosphor-core/assets/regular/angle.svg");
 		pub const ANGULAR_LOGO: &str = include_str!("../phosphor-core/assets/regular/angular-logo.svg");
 		pub const APERTURE: &str = include_str!("../phosphor-core/assets/regular/aperture.svg");
 		pub const APP_STORE_LOGO: &str = include_str!("../phosphor-core/assets/regular/app-store-logo.svg");
 		pub const APP_WINDOW: &str = include_str!("../phosphor-core/assets/regular/app-window.svg");
 		pub const APPLE_LOGO: &str = include_str!("../phosphor-core/assets/regular/apple-logo.svg");
 		pub const APPLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/regular/apple-podcasts-logo.svg");
+		pub const APPROXIMATE_EQUALS: &str = include_str!("../phosphor-core/assets/regular/approximate-equals.svg");
 		pub const ARCHIVE: &str = include_str!("../phosphor-core/assets/regular/archive.svg");
-		pub const ARCHIVE_BOX: &str = include_str!("../phosphor-core/assets/regular/archive-box.svg");
-		pub const ARCHIVE_TRAY: &str = include_str!("../phosphor-core/assets/regular/archive-tray.svg");
 		pub const ARMCHAIR: &str = include_str!("../phosphor-core/assets/regular/armchair.svg");
 		pub const ARROW_ARC_LEFT: &str = include_str!("../phosphor-core/assets/regular/arrow-arc-left.svg");
 		pub const ARROW_ARC_RIGHT: &str = include_str!("../phosphor-core/assets/regular/arrow-arc-right.svg");
@@ -5139,11 +6199,15 @@ pub mod style {
 		pub const ARTICLE: &str = include_str!("../phosphor-core/assets/regular/article.svg");
 		pub const ARTICLE_MEDIUM: &str = include_str!("../phosphor-core/assets/regular/article-medium.svg");
 		pub const ARTICLE_NY_TIMES: &str = include_str!("../phosphor-core/assets/regular/article-ny-times.svg");
+		pub const ASCLEPIUS: &str = include_str!("../phosphor-core/assets/regular/asclepius.svg");
 		pub const ASTERISK: &str = include_str!("../phosphor-core/assets/regular/asterisk.svg");
 		pub const ASTERISK_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/asterisk-simple.svg");
 		pub const AT: &str = include_str!("../phosphor-core/assets/regular/at.svg");
 		pub const ATOM: &str = include_str!("../phosphor-core/assets/regular/atom.svg");
+		pub const AVOCADO: &str = include_str!("../phosphor-core/assets/regular/avocado.svg");
+		pub const AXE: &str = include_str!("../phosphor-core/assets/regular/axe.svg");
 		pub const BABY: &str = include_str!("../phosphor-core/assets/regular/baby.svg");
+		pub const BABY_CARRIAGE: &str = include_str!("../phosphor-core/assets/regular/baby-carriage.svg");
 		pub const BACKPACK: &str = include_str!("../phosphor-core/assets/regular/backpack.svg");
 		pub const BACKSPACE: &str = include_str!("../phosphor-core/assets/regular/backspace.svg");
 		pub const BAG: &str = include_str!("../phosphor-core/assets/regular/bag.svg");
@@ -5153,9 +6217,11 @@ pub mod style {
 		pub const BANK: &str = include_str!("../phosphor-core/assets/regular/bank.svg");
 		pub const BARBELL: &str = include_str!("../phosphor-core/assets/regular/barbell.svg");
 		pub const BARCODE: &str = include_str!("../phosphor-core/assets/regular/barcode.svg");
+		pub const BARN: &str = include_str!("../phosphor-core/assets/regular/barn.svg");
 		pub const BARRICADE: &str = include_str!("../phosphor-core/assets/regular/barricade.svg");
 		pub const BASEBALL: &str = include_str!("../phosphor-core/assets/regular/baseball.svg");
 		pub const BASEBALL_CAP: &str = include_str!("../phosphor-core/assets/regular/baseball-cap.svg");
+		pub const BASEBALL_HELMET: &str = include_str!("../phosphor-core/assets/regular/baseball-helmet.svg");
 		pub const BASKET: &str = include_str!("../phosphor-core/assets/regular/basket.svg");
 		pub const BASKETBALL: &str = include_str!("../phosphor-core/assets/regular/basketball.svg");
 		pub const BATHTUB: &str = include_str!("../phosphor-core/assets/regular/bathtub.svg");
@@ -5175,6 +6241,8 @@ pub mod style {
 		pub const BATTERY_VERTICAL_MEDIUM: &str = include_str!("../phosphor-core/assets/regular/battery-vertical-medium.svg");
 		pub const BATTERY_WARNING: &str = include_str!("../phosphor-core/assets/regular/battery-warning.svg");
 		pub const BATTERY_WARNING_VERTICAL: &str = include_str!("../phosphor-core/assets/regular/battery-warning-vertical.svg");
+		pub const BEACH_BALL: &str = include_str!("../phosphor-core/assets/regular/beach-ball.svg");
+		pub const BEANIE: &str = include_str!("../phosphor-core/assets/regular/beanie.svg");
 		pub const BED: &str = include_str!("../phosphor-core/assets/regular/bed.svg");
 		pub const BEER_BOTTLE: &str = include_str!("../phosphor-core/assets/regular/beer-bottle.svg");
 		pub const BEER_STEIN: &str = include_str!("../phosphor-core/assets/regular/beer-stein.svg");
@@ -5187,34 +6255,47 @@ pub mod style {
 		pub const BELL_SIMPLE_Z: &str = include_str!("../phosphor-core/assets/regular/bell-simple-z.svg");
 		pub const BELL_SLASH: &str = include_str!("../phosphor-core/assets/regular/bell-slash.svg");
 		pub const BELL_Z: &str = include_str!("../phosphor-core/assets/regular/bell-z.svg");
+		pub const BELT: &str = include_str!("../phosphor-core/assets/regular/belt.svg");
 		pub const BEZIER_CURVE: &str = include_str!("../phosphor-core/assets/regular/bezier-curve.svg");
 		pub const BICYCLE: &str = include_str!("../phosphor-core/assets/regular/bicycle.svg");
+		pub const BINARY: &str = include_str!("../phosphor-core/assets/regular/binary.svg");
 		pub const BINOCULARS: &str = include_str!("../phosphor-core/assets/regular/binoculars.svg");
+		pub const BIOHAZARD: &str = include_str!("../phosphor-core/assets/regular/biohazard.svg");
 		pub const BIRD: &str = include_str!("../phosphor-core/assets/regular/bird.svg");
+		pub const BLUEPRINT: &str = include_str!("../phosphor-core/assets/regular/blueprint.svg");
 		pub const BLUETOOTH: &str = include_str!("../phosphor-core/assets/regular/bluetooth.svg");
 		pub const BLUETOOTH_CONNECTED: &str = include_str!("../phosphor-core/assets/regular/bluetooth-connected.svg");
 		pub const BLUETOOTH_SLASH: &str = include_str!("../phosphor-core/assets/regular/bluetooth-slash.svg");
 		pub const BLUETOOTH_X: &str = include_str!("../phosphor-core/assets/regular/bluetooth-x.svg");
 		pub const BOAT: &str = include_str!("../phosphor-core/assets/regular/boat.svg");
+		pub const BOMB: &str = include_str!("../phosphor-core/assets/regular/bomb.svg");
 		pub const BONE: &str = include_str!("../phosphor-core/assets/regular/bone.svg");
 		pub const BOOK: &str = include_str!("../phosphor-core/assets/regular/book.svg");
 		pub const BOOK_BOOKMARK: &str = include_str!("../phosphor-core/assets/regular/book-bookmark.svg");
 		pub const BOOK_OPEN: &str = include_str!("../phosphor-core/assets/regular/book-open.svg");
 		pub const BOOK_OPEN_TEXT: &str = include_str!("../phosphor-core/assets/regular/book-open-text.svg");
+		pub const BOOK_OPEN_USER: &str = include_str!("../phosphor-core/assets/regular/book-open-user.svg");
 		pub const BOOKMARK: &str = include_str!("../phosphor-core/assets/regular/bookmark.svg");
 		pub const BOOKMARK_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/bookmark-simple.svg");
 		pub const BOOKMARKS: &str = include_str!("../phosphor-core/assets/regular/bookmarks.svg");
 		pub const BOOKMARKS_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/bookmarks-simple.svg");
 		pub const BOOKS: &str = include_str!("../phosphor-core/assets/regular/books.svg");
 		pub const BOOT: &str = include_str!("../phosphor-core/assets/regular/boot.svg");
+		pub const BOULES: &str = include_str!("../phosphor-core/assets/regular/boules.svg");
 		pub const BOUNDING_BOX: &str = include_str!("../phosphor-core/assets/regular/bounding-box.svg");
 		pub const BOWL_FOOD: &str = include_str!("../phosphor-core/assets/regular/bowl-food.svg");
+		pub const BOWL_STEAM: &str = include_str!("../phosphor-core/assets/regular/bowl-steam.svg");
+		pub const BOWLING_BALL: &str = include_str!("../phosphor-core/assets/regular/bowling-ball.svg");
+		pub const BOX_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/regular/box-arrow-down.svg");
+		pub const BOX_ARROW_UP: &str = include_str!("../phosphor-core/assets/regular/box-arrow-up.svg");
+		pub const BOXING_GLOVE: &str = include_str!("../phosphor-core/assets/regular/boxing-glove.svg");
 		pub const BRACKETS_ANGLE: &str = include_str!("../phosphor-core/assets/regular/brackets-angle.svg");
 		pub const BRACKETS_CURLY: &str = include_str!("../phosphor-core/assets/regular/brackets-curly.svg");
 		pub const BRACKETS_ROUND: &str = include_str!("../phosphor-core/assets/regular/brackets-round.svg");
 		pub const BRACKETS_SQUARE: &str = include_str!("../phosphor-core/assets/regular/brackets-square.svg");
 		pub const BRAIN: &str = include_str!("../phosphor-core/assets/regular/brain.svg");
 		pub const BRANDY: &str = include_str!("../phosphor-core/assets/regular/brandy.svg");
+		pub const BREAD: &str = include_str!("../phosphor-core/assets/regular/bread.svg");
 		pub const BRIDGE: &str = include_str!("../phosphor-core/assets/regular/bridge.svg");
 		pub const BRIEFCASE: &str = include_str!("../phosphor-core/assets/regular/briefcase.svg");
 		pub const BRIEFCASE_METAL: &str = include_str!("../phosphor-core/assets/regular/briefcase-metal.svg");
@@ -5225,16 +6306,27 @@ pub mod style {
 		pub const BUG: &str = include_str!("../phosphor-core/assets/regular/bug.svg");
 		pub const BUG_BEETLE: &str = include_str!("../phosphor-core/assets/regular/bug-beetle.svg");
 		pub const BUG_DROID: &str = include_str!("../phosphor-core/assets/regular/bug-droid.svg");
+		pub const BUILDING: &str = include_str!("../phosphor-core/assets/regular/building.svg");
+		pub const BUILDING_APARTMENT: &str = include_str!("../phosphor-core/assets/regular/building-apartment.svg");
+		pub const BUILDING_OFFICE: &str = include_str!("../phosphor-core/assets/regular/building-office.svg");
 		pub const BUILDINGS: &str = include_str!("../phosphor-core/assets/regular/buildings.svg");
+		pub const BULLDOZER: &str = include_str!("../phosphor-core/assets/regular/bulldozer.svg");
 		pub const BUS: &str = include_str!("../phosphor-core/assets/regular/bus.svg");
 		pub const BUTTERFLY: &str = include_str!("../phosphor-core/assets/regular/butterfly.svg");
+		pub const CABLE_CAR: &str = include_str!("../phosphor-core/assets/regular/cable-car.svg");
 		pub const CACTUS: &str = include_str!("../phosphor-core/assets/regular/cactus.svg");
 		pub const CAKE: &str = include_str!("../phosphor-core/assets/regular/cake.svg");
 		pub const CALCULATOR: &str = include_str!("../phosphor-core/assets/regular/calculator.svg");
 		pub const CALENDAR: &str = include_str!("../phosphor-core/assets/regular/calendar.svg");
 		pub const CALENDAR_BLANK: &str = include_str!("../phosphor-core/assets/regular/calendar-blank.svg");
 		pub const CALENDAR_CHECK: &str = include_str!("../phosphor-core/assets/regular/calendar-check.svg");
+		pub const CALENDAR_DOT: &str = include_str!("../phosphor-core/assets/regular/calendar-dot.svg");
+		pub const CALENDAR_DOTS: &str = include_str!("../phosphor-core/assets/regular/calendar-dots.svg");
+		pub const CALENDAR_HEART: &str = include_str!("../phosphor-core/assets/regular/calendar-heart.svg");
+		pub const CALENDAR_MINUS: &str = include_str!("../phosphor-core/assets/regular/calendar-minus.svg");
 		pub const CALENDAR_PLUS: &str = include_str!("../phosphor-core/assets/regular/calendar-plus.svg");
+		pub const CALENDAR_SLASH: &str = include_str!("../phosphor-core/assets/regular/calendar-slash.svg");
+		pub const CALENDAR_STAR: &str = include_str!("../phosphor-core/assets/regular/calendar-star.svg");
 		pub const CALENDAR_X: &str = include_str!("../phosphor-core/assets/regular/calendar-x.svg");
 		pub const CALL_BELL: &str = include_str!("../phosphor-core/assets/regular/call-bell.svg");
 		pub const CAMERA: &str = include_str!("../phosphor-core/assets/regular/camera.svg");
@@ -5243,10 +6335,12 @@ pub mod style {
 		pub const CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/regular/camera-slash.svg");
 		pub const CAMPFIRE: &str = include_str!("../phosphor-core/assets/regular/campfire.svg");
 		pub const CAR: &str = include_str!("../phosphor-core/assets/regular/car.svg");
+		pub const CAR_BATTERY: &str = include_str!("../phosphor-core/assets/regular/car-battery.svg");
 		pub const CAR_PROFILE: &str = include_str!("../phosphor-core/assets/regular/car-profile.svg");
 		pub const CAR_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/car-simple.svg");
 		pub const CARDHOLDER: &str = include_str!("../phosphor-core/assets/regular/cardholder.svg");
 		pub const CARDS: &str = include_str!("../phosphor-core/assets/regular/cards.svg");
+		pub const CARDS_THREE: &str = include_str!("../phosphor-core/assets/regular/cards-three.svg");
 		pub const CARET_CIRCLE_DOUBLE_DOWN: &str = include_str!("../phosphor-core/assets/regular/caret-circle-double-down.svg");
 		pub const CARET_CIRCLE_DOUBLE_LEFT: &str = include_str!("../phosphor-core/assets/regular/caret-circle-double-left.svg");
 		pub const CARET_CIRCLE_DOUBLE_RIGHT: &str = include_str!("../phosphor-core/assets/regular/caret-circle-double-right.svg");
@@ -5262,10 +6356,15 @@ pub mod style {
 		pub const CARET_DOUBLE_UP: &str = include_str!("../phosphor-core/assets/regular/caret-double-up.svg");
 		pub const CARET_DOWN: &str = include_str!("../phosphor-core/assets/regular/caret-down.svg");
 		pub const CARET_LEFT: &str = include_str!("../phosphor-core/assets/regular/caret-left.svg");
+		pub const CARET_LINE_DOWN: &str = include_str!("../phosphor-core/assets/regular/caret-line-down.svg");
+		pub const CARET_LINE_LEFT: &str = include_str!("../phosphor-core/assets/regular/caret-line-left.svg");
+		pub const CARET_LINE_RIGHT: &str = include_str!("../phosphor-core/assets/regular/caret-line-right.svg");
+		pub const CARET_LINE_UP: &str = include_str!("../phosphor-core/assets/regular/caret-line-up.svg");
 		pub const CARET_RIGHT: &str = include_str!("../phosphor-core/assets/regular/caret-right.svg");
 		pub const CARET_UP: &str = include_str!("../phosphor-core/assets/regular/caret-up.svg");
 		pub const CARET_UP_DOWN: &str = include_str!("../phosphor-core/assets/regular/caret-up-down.svg");
 		pub const CARROT: &str = include_str!("../phosphor-core/assets/regular/carrot.svg");
+		pub const CASH_REGISTER: &str = include_str!("../phosphor-core/assets/regular/cash-register.svg");
 		pub const CASSETTE_TAPE: &str = include_str!("../phosphor-core/assets/regular/cassette-tape.svg");
 		pub const CASTLE_TURRET: &str = include_str!("../phosphor-core/assets/regular/castle-turret.svg");
 		pub const CAT: &str = include_str!("../phosphor-core/assets/regular/cat.svg");
@@ -5276,6 +6375,7 @@ pub mod style {
 		pub const CELL_SIGNAL_NONE: &str = include_str!("../phosphor-core/assets/regular/cell-signal-none.svg");
 		pub const CELL_SIGNAL_SLASH: &str = include_str!("../phosphor-core/assets/regular/cell-signal-slash.svg");
 		pub const CELL_SIGNAL_X: &str = include_str!("../phosphor-core/assets/regular/cell-signal-x.svg");
+		pub const CELL_TOWER: &str = include_str!("../phosphor-core/assets/regular/cell-tower.svg");
 		pub const CERTIFICATE: &str = include_str!("../phosphor-core/assets/regular/certificate.svg");
 		pub const CHAIR: &str = include_str!("../phosphor-core/assets/regular/chair.svg");
 		pub const CHALKBOARD: &str = include_str!("../phosphor-core/assets/regular/chalkboard.svg");
@@ -5296,13 +6396,17 @@ pub mod style {
 		pub const CHAT: &str = include_str!("../phosphor-core/assets/regular/chat.svg");
 		pub const CHAT_CENTERED: &str = include_str!("../phosphor-core/assets/regular/chat-centered.svg");
 		pub const CHAT_CENTERED_DOTS: &str = include_str!("../phosphor-core/assets/regular/chat-centered-dots.svg");
+		pub const CHAT_CENTERED_SLASH: &str = include_str!("../phosphor-core/assets/regular/chat-centered-slash.svg");
 		pub const CHAT_CENTERED_TEXT: &str = include_str!("../phosphor-core/assets/regular/chat-centered-text.svg");
 		pub const CHAT_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/chat-circle.svg");
 		pub const CHAT_CIRCLE_DOTS: &str = include_str!("../phosphor-core/assets/regular/chat-circle-dots.svg");
+		pub const CHAT_CIRCLE_SLASH: &str = include_str!("../phosphor-core/assets/regular/chat-circle-slash.svg");
 		pub const CHAT_CIRCLE_TEXT: &str = include_str!("../phosphor-core/assets/regular/chat-circle-text.svg");
 		pub const CHAT_DOTS: &str = include_str!("../phosphor-core/assets/regular/chat-dots.svg");
+		pub const CHAT_SLASH: &str = include_str!("../phosphor-core/assets/regular/chat-slash.svg");
 		pub const CHAT_TEARDROP: &str = include_str!("../phosphor-core/assets/regular/chat-teardrop.svg");
 		pub const CHAT_TEARDROP_DOTS: &str = include_str!("../phosphor-core/assets/regular/chat-teardrop-dots.svg");
+		pub const CHAT_TEARDROP_SLASH: &str = include_str!("../phosphor-core/assets/regular/chat-teardrop-slash.svg");
 		pub const CHAT_TEARDROP_TEXT: &str = include_str!("../phosphor-core/assets/regular/chat-teardrop-text.svg");
 		pub const CHAT_TEXT: &str = include_str!("../phosphor-core/assets/regular/chat-text.svg");
 		pub const CHATS: &str = include_str!("../phosphor-core/assets/regular/chats.svg");
@@ -5313,8 +6417,15 @@ pub mod style {
 		pub const CHECK_FAT: &str = include_str!("../phosphor-core/assets/regular/check-fat.svg");
 		pub const CHECK_SQUARE: &str = include_str!("../phosphor-core/assets/regular/check-square.svg");
 		pub const CHECK_SQUARE_OFFSET: &str = include_str!("../phosphor-core/assets/regular/check-square-offset.svg");
+		pub const CHECKERBOARD: &str = include_str!("../phosphor-core/assets/regular/checkerboard.svg");
 		pub const CHECKS: &str = include_str!("../phosphor-core/assets/regular/checks.svg");
+		pub const CHEERS: &str = include_str!("../phosphor-core/assets/regular/cheers.svg");
+		pub const CHEESE: &str = include_str!("../phosphor-core/assets/regular/cheese.svg");
+		pub const CHEF_HAT: &str = include_str!("../phosphor-core/assets/regular/chef-hat.svg");
+		pub const CHERRIES: &str = include_str!("../phosphor-core/assets/regular/cherries.svg");
 		pub const CHURCH: &str = include_str!("../phosphor-core/assets/regular/church.svg");
+		pub const CIGARETTE: &str = include_str!("../phosphor-core/assets/regular/cigarette.svg");
+		pub const CIGARETTE_SLASH: &str = include_str!("../phosphor-core/assets/regular/cigarette-slash.svg");
 		pub const CIRCLE: &str = include_str!("../phosphor-core/assets/regular/circle.svg");
 		pub const CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/regular/circle-dashed.svg");
 		pub const CIRCLE_HALF: &str = include_str!("../phosphor-core/assets/regular/circle-half.svg");
@@ -5324,6 +6435,7 @@ pub mod style {
 		pub const CIRCLES_THREE: &str = include_str!("../phosphor-core/assets/regular/circles-three.svg");
 		pub const CIRCLES_THREE_PLUS: &str = include_str!("../phosphor-core/assets/regular/circles-three-plus.svg");
 		pub const CIRCUITRY: &str = include_str!("../phosphor-core/assets/regular/circuitry.svg");
+		pub const CITY: &str = include_str!("../phosphor-core/assets/regular/city.svg");
 		pub const CLIPBOARD: &str = include_str!("../phosphor-core/assets/regular/clipboard.svg");
 		pub const CLIPBOARD_TEXT: &str = include_str!("../phosphor-core/assets/regular/clipboard-text.svg");
 		pub const CLOCK: &str = include_str!("../phosphor-core/assets/regular/clock.svg");
@@ -5331,6 +6443,7 @@ pub mod style {
 		pub const CLOCK_CLOCKWISE: &str = include_str!("../phosphor-core/assets/regular/clock-clockwise.svg");
 		pub const CLOCK_COUNTDOWN: &str = include_str!("../phosphor-core/assets/regular/clock-countdown.svg");
 		pub const CLOCK_COUNTER_CLOCKWISE: &str = include_str!("../phosphor-core/assets/regular/clock-counter-clockwise.svg");
+		pub const CLOCK_USER: &str = include_str!("../phosphor-core/assets/regular/clock-user.svg");
 		pub const CLOSED_CAPTIONING: &str = include_str!("../phosphor-core/assets/regular/closed-captioning.svg");
 		pub const CLOUD: &str = include_str!("../phosphor-core/assets/regular/cloud.svg");
 		pub const CLOUD_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/regular/cloud-arrow-down.svg");
@@ -5345,6 +6458,7 @@ pub mod style {
 		pub const CLOUD_SUN: &str = include_str!("../phosphor-core/assets/regular/cloud-sun.svg");
 		pub const CLOUD_WARNING: &str = include_str!("../phosphor-core/assets/regular/cloud-warning.svg");
 		pub const CLOUD_X: &str = include_str!("../phosphor-core/assets/regular/cloud-x.svg");
+		pub const CLOVER: &str = include_str!("../phosphor-core/assets/regular/clover.svg");
 		pub const CLUB: &str = include_str!("../phosphor-core/assets/regular/club.svg");
 		pub const COAT_HANGER: &str = include_str!("../phosphor-core/assets/regular/coat-hanger.svg");
 		pub const CODA_LOGO: &str = include_str!("../phosphor-core/assets/regular/coda-logo.svg");
@@ -5354,12 +6468,16 @@ pub mod style {
 		pub const CODEPEN_LOGO: &str = include_str!("../phosphor-core/assets/regular/codepen-logo.svg");
 		pub const CODESANDBOX_LOGO: &str = include_str!("../phosphor-core/assets/regular/codesandbox-logo.svg");
 		pub const COFFEE: &str = include_str!("../phosphor-core/assets/regular/coffee.svg");
+		pub const COFFEE_BEAN: &str = include_str!("../phosphor-core/assets/regular/coffee-bean.svg");
 		pub const COIN: &str = include_str!("../phosphor-core/assets/regular/coin.svg");
 		pub const COIN_VERTICAL: &str = include_str!("../phosphor-core/assets/regular/coin-vertical.svg");
 		pub const COINS: &str = include_str!("../phosphor-core/assets/regular/coins.svg");
 		pub const COLUMNS: &str = include_str!("../phosphor-core/assets/regular/columns.svg");
+		pub const COLUMNS_PLUS_LEFT: &str = include_str!("../phosphor-core/assets/regular/columns-plus-left.svg");
+		pub const COLUMNS_PLUS_RIGHT: &str = include_str!("../phosphor-core/assets/regular/columns-plus-right.svg");
 		pub const COMMAND: &str = include_str!("../phosphor-core/assets/regular/command.svg");
 		pub const COMPASS: &str = include_str!("../phosphor-core/assets/regular/compass.svg");
+		pub const COMPASS_ROSE: &str = include_str!("../phosphor-core/assets/regular/compass-rose.svg");
 		pub const COMPASS_TOOL: &str = include_str!("../phosphor-core/assets/regular/compass-tool.svg");
 		pub const COMPUTER_TOWER: &str = include_str!("../phosphor-core/assets/regular/computer-tower.svg");
 		pub const CONFETTI: &str = include_str!("../phosphor-core/assets/regular/confetti.svg");
@@ -5374,13 +6492,20 @@ pub mod style {
 		pub const CORNERS_IN: &str = include_str!("../phosphor-core/assets/regular/corners-in.svg");
 		pub const CORNERS_OUT: &str = include_str!("../phosphor-core/assets/regular/corners-out.svg");
 		pub const COUCH: &str = include_str!("../phosphor-core/assets/regular/couch.svg");
+		pub const COURT_BASKETBALL: &str = include_str!("../phosphor-core/assets/regular/court-basketball.svg");
+		pub const COW: &str = include_str!("../phosphor-core/assets/regular/cow.svg");
+		pub const COWBOY_HAT: &str = include_str!("../phosphor-core/assets/regular/cowboy-hat.svg");
 		pub const CPU: &str = include_str!("../phosphor-core/assets/regular/cpu.svg");
+		pub const CRANE: &str = include_str!("../phosphor-core/assets/regular/crane.svg");
+		pub const CRANE_TOWER: &str = include_str!("../phosphor-core/assets/regular/crane-tower.svg");
 		pub const CREDIT_CARD: &str = include_str!("../phosphor-core/assets/regular/credit-card.svg");
+		pub const CRICKET: &str = include_str!("../phosphor-core/assets/regular/cricket.svg");
 		pub const CROP: &str = include_str!("../phosphor-core/assets/regular/crop.svg");
 		pub const CROSS: &str = include_str!("../phosphor-core/assets/regular/cross.svg");
 		pub const CROSSHAIR: &str = include_str!("../phosphor-core/assets/regular/crosshair.svg");
 		pub const CROSSHAIR_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/crosshair-simple.svg");
 		pub const CROWN: &str = include_str!("../phosphor-core/assets/regular/crown.svg");
+		pub const CROWN_CROSS: &str = include_str!("../phosphor-core/assets/regular/crown-cross.svg");
 		pub const CROWN_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/crown-simple.svg");
 		pub const CUBE: &str = include_str!("../phosphor-core/assets/regular/cube.svg");
 		pub const CUBE_FOCUS: &str = include_str!("../phosphor-core/assets/regular/cube-focus.svg");
@@ -5404,13 +6529,16 @@ pub mod style {
 		pub const CURSOR_TEXT: &str = include_str!("../phosphor-core/assets/regular/cursor-text.svg");
 		pub const CYLINDER: &str = include_str!("../phosphor-core/assets/regular/cylinder.svg");
 		pub const DATABASE: &str = include_str!("../phosphor-core/assets/regular/database.svg");
+		pub const DESK: &str = include_str!("../phosphor-core/assets/regular/desk.svg");
 		pub const DESKTOP: &str = include_str!("../phosphor-core/assets/regular/desktop.svg");
 		pub const DESKTOP_TOWER: &str = include_str!("../phosphor-core/assets/regular/desktop-tower.svg");
 		pub const DETECTIVE: &str = include_str!("../phosphor-core/assets/regular/detective.svg");
 		pub const DEV_TO_LOGO: &str = include_str!("../phosphor-core/assets/regular/dev-to-logo.svg");
 		pub const DEVICE_MOBILE: &str = include_str!("../phosphor-core/assets/regular/device-mobile.svg");
 		pub const DEVICE_MOBILE_CAMERA: &str = include_str!("../phosphor-core/assets/regular/device-mobile-camera.svg");
+		pub const DEVICE_MOBILE_SLASH: &str = include_str!("../phosphor-core/assets/regular/device-mobile-slash.svg");
 		pub const DEVICE_MOBILE_SPEAKER: &str = include_str!("../phosphor-core/assets/regular/device-mobile-speaker.svg");
+		pub const DEVICE_ROTATE: &str = include_str!("../phosphor-core/assets/regular/device-rotate.svg");
 		pub const DEVICE_TABLET: &str = include_str!("../phosphor-core/assets/regular/device-tablet.svg");
 		pub const DEVICE_TABLET_CAMERA: &str = include_str!("../phosphor-core/assets/regular/device-tablet-camera.svg");
 		pub const DEVICE_TABLET_SPEAKER: &str = include_str!("../phosphor-core/assets/regular/device-tablet-speaker.svg");
@@ -5424,6 +6552,7 @@ pub mod style {
 		pub const DICE_THREE: &str = include_str!("../phosphor-core/assets/regular/dice-three.svg");
 		pub const DICE_TWO: &str = include_str!("../phosphor-core/assets/regular/dice-two.svg");
 		pub const DISC: &str = include_str!("../phosphor-core/assets/regular/disc.svg");
+		pub const DISCO_BALL: &str = include_str!("../phosphor-core/assets/regular/disco-ball.svg");
 		pub const DISCORD_LOGO: &str = include_str!("../phosphor-core/assets/regular/discord-logo.svg");
 		pub const DIVIDE: &str = include_str!("../phosphor-core/assets/regular/divide.svg");
 		pub const DNA: &str = include_str!("../phosphor-core/assets/regular/dna.svg");
@@ -5444,10 +6573,14 @@ pub mod style {
 		pub const DOWNLOAD: &str = include_str!("../phosphor-core/assets/regular/download.svg");
 		pub const DOWNLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/download-simple.svg");
 		pub const DRESS: &str = include_str!("../phosphor-core/assets/regular/dress.svg");
+		pub const DRESSER: &str = include_str!("../phosphor-core/assets/regular/dresser.svg");
 		pub const DRIBBBLE_LOGO: &str = include_str!("../phosphor-core/assets/regular/dribbble-logo.svg");
+		pub const DRONE: &str = include_str!("../phosphor-core/assets/regular/drone.svg");
 		pub const DROP: &str = include_str!("../phosphor-core/assets/regular/drop.svg");
 		pub const DROP_HALF: &str = include_str!("../phosphor-core/assets/regular/drop-half.svg");
 		pub const DROP_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/regular/drop-half-bottom.svg");
+		pub const DROP_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/drop-simple.svg");
+		pub const DROP_SLASH: &str = include_str!("../phosphor-core/assets/regular/drop-slash.svg");
 		pub const DROPBOX_LOGO: &str = include_str!("../phosphor-core/assets/regular/dropbox-logo.svg");
 		pub const EAR: &str = include_str!("../phosphor-core/assets/regular/ear.svg");
 		pub const EAR_SLASH: &str = include_str!("../phosphor-core/assets/regular/ear-slash.svg");
@@ -5456,6 +6589,7 @@ pub mod style {
 		pub const EJECT: &str = include_str!("../phosphor-core/assets/regular/eject.svg");
 		pub const EJECT_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/eject-simple.svg");
 		pub const ELEVATOR: &str = include_str!("../phosphor-core/assets/regular/elevator.svg");
+		pub const EMPTY: &str = include_str!("../phosphor-core/assets/regular/empty.svg");
 		pub const ENGINE: &str = include_str!("../phosphor-core/assets/regular/engine.svg");
 		pub const ENVELOPE: &str = include_str!("../phosphor-core/assets/regular/envelope.svg");
 		pub const ENVELOPE_OPEN: &str = include_str!("../phosphor-core/assets/regular/envelope-open.svg");
@@ -5467,6 +6601,7 @@ pub mod style {
 		pub const ESCALATOR_DOWN: &str = include_str!("../phosphor-core/assets/regular/escalator-down.svg");
 		pub const ESCALATOR_UP: &str = include_str!("../phosphor-core/assets/regular/escalator-up.svg");
 		pub const EXAM: &str = include_str!("../phosphor-core/assets/regular/exam.svg");
+		pub const EXCLAMATION_MARK: &str = include_str!("../phosphor-core/assets/regular/exclamation-mark.svg");
 		pub const EXCLUDE: &str = include_str!("../phosphor-core/assets/regular/exclude.svg");
 		pub const EXCLUDE_SQUARE: &str = include_str!("../phosphor-core/assets/regular/exclude-square.svg");
 		pub const EXPORT: &str = include_str!("../phosphor-core/assets/regular/export.svg");
@@ -5476,45 +6611,56 @@ pub mod style {
 		pub const EYEDROPPER: &str = include_str!("../phosphor-core/assets/regular/eyedropper.svg");
 		pub const EYEDROPPER_SAMPLE: &str = include_str!("../phosphor-core/assets/regular/eyedropper-sample.svg");
 		pub const EYEGLASSES: &str = include_str!("../phosphor-core/assets/regular/eyeglasses.svg");
+		pub const EYES: &str = include_str!("../phosphor-core/assets/regular/eyes.svg");
 		pub const FACE_MASK: &str = include_str!("../phosphor-core/assets/regular/face-mask.svg");
 		pub const FACEBOOK_LOGO: &str = include_str!("../phosphor-core/assets/regular/facebook-logo.svg");
 		pub const FACTORY: &str = include_str!("../phosphor-core/assets/regular/factory.svg");
 		pub const FADERS: &str = include_str!("../phosphor-core/assets/regular/faders.svg");
 		pub const FADERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/regular/faders-horizontal.svg");
+		pub const FALLOUT_SHELTER: &str = include_str!("../phosphor-core/assets/regular/fallout-shelter.svg");
 		pub const FAN: &str = include_str!("../phosphor-core/assets/regular/fan.svg");
+		pub const FARM: &str = include_str!("../phosphor-core/assets/regular/farm.svg");
 		pub const FAST_FORWARD: &str = include_str!("../phosphor-core/assets/regular/fast-forward.svg");
 		pub const FAST_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/fast-forward-circle.svg");
 		pub const FEATHER: &str = include_str!("../phosphor-core/assets/regular/feather.svg");
+		pub const FEDIVERSE_LOGO: &str = include_str!("../phosphor-core/assets/regular/fediverse-logo.svg");
 		pub const FIGMA_LOGO: &str = include_str!("../phosphor-core/assets/regular/figma-logo.svg");
 		pub const FILE: &str = include_str!("../phosphor-core/assets/regular/file.svg");
 		pub const FILE_ARCHIVE: &str = include_str!("../phosphor-core/assets/regular/file-archive.svg");
 		pub const FILE_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/regular/file-arrow-down.svg");
 		pub const FILE_ARROW_UP: &str = include_str!("../phosphor-core/assets/regular/file-arrow-up.svg");
 		pub const FILE_AUDIO: &str = include_str!("../phosphor-core/assets/regular/file-audio.svg");
+		pub const FILE_C: &str = include_str!("../phosphor-core/assets/regular/file-c.svg");
+		pub const FILE_C_SHARP: &str = include_str!("../phosphor-core/assets/regular/file-c-sharp.svg");
 		pub const FILE_CLOUD: &str = include_str!("../phosphor-core/assets/regular/file-cloud.svg");
 		pub const FILE_CODE: &str = include_str!("../phosphor-core/assets/regular/file-code.svg");
+		pub const FILE_CPP: &str = include_str!("../phosphor-core/assets/regular/file-cpp.svg");
 		pub const FILE_CSS: &str = include_str!("../phosphor-core/assets/regular/file-css.svg");
 		pub const FILE_CSV: &str = include_str!("../phosphor-core/assets/regular/file-csv.svg");
 		pub const FILE_DASHED: &str = include_str!("../phosphor-core/assets/regular/file-dashed.svg");
 		pub const FILE_DOC: &str = include_str!("../phosphor-core/assets/regular/file-doc.svg");
 		pub const FILE_HTML: &str = include_str!("../phosphor-core/assets/regular/file-html.svg");
 		pub const FILE_IMAGE: &str = include_str!("../phosphor-core/assets/regular/file-image.svg");
+		pub const FILE_INI: &str = include_str!("../phosphor-core/assets/regular/file-ini.svg");
 		pub const FILE_JPG: &str = include_str!("../phosphor-core/assets/regular/file-jpg.svg");
 		pub const FILE_JS: &str = include_str!("../phosphor-core/assets/regular/file-js.svg");
 		pub const FILE_JSX: &str = include_str!("../phosphor-core/assets/regular/file-jsx.svg");
 		pub const FILE_LOCK: &str = include_str!("../phosphor-core/assets/regular/file-lock.svg");
 		pub const FILE_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/regular/file-magnifying-glass.svg");
+		pub const FILE_MD: &str = include_str!("../phosphor-core/assets/regular/file-md.svg");
 		pub const FILE_MINUS: &str = include_str!("../phosphor-core/assets/regular/file-minus.svg");
 		pub const FILE_PDF: &str = include_str!("../phosphor-core/assets/regular/file-pdf.svg");
 		pub const FILE_PLUS: &str = include_str!("../phosphor-core/assets/regular/file-plus.svg");
 		pub const FILE_PNG: &str = include_str!("../phosphor-core/assets/regular/file-png.svg");
 		pub const FILE_PPT: &str = include_str!("../phosphor-core/assets/regular/file-ppt.svg");
+		pub const FILE_PY: &str = include_str!("../phosphor-core/assets/regular/file-py.svg");
 		pub const FILE_RS: &str = include_str!("../phosphor-core/assets/regular/file-rs.svg");
 		pub const FILE_SQL: &str = include_str!("../phosphor-core/assets/regular/file-sql.svg");
 		pub const FILE_SVG: &str = include_str!("../phosphor-core/assets/regular/file-svg.svg");
 		pub const FILE_TEXT: &str = include_str!("../phosphor-core/assets/regular/file-text.svg");
 		pub const FILE_TS: &str = include_str!("../phosphor-core/assets/regular/file-ts.svg");
 		pub const FILE_TSX: &str = include_str!("../phosphor-core/assets/regular/file-tsx.svg");
+		pub const FILE_TXT: &str = include_str!("../phosphor-core/assets/regular/file-txt.svg");
 		pub const FILE_VIDEO: &str = include_str!("../phosphor-core/assets/regular/file-video.svg");
 		pub const FILE_VUE: &str = include_str!("../phosphor-core/assets/regular/file-vue.svg");
 		pub const FILE_X: &str = include_str!("../phosphor-core/assets/regular/file-x.svg");
@@ -5531,17 +6677,21 @@ pub mod style {
 		pub const FIRE: &str = include_str!("../phosphor-core/assets/regular/fire.svg");
 		pub const FIRE_EXTINGUISHER: &str = include_str!("../phosphor-core/assets/regular/fire-extinguisher.svg");
 		pub const FIRE_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/fire-simple.svg");
+		pub const FIRE_TRUCK: &str = include_str!("../phosphor-core/assets/regular/fire-truck.svg");
 		pub const FIRST_AID: &str = include_str!("../phosphor-core/assets/regular/first-aid.svg");
 		pub const FIRST_AID_KIT: &str = include_str!("../phosphor-core/assets/regular/first-aid-kit.svg");
 		pub const FISH: &str = include_str!("../phosphor-core/assets/regular/fish.svg");
 		pub const FISH_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/fish-simple.svg");
 		pub const FLAG: &str = include_str!("../phosphor-core/assets/regular/flag.svg");
 		pub const FLAG_BANNER: &str = include_str!("../phosphor-core/assets/regular/flag-banner.svg");
+		pub const FLAG_BANNER_FOLD: &str = include_str!("../phosphor-core/assets/regular/flag-banner-fold.svg");
 		pub const FLAG_CHECKERED: &str = include_str!("../phosphor-core/assets/regular/flag-checkered.svg");
 		pub const FLAG_PENNANT: &str = include_str!("../phosphor-core/assets/regular/flag-pennant.svg");
 		pub const FLAME: &str = include_str!("../phosphor-core/assets/regular/flame.svg");
 		pub const FLASHLIGHT: &str = include_str!("../phosphor-core/assets/regular/flashlight.svg");
 		pub const FLASK: &str = include_str!("../phosphor-core/assets/regular/flask.svg");
+		pub const FLIP_HORIZONTAL: &str = include_str!("../phosphor-core/assets/regular/flip-horizontal.svg");
+		pub const FLIP_VERTICAL: &str = include_str!("../phosphor-core/assets/regular/flip-vertical.svg");
 		pub const FLOPPY_DISK: &str = include_str!("../phosphor-core/assets/regular/floppy-disk.svg");
 		pub const FLOPPY_DISK_BACK: &str = include_str!("../phosphor-core/assets/regular/floppy-disk-back.svg");
 		pub const FLOW_ARROW: &str = include_str!("../phosphor-core/assets/regular/flow-arrow.svg");
@@ -5553,10 +6703,6 @@ pub mod style {
 		pub const FOLDER_DASHED: &str = include_str!("../phosphor-core/assets/regular/folder-dashed.svg");
 		pub const FOLDER_LOCK: &str = include_str!("../phosphor-core/assets/regular/folder-lock.svg");
 		pub const FOLDER_MINUS: &str = include_str!("../phosphor-core/assets/regular/folder-minus.svg");
-		pub const FOLDER_NOTCH: &str = include_str!("../phosphor-core/assets/regular/folder-notch.svg");
-		pub const FOLDER_NOTCH_MINUS: &str = include_str!("../phosphor-core/assets/regular/folder-notch-minus.svg");
-		pub const FOLDER_NOTCH_OPEN: &str = include_str!("../phosphor-core/assets/regular/folder-notch-open.svg");
-		pub const FOLDER_NOTCH_PLUS: &str = include_str!("../phosphor-core/assets/regular/folder-notch-plus.svg");
 		pub const FOLDER_OPEN: &str = include_str!("../phosphor-core/assets/regular/folder-open.svg");
 		pub const FOLDER_PLUS: &str = include_str!("../phosphor-core/assets/regular/folder-plus.svg");
 		pub const FOLDER_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/folder-simple.svg");
@@ -5570,13 +6716,17 @@ pub mod style {
 		pub const FOLDER_USER: &str = include_str!("../phosphor-core/assets/regular/folder-user.svg");
 		pub const FOLDERS: &str = include_str!("../phosphor-core/assets/regular/folders.svg");
 		pub const FOOTBALL: &str = include_str!("../phosphor-core/assets/regular/football.svg");
+		pub const FOOTBALL_HELMET: &str = include_str!("../phosphor-core/assets/regular/football-helmet.svg");
 		pub const FOOTPRINTS: &str = include_str!("../phosphor-core/assets/regular/footprints.svg");
 		pub const FORK_KNIFE: &str = include_str!("../phosphor-core/assets/regular/fork-knife.svg");
+		pub const FOUR_K: &str = include_str!("../phosphor-core/assets/regular/four-k.svg");
 		pub const FRAME_CORNERS: &str = include_str!("../phosphor-core/assets/regular/frame-corners.svg");
 		pub const FRAMER_LOGO: &str = include_str!("../phosphor-core/assets/regular/framer-logo.svg");
 		pub const FUNCTION: &str = include_str!("../phosphor-core/assets/regular/function.svg");
 		pub const FUNNEL: &str = include_str!("../phosphor-core/assets/regular/funnel.svg");
 		pub const FUNNEL_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/funnel-simple.svg");
+		pub const FUNNEL_SIMPLE_X: &str = include_str!("../phosphor-core/assets/regular/funnel-simple-x.svg");
+		pub const FUNNEL_X: &str = include_str!("../phosphor-core/assets/regular/funnel-x.svg");
 		pub const GAME_CONTROLLER: &str = include_str!("../phosphor-core/assets/regular/game-controller.svg");
 		pub const GARAGE: &str = include_str!("../phosphor-core/assets/regular/garage.svg");
 		pub const GAS_CAN: &str = include_str!("../phosphor-core/assets/regular/gas-can.svg");
@@ -5608,8 +6758,11 @@ pub mod style {
 		pub const GLOBE_HEMISPHERE_EAST: &str = include_str!("../phosphor-core/assets/regular/globe-hemisphere-east.svg");
 		pub const GLOBE_HEMISPHERE_WEST: &str = include_str!("../phosphor-core/assets/regular/globe-hemisphere-west.svg");
 		pub const GLOBE_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/globe-simple.svg");
+		pub const GLOBE_SIMPLE_X: &str = include_str!("../phosphor-core/assets/regular/globe-simple-x.svg");
 		pub const GLOBE_STAND: &str = include_str!("../phosphor-core/assets/regular/globe-stand.svg");
+		pub const GLOBE_X: &str = include_str!("../phosphor-core/assets/regular/globe-x.svg");
 		pub const GOGGLES: &str = include_str!("../phosphor-core/assets/regular/goggles.svg");
+		pub const GOLF: &str = include_str!("../phosphor-core/assets/regular/golf.svg");
 		pub const GOODREADS_LOGO: &str = include_str!("../phosphor-core/assets/regular/goodreads-logo.svg");
 		pub const GOOGLE_CARDBOARD_LOGO: &str = include_str!("../phosphor-core/assets/regular/google-cardboard-logo.svg");
 		pub const GOOGLE_CHROME_LOGO: &str = include_str!("../phosphor-core/assets/regular/google-chrome-logo.svg");
@@ -5618,29 +6771,41 @@ pub mod style {
 		pub const GOOGLE_PHOTOS_LOGO: &str = include_str!("../phosphor-core/assets/regular/google-photos-logo.svg");
 		pub const GOOGLE_PLAY_LOGO: &str = include_str!("../phosphor-core/assets/regular/google-play-logo.svg");
 		pub const GOOGLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/regular/google-podcasts-logo.svg");
+		pub const GPS: &str = include_str!("../phosphor-core/assets/regular/gps.svg");
+		pub const GPS_FIX: &str = include_str!("../phosphor-core/assets/regular/gps-fix.svg");
+		pub const GPS_SLASH: &str = include_str!("../phosphor-core/assets/regular/gps-slash.svg");
 		pub const GRADIENT: &str = include_str!("../phosphor-core/assets/regular/gradient.svg");
 		pub const GRADUATION_CAP: &str = include_str!("../phosphor-core/assets/regular/graduation-cap.svg");
 		pub const GRAINS: &str = include_str!("../phosphor-core/assets/regular/grains.svg");
 		pub const GRAINS_SLASH: &str = include_str!("../phosphor-core/assets/regular/grains-slash.svg");
 		pub const GRAPH: &str = include_str!("../phosphor-core/assets/regular/graph.svg");
+		pub const GRAPHICS_CARD: &str = include_str!("../phosphor-core/assets/regular/graphics-card.svg");
+		pub const GREATER_THAN: &str = include_str!("../phosphor-core/assets/regular/greater-than.svg");
+		pub const GREATER_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/regular/greater-than-or-equal.svg");
 		pub const GRID_FOUR: &str = include_str!("../phosphor-core/assets/regular/grid-four.svg");
 		pub const GRID_NINE: &str = include_str!("../phosphor-core/assets/regular/grid-nine.svg");
 		pub const GUITAR: &str = include_str!("../phosphor-core/assets/regular/guitar.svg");
+		pub const HAIR_DRYER: &str = include_str!("../phosphor-core/assets/regular/hair-dryer.svg");
 		pub const HAMBURGER: &str = include_str!("../phosphor-core/assets/regular/hamburger.svg");
 		pub const HAMMER: &str = include_str!("../phosphor-core/assets/regular/hammer.svg");
 		pub const HAND: &str = include_str!("../phosphor-core/assets/regular/hand.svg");
+		pub const HAND_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/regular/hand-arrow-down.svg");
+		pub const HAND_ARROW_UP: &str = include_str!("../phosphor-core/assets/regular/hand-arrow-up.svg");
 		pub const HAND_COINS: &str = include_str!("../phosphor-core/assets/regular/hand-coins.svg");
+		pub const HAND_DEPOSIT: &str = include_str!("../phosphor-core/assets/regular/hand-deposit.svg");
 		pub const HAND_EYE: &str = include_str!("../phosphor-core/assets/regular/hand-eye.svg");
 		pub const HAND_FIST: &str = include_str!("../phosphor-core/assets/regular/hand-fist.svg");
 		pub const HAND_GRABBING: &str = include_str!("../phosphor-core/assets/regular/hand-grabbing.svg");
 		pub const HAND_HEART: &str = include_str!("../phosphor-core/assets/regular/hand-heart.svg");
 		pub const HAND_PALM: &str = include_str!("../phosphor-core/assets/regular/hand-palm.svg");
+		pub const HAND_PEACE: &str = include_str!("../phosphor-core/assets/regular/hand-peace.svg");
 		pub const HAND_POINTING: &str = include_str!("../phosphor-core/assets/regular/hand-pointing.svg");
 		pub const HAND_SOAP: &str = include_str!("../phosphor-core/assets/regular/hand-soap.svg");
 		pub const HAND_SWIPE_LEFT: &str = include_str!("../phosphor-core/assets/regular/hand-swipe-left.svg");
 		pub const HAND_SWIPE_RIGHT: &str = include_str!("../phosphor-core/assets/regular/hand-swipe-right.svg");
 		pub const HAND_TAP: &str = include_str!("../phosphor-core/assets/regular/hand-tap.svg");
 		pub const HAND_WAVING: &str = include_str!("../phosphor-core/assets/regular/hand-waving.svg");
+		pub const HAND_WITHDRAW: &str = include_str!("../phosphor-core/assets/regular/hand-withdraw.svg");
 		pub const HANDBAG: &str = include_str!("../phosphor-core/assets/regular/handbag.svg");
 		pub const HANDBAG_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/handbag-simple.svg");
 		pub const HANDS_CLAPPING: &str = include_str!("../phosphor-core/assets/regular/hands-clapping.svg");
@@ -5648,8 +6813,10 @@ pub mod style {
 		pub const HANDSHAKE: &str = include_str!("../phosphor-core/assets/regular/handshake.svg");
 		pub const HARD_DRIVE: &str = include_str!("../phosphor-core/assets/regular/hard-drive.svg");
 		pub const HARD_DRIVES: &str = include_str!("../phosphor-core/assets/regular/hard-drives.svg");
+		pub const HARD_HAT: &str = include_str!("../phosphor-core/assets/regular/hard-hat.svg");
 		pub const HASH: &str = include_str!("../phosphor-core/assets/regular/hash.svg");
 		pub const HASH_STRAIGHT: &str = include_str!("../phosphor-core/assets/regular/hash-straight.svg");
+		pub const HEAD_CIRCUIT: &str = include_str!("../phosphor-core/assets/regular/head-circuit.svg");
 		pub const HEADLIGHTS: &str = include_str!("../phosphor-core/assets/regular/headlights.svg");
 		pub const HEADPHONES: &str = include_str!("../phosphor-core/assets/regular/headphones.svg");
 		pub const HEADSET: &str = include_str!("../phosphor-core/assets/regular/headset.svg");
@@ -5660,10 +6827,14 @@ pub mod style {
 		pub const HEART_STRAIGHT_BREAK: &str = include_str!("../phosphor-core/assets/regular/heart-straight-break.svg");
 		pub const HEARTBEAT: &str = include_str!("../phosphor-core/assets/regular/heartbeat.svg");
 		pub const HEXAGON: &str = include_str!("../phosphor-core/assets/regular/hexagon.svg");
+		pub const HIGH_DEFINITION: &str = include_str!("../phosphor-core/assets/regular/high-definition.svg");
 		pub const HIGH_HEEL: &str = include_str!("../phosphor-core/assets/regular/high-heel.svg");
+		pub const HIGHLIGHTER: &str = include_str!("../phosphor-core/assets/regular/highlighter.svg");
 		pub const HIGHLIGHTER_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/highlighter-circle.svg");
+		pub const HOCKEY: &str = include_str!("../phosphor-core/assets/regular/hockey.svg");
 		pub const HOODIE: &str = include_str!("../phosphor-core/assets/regular/hoodie.svg");
 		pub const HORSE: &str = include_str!("../phosphor-core/assets/regular/horse.svg");
+		pub const HOSPITAL: &str = include_str!("../phosphor-core/assets/regular/hospital.svg");
 		pub const HOURGLASS: &str = include_str!("../phosphor-core/assets/regular/hourglass.svg");
 		pub const HOURGLASS_HIGH: &str = include_str!("../phosphor-core/assets/regular/hourglass-high.svg");
 		pub const HOURGLASS_LOW: &str = include_str!("../phosphor-core/assets/regular/hourglass-low.svg");
@@ -5675,10 +6846,12 @@ pub mod style {
 		pub const HOUSE: &str = include_str!("../phosphor-core/assets/regular/house.svg");
 		pub const HOUSE_LINE: &str = include_str!("../phosphor-core/assets/regular/house-line.svg");
 		pub const HOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/house-simple.svg");
+		pub const HURRICANE: &str = include_str!("../phosphor-core/assets/regular/hurricane.svg");
 		pub const ICE_CREAM: &str = include_str!("../phosphor-core/assets/regular/ice-cream.svg");
 		pub const IDENTIFICATION_BADGE: &str = include_str!("../phosphor-core/assets/regular/identification-badge.svg");
 		pub const IDENTIFICATION_CARD: &str = include_str!("../phosphor-core/assets/regular/identification-card.svg");
 		pub const IMAGE: &str = include_str!("../phosphor-core/assets/regular/image.svg");
+		pub const IMAGE_BROKEN: &str = include_str!("../phosphor-core/assets/regular/image-broken.svg");
 		pub const IMAGE_SQUARE: &str = include_str!("../phosphor-core/assets/regular/image-square.svg");
 		pub const IMAGES: &str = include_str!("../phosphor-core/assets/regular/images.svg");
 		pub const IMAGES_SQUARE: &str = include_str!("../phosphor-core/assets/regular/images-square.svg");
@@ -5688,7 +6861,13 @@ pub mod style {
 		pub const INTERSECT: &str = include_str!("../phosphor-core/assets/regular/intersect.svg");
 		pub const INTERSECT_SQUARE: &str = include_str!("../phosphor-core/assets/regular/intersect-square.svg");
 		pub const INTERSECT_THREE: &str = include_str!("../phosphor-core/assets/regular/intersect-three.svg");
+		pub const INTERSECTION: &str = include_str!("../phosphor-core/assets/regular/intersection.svg");
+		pub const INVOICE: &str = include_str!("../phosphor-core/assets/regular/invoice.svg");
+		pub const ISLAND: &str = include_str!("../phosphor-core/assets/regular/island.svg");
+		pub const JAR: &str = include_str!("../phosphor-core/assets/regular/jar.svg");
+		pub const JAR_LABEL: &str = include_str!("../phosphor-core/assets/regular/jar-label.svg");
 		pub const JEEP: &str = include_str!("../phosphor-core/assets/regular/jeep.svg");
+		pub const JOYSTICK: &str = include_str!("../phosphor-core/assets/regular/joystick.svg");
 		pub const KANBAN: &str = include_str!("../phosphor-core/assets/regular/kanban.svg");
 		pub const KEY: &str = include_str!("../phosphor-core/assets/regular/key.svg");
 		pub const KEY_RETURN: &str = include_str!("../phosphor-core/assets/regular/key-return.svg");
@@ -5698,9 +6877,20 @@ pub mod style {
 		pub const LADDER: &str = include_str!("../phosphor-core/assets/regular/ladder.svg");
 		pub const LADDER_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/ladder-simple.svg");
 		pub const LAMP: &str = include_str!("../phosphor-core/assets/regular/lamp.svg");
+		pub const LAMP_PENDANT: &str = include_str!("../phosphor-core/assets/regular/lamp-pendant.svg");
 		pub const LAPTOP: &str = include_str!("../phosphor-core/assets/regular/laptop.svg");
+		pub const LASSO: &str = include_str!("../phosphor-core/assets/regular/lasso.svg");
+		pub const LASTFM_LOGO: &str = include_str!("../phosphor-core/assets/regular/lastfm-logo.svg");
 		pub const LAYOUT: &str = include_str!("../phosphor-core/assets/regular/layout.svg");
 		pub const LEAF: &str = include_str!("../phosphor-core/assets/regular/leaf.svg");
+		pub const LECTERN: &str = include_str!("../phosphor-core/assets/regular/lectern.svg");
+		pub const LEGO: &str = include_str!("../phosphor-core/assets/regular/lego.svg");
+		pub const LEGO_SMILEY: &str = include_str!("../phosphor-core/assets/regular/lego-smiley.svg");
+		pub const LESS_THAN: &str = include_str!("../phosphor-core/assets/regular/less-than.svg");
+		pub const LESS_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/regular/less-than-or-equal.svg");
+		pub const LETTER_CIRCLE_H: &str = include_str!("../phosphor-core/assets/regular/letter-circle-h.svg");
+		pub const LETTER_CIRCLE_P: &str = include_str!("../phosphor-core/assets/regular/letter-circle-p.svg");
+		pub const LETTER_CIRCLE_V: &str = include_str!("../phosphor-core/assets/regular/letter-circle-v.svg");
 		pub const LIFEBUOY: &str = include_str!("../phosphor-core/assets/regular/lifebuoy.svg");
 		pub const LIGHTBULB: &str = include_str!("../phosphor-core/assets/regular/lightbulb.svg");
 		pub const LIGHTBULB_FILAMENT: &str = include_str!("../phosphor-core/assets/regular/lightbulb-filament.svg");
@@ -5710,6 +6900,7 @@ pub mod style {
 		pub const LIGHTNING_SLASH: &str = include_str!("../phosphor-core/assets/regular/lightning-slash.svg");
 		pub const LINE_SEGMENT: &str = include_str!("../phosphor-core/assets/regular/line-segment.svg");
 		pub const LINE_SEGMENTS: &str = include_str!("../phosphor-core/assets/regular/line-segments.svg");
+		pub const LINE_VERTICAL: &str = include_str!("../phosphor-core/assets/regular/line-vertical.svg");
 		pub const LINK: &str = include_str!("../phosphor-core/assets/regular/link.svg");
 		pub const LINK_BREAK: &str = include_str!("../phosphor-core/assets/regular/link-break.svg");
 		pub const LINK_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/link-simple.svg");
@@ -5717,14 +6908,17 @@ pub mod style {
 		pub const LINK_SIMPLE_HORIZONTAL: &str = include_str!("../phosphor-core/assets/regular/link-simple-horizontal.svg");
 		pub const LINK_SIMPLE_HORIZONTAL_BREAK: &str = include_str!("../phosphor-core/assets/regular/link-simple-horizontal-break.svg");
 		pub const LINKEDIN_LOGO: &str = include_str!("../phosphor-core/assets/regular/linkedin-logo.svg");
+		pub const LINKTREE_LOGO: &str = include_str!("../phosphor-core/assets/regular/linktree-logo.svg");
 		pub const LINUX_LOGO: &str = include_str!("../phosphor-core/assets/regular/linux-logo.svg");
 		pub const LIST: &str = include_str!("../phosphor-core/assets/regular/list.svg");
 		pub const LIST_BULLETS: &str = include_str!("../phosphor-core/assets/regular/list-bullets.svg");
 		pub const LIST_CHECKS: &str = include_str!("../phosphor-core/assets/regular/list-checks.svg");
 		pub const LIST_DASHES: &str = include_str!("../phosphor-core/assets/regular/list-dashes.svg");
+		pub const LIST_HEART: &str = include_str!("../phosphor-core/assets/regular/list-heart.svg");
 		pub const LIST_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/regular/list-magnifying-glass.svg");
 		pub const LIST_NUMBERS: &str = include_str!("../phosphor-core/assets/regular/list-numbers.svg");
 		pub const LIST_PLUS: &str = include_str!("../phosphor-core/assets/regular/list-plus.svg");
+		pub const LIST_STAR: &str = include_str!("../phosphor-core/assets/regular/list-star.svg");
 		pub const LOCK: &str = include_str!("../phosphor-core/assets/regular/lock.svg");
 		pub const LOCK_KEY: &str = include_str!("../phosphor-core/assets/regular/lock-key.svg");
 		pub const LOCK_KEY_OPEN: &str = include_str!("../phosphor-core/assets/regular/lock-key-open.svg");
@@ -5734,31 +6928,45 @@ pub mod style {
 		pub const LOCK_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/lock-simple.svg");
 		pub const LOCK_SIMPLE_OPEN: &str = include_str!("../phosphor-core/assets/regular/lock-simple-open.svg");
 		pub const LOCKERS: &str = include_str!("../phosphor-core/assets/regular/lockers.svg");
+		pub const LOG: &str = include_str!("../phosphor-core/assets/regular/log.svg");
 		pub const MAGIC_WAND: &str = include_str!("../phosphor-core/assets/regular/magic-wand.svg");
 		pub const MAGNET: &str = include_str!("../phosphor-core/assets/regular/magnet.svg");
 		pub const MAGNET_STRAIGHT: &str = include_str!("../phosphor-core/assets/regular/magnet-straight.svg");
 		pub const MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/regular/magnifying-glass.svg");
 		pub const MAGNIFYING_GLASS_MINUS: &str = include_str!("../phosphor-core/assets/regular/magnifying-glass-minus.svg");
 		pub const MAGNIFYING_GLASS_PLUS: &str = include_str!("../phosphor-core/assets/regular/magnifying-glass-plus.svg");
+		pub const MAILBOX: &str = include_str!("../phosphor-core/assets/regular/mailbox.svg");
 		pub const MAP_PIN: &str = include_str!("../phosphor-core/assets/regular/map-pin.svg");
+		pub const MAP_PIN_AREA: &str = include_str!("../phosphor-core/assets/regular/map-pin-area.svg");
 		pub const MAP_PIN_LINE: &str = include_str!("../phosphor-core/assets/regular/map-pin-line.svg");
+		pub const MAP_PIN_PLUS: &str = include_str!("../phosphor-core/assets/regular/map-pin-plus.svg");
+		pub const MAP_PIN_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/map-pin-simple.svg");
+		pub const MAP_PIN_SIMPLE_AREA: &str = include_str!("../phosphor-core/assets/regular/map-pin-simple-area.svg");
+		pub const MAP_PIN_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/regular/map-pin-simple-line.svg");
 		pub const MAP_TRIFOLD: &str = include_str!("../phosphor-core/assets/regular/map-trifold.svg");
+		pub const MARKDOWN_LOGO: &str = include_str!("../phosphor-core/assets/regular/markdown-logo.svg");
 		pub const MARKER_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/marker-circle.svg");
 		pub const MARTINI: &str = include_str!("../phosphor-core/assets/regular/martini.svg");
 		pub const MASK_HAPPY: &str = include_str!("../phosphor-core/assets/regular/mask-happy.svg");
 		pub const MASK_SAD: &str = include_str!("../phosphor-core/assets/regular/mask-sad.svg");
+		pub const MASTODON_LOGO: &str = include_str!("../phosphor-core/assets/regular/mastodon-logo.svg");
 		pub const MATH_OPERATIONS: &str = include_str!("../phosphor-core/assets/regular/math-operations.svg");
+		pub const MATRIX_LOGO: &str = include_str!("../phosphor-core/assets/regular/matrix-logo.svg");
 		pub const MEDAL: &str = include_str!("../phosphor-core/assets/regular/medal.svg");
 		pub const MEDAL_MILITARY: &str = include_str!("../phosphor-core/assets/regular/medal-military.svg");
 		pub const MEDIUM_LOGO: &str = include_str!("../phosphor-core/assets/regular/medium-logo.svg");
 		pub const MEGAPHONE: &str = include_str!("../phosphor-core/assets/regular/megaphone.svg");
 		pub const MEGAPHONE_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/megaphone-simple.svg");
+		pub const MEMBER_OF: &str = include_str!("../phosphor-core/assets/regular/member-of.svg");
+		pub const MEMORY: &str = include_str!("../phosphor-core/assets/regular/memory.svg");
 		pub const MESSENGER_LOGO: &str = include_str!("../phosphor-core/assets/regular/messenger-logo.svg");
 		pub const META_LOGO: &str = include_str!("../phosphor-core/assets/regular/meta-logo.svg");
+		pub const METEOR: &str = include_str!("../phosphor-core/assets/regular/meteor.svg");
 		pub const METRONOME: &str = include_str!("../phosphor-core/assets/regular/metronome.svg");
 		pub const MICROPHONE: &str = include_str!("../phosphor-core/assets/regular/microphone.svg");
 		pub const MICROPHONE_SLASH: &str = include_str!("../phosphor-core/assets/regular/microphone-slash.svg");
 		pub const MICROPHONE_STAGE: &str = include_str!("../phosphor-core/assets/regular/microphone-stage.svg");
+		pub const MICROSCOPE: &str = include_str!("../phosphor-core/assets/regular/microscope.svg");
 		pub const MICROSOFT_EXCEL_LOGO: &str = include_str!("../phosphor-core/assets/regular/microsoft-excel-logo.svg");
 		pub const MICROSOFT_OUTLOOK_LOGO: &str = include_str!("../phosphor-core/assets/regular/microsoft-outlook-logo.svg");
 		pub const MICROSOFT_POWERPOINT_LOGO: &str = include_str!("../phosphor-core/assets/regular/microsoft-powerpoint-logo.svg");
@@ -5768,7 +6976,9 @@ pub mod style {
 		pub const MINUS_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/minus-circle.svg");
 		pub const MINUS_SQUARE: &str = include_str!("../phosphor-core/assets/regular/minus-square.svg");
 		pub const MONEY: &str = include_str!("../phosphor-core/assets/regular/money.svg");
+		pub const MONEY_WAVY: &str = include_str!("../phosphor-core/assets/regular/money-wavy.svg");
 		pub const MONITOR: &str = include_str!("../phosphor-core/assets/regular/monitor.svg");
+		pub const MONITOR_ARROW_UP: &str = include_str!("../phosphor-core/assets/regular/monitor-arrow-up.svg");
 		pub const MONITOR_PLAY: &str = include_str!("../phosphor-core/assets/regular/monitor-play.svg");
 		pub const MOON: &str = include_str!("../phosphor-core/assets/regular/moon.svg");
 		pub const MOON_STARS: &str = include_str!("../phosphor-core/assets/regular/moon-stars.svg");
@@ -5778,16 +6988,28 @@ pub mod style {
 		pub const MOTORCYCLE: &str = include_str!("../phosphor-core/assets/regular/motorcycle.svg");
 		pub const MOUNTAINS: &str = include_str!("../phosphor-core/assets/regular/mountains.svg");
 		pub const MOUSE: &str = include_str!("../phosphor-core/assets/regular/mouse.svg");
+		pub const MOUSE_LEFT_CLICK: &str = include_str!("../phosphor-core/assets/regular/mouse-left-click.svg");
+		pub const MOUSE_MIDDLE_CLICK: &str = include_str!("../phosphor-core/assets/regular/mouse-middle-click.svg");
+		pub const MOUSE_RIGHT_CLICK: &str = include_str!("../phosphor-core/assets/regular/mouse-right-click.svg");
+		pub const MOUSE_SCROLL: &str = include_str!("../phosphor-core/assets/regular/mouse-scroll.svg");
 		pub const MOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/mouse-simple.svg");
 		pub const MUSIC_NOTE: &str = include_str!("../phosphor-core/assets/regular/music-note.svg");
 		pub const MUSIC_NOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/music-note-simple.svg");
 		pub const MUSIC_NOTES: &str = include_str!("../phosphor-core/assets/regular/music-notes.svg");
+		pub const MUSIC_NOTES_MINUS: &str = include_str!("../phosphor-core/assets/regular/music-notes-minus.svg");
 		pub const MUSIC_NOTES_PLUS: &str = include_str!("../phosphor-core/assets/regular/music-notes-plus.svg");
 		pub const MUSIC_NOTES_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/music-notes-simple.svg");
 		pub const NAVIGATION_ARROW: &str = include_str!("../phosphor-core/assets/regular/navigation-arrow.svg");
 		pub const NEEDLE: &str = include_str!("../phosphor-core/assets/regular/needle.svg");
+		pub const NETWORK: &str = include_str!("../phosphor-core/assets/regular/network.svg");
+		pub const NETWORK_SLASH: &str = include_str!("../phosphor-core/assets/regular/network-slash.svg");
+		pub const NETWORK_X: &str = include_str!("../phosphor-core/assets/regular/network-x.svg");
 		pub const NEWSPAPER: &str = include_str!("../phosphor-core/assets/regular/newspaper.svg");
 		pub const NEWSPAPER_CLIPPING: &str = include_str!("../phosphor-core/assets/regular/newspaper-clipping.svg");
+		pub const NOT_EQUALS: &str = include_str!("../phosphor-core/assets/regular/not-equals.svg");
+		pub const NOT_MEMBER_OF: &str = include_str!("../phosphor-core/assets/regular/not-member-of.svg");
+		pub const NOT_SUBSET_OF: &str = include_str!("../phosphor-core/assets/regular/not-subset-of.svg");
+		pub const NOT_SUPERSET_OF: &str = include_str!("../phosphor-core/assets/regular/not-superset-of.svg");
 		pub const NOTCHES: &str = include_str!("../phosphor-core/assets/regular/notches.svg");
 		pub const NOTE: &str = include_str!("../phosphor-core/assets/regular/note.svg");
 		pub const NOTE_BLANK: &str = include_str!("../phosphor-core/assets/regular/note-blank.svg");
@@ -5796,6 +7018,7 @@ pub mod style {
 		pub const NOTEPAD: &str = include_str!("../phosphor-core/assets/regular/notepad.svg");
 		pub const NOTIFICATION: &str = include_str!("../phosphor-core/assets/regular/notification.svg");
 		pub const NOTION_LOGO: &str = include_str!("../phosphor-core/assets/regular/notion-logo.svg");
+		pub const NUCLEAR_PLANT: &str = include_str!("../phosphor-core/assets/regular/nuclear-plant.svg");
 		pub const NUMBER_CIRCLE_EIGHT: &str = include_str!("../phosphor-core/assets/regular/number-circle-eight.svg");
 		pub const NUMBER_CIRCLE_FIVE: &str = include_str!("../phosphor-core/assets/regular/number-circle-five.svg");
 		pub const NUMBER_CIRCLE_FOUR: &str = include_str!("../phosphor-core/assets/regular/number-circle-four.svg");
@@ -5826,12 +7049,17 @@ pub mod style {
 		pub const NUMBER_THREE: &str = include_str!("../phosphor-core/assets/regular/number-three.svg");
 		pub const NUMBER_TWO: &str = include_str!("../phosphor-core/assets/regular/number-two.svg");
 		pub const NUMBER_ZERO: &str = include_str!("../phosphor-core/assets/regular/number-zero.svg");
+		pub const NUMPAD: &str = include_str!("../phosphor-core/assets/regular/numpad.svg");
 		pub const NUT: &str = include_str!("../phosphor-core/assets/regular/nut.svg");
 		pub const NY_TIMES_LOGO: &str = include_str!("../phosphor-core/assets/regular/ny-times-logo.svg");
 		pub const OCTAGON: &str = include_str!("../phosphor-core/assets/regular/octagon.svg");
 		pub const OFFICE_CHAIR: &str = include_str!("../phosphor-core/assets/regular/office-chair.svg");
+		pub const ONIGIRI: &str = include_str!("../phosphor-core/assets/regular/onigiri.svg");
+		pub const OPEN_AI_LOGO: &str = include_str!("../phosphor-core/assets/regular/open-ai-logo.svg");
 		pub const OPTION: &str = include_str!("../phosphor-core/assets/regular/option.svg");
+		pub const ORANGE: &str = include_str!("../phosphor-core/assets/regular/orange.svg");
 		pub const ORANGE_SLICE: &str = include_str!("../phosphor-core/assets/regular/orange-slice.svg");
+		pub const OVEN: &str = include_str!("../phosphor-core/assets/regular/oven.svg");
 		pub const PACKAGE: &str = include_str!("../phosphor-core/assets/regular/package.svg");
 		pub const PAINT_BRUSH: &str = include_str!("../phosphor-core/assets/regular/paint-brush.svg");
 		pub const PAINT_BRUSH_BROAD: &str = include_str!("../phosphor-core/assets/regular/paint-brush-broad.svg");
@@ -5839,6 +7067,7 @@ pub mod style {
 		pub const PAINT_BUCKET: &str = include_str!("../phosphor-core/assets/regular/paint-bucket.svg");
 		pub const PAINT_ROLLER: &str = include_str!("../phosphor-core/assets/regular/paint-roller.svg");
 		pub const PALETTE: &str = include_str!("../phosphor-core/assets/regular/palette.svg");
+		pub const PANORAMA: &str = include_str!("../phosphor-core/assets/regular/panorama.svg");
 		pub const PANTS: &str = include_str!("../phosphor-core/assets/regular/pants.svg");
 		pub const PAPER_PLANE: &str = include_str!("../phosphor-core/assets/regular/paper-plane.svg");
 		pub const PAPER_PLANE_RIGHT: &str = include_str!("../phosphor-core/assets/regular/paper-plane-right.svg");
@@ -5863,10 +7092,12 @@ pub mod style {
 		pub const PENCIL: &str = include_str!("../phosphor-core/assets/regular/pencil.svg");
 		pub const PENCIL_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/pencil-circle.svg");
 		pub const PENCIL_LINE: &str = include_str!("../phosphor-core/assets/regular/pencil-line.svg");
+		pub const PENCIL_RULER: &str = include_str!("../phosphor-core/assets/regular/pencil-ruler.svg");
 		pub const PENCIL_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/pencil-simple.svg");
 		pub const PENCIL_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/regular/pencil-simple-line.svg");
 		pub const PENCIL_SIMPLE_SLASH: &str = include_str!("../phosphor-core/assets/regular/pencil-simple-slash.svg");
 		pub const PENCIL_SLASH: &str = include_str!("../phosphor-core/assets/regular/pencil-slash.svg");
+		pub const PENTAGON: &str = include_str!("../phosphor-core/assets/regular/pentagon.svg");
 		pub const PENTAGRAM: &str = include_str!("../phosphor-core/assets/regular/pentagram.svg");
 		pub const PEPPER: &str = include_str!("../phosphor-core/assets/regular/pepper.svg");
 		pub const PERCENT: &str = include_str!("../phosphor-core/assets/regular/percent.svg");
@@ -5874,7 +7105,13 @@ pub mod style {
 		pub const PERSON_ARMS_SPREAD: &str = include_str!("../phosphor-core/assets/regular/person-arms-spread.svg");
 		pub const PERSON_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/person-simple.svg");
 		pub const PERSON_SIMPLE_BIKE: &str = include_str!("../phosphor-core/assets/regular/person-simple-bike.svg");
+		pub const PERSON_SIMPLE_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/person-simple-circle.svg");
+		pub const PERSON_SIMPLE_HIKE: &str = include_str!("../phosphor-core/assets/regular/person-simple-hike.svg");
 		pub const PERSON_SIMPLE_RUN: &str = include_str!("../phosphor-core/assets/regular/person-simple-run.svg");
+		pub const PERSON_SIMPLE_SKI: &str = include_str!("../phosphor-core/assets/regular/person-simple-ski.svg");
+		pub const PERSON_SIMPLE_SNOWBOARD: &str = include_str!("../phosphor-core/assets/regular/person-simple-snowboard.svg");
+		pub const PERSON_SIMPLE_SWIM: &str = include_str!("../phosphor-core/assets/regular/person-simple-swim.svg");
+		pub const PERSON_SIMPLE_TAI_CHI: &str = include_str!("../phosphor-core/assets/regular/person-simple-tai-chi.svg");
 		pub const PERSON_SIMPLE_THROW: &str = include_str!("../phosphor-core/assets/regular/person-simple-throw.svg");
 		pub const PERSON_SIMPLE_WALK: &str = include_str!("../phosphor-core/assets/regular/person-simple-walk.svg");
 		pub const PERSPECTIVE: &str = include_str!("../phosphor-core/assets/regular/perspective.svg");
@@ -5882,18 +7119,27 @@ pub mod style {
 		pub const PHONE_CALL: &str = include_str!("../phosphor-core/assets/regular/phone-call.svg");
 		pub const PHONE_DISCONNECT: &str = include_str!("../phosphor-core/assets/regular/phone-disconnect.svg");
 		pub const PHONE_INCOMING: &str = include_str!("../phosphor-core/assets/regular/phone-incoming.svg");
+		pub const PHONE_LIST: &str = include_str!("../phosphor-core/assets/regular/phone-list.svg");
 		pub const PHONE_OUTGOING: &str = include_str!("../phosphor-core/assets/regular/phone-outgoing.svg");
+		pub const PHONE_PAUSE: &str = include_str!("../phosphor-core/assets/regular/phone-pause.svg");
 		pub const PHONE_PLUS: &str = include_str!("../phosphor-core/assets/regular/phone-plus.svg");
 		pub const PHONE_SLASH: &str = include_str!("../phosphor-core/assets/regular/phone-slash.svg");
+		pub const PHONE_TRANSFER: &str = include_str!("../phosphor-core/assets/regular/phone-transfer.svg");
 		pub const PHONE_X: &str = include_str!("../phosphor-core/assets/regular/phone-x.svg");
 		pub const PHOSPHOR_LOGO: &str = include_str!("../phosphor-core/assets/regular/phosphor-logo.svg");
 		pub const PI: &str = include_str!("../phosphor-core/assets/regular/pi.svg");
 		pub const PIANO_KEYS: &str = include_str!("../phosphor-core/assets/regular/piano-keys.svg");
+		pub const PICNIC_TABLE: &str = include_str!("../phosphor-core/assets/regular/picnic-table.svg");
 		pub const PICTURE_IN_PICTURE: &str = include_str!("../phosphor-core/assets/regular/picture-in-picture.svg");
 		pub const PIGGY_BANK: &str = include_str!("../phosphor-core/assets/regular/piggy-bank.svg");
 		pub const PILL: &str = include_str!("../phosphor-core/assets/regular/pill.svg");
+		pub const PING_PONG: &str = include_str!("../phosphor-core/assets/regular/ping-pong.svg");
+		pub const PINT_GLASS: &str = include_str!("../phosphor-core/assets/regular/pint-glass.svg");
 		pub const PINTEREST_LOGO: &str = include_str!("../phosphor-core/assets/regular/pinterest-logo.svg");
 		pub const PINWHEEL: &str = include_str!("../phosphor-core/assets/regular/pinwheel.svg");
+		pub const PIPE: &str = include_str!("../phosphor-core/assets/regular/pipe.svg");
+		pub const PIPE_WRENCH: &str = include_str!("../phosphor-core/assets/regular/pipe-wrench.svg");
+		pub const PIX_LOGO: &str = include_str!("../phosphor-core/assets/regular/pix-logo.svg");
 		pub const PIZZA: &str = include_str!("../phosphor-core/assets/regular/pizza.svg");
 		pub const PLACEHOLDER: &str = include_str!("../phosphor-core/assets/regular/placeholder.svg");
 		pub const PLANET: &str = include_str!("../phosphor-core/assets/regular/planet.svg");
@@ -5914,6 +7160,7 @@ pub mod style {
 		pub const POLICE_CAR: &str = include_str!("../phosphor-core/assets/regular/police-car.svg");
 		pub const POLYGON: &str = include_str!("../phosphor-core/assets/regular/polygon.svg");
 		pub const POPCORN: &str = include_str!("../phosphor-core/assets/regular/popcorn.svg");
+		pub const POPSICLE: &str = include_str!("../phosphor-core/assets/regular/popsicle.svg");
 		pub const POTTED_PLANT: &str = include_str!("../phosphor-core/assets/regular/potted-plant.svg");
 		pub const POWER: &str = include_str!("../phosphor-core/assets/regular/power.svg");
 		pub const PRESCRIPTION: &str = include_str!("../phosphor-core/assets/regular/prescription.svg");
@@ -5932,23 +7179,30 @@ pub mod style {
 		pub const PUZZLE_PIECE: &str = include_str!("../phosphor-core/assets/regular/puzzle-piece.svg");
 		pub const QR_CODE: &str = include_str!("../phosphor-core/assets/regular/qr-code.svg");
 		pub const QUESTION: &str = include_str!("../phosphor-core/assets/regular/question.svg");
+		pub const QUESTION_MARK: &str = include_str!("../phosphor-core/assets/regular/question-mark.svg");
 		pub const QUEUE: &str = include_str!("../phosphor-core/assets/regular/queue.svg");
 		pub const QUOTES: &str = include_str!("../phosphor-core/assets/regular/quotes.svg");
+		pub const RABBIT: &str = include_str!("../phosphor-core/assets/regular/rabbit.svg");
+		pub const RACQUET: &str = include_str!("../phosphor-core/assets/regular/racquet.svg");
 		pub const RADICAL: &str = include_str!("../phosphor-core/assets/regular/radical.svg");
 		pub const RADIO: &str = include_str!("../phosphor-core/assets/regular/radio.svg");
 		pub const RADIO_BUTTON: &str = include_str!("../phosphor-core/assets/regular/radio-button.svg");
 		pub const RADIOACTIVE: &str = include_str!("../phosphor-core/assets/regular/radioactive.svg");
 		pub const RAINBOW: &str = include_str!("../phosphor-core/assets/regular/rainbow.svg");
 		pub const RAINBOW_CLOUD: &str = include_str!("../phosphor-core/assets/regular/rainbow-cloud.svg");
+		pub const RANKING: &str = include_str!("../phosphor-core/assets/regular/ranking.svg");
 		pub const READ_CV_LOGO: &str = include_str!("../phosphor-core/assets/regular/read-cv-logo.svg");
 		pub const RECEIPT: &str = include_str!("../phosphor-core/assets/regular/receipt.svg");
 		pub const RECEIPT_X: &str = include_str!("../phosphor-core/assets/regular/receipt-x.svg");
 		pub const RECORD: &str = include_str!("../phosphor-core/assets/regular/record.svg");
 		pub const RECTANGLE: &str = include_str!("../phosphor-core/assets/regular/rectangle.svg");
+		pub const RECTANGLE_DASHED: &str = include_str!("../phosphor-core/assets/regular/rectangle-dashed.svg");
 		pub const RECYCLE: &str = include_str!("../phosphor-core/assets/regular/recycle.svg");
 		pub const REDDIT_LOGO: &str = include_str!("../phosphor-core/assets/regular/reddit-logo.svg");
 		pub const REPEAT: &str = include_str!("../phosphor-core/assets/regular/repeat.svg");
 		pub const REPEAT_ONCE: &str = include_str!("../phosphor-core/assets/regular/repeat-once.svg");
+		pub const REPLIT_LOGO: &str = include_str!("../phosphor-core/assets/regular/replit-logo.svg");
+		pub const RESIZE: &str = include_str!("../phosphor-core/assets/regular/resize.svg");
 		pub const REWIND: &str = include_str!("../phosphor-core/assets/regular/rewind.svg");
 		pub const REWIND_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/rewind-circle.svg");
 		pub const ROAD_HORIZON: &str = include_str!("../phosphor-core/assets/regular/road-horizon.svg");
@@ -5956,21 +7210,31 @@ pub mod style {
 		pub const ROCKET: &str = include_str!("../phosphor-core/assets/regular/rocket.svg");
 		pub const ROCKET_LAUNCH: &str = include_str!("../phosphor-core/assets/regular/rocket-launch.svg");
 		pub const ROWS: &str = include_str!("../phosphor-core/assets/regular/rows.svg");
+		pub const ROWS_PLUS_BOTTOM: &str = include_str!("../phosphor-core/assets/regular/rows-plus-bottom.svg");
+		pub const ROWS_PLUS_TOP: &str = include_str!("../phosphor-core/assets/regular/rows-plus-top.svg");
 		pub const RSS: &str = include_str!("../phosphor-core/assets/regular/rss.svg");
 		pub const RSS_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/rss-simple.svg");
 		pub const RUG: &str = include_str!("../phosphor-core/assets/regular/rug.svg");
 		pub const RULER: &str = include_str!("../phosphor-core/assets/regular/ruler.svg");
+		pub const SAILBOAT: &str = include_str!("../phosphor-core/assets/regular/sailboat.svg");
 		pub const SCALES: &str = include_str!("../phosphor-core/assets/regular/scales.svg");
 		pub const SCAN: &str = include_str!("../phosphor-core/assets/regular/scan.svg");
+		pub const SCAN_SMILEY: &str = include_str!("../phosphor-core/assets/regular/scan-smiley.svg");
 		pub const SCISSORS: &str = include_str!("../phosphor-core/assets/regular/scissors.svg");
 		pub const SCOOTER: &str = include_str!("../phosphor-core/assets/regular/scooter.svg");
 		pub const SCREENCAST: &str = include_str!("../phosphor-core/assets/regular/screencast.svg");
+		pub const SCREWDRIVER: &str = include_str!("../phosphor-core/assets/regular/screwdriver.svg");
+		pub const SCRIBBLE: &str = include_str!("../phosphor-core/assets/regular/scribble.svg");
 		pub const SCRIBBLE_LOOP: &str = include_str!("../phosphor-core/assets/regular/scribble-loop.svg");
 		pub const SCROLL: &str = include_str!("../phosphor-core/assets/regular/scroll.svg");
 		pub const SEAL: &str = include_str!("../phosphor-core/assets/regular/seal.svg");
 		pub const SEAL_CHECK: &str = include_str!("../phosphor-core/assets/regular/seal-check.svg");
+		pub const SEAL_PERCENT: &str = include_str!("../phosphor-core/assets/regular/seal-percent.svg");
 		pub const SEAL_QUESTION: &str = include_str!("../phosphor-core/assets/regular/seal-question.svg");
 		pub const SEAL_WARNING: &str = include_str!("../phosphor-core/assets/regular/seal-warning.svg");
+		pub const SEAT: &str = include_str!("../phosphor-core/assets/regular/seat.svg");
+		pub const SEATBELT: &str = include_str!("../phosphor-core/assets/regular/seatbelt.svg");
+		pub const SECURITY_CAMERA: &str = include_str!("../phosphor-core/assets/regular/security-camera.svg");
 		pub const SELECTION: &str = include_str!("../phosphor-core/assets/regular/selection.svg");
 		pub const SELECTION_ALL: &str = include_str!("../phosphor-core/assets/regular/selection-all.svg");
 		pub const SELECTION_BACKGROUND: &str = include_str!("../phosphor-core/assets/regular/selection-background.svg");
@@ -5990,12 +7254,14 @@ pub mod style {
 		pub const SHIELD_SLASH: &str = include_str!("../phosphor-core/assets/regular/shield-slash.svg");
 		pub const SHIELD_STAR: &str = include_str!("../phosphor-core/assets/regular/shield-star.svg");
 		pub const SHIELD_WARNING: &str = include_str!("../phosphor-core/assets/regular/shield-warning.svg");
+		pub const SHIPPING_CONTAINER: &str = include_str!("../phosphor-core/assets/regular/shipping-container.svg");
 		pub const SHIRT_FOLDED: &str = include_str!("../phosphor-core/assets/regular/shirt-folded.svg");
 		pub const SHOOTING_STAR: &str = include_str!("../phosphor-core/assets/regular/shooting-star.svg");
 		pub const SHOPPING_BAG: &str = include_str!("../phosphor-core/assets/regular/shopping-bag.svg");
 		pub const SHOPPING_BAG_OPEN: &str = include_str!("../phosphor-core/assets/regular/shopping-bag-open.svg");
 		pub const SHOPPING_CART: &str = include_str!("../phosphor-core/assets/regular/shopping-cart.svg");
 		pub const SHOPPING_CART_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/shopping-cart-simple.svg");
+		pub const SHOVEL: &str = include_str!("../phosphor-core/assets/regular/shovel.svg");
 		pub const SHOWER: &str = include_str!("../phosphor-core/assets/regular/shower.svg");
 		pub const SHRIMP: &str = include_str!("../phosphor-core/assets/regular/shrimp.svg");
 		pub const SHUFFLE: &str = include_str!("../phosphor-core/assets/regular/shuffle.svg");
@@ -6016,6 +7282,7 @@ pub mod style {
 		pub const SKIP_FORWARD: &str = include_str!("../phosphor-core/assets/regular/skip-forward.svg");
 		pub const SKIP_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/skip-forward-circle.svg");
 		pub const SKULL: &str = include_str!("../phosphor-core/assets/regular/skull.svg");
+		pub const SKYPE_LOGO: &str = include_str!("../phosphor-core/assets/regular/skype-logo.svg");
 		pub const SLACK_LOGO: &str = include_str!("../phosphor-core/assets/regular/slack-logo.svg");
 		pub const SLIDERS: &str = include_str!("../phosphor-core/assets/regular/sliders.svg");
 		pub const SLIDERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/regular/sliders-horizontal.svg");
@@ -6024,6 +7291,7 @@ pub mod style {
 		pub const SMILEY_ANGRY: &str = include_str!("../phosphor-core/assets/regular/smiley-angry.svg");
 		pub const SMILEY_BLANK: &str = include_str!("../phosphor-core/assets/regular/smiley-blank.svg");
 		pub const SMILEY_MEH: &str = include_str!("../phosphor-core/assets/regular/smiley-meh.svg");
+		pub const SMILEY_MELTING: &str = include_str!("../phosphor-core/assets/regular/smiley-melting.svg");
 		pub const SMILEY_NERVOUS: &str = include_str!("../phosphor-core/assets/regular/smiley-nervous.svg");
 		pub const SMILEY_SAD: &str = include_str!("../phosphor-core/assets/regular/smiley-sad.svg");
 		pub const SMILEY_STICKER: &str = include_str!("../phosphor-core/assets/regular/smiley-sticker.svg");
@@ -6034,6 +7302,9 @@ pub mod style {
 		pub const SNEAKER_MOVE: &str = include_str!("../phosphor-core/assets/regular/sneaker-move.svg");
 		pub const SNOWFLAKE: &str = include_str!("../phosphor-core/assets/regular/snowflake.svg");
 		pub const SOCCER_BALL: &str = include_str!("../phosphor-core/assets/regular/soccer-ball.svg");
+		pub const SOCK: &str = include_str!("../phosphor-core/assets/regular/sock.svg");
+		pub const SOLAR_PANEL: &str = include_str!("../phosphor-core/assets/regular/solar-panel.svg");
+		pub const SOLAR_ROOF: &str = include_str!("../phosphor-core/assets/regular/solar-roof.svg");
 		pub const SORT_ASCENDING: &str = include_str!("../phosphor-core/assets/regular/sort-ascending.svg");
 		pub const SORT_DESCENDING: &str = include_str!("../phosphor-core/assets/regular/sort-descending.svg");
 		pub const SOUNDCLOUD_LOGO: &str = include_str!("../phosphor-core/assets/regular/soundcloud-logo.svg");
@@ -6050,12 +7321,16 @@ pub mod style {
 		pub const SPEAKER_SIMPLE_X: &str = include_str!("../phosphor-core/assets/regular/speaker-simple-x.svg");
 		pub const SPEAKER_SLASH: &str = include_str!("../phosphor-core/assets/regular/speaker-slash.svg");
 		pub const SPEAKER_X: &str = include_str!("../phosphor-core/assets/regular/speaker-x.svg");
+		pub const SPEEDOMETER: &str = include_str!("../phosphor-core/assets/regular/speedometer.svg");
+		pub const SPHERE: &str = include_str!("../phosphor-core/assets/regular/sphere.svg");
 		pub const SPINNER: &str = include_str!("../phosphor-core/assets/regular/spinner.svg");
+		pub const SPINNER_BALL: &str = include_str!("../phosphor-core/assets/regular/spinner-ball.svg");
 		pub const SPINNER_GAP: &str = include_str!("../phosphor-core/assets/regular/spinner-gap.svg");
 		pub const SPIRAL: &str = include_str!("../phosphor-core/assets/regular/spiral.svg");
 		pub const SPLIT_HORIZONTAL: &str = include_str!("../phosphor-core/assets/regular/split-horizontal.svg");
 		pub const SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/regular/split-vertical.svg");
 		pub const SPOTIFY_LOGO: &str = include_str!("../phosphor-core/assets/regular/spotify-logo.svg");
+		pub const SPRAY_BOTTLE: &str = include_str!("../phosphor-core/assets/regular/spray-bottle.svg");
 		pub const SQUARE: &str = include_str!("../phosphor-core/assets/regular/square.svg");
 		pub const SQUARE_HALF: &str = include_str!("../phosphor-core/assets/regular/square-half.svg");
 		pub const SQUARE_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/regular/square-half-bottom.svg");
@@ -6064,15 +7339,19 @@ pub mod style {
 		pub const SQUARE_SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/regular/square-split-vertical.svg");
 		pub const SQUARES_FOUR: &str = include_str!("../phosphor-core/assets/regular/squares-four.svg");
 		pub const STACK: &str = include_str!("../phosphor-core/assets/regular/stack.svg");
+		pub const STACK_MINUS: &str = include_str!("../phosphor-core/assets/regular/stack-minus.svg");
 		pub const STACK_OVERFLOW_LOGO: &str = include_str!("../phosphor-core/assets/regular/stack-overflow-logo.svg");
+		pub const STACK_PLUS: &str = include_str!("../phosphor-core/assets/regular/stack-plus.svg");
 		pub const STACK_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/stack-simple.svg");
 		pub const STAIRS: &str = include_str!("../phosphor-core/assets/regular/stairs.svg");
 		pub const STAMP: &str = include_str!("../phosphor-core/assets/regular/stamp.svg");
+		pub const STANDARD_DEFINITION: &str = include_str!("../phosphor-core/assets/regular/standard-definition.svg");
 		pub const STAR: &str = include_str!("../phosphor-core/assets/regular/star.svg");
 		pub const STAR_AND_CRESCENT: &str = include_str!("../phosphor-core/assets/regular/star-and-crescent.svg");
 		pub const STAR_FOUR: &str = include_str!("../phosphor-core/assets/regular/star-four.svg");
 		pub const STAR_HALF: &str = include_str!("../phosphor-core/assets/regular/star-half.svg");
 		pub const STAR_OF_DAVID: &str = include_str!("../phosphor-core/assets/regular/star-of-david.svg");
+		pub const STEAM_LOGO: &str = include_str!("../phosphor-core/assets/regular/steam-logo.svg");
 		pub const STEERING_WHEEL: &str = include_str!("../phosphor-core/assets/regular/steering-wheel.svg");
 		pub const STEPS: &str = include_str!("../phosphor-core/assets/regular/steps.svg");
 		pub const STETHOSCOPE: &str = include_str!("../phosphor-core/assets/regular/stethoscope.svg");
@@ -6084,9 +7363,13 @@ pub mod style {
 		pub const STRATEGY: &str = include_str!("../phosphor-core/assets/regular/strategy.svg");
 		pub const STRIPE_LOGO: &str = include_str!("../phosphor-core/assets/regular/stripe-logo.svg");
 		pub const STUDENT: &str = include_str!("../phosphor-core/assets/regular/student.svg");
+		pub const SUBSET_OF: &str = include_str!("../phosphor-core/assets/regular/subset-of.svg");
+		pub const SUBSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/regular/subset-proper-of.svg");
 		pub const SUBTITLES: &str = include_str!("../phosphor-core/assets/regular/subtitles.svg");
+		pub const SUBTITLES_SLASH: &str = include_str!("../phosphor-core/assets/regular/subtitles-slash.svg");
 		pub const SUBTRACT: &str = include_str!("../phosphor-core/assets/regular/subtract.svg");
 		pub const SUBTRACT_SQUARE: &str = include_str!("../phosphor-core/assets/regular/subtract-square.svg");
+		pub const SUBWAY: &str = include_str!("../phosphor-core/assets/regular/subway.svg");
 		pub const SUITCASE: &str = include_str!("../phosphor-core/assets/regular/suitcase.svg");
 		pub const SUITCASE_ROLLING: &str = include_str!("../phosphor-core/assets/regular/suitcase-rolling.svg");
 		pub const SUITCASE_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/suitcase-simple.svg");
@@ -6094,6 +7377,8 @@ pub mod style {
 		pub const SUN_DIM: &str = include_str!("../phosphor-core/assets/regular/sun-dim.svg");
 		pub const SUN_HORIZON: &str = include_str!("../phosphor-core/assets/regular/sun-horizon.svg");
 		pub const SUNGLASSES: &str = include_str!("../phosphor-core/assets/regular/sunglasses.svg");
+		pub const SUPERSET_OF: &str = include_str!("../phosphor-core/assets/regular/superset-of.svg");
+		pub const SUPERSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/regular/superset-proper-of.svg");
 		pub const SWAP: &str = include_str!("../phosphor-core/assets/regular/swap.svg");
 		pub const SWATCHES: &str = include_str!("../phosphor-core/assets/regular/swatches.svg");
 		pub const SWIMMING_POOL: &str = include_str!("../phosphor-core/assets/regular/swimming-pool.svg");
@@ -6108,6 +7393,7 @@ pub mod style {
 		pub const TAG_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/tag-simple.svg");
 		pub const TARGET: &str = include_str!("../phosphor-core/assets/regular/target.svg");
 		pub const TAXI: &str = include_str!("../phosphor-core/assets/regular/taxi.svg");
+		pub const TEA_BAG: &str = include_str!("../phosphor-core/assets/regular/tea-bag.svg");
 		pub const TELEGRAM_LOGO: &str = include_str!("../phosphor-core/assets/regular/telegram-logo.svg");
 		pub const TELEVISION: &str = include_str!("../phosphor-core/assets/regular/television.svg");
 		pub const TELEVISION_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/television-simple.svg");
@@ -6135,28 +7421,39 @@ pub mod style {
 		pub const TEXT_ITALIC: &str = include_str!("../phosphor-core/assets/regular/text-italic.svg");
 		pub const TEXT_OUTDENT: &str = include_str!("../phosphor-core/assets/regular/text-outdent.svg");
 		pub const TEXT_STRIKETHROUGH: &str = include_str!("../phosphor-core/assets/regular/text-strikethrough.svg");
+		pub const TEXT_SUBSCRIPT: &str = include_str!("../phosphor-core/assets/regular/text-subscript.svg");
+		pub const TEXT_SUPERSCRIPT: &str = include_str!("../phosphor-core/assets/regular/text-superscript.svg");
 		pub const TEXT_T: &str = include_str!("../phosphor-core/assets/regular/text-t.svg");
+		pub const TEXT_T_SLASH: &str = include_str!("../phosphor-core/assets/regular/text-t-slash.svg");
 		pub const TEXT_UNDERLINE: &str = include_str!("../phosphor-core/assets/regular/text-underline.svg");
 		pub const TEXTBOX: &str = include_str!("../phosphor-core/assets/regular/textbox.svg");
 		pub const THERMOMETER: &str = include_str!("../phosphor-core/assets/regular/thermometer.svg");
 		pub const THERMOMETER_COLD: &str = include_str!("../phosphor-core/assets/regular/thermometer-cold.svg");
 		pub const THERMOMETER_HOT: &str = include_str!("../phosphor-core/assets/regular/thermometer-hot.svg");
 		pub const THERMOMETER_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/thermometer-simple.svg");
+		pub const THREADS_LOGO: &str = include_str!("../phosphor-core/assets/regular/threads-logo.svg");
+		pub const THREE_D: &str = include_str!("../phosphor-core/assets/regular/three-d.svg");
 		pub const THUMBS_DOWN: &str = include_str!("../phosphor-core/assets/regular/thumbs-down.svg");
 		pub const THUMBS_UP: &str = include_str!("../phosphor-core/assets/regular/thumbs-up.svg");
 		pub const TICKET: &str = include_str!("../phosphor-core/assets/regular/ticket.svg");
 		pub const TIDAL_LOGO: &str = include_str!("../phosphor-core/assets/regular/tidal-logo.svg");
 		pub const TIKTOK_LOGO: &str = include_str!("../phosphor-core/assets/regular/tiktok-logo.svg");
+		pub const TILDE: &str = include_str!("../phosphor-core/assets/regular/tilde.svg");
 		pub const TIMER: &str = include_str!("../phosphor-core/assets/regular/timer.svg");
+		pub const TIP_JAR: &str = include_str!("../phosphor-core/assets/regular/tip-jar.svg");
 		pub const TIPI: &str = include_str!("../phosphor-core/assets/regular/tipi.svg");
+		pub const TIRE: &str = include_str!("../phosphor-core/assets/regular/tire.svg");
 		pub const TOGGLE_LEFT: &str = include_str!("../phosphor-core/assets/regular/toggle-left.svg");
 		pub const TOGGLE_RIGHT: &str = include_str!("../phosphor-core/assets/regular/toggle-right.svg");
 		pub const TOILET: &str = include_str!("../phosphor-core/assets/regular/toilet.svg");
 		pub const TOILET_PAPER: &str = include_str!("../phosphor-core/assets/regular/toilet-paper.svg");
 		pub const TOOLBOX: &str = include_str!("../phosphor-core/assets/regular/toolbox.svg");
 		pub const TOOTH: &str = include_str!("../phosphor-core/assets/regular/tooth.svg");
+		pub const TORNADO: &str = include_str!("../phosphor-core/assets/regular/tornado.svg");
 		pub const TOTE: &str = include_str!("../phosphor-core/assets/regular/tote.svg");
 		pub const TOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/tote-simple.svg");
+		pub const TOWEL: &str = include_str!("../phosphor-core/assets/regular/towel.svg");
+		pub const TRACTOR: &str = include_str!("../phosphor-core/assets/regular/tractor.svg");
 		pub const TRADEMARK: &str = include_str!("../phosphor-core/assets/regular/trademark.svg");
 		pub const TRADEMARK_REGISTERED: &str = include_str!("../phosphor-core/assets/regular/trademark-registered.svg");
 		pub const TRAFFIC_CONE: &str = include_str!("../phosphor-core/assets/regular/traffic-cone.svg");
@@ -6170,26 +7467,39 @@ pub mod style {
 		pub const TRASH: &str = include_str!("../phosphor-core/assets/regular/trash.svg");
 		pub const TRASH_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/trash-simple.svg");
 		pub const TRAY: &str = include_str!("../phosphor-core/assets/regular/tray.svg");
+		pub const TRAY_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/regular/tray-arrow-down.svg");
+		pub const TRAY_ARROW_UP: &str = include_str!("../phosphor-core/assets/regular/tray-arrow-up.svg");
+		pub const TREASURE_CHEST: &str = include_str!("../phosphor-core/assets/regular/treasure-chest.svg");
 		pub const TREE: &str = include_str!("../phosphor-core/assets/regular/tree.svg");
 		pub const TREE_EVERGREEN: &str = include_str!("../phosphor-core/assets/regular/tree-evergreen.svg");
 		pub const TREE_PALM: &str = include_str!("../phosphor-core/assets/regular/tree-palm.svg");
 		pub const TREE_STRUCTURE: &str = include_str!("../phosphor-core/assets/regular/tree-structure.svg");
+		pub const TREE_VIEW: &str = include_str!("../phosphor-core/assets/regular/tree-view.svg");
 		pub const TREND_DOWN: &str = include_str!("../phosphor-core/assets/regular/trend-down.svg");
 		pub const TREND_UP: &str = include_str!("../phosphor-core/assets/regular/trend-up.svg");
 		pub const TRIANGLE: &str = include_str!("../phosphor-core/assets/regular/triangle.svg");
+		pub const TRIANGLE_DASHED: &str = include_str!("../phosphor-core/assets/regular/triangle-dashed.svg");
+		pub const TROLLEY: &str = include_str!("../phosphor-core/assets/regular/trolley.svg");
+		pub const TROLLEY_SUITCASE: &str = include_str!("../phosphor-core/assets/regular/trolley-suitcase.svg");
 		pub const TROPHY: &str = include_str!("../phosphor-core/assets/regular/trophy.svg");
 		pub const TRUCK: &str = include_str!("../phosphor-core/assets/regular/truck.svg");
+		pub const TRUCK_TRAILER: &str = include_str!("../phosphor-core/assets/regular/truck-trailer.svg");
+		pub const TUMBLR_LOGO: &str = include_str!("../phosphor-core/assets/regular/tumblr-logo.svg");
 		pub const TWITCH_LOGO: &str = include_str!("../phosphor-core/assets/regular/twitch-logo.svg");
 		pub const TWITTER_LOGO: &str = include_str!("../phosphor-core/assets/regular/twitter-logo.svg");
 		pub const UMBRELLA: &str = include_str!("../phosphor-core/assets/regular/umbrella.svg");
 		pub const UMBRELLA_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/umbrella-simple.svg");
+		pub const UNION: &str = include_str!("../phosphor-core/assets/regular/union.svg");
 		pub const UNITE: &str = include_str!("../phosphor-core/assets/regular/unite.svg");
 		pub const UNITE_SQUARE: &str = include_str!("../phosphor-core/assets/regular/unite-square.svg");
 		pub const UPLOAD: &str = include_str!("../phosphor-core/assets/regular/upload.svg");
 		pub const UPLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/regular/upload-simple.svg");
 		pub const USB: &str = include_str!("../phosphor-core/assets/regular/usb.svg");
 		pub const USER: &str = include_str!("../phosphor-core/assets/regular/user.svg");
+		pub const USER_CHECK: &str = include_str!("../phosphor-core/assets/regular/user-check.svg");
 		pub const USER_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/user-circle.svg");
+		pub const USER_CIRCLE_CHECK: &str = include_str!("../phosphor-core/assets/regular/user-circle-check.svg");
+		pub const USER_CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/regular/user-circle-dashed.svg");
 		pub const USER_CIRCLE_GEAR: &str = include_str!("../phosphor-core/assets/regular/user-circle-gear.svg");
 		pub const USER_CIRCLE_MINUS: &str = include_str!("../phosphor-core/assets/regular/user-circle-minus.svg");
 		pub const USER_CIRCLE_PLUS: &str = include_str!("../phosphor-core/assets/regular/user-circle-plus.svg");
@@ -6199,6 +7509,7 @@ pub mod style {
 		pub const USER_MINUS: &str = include_str!("../phosphor-core/assets/regular/user-minus.svg");
 		pub const USER_PLUS: &str = include_str!("../phosphor-core/assets/regular/user-plus.svg");
 		pub const USER_RECTANGLE: &str = include_str!("../phosphor-core/assets/regular/user-rectangle.svg");
+		pub const USER_SOUND: &str = include_str!("../phosphor-core/assets/regular/user-sound.svg");
 		pub const USER_SQUARE: &str = include_str!("../phosphor-core/assets/regular/user-square.svg");
 		pub const USER_SWITCH: &str = include_str!("../phosphor-core/assets/regular/user-switch.svg");
 		pub const USERS: &str = include_str!("../phosphor-core/assets/regular/users.svg");
@@ -6206,14 +7517,18 @@ pub mod style {
 		pub const USERS_THREE: &str = include_str!("../phosphor-core/assets/regular/users-three.svg");
 		pub const VAN: &str = include_str!("../phosphor-core/assets/regular/van.svg");
 		pub const VAULT: &str = include_str!("../phosphor-core/assets/regular/vault.svg");
+		pub const VECTOR_THREE: &str = include_str!("../phosphor-core/assets/regular/vector-three.svg");
+		pub const VECTOR_TWO: &str = include_str!("../phosphor-core/assets/regular/vector-two.svg");
 		pub const VIBRATE: &str = include_str!("../phosphor-core/assets/regular/vibrate.svg");
 		pub const VIDEO: &str = include_str!("../phosphor-core/assets/regular/video.svg");
 		pub const VIDEO_CAMERA: &str = include_str!("../phosphor-core/assets/regular/video-camera.svg");
 		pub const VIDEO_CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/regular/video-camera-slash.svg");
+		pub const VIDEO_CONFERENCE: &str = include_str!("../phosphor-core/assets/regular/video-conference.svg");
 		pub const VIGNETTE: &str = include_str!("../phosphor-core/assets/regular/vignette.svg");
 		pub const VINYL_RECORD: &str = include_str!("../phosphor-core/assets/regular/vinyl-record.svg");
 		pub const VIRTUAL_REALITY: &str = include_str!("../phosphor-core/assets/regular/virtual-reality.svg");
 		pub const VIRUS: &str = include_str!("../phosphor-core/assets/regular/virus.svg");
+		pub const VISOR: &str = include_str!("../phosphor-core/assets/regular/visor.svg");
 		pub const VOICEMAIL: &str = include_str!("../phosphor-core/assets/regular/voicemail.svg");
 		pub const VOLLEYBALL: &str = include_str!("../phosphor-core/assets/regular/volleyball.svg");
 		pub const WALL: &str = include_str!("../phosphor-core/assets/regular/wall.svg");
@@ -6223,12 +7538,14 @@ pub mod style {
 		pub const WARNING_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/warning-circle.svg");
 		pub const WARNING_DIAMOND: &str = include_str!("../phosphor-core/assets/regular/warning-diamond.svg");
 		pub const WARNING_OCTAGON: &str = include_str!("../phosphor-core/assets/regular/warning-octagon.svg");
+		pub const WASHING_MACHINE: &str = include_str!("../phosphor-core/assets/regular/washing-machine.svg");
 		pub const WATCH: &str = include_str!("../phosphor-core/assets/regular/watch.svg");
 		pub const WAVE_SAWTOOTH: &str = include_str!("../phosphor-core/assets/regular/wave-sawtooth.svg");
 		pub const WAVE_SINE: &str = include_str!("../phosphor-core/assets/regular/wave-sine.svg");
 		pub const WAVE_SQUARE: &str = include_str!("../phosphor-core/assets/regular/wave-square.svg");
 		pub const WAVE_TRIANGLE: &str = include_str!("../phosphor-core/assets/regular/wave-triangle.svg");
 		pub const WAVEFORM: &str = include_str!("../phosphor-core/assets/regular/waveform.svg");
+		pub const WAVEFORM_SLASH: &str = include_str!("../phosphor-core/assets/regular/waveform-slash.svg");
 		pub const WAVES: &str = include_str!("../phosphor-core/assets/regular/waves.svg");
 		pub const WEBCAM: &str = include_str!("../phosphor-core/assets/regular/webcam.svg");
 		pub const WEBCAM_SLASH: &str = include_str!("../phosphor-core/assets/regular/webcam-slash.svg");
@@ -6244,22 +7561,28 @@ pub mod style {
 		pub const WIFI_SLASH: &str = include_str!("../phosphor-core/assets/regular/wifi-slash.svg");
 		pub const WIFI_X: &str = include_str!("../phosphor-core/assets/regular/wifi-x.svg");
 		pub const WIND: &str = include_str!("../phosphor-core/assets/regular/wind.svg");
+		pub const WINDMILL: &str = include_str!("../phosphor-core/assets/regular/windmill.svg");
 		pub const WINDOWS_LOGO: &str = include_str!("../phosphor-core/assets/regular/windows-logo.svg");
 		pub const WINE: &str = include_str!("../phosphor-core/assets/regular/wine.svg");
 		pub const WRENCH: &str = include_str!("../phosphor-core/assets/regular/wrench.svg");
 		pub const X: &str = include_str!("../phosphor-core/assets/regular/x.svg");
 		pub const X_CIRCLE: &str = include_str!("../phosphor-core/assets/regular/x-circle.svg");
+		pub const X_LOGO: &str = include_str!("../phosphor-core/assets/regular/x-logo.svg");
 		pub const X_SQUARE: &str = include_str!("../phosphor-core/assets/regular/x-square.svg");
+		pub const YARN: &str = include_str!("../phosphor-core/assets/regular/yarn.svg");
 		pub const YIN_YANG: &str = include_str!("../phosphor-core/assets/regular/yin-yang.svg");
 		pub const YOUTUBE_LOGO: &str = include_str!("../phosphor-core/assets/regular/youtube-logo.svg");
 	}
 	pub mod thin {
+		pub const ACORN: &str = include_str!("../phosphor-core/assets/thin/acorn-thin.svg");
 		pub const ADDRESS_BOOK: &str = include_str!("../phosphor-core/assets/thin/address-book-thin.svg");
+		pub const ADDRESS_BOOK_TABS: &str = include_str!("../phosphor-core/assets/thin/address-book-tabs-thin.svg");
 		pub const AIR_TRAFFIC_CONTROL: &str = include_str!("../phosphor-core/assets/thin/air-traffic-control-thin.svg");
 		pub const AIRPLANE: &str = include_str!("../phosphor-core/assets/thin/airplane-thin.svg");
 		pub const AIRPLANE_IN_FLIGHT: &str = include_str!("../phosphor-core/assets/thin/airplane-in-flight-thin.svg");
 		pub const AIRPLANE_LANDING: &str = include_str!("../phosphor-core/assets/thin/airplane-landing-thin.svg");
 		pub const AIRPLANE_TAKEOFF: &str = include_str!("../phosphor-core/assets/thin/airplane-takeoff-thin.svg");
+		pub const AIRPLANE_TAXIING: &str = include_str!("../phosphor-core/assets/thin/airplane-taxiing-thin.svg");
 		pub const AIRPLANE_TILT: &str = include_str!("../phosphor-core/assets/thin/airplane-tilt-thin.svg");
 		pub const AIRPLAY: &str = include_str!("../phosphor-core/assets/thin/airplay-thin.svg");
 		pub const ALARM: &str = include_str!("../phosphor-core/assets/thin/alarm-thin.svg");
@@ -6277,18 +7600,19 @@ pub mod style {
 		pub const ALIGN_TOP: &str = include_str!("../phosphor-core/assets/thin/align-top-thin.svg");
 		pub const ALIGN_TOP_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/align-top-simple-thin.svg");
 		pub const AMAZON_LOGO: &str = include_str!("../phosphor-core/assets/thin/amazon-logo-thin.svg");
+		pub const AMBULANCE: &str = include_str!("../phosphor-core/assets/thin/ambulance-thin.svg");
 		pub const ANCHOR: &str = include_str!("../phosphor-core/assets/thin/anchor-thin.svg");
 		pub const ANCHOR_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/anchor-simple-thin.svg");
 		pub const ANDROID_LOGO: &str = include_str!("../phosphor-core/assets/thin/android-logo-thin.svg");
+		pub const ANGLE: &str = include_str!("../phosphor-core/assets/thin/angle-thin.svg");
 		pub const ANGULAR_LOGO: &str = include_str!("../phosphor-core/assets/thin/angular-logo-thin.svg");
 		pub const APERTURE: &str = include_str!("../phosphor-core/assets/thin/aperture-thin.svg");
 		pub const APP_STORE_LOGO: &str = include_str!("../phosphor-core/assets/thin/app-store-logo-thin.svg");
 		pub const APP_WINDOW: &str = include_str!("../phosphor-core/assets/thin/app-window-thin.svg");
 		pub const APPLE_LOGO: &str = include_str!("../phosphor-core/assets/thin/apple-logo-thin.svg");
 		pub const APPLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/thin/apple-podcasts-logo-thin.svg");
+		pub const APPROXIMATE_EQUALS: &str = include_str!("../phosphor-core/assets/thin/approximate-equals-thin.svg");
 		pub const ARCHIVE: &str = include_str!("../phosphor-core/assets/thin/archive-thin.svg");
-		pub const ARCHIVE_BOX: &str = include_str!("../phosphor-core/assets/thin/archive-box-thin.svg");
-		pub const ARCHIVE_TRAY: &str = include_str!("../phosphor-core/assets/thin/archive-tray-thin.svg");
 		pub const ARMCHAIR: &str = include_str!("../phosphor-core/assets/thin/armchair-thin.svg");
 		pub const ARROW_ARC_LEFT: &str = include_str!("../phosphor-core/assets/thin/arrow-arc-left-thin.svg");
 		pub const ARROW_ARC_RIGHT: &str = include_str!("../phosphor-core/assets/thin/arrow-arc-right-thin.svg");
@@ -6389,11 +7713,15 @@ pub mod style {
 		pub const ARTICLE: &str = include_str!("../phosphor-core/assets/thin/article-thin.svg");
 		pub const ARTICLE_MEDIUM: &str = include_str!("../phosphor-core/assets/thin/article-medium-thin.svg");
 		pub const ARTICLE_NY_TIMES: &str = include_str!("../phosphor-core/assets/thin/article-ny-times-thin.svg");
+		pub const ASCLEPIUS: &str = include_str!("../phosphor-core/assets/thin/asclepius-thin.svg");
 		pub const ASTERISK: &str = include_str!("../phosphor-core/assets/thin/asterisk-thin.svg");
 		pub const ASTERISK_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/asterisk-simple-thin.svg");
 		pub const AT: &str = include_str!("../phosphor-core/assets/thin/at-thin.svg");
 		pub const ATOM: &str = include_str!("../phosphor-core/assets/thin/atom-thin.svg");
+		pub const AVOCADO: &str = include_str!("../phosphor-core/assets/thin/avocado-thin.svg");
+		pub const AXE: &str = include_str!("../phosphor-core/assets/thin/axe-thin.svg");
 		pub const BABY: &str = include_str!("../phosphor-core/assets/thin/baby-thin.svg");
+		pub const BABY_CARRIAGE: &str = include_str!("../phosphor-core/assets/thin/baby-carriage-thin.svg");
 		pub const BACKPACK: &str = include_str!("../phosphor-core/assets/thin/backpack-thin.svg");
 		pub const BACKSPACE: &str = include_str!("../phosphor-core/assets/thin/backspace-thin.svg");
 		pub const BAG: &str = include_str!("../phosphor-core/assets/thin/bag-thin.svg");
@@ -6403,9 +7731,11 @@ pub mod style {
 		pub const BANK: &str = include_str!("../phosphor-core/assets/thin/bank-thin.svg");
 		pub const BARBELL: &str = include_str!("../phosphor-core/assets/thin/barbell-thin.svg");
 		pub const BARCODE: &str = include_str!("../phosphor-core/assets/thin/barcode-thin.svg");
+		pub const BARN: &str = include_str!("../phosphor-core/assets/thin/barn-thin.svg");
 		pub const BARRICADE: &str = include_str!("../phosphor-core/assets/thin/barricade-thin.svg");
 		pub const BASEBALL: &str = include_str!("../phosphor-core/assets/thin/baseball-thin.svg");
 		pub const BASEBALL_CAP: &str = include_str!("../phosphor-core/assets/thin/baseball-cap-thin.svg");
+		pub const BASEBALL_HELMET: &str = include_str!("../phosphor-core/assets/thin/baseball-helmet-thin.svg");
 		pub const BASKET: &str = include_str!("../phosphor-core/assets/thin/basket-thin.svg");
 		pub const BASKETBALL: &str = include_str!("../phosphor-core/assets/thin/basketball-thin.svg");
 		pub const BATHTUB: &str = include_str!("../phosphor-core/assets/thin/bathtub-thin.svg");
@@ -6425,6 +7755,8 @@ pub mod style {
 		pub const BATTERY_VERTICAL_MEDIUM: &str = include_str!("../phosphor-core/assets/thin/battery-vertical-medium-thin.svg");
 		pub const BATTERY_WARNING: &str = include_str!("../phosphor-core/assets/thin/battery-warning-thin.svg");
 		pub const BATTERY_WARNING_VERTICAL: &str = include_str!("../phosphor-core/assets/thin/battery-warning-vertical-thin.svg");
+		pub const BEACH_BALL: &str = include_str!("../phosphor-core/assets/thin/beach-ball-thin.svg");
+		pub const BEANIE: &str = include_str!("../phosphor-core/assets/thin/beanie-thin.svg");
 		pub const BED: &str = include_str!("../phosphor-core/assets/thin/bed-thin.svg");
 		pub const BEER_BOTTLE: &str = include_str!("../phosphor-core/assets/thin/beer-bottle-thin.svg");
 		pub const BEER_STEIN: &str = include_str!("../phosphor-core/assets/thin/beer-stein-thin.svg");
@@ -6437,34 +7769,47 @@ pub mod style {
 		pub const BELL_SIMPLE_Z: &str = include_str!("../phosphor-core/assets/thin/bell-simple-z-thin.svg");
 		pub const BELL_SLASH: &str = include_str!("../phosphor-core/assets/thin/bell-slash-thin.svg");
 		pub const BELL_Z: &str = include_str!("../phosphor-core/assets/thin/bell-z-thin.svg");
+		pub const BELT: &str = include_str!("../phosphor-core/assets/thin/belt-thin.svg");
 		pub const BEZIER_CURVE: &str = include_str!("../phosphor-core/assets/thin/bezier-curve-thin.svg");
 		pub const BICYCLE: &str = include_str!("../phosphor-core/assets/thin/bicycle-thin.svg");
+		pub const BINARY: &str = include_str!("../phosphor-core/assets/thin/binary-thin.svg");
 		pub const BINOCULARS: &str = include_str!("../phosphor-core/assets/thin/binoculars-thin.svg");
+		pub const BIOHAZARD: &str = include_str!("../phosphor-core/assets/thin/biohazard-thin.svg");
 		pub const BIRD: &str = include_str!("../phosphor-core/assets/thin/bird-thin.svg");
+		pub const BLUEPRINT: &str = include_str!("../phosphor-core/assets/thin/blueprint-thin.svg");
 		pub const BLUETOOTH: &str = include_str!("../phosphor-core/assets/thin/bluetooth-thin.svg");
 		pub const BLUETOOTH_CONNECTED: &str = include_str!("../phosphor-core/assets/thin/bluetooth-connected-thin.svg");
 		pub const BLUETOOTH_SLASH: &str = include_str!("../phosphor-core/assets/thin/bluetooth-slash-thin.svg");
 		pub const BLUETOOTH_X: &str = include_str!("../phosphor-core/assets/thin/bluetooth-x-thin.svg");
 		pub const BOAT: &str = include_str!("../phosphor-core/assets/thin/boat-thin.svg");
+		pub const BOMB: &str = include_str!("../phosphor-core/assets/thin/bomb-thin.svg");
 		pub const BONE: &str = include_str!("../phosphor-core/assets/thin/bone-thin.svg");
 		pub const BOOK: &str = include_str!("../phosphor-core/assets/thin/book-thin.svg");
 		pub const BOOK_BOOKMARK: &str = include_str!("../phosphor-core/assets/thin/book-bookmark-thin.svg");
 		pub const BOOK_OPEN: &str = include_str!("../phosphor-core/assets/thin/book-open-thin.svg");
 		pub const BOOK_OPEN_TEXT: &str = include_str!("../phosphor-core/assets/thin/book-open-text-thin.svg");
+		pub const BOOK_OPEN_USER: &str = include_str!("../phosphor-core/assets/thin/book-open-user-thin.svg");
 		pub const BOOKMARK: &str = include_str!("../phosphor-core/assets/thin/bookmark-thin.svg");
 		pub const BOOKMARK_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/bookmark-simple-thin.svg");
 		pub const BOOKMARKS: &str = include_str!("../phosphor-core/assets/thin/bookmarks-thin.svg");
 		pub const BOOKMARKS_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/bookmarks-simple-thin.svg");
 		pub const BOOKS: &str = include_str!("../phosphor-core/assets/thin/books-thin.svg");
 		pub const BOOT: &str = include_str!("../phosphor-core/assets/thin/boot-thin.svg");
+		pub const BOULES: &str = include_str!("../phosphor-core/assets/thin/boules-thin.svg");
 		pub const BOUNDING_BOX: &str = include_str!("../phosphor-core/assets/thin/bounding-box-thin.svg");
 		pub const BOWL_FOOD: &str = include_str!("../phosphor-core/assets/thin/bowl-food-thin.svg");
+		pub const BOWL_STEAM: &str = include_str!("../phosphor-core/assets/thin/bowl-steam-thin.svg");
+		pub const BOWLING_BALL: &str = include_str!("../phosphor-core/assets/thin/bowling-ball-thin.svg");
+		pub const BOX_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/thin/box-arrow-down-thin.svg");
+		pub const BOX_ARROW_UP: &str = include_str!("../phosphor-core/assets/thin/box-arrow-up-thin.svg");
+		pub const BOXING_GLOVE: &str = include_str!("../phosphor-core/assets/thin/boxing-glove-thin.svg");
 		pub const BRACKETS_ANGLE: &str = include_str!("../phosphor-core/assets/thin/brackets-angle-thin.svg");
 		pub const BRACKETS_CURLY: &str = include_str!("../phosphor-core/assets/thin/brackets-curly-thin.svg");
 		pub const BRACKETS_ROUND: &str = include_str!("../phosphor-core/assets/thin/brackets-round-thin.svg");
 		pub const BRACKETS_SQUARE: &str = include_str!("../phosphor-core/assets/thin/brackets-square-thin.svg");
 		pub const BRAIN: &str = include_str!("../phosphor-core/assets/thin/brain-thin.svg");
 		pub const BRANDY: &str = include_str!("../phosphor-core/assets/thin/brandy-thin.svg");
+		pub const BREAD: &str = include_str!("../phosphor-core/assets/thin/bread-thin.svg");
 		pub const BRIDGE: &str = include_str!("../phosphor-core/assets/thin/bridge-thin.svg");
 		pub const BRIEFCASE: &str = include_str!("../phosphor-core/assets/thin/briefcase-thin.svg");
 		pub const BRIEFCASE_METAL: &str = include_str!("../phosphor-core/assets/thin/briefcase-metal-thin.svg");
@@ -6475,16 +7820,27 @@ pub mod style {
 		pub const BUG: &str = include_str!("../phosphor-core/assets/thin/bug-thin.svg");
 		pub const BUG_BEETLE: &str = include_str!("../phosphor-core/assets/thin/bug-beetle-thin.svg");
 		pub const BUG_DROID: &str = include_str!("../phosphor-core/assets/thin/bug-droid-thin.svg");
+		pub const BUILDING: &str = include_str!("../phosphor-core/assets/thin/building-thin.svg");
+		pub const BUILDING_APARTMENT: &str = include_str!("../phosphor-core/assets/thin/building-apartment-thin.svg");
+		pub const BUILDING_OFFICE: &str = include_str!("../phosphor-core/assets/thin/building-office-thin.svg");
 		pub const BUILDINGS: &str = include_str!("../phosphor-core/assets/thin/buildings-thin.svg");
+		pub const BULLDOZER: &str = include_str!("../phosphor-core/assets/thin/bulldozer-thin.svg");
 		pub const BUS: &str = include_str!("../phosphor-core/assets/thin/bus-thin.svg");
 		pub const BUTTERFLY: &str = include_str!("../phosphor-core/assets/thin/butterfly-thin.svg");
+		pub const CABLE_CAR: &str = include_str!("../phosphor-core/assets/thin/cable-car-thin.svg");
 		pub const CACTUS: &str = include_str!("../phosphor-core/assets/thin/cactus-thin.svg");
 		pub const CAKE: &str = include_str!("../phosphor-core/assets/thin/cake-thin.svg");
 		pub const CALCULATOR: &str = include_str!("../phosphor-core/assets/thin/calculator-thin.svg");
 		pub const CALENDAR: &str = include_str!("../phosphor-core/assets/thin/calendar-thin.svg");
 		pub const CALENDAR_BLANK: &str = include_str!("../phosphor-core/assets/thin/calendar-blank-thin.svg");
 		pub const CALENDAR_CHECK: &str = include_str!("../phosphor-core/assets/thin/calendar-check-thin.svg");
+		pub const CALENDAR_DOT: &str = include_str!("../phosphor-core/assets/thin/calendar-dot-thin.svg");
+		pub const CALENDAR_DOTS: &str = include_str!("../phosphor-core/assets/thin/calendar-dots-thin.svg");
+		pub const CALENDAR_HEART: &str = include_str!("../phosphor-core/assets/thin/calendar-heart-thin.svg");
+		pub const CALENDAR_MINUS: &str = include_str!("../phosphor-core/assets/thin/calendar-minus-thin.svg");
 		pub const CALENDAR_PLUS: &str = include_str!("../phosphor-core/assets/thin/calendar-plus-thin.svg");
+		pub const CALENDAR_SLASH: &str = include_str!("../phosphor-core/assets/thin/calendar-slash-thin.svg");
+		pub const CALENDAR_STAR: &str = include_str!("../phosphor-core/assets/thin/calendar-star-thin.svg");
 		pub const CALENDAR_X: &str = include_str!("../phosphor-core/assets/thin/calendar-x-thin.svg");
 		pub const CALL_BELL: &str = include_str!("../phosphor-core/assets/thin/call-bell-thin.svg");
 		pub const CAMERA: &str = include_str!("../phosphor-core/assets/thin/camera-thin.svg");
@@ -6493,10 +7849,12 @@ pub mod style {
 		pub const CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/thin/camera-slash-thin.svg");
 		pub const CAMPFIRE: &str = include_str!("../phosphor-core/assets/thin/campfire-thin.svg");
 		pub const CAR: &str = include_str!("../phosphor-core/assets/thin/car-thin.svg");
+		pub const CAR_BATTERY: &str = include_str!("../phosphor-core/assets/thin/car-battery-thin.svg");
 		pub const CAR_PROFILE: &str = include_str!("../phosphor-core/assets/thin/car-profile-thin.svg");
 		pub const CAR_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/car-simple-thin.svg");
 		pub const CARDHOLDER: &str = include_str!("../phosphor-core/assets/thin/cardholder-thin.svg");
 		pub const CARDS: &str = include_str!("../phosphor-core/assets/thin/cards-thin.svg");
+		pub const CARDS_THREE: &str = include_str!("../phosphor-core/assets/thin/cards-three-thin.svg");
 		pub const CARET_CIRCLE_DOUBLE_DOWN: &str = include_str!("../phosphor-core/assets/thin/caret-circle-double-down-thin.svg");
 		pub const CARET_CIRCLE_DOUBLE_LEFT: &str = include_str!("../phosphor-core/assets/thin/caret-circle-double-left-thin.svg");
 		pub const CARET_CIRCLE_DOUBLE_RIGHT: &str = include_str!("../phosphor-core/assets/thin/caret-circle-double-right-thin.svg");
@@ -6512,10 +7870,15 @@ pub mod style {
 		pub const CARET_DOUBLE_UP: &str = include_str!("../phosphor-core/assets/thin/caret-double-up-thin.svg");
 		pub const CARET_DOWN: &str = include_str!("../phosphor-core/assets/thin/caret-down-thin.svg");
 		pub const CARET_LEFT: &str = include_str!("../phosphor-core/assets/thin/caret-left-thin.svg");
+		pub const CARET_LINE_DOWN: &str = include_str!("../phosphor-core/assets/thin/caret-line-down-thin.svg");
+		pub const CARET_LINE_LEFT: &str = include_str!("../phosphor-core/assets/thin/caret-line-left-thin.svg");
+		pub const CARET_LINE_RIGHT: &str = include_str!("../phosphor-core/assets/thin/caret-line-right-thin.svg");
+		pub const CARET_LINE_UP: &str = include_str!("../phosphor-core/assets/thin/caret-line-up-thin.svg");
 		pub const CARET_RIGHT: &str = include_str!("../phosphor-core/assets/thin/caret-right-thin.svg");
 		pub const CARET_UP: &str = include_str!("../phosphor-core/assets/thin/caret-up-thin.svg");
 		pub const CARET_UP_DOWN: &str = include_str!("../phosphor-core/assets/thin/caret-up-down-thin.svg");
 		pub const CARROT: &str = include_str!("../phosphor-core/assets/thin/carrot-thin.svg");
+		pub const CASH_REGISTER: &str = include_str!("../phosphor-core/assets/thin/cash-register-thin.svg");
 		pub const CASSETTE_TAPE: &str = include_str!("../phosphor-core/assets/thin/cassette-tape-thin.svg");
 		pub const CASTLE_TURRET: &str = include_str!("../phosphor-core/assets/thin/castle-turret-thin.svg");
 		pub const CAT: &str = include_str!("../phosphor-core/assets/thin/cat-thin.svg");
@@ -6526,6 +7889,7 @@ pub mod style {
 		pub const CELL_SIGNAL_NONE: &str = include_str!("../phosphor-core/assets/thin/cell-signal-none-thin.svg");
 		pub const CELL_SIGNAL_SLASH: &str = include_str!("../phosphor-core/assets/thin/cell-signal-slash-thin.svg");
 		pub const CELL_SIGNAL_X: &str = include_str!("../phosphor-core/assets/thin/cell-signal-x-thin.svg");
+		pub const CELL_TOWER: &str = include_str!("../phosphor-core/assets/thin/cell-tower-thin.svg");
 		pub const CERTIFICATE: &str = include_str!("../phosphor-core/assets/thin/certificate-thin.svg");
 		pub const CHAIR: &str = include_str!("../phosphor-core/assets/thin/chair-thin.svg");
 		pub const CHALKBOARD: &str = include_str!("../phosphor-core/assets/thin/chalkboard-thin.svg");
@@ -6546,13 +7910,17 @@ pub mod style {
 		pub const CHAT: &str = include_str!("../phosphor-core/assets/thin/chat-thin.svg");
 		pub const CHAT_CENTERED: &str = include_str!("../phosphor-core/assets/thin/chat-centered-thin.svg");
 		pub const CHAT_CENTERED_DOTS: &str = include_str!("../phosphor-core/assets/thin/chat-centered-dots-thin.svg");
+		pub const CHAT_CENTERED_SLASH: &str = include_str!("../phosphor-core/assets/thin/chat-centered-slash-thin.svg");
 		pub const CHAT_CENTERED_TEXT: &str = include_str!("../phosphor-core/assets/thin/chat-centered-text-thin.svg");
 		pub const CHAT_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/chat-circle-thin.svg");
 		pub const CHAT_CIRCLE_DOTS: &str = include_str!("../phosphor-core/assets/thin/chat-circle-dots-thin.svg");
+		pub const CHAT_CIRCLE_SLASH: &str = include_str!("../phosphor-core/assets/thin/chat-circle-slash-thin.svg");
 		pub const CHAT_CIRCLE_TEXT: &str = include_str!("../phosphor-core/assets/thin/chat-circle-text-thin.svg");
 		pub const CHAT_DOTS: &str = include_str!("../phosphor-core/assets/thin/chat-dots-thin.svg");
+		pub const CHAT_SLASH: &str = include_str!("../phosphor-core/assets/thin/chat-slash-thin.svg");
 		pub const CHAT_TEARDROP: &str = include_str!("../phosphor-core/assets/thin/chat-teardrop-thin.svg");
 		pub const CHAT_TEARDROP_DOTS: &str = include_str!("../phosphor-core/assets/thin/chat-teardrop-dots-thin.svg");
+		pub const CHAT_TEARDROP_SLASH: &str = include_str!("../phosphor-core/assets/thin/chat-teardrop-slash-thin.svg");
 		pub const CHAT_TEARDROP_TEXT: &str = include_str!("../phosphor-core/assets/thin/chat-teardrop-text-thin.svg");
 		pub const CHAT_TEXT: &str = include_str!("../phosphor-core/assets/thin/chat-text-thin.svg");
 		pub const CHATS: &str = include_str!("../phosphor-core/assets/thin/chats-thin.svg");
@@ -6563,8 +7931,15 @@ pub mod style {
 		pub const CHECK_FAT: &str = include_str!("../phosphor-core/assets/thin/check-fat-thin.svg");
 		pub const CHECK_SQUARE: &str = include_str!("../phosphor-core/assets/thin/check-square-thin.svg");
 		pub const CHECK_SQUARE_OFFSET: &str = include_str!("../phosphor-core/assets/thin/check-square-offset-thin.svg");
+		pub const CHECKERBOARD: &str = include_str!("../phosphor-core/assets/thin/checkerboard-thin.svg");
 		pub const CHECKS: &str = include_str!("../phosphor-core/assets/thin/checks-thin.svg");
+		pub const CHEERS: &str = include_str!("../phosphor-core/assets/thin/cheers-thin.svg");
+		pub const CHEESE: &str = include_str!("../phosphor-core/assets/thin/cheese-thin.svg");
+		pub const CHEF_HAT: &str = include_str!("../phosphor-core/assets/thin/chef-hat-thin.svg");
+		pub const CHERRIES: &str = include_str!("../phosphor-core/assets/thin/cherries-thin.svg");
 		pub const CHURCH: &str = include_str!("../phosphor-core/assets/thin/church-thin.svg");
+		pub const CIGARETTE: &str = include_str!("../phosphor-core/assets/thin/cigarette-thin.svg");
+		pub const CIGARETTE_SLASH: &str = include_str!("../phosphor-core/assets/thin/cigarette-slash-thin.svg");
 		pub const CIRCLE: &str = include_str!("../phosphor-core/assets/thin/circle-thin.svg");
 		pub const CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/thin/circle-dashed-thin.svg");
 		pub const CIRCLE_HALF: &str = include_str!("../phosphor-core/assets/thin/circle-half-thin.svg");
@@ -6574,6 +7949,7 @@ pub mod style {
 		pub const CIRCLES_THREE: &str = include_str!("../phosphor-core/assets/thin/circles-three-thin.svg");
 		pub const CIRCLES_THREE_PLUS: &str = include_str!("../phosphor-core/assets/thin/circles-three-plus-thin.svg");
 		pub const CIRCUITRY: &str = include_str!("../phosphor-core/assets/thin/circuitry-thin.svg");
+		pub const CITY: &str = include_str!("../phosphor-core/assets/thin/city-thin.svg");
 		pub const CLIPBOARD: &str = include_str!("../phosphor-core/assets/thin/clipboard-thin.svg");
 		pub const CLIPBOARD_TEXT: &str = include_str!("../phosphor-core/assets/thin/clipboard-text-thin.svg");
 		pub const CLOCK: &str = include_str!("../phosphor-core/assets/thin/clock-thin.svg");
@@ -6581,6 +7957,7 @@ pub mod style {
 		pub const CLOCK_CLOCKWISE: &str = include_str!("../phosphor-core/assets/thin/clock-clockwise-thin.svg");
 		pub const CLOCK_COUNTDOWN: &str = include_str!("../phosphor-core/assets/thin/clock-countdown-thin.svg");
 		pub const CLOCK_COUNTER_CLOCKWISE: &str = include_str!("../phosphor-core/assets/thin/clock-counter-clockwise-thin.svg");
+		pub const CLOCK_USER: &str = include_str!("../phosphor-core/assets/thin/clock-user-thin.svg");
 		pub const CLOSED_CAPTIONING: &str = include_str!("../phosphor-core/assets/thin/closed-captioning-thin.svg");
 		pub const CLOUD: &str = include_str!("../phosphor-core/assets/thin/cloud-thin.svg");
 		pub const CLOUD_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/thin/cloud-arrow-down-thin.svg");
@@ -6595,6 +7972,7 @@ pub mod style {
 		pub const CLOUD_SUN: &str = include_str!("../phosphor-core/assets/thin/cloud-sun-thin.svg");
 		pub const CLOUD_WARNING: &str = include_str!("../phosphor-core/assets/thin/cloud-warning-thin.svg");
 		pub const CLOUD_X: &str = include_str!("../phosphor-core/assets/thin/cloud-x-thin.svg");
+		pub const CLOVER: &str = include_str!("../phosphor-core/assets/thin/clover-thin.svg");
 		pub const CLUB: &str = include_str!("../phosphor-core/assets/thin/club-thin.svg");
 		pub const COAT_HANGER: &str = include_str!("../phosphor-core/assets/thin/coat-hanger-thin.svg");
 		pub const CODA_LOGO: &str = include_str!("../phosphor-core/assets/thin/coda-logo-thin.svg");
@@ -6604,12 +7982,16 @@ pub mod style {
 		pub const CODEPEN_LOGO: &str = include_str!("../phosphor-core/assets/thin/codepen-logo-thin.svg");
 		pub const CODESANDBOX_LOGO: &str = include_str!("../phosphor-core/assets/thin/codesandbox-logo-thin.svg");
 		pub const COFFEE: &str = include_str!("../phosphor-core/assets/thin/coffee-thin.svg");
+		pub const COFFEE_BEAN: &str = include_str!("../phosphor-core/assets/thin/coffee-bean-thin.svg");
 		pub const COIN: &str = include_str!("../phosphor-core/assets/thin/coin-thin.svg");
 		pub const COIN_VERTICAL: &str = include_str!("../phosphor-core/assets/thin/coin-vertical-thin.svg");
 		pub const COINS: &str = include_str!("../phosphor-core/assets/thin/coins-thin.svg");
 		pub const COLUMNS: &str = include_str!("../phosphor-core/assets/thin/columns-thin.svg");
+		pub const COLUMNS_PLUS_LEFT: &str = include_str!("../phosphor-core/assets/thin/columns-plus-left-thin.svg");
+		pub const COLUMNS_PLUS_RIGHT: &str = include_str!("../phosphor-core/assets/thin/columns-plus-right-thin.svg");
 		pub const COMMAND: &str = include_str!("../phosphor-core/assets/thin/command-thin.svg");
 		pub const COMPASS: &str = include_str!("../phosphor-core/assets/thin/compass-thin.svg");
+		pub const COMPASS_ROSE: &str = include_str!("../phosphor-core/assets/thin/compass-rose-thin.svg");
 		pub const COMPASS_TOOL: &str = include_str!("../phosphor-core/assets/thin/compass-tool-thin.svg");
 		pub const COMPUTER_TOWER: &str = include_str!("../phosphor-core/assets/thin/computer-tower-thin.svg");
 		pub const CONFETTI: &str = include_str!("../phosphor-core/assets/thin/confetti-thin.svg");
@@ -6624,13 +8006,20 @@ pub mod style {
 		pub const CORNERS_IN: &str = include_str!("../phosphor-core/assets/thin/corners-in-thin.svg");
 		pub const CORNERS_OUT: &str = include_str!("../phosphor-core/assets/thin/corners-out-thin.svg");
 		pub const COUCH: &str = include_str!("../phosphor-core/assets/thin/couch-thin.svg");
+		pub const COURT_BASKETBALL: &str = include_str!("../phosphor-core/assets/thin/court-basketball-thin.svg");
+		pub const COW: &str = include_str!("../phosphor-core/assets/thin/cow-thin.svg");
+		pub const COWBOY_HAT: &str = include_str!("../phosphor-core/assets/thin/cowboy-hat-thin.svg");
 		pub const CPU: &str = include_str!("../phosphor-core/assets/thin/cpu-thin.svg");
+		pub const CRANE: &str = include_str!("../phosphor-core/assets/thin/crane-thin.svg");
+		pub const CRANE_TOWER: &str = include_str!("../phosphor-core/assets/thin/crane-tower-thin.svg");
 		pub const CREDIT_CARD: &str = include_str!("../phosphor-core/assets/thin/credit-card-thin.svg");
+		pub const CRICKET: &str = include_str!("../phosphor-core/assets/thin/cricket-thin.svg");
 		pub const CROP: &str = include_str!("../phosphor-core/assets/thin/crop-thin.svg");
 		pub const CROSS: &str = include_str!("../phosphor-core/assets/thin/cross-thin.svg");
 		pub const CROSSHAIR: &str = include_str!("../phosphor-core/assets/thin/crosshair-thin.svg");
 		pub const CROSSHAIR_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/crosshair-simple-thin.svg");
 		pub const CROWN: &str = include_str!("../phosphor-core/assets/thin/crown-thin.svg");
+		pub const CROWN_CROSS: &str = include_str!("../phosphor-core/assets/thin/crown-cross-thin.svg");
 		pub const CROWN_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/crown-simple-thin.svg");
 		pub const CUBE: &str = include_str!("../phosphor-core/assets/thin/cube-thin.svg");
 		pub const CUBE_FOCUS: &str = include_str!("../phosphor-core/assets/thin/cube-focus-thin.svg");
@@ -6654,13 +8043,16 @@ pub mod style {
 		pub const CURSOR_TEXT: &str = include_str!("../phosphor-core/assets/thin/cursor-text-thin.svg");
 		pub const CYLINDER: &str = include_str!("../phosphor-core/assets/thin/cylinder-thin.svg");
 		pub const DATABASE: &str = include_str!("../phosphor-core/assets/thin/database-thin.svg");
+		pub const DESK: &str = include_str!("../phosphor-core/assets/thin/desk-thin.svg");
 		pub const DESKTOP: &str = include_str!("../phosphor-core/assets/thin/desktop-thin.svg");
 		pub const DESKTOP_TOWER: &str = include_str!("../phosphor-core/assets/thin/desktop-tower-thin.svg");
 		pub const DETECTIVE: &str = include_str!("../phosphor-core/assets/thin/detective-thin.svg");
 		pub const DEV_TO_LOGO: &str = include_str!("../phosphor-core/assets/thin/dev-to-logo-thin.svg");
 		pub const DEVICE_MOBILE: &str = include_str!("../phosphor-core/assets/thin/device-mobile-thin.svg");
 		pub const DEVICE_MOBILE_CAMERA: &str = include_str!("../phosphor-core/assets/thin/device-mobile-camera-thin.svg");
+		pub const DEVICE_MOBILE_SLASH: &str = include_str!("../phosphor-core/assets/thin/device-mobile-slash-thin.svg");
 		pub const DEVICE_MOBILE_SPEAKER: &str = include_str!("../phosphor-core/assets/thin/device-mobile-speaker-thin.svg");
+		pub const DEVICE_ROTATE: &str = include_str!("../phosphor-core/assets/thin/device-rotate-thin.svg");
 		pub const DEVICE_TABLET: &str = include_str!("../phosphor-core/assets/thin/device-tablet-thin.svg");
 		pub const DEVICE_TABLET_CAMERA: &str = include_str!("../phosphor-core/assets/thin/device-tablet-camera-thin.svg");
 		pub const DEVICE_TABLET_SPEAKER: &str = include_str!("../phosphor-core/assets/thin/device-tablet-speaker-thin.svg");
@@ -6674,6 +8066,7 @@ pub mod style {
 		pub const DICE_THREE: &str = include_str!("../phosphor-core/assets/thin/dice-three-thin.svg");
 		pub const DICE_TWO: &str = include_str!("../phosphor-core/assets/thin/dice-two-thin.svg");
 		pub const DISC: &str = include_str!("../phosphor-core/assets/thin/disc-thin.svg");
+		pub const DISCO_BALL: &str = include_str!("../phosphor-core/assets/thin/disco-ball-thin.svg");
 		pub const DISCORD_LOGO: &str = include_str!("../phosphor-core/assets/thin/discord-logo-thin.svg");
 		pub const DIVIDE: &str = include_str!("../phosphor-core/assets/thin/divide-thin.svg");
 		pub const DNA: &str = include_str!("../phosphor-core/assets/thin/dna-thin.svg");
@@ -6694,10 +8087,14 @@ pub mod style {
 		pub const DOWNLOAD: &str = include_str!("../phosphor-core/assets/thin/download-thin.svg");
 		pub const DOWNLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/download-simple-thin.svg");
 		pub const DRESS: &str = include_str!("../phosphor-core/assets/thin/dress-thin.svg");
+		pub const DRESSER: &str = include_str!("../phosphor-core/assets/thin/dresser-thin.svg");
 		pub const DRIBBBLE_LOGO: &str = include_str!("../phosphor-core/assets/thin/dribbble-logo-thin.svg");
+		pub const DRONE: &str = include_str!("../phosphor-core/assets/thin/drone-thin.svg");
 		pub const DROP: &str = include_str!("../phosphor-core/assets/thin/drop-thin.svg");
 		pub const DROP_HALF: &str = include_str!("../phosphor-core/assets/thin/drop-half-thin.svg");
 		pub const DROP_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/thin/drop-half-bottom-thin.svg");
+		pub const DROP_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/drop-simple-thin.svg");
+		pub const DROP_SLASH: &str = include_str!("../phosphor-core/assets/thin/drop-slash-thin.svg");
 		pub const DROPBOX_LOGO: &str = include_str!("../phosphor-core/assets/thin/dropbox-logo-thin.svg");
 		pub const EAR: &str = include_str!("../phosphor-core/assets/thin/ear-thin.svg");
 		pub const EAR_SLASH: &str = include_str!("../phosphor-core/assets/thin/ear-slash-thin.svg");
@@ -6706,6 +8103,7 @@ pub mod style {
 		pub const EJECT: &str = include_str!("../phosphor-core/assets/thin/eject-thin.svg");
 		pub const EJECT_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/eject-simple-thin.svg");
 		pub const ELEVATOR: &str = include_str!("../phosphor-core/assets/thin/elevator-thin.svg");
+		pub const EMPTY: &str = include_str!("../phosphor-core/assets/thin/empty-thin.svg");
 		pub const ENGINE: &str = include_str!("../phosphor-core/assets/thin/engine-thin.svg");
 		pub const ENVELOPE: &str = include_str!("../phosphor-core/assets/thin/envelope-thin.svg");
 		pub const ENVELOPE_OPEN: &str = include_str!("../phosphor-core/assets/thin/envelope-open-thin.svg");
@@ -6717,6 +8115,7 @@ pub mod style {
 		pub const ESCALATOR_DOWN: &str = include_str!("../phosphor-core/assets/thin/escalator-down-thin.svg");
 		pub const ESCALATOR_UP: &str = include_str!("../phosphor-core/assets/thin/escalator-up-thin.svg");
 		pub const EXAM: &str = include_str!("../phosphor-core/assets/thin/exam-thin.svg");
+		pub const EXCLAMATION_MARK: &str = include_str!("../phosphor-core/assets/thin/exclamation-mark-thin.svg");
 		pub const EXCLUDE: &str = include_str!("../phosphor-core/assets/thin/exclude-thin.svg");
 		pub const EXCLUDE_SQUARE: &str = include_str!("../phosphor-core/assets/thin/exclude-square-thin.svg");
 		pub const EXPORT: &str = include_str!("../phosphor-core/assets/thin/export-thin.svg");
@@ -6726,45 +8125,56 @@ pub mod style {
 		pub const EYEDROPPER: &str = include_str!("../phosphor-core/assets/thin/eyedropper-thin.svg");
 		pub const EYEDROPPER_SAMPLE: &str = include_str!("../phosphor-core/assets/thin/eyedropper-sample-thin.svg");
 		pub const EYEGLASSES: &str = include_str!("../phosphor-core/assets/thin/eyeglasses-thin.svg");
+		pub const EYES: &str = include_str!("../phosphor-core/assets/thin/eyes-thin.svg");
 		pub const FACE_MASK: &str = include_str!("../phosphor-core/assets/thin/face-mask-thin.svg");
 		pub const FACEBOOK_LOGO: &str = include_str!("../phosphor-core/assets/thin/facebook-logo-thin.svg");
 		pub const FACTORY: &str = include_str!("../phosphor-core/assets/thin/factory-thin.svg");
 		pub const FADERS: &str = include_str!("../phosphor-core/assets/thin/faders-thin.svg");
 		pub const FADERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/thin/faders-horizontal-thin.svg");
+		pub const FALLOUT_SHELTER: &str = include_str!("../phosphor-core/assets/thin/fallout-shelter-thin.svg");
 		pub const FAN: &str = include_str!("../phosphor-core/assets/thin/fan-thin.svg");
+		pub const FARM: &str = include_str!("../phosphor-core/assets/thin/farm-thin.svg");
 		pub const FAST_FORWARD: &str = include_str!("../phosphor-core/assets/thin/fast-forward-thin.svg");
 		pub const FAST_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/fast-forward-circle-thin.svg");
 		pub const FEATHER: &str = include_str!("../phosphor-core/assets/thin/feather-thin.svg");
+		pub const FEDIVERSE_LOGO: &str = include_str!("../phosphor-core/assets/thin/fediverse-logo-thin.svg");
 		pub const FIGMA_LOGO: &str = include_str!("../phosphor-core/assets/thin/figma-logo-thin.svg");
 		pub const FILE: &str = include_str!("../phosphor-core/assets/thin/file-thin.svg");
 		pub const FILE_ARCHIVE: &str = include_str!("../phosphor-core/assets/thin/file-archive-thin.svg");
 		pub const FILE_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/thin/file-arrow-down-thin.svg");
 		pub const FILE_ARROW_UP: &str = include_str!("../phosphor-core/assets/thin/file-arrow-up-thin.svg");
 		pub const FILE_AUDIO: &str = include_str!("../phosphor-core/assets/thin/file-audio-thin.svg");
+		pub const FILE_C: &str = include_str!("../phosphor-core/assets/thin/file-c-thin.svg");
+		pub const FILE_C_SHARP: &str = include_str!("../phosphor-core/assets/thin/file-c-sharp-thin.svg");
 		pub const FILE_CLOUD: &str = include_str!("../phosphor-core/assets/thin/file-cloud-thin.svg");
 		pub const FILE_CODE: &str = include_str!("../phosphor-core/assets/thin/file-code-thin.svg");
+		pub const FILE_CPP: &str = include_str!("../phosphor-core/assets/thin/file-cpp-thin.svg");
 		pub const FILE_CSS: &str = include_str!("../phosphor-core/assets/thin/file-css-thin.svg");
 		pub const FILE_CSV: &str = include_str!("../phosphor-core/assets/thin/file-csv-thin.svg");
 		pub const FILE_DASHED: &str = include_str!("../phosphor-core/assets/thin/file-dashed-thin.svg");
 		pub const FILE_DOC: &str = include_str!("../phosphor-core/assets/thin/file-doc-thin.svg");
 		pub const FILE_HTML: &str = include_str!("../phosphor-core/assets/thin/file-html-thin.svg");
 		pub const FILE_IMAGE: &str = include_str!("../phosphor-core/assets/thin/file-image-thin.svg");
+		pub const FILE_INI: &str = include_str!("../phosphor-core/assets/thin/file-ini-thin.svg");
 		pub const FILE_JPG: &str = include_str!("../phosphor-core/assets/thin/file-jpg-thin.svg");
 		pub const FILE_JS: &str = include_str!("../phosphor-core/assets/thin/file-js-thin.svg");
 		pub const FILE_JSX: &str = include_str!("../phosphor-core/assets/thin/file-jsx-thin.svg");
 		pub const FILE_LOCK: &str = include_str!("../phosphor-core/assets/thin/file-lock-thin.svg");
 		pub const FILE_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/thin/file-magnifying-glass-thin.svg");
+		pub const FILE_MD: &str = include_str!("../phosphor-core/assets/thin/file-md-thin.svg");
 		pub const FILE_MINUS: &str = include_str!("../phosphor-core/assets/thin/file-minus-thin.svg");
 		pub const FILE_PDF: &str = include_str!("../phosphor-core/assets/thin/file-pdf-thin.svg");
 		pub const FILE_PLUS: &str = include_str!("../phosphor-core/assets/thin/file-plus-thin.svg");
 		pub const FILE_PNG: &str = include_str!("../phosphor-core/assets/thin/file-png-thin.svg");
 		pub const FILE_PPT: &str = include_str!("../phosphor-core/assets/thin/file-ppt-thin.svg");
+		pub const FILE_PY: &str = include_str!("../phosphor-core/assets/thin/file-py-thin.svg");
 		pub const FILE_RS: &str = include_str!("../phosphor-core/assets/thin/file-rs-thin.svg");
 		pub const FILE_SQL: &str = include_str!("../phosphor-core/assets/thin/file-sql-thin.svg");
 		pub const FILE_SVG: &str = include_str!("../phosphor-core/assets/thin/file-svg-thin.svg");
 		pub const FILE_TEXT: &str = include_str!("../phosphor-core/assets/thin/file-text-thin.svg");
 		pub const FILE_TS: &str = include_str!("../phosphor-core/assets/thin/file-ts-thin.svg");
 		pub const FILE_TSX: &str = include_str!("../phosphor-core/assets/thin/file-tsx-thin.svg");
+		pub const FILE_TXT: &str = include_str!("../phosphor-core/assets/thin/file-txt-thin.svg");
 		pub const FILE_VIDEO: &str = include_str!("../phosphor-core/assets/thin/file-video-thin.svg");
 		pub const FILE_VUE: &str = include_str!("../phosphor-core/assets/thin/file-vue-thin.svg");
 		pub const FILE_X: &str = include_str!("../phosphor-core/assets/thin/file-x-thin.svg");
@@ -6781,17 +8191,21 @@ pub mod style {
 		pub const FIRE: &str = include_str!("../phosphor-core/assets/thin/fire-thin.svg");
 		pub const FIRE_EXTINGUISHER: &str = include_str!("../phosphor-core/assets/thin/fire-extinguisher-thin.svg");
 		pub const FIRE_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/fire-simple-thin.svg");
+		pub const FIRE_TRUCK: &str = include_str!("../phosphor-core/assets/thin/fire-truck-thin.svg");
 		pub const FIRST_AID: &str = include_str!("../phosphor-core/assets/thin/first-aid-thin.svg");
 		pub const FIRST_AID_KIT: &str = include_str!("../phosphor-core/assets/thin/first-aid-kit-thin.svg");
 		pub const FISH: &str = include_str!("../phosphor-core/assets/thin/fish-thin.svg");
 		pub const FISH_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/fish-simple-thin.svg");
 		pub const FLAG: &str = include_str!("../phosphor-core/assets/thin/flag-thin.svg");
 		pub const FLAG_BANNER: &str = include_str!("../phosphor-core/assets/thin/flag-banner-thin.svg");
+		pub const FLAG_BANNER_FOLD: &str = include_str!("../phosphor-core/assets/thin/flag-banner-fold-thin.svg");
 		pub const FLAG_CHECKERED: &str = include_str!("../phosphor-core/assets/thin/flag-checkered-thin.svg");
 		pub const FLAG_PENNANT: &str = include_str!("../phosphor-core/assets/thin/flag-pennant-thin.svg");
 		pub const FLAME: &str = include_str!("../phosphor-core/assets/thin/flame-thin.svg");
 		pub const FLASHLIGHT: &str = include_str!("../phosphor-core/assets/thin/flashlight-thin.svg");
 		pub const FLASK: &str = include_str!("../phosphor-core/assets/thin/flask-thin.svg");
+		pub const FLIP_HORIZONTAL: &str = include_str!("../phosphor-core/assets/thin/flip-horizontal-thin.svg");
+		pub const FLIP_VERTICAL: &str = include_str!("../phosphor-core/assets/thin/flip-vertical-thin.svg");
 		pub const FLOPPY_DISK: &str = include_str!("../phosphor-core/assets/thin/floppy-disk-thin.svg");
 		pub const FLOPPY_DISK_BACK: &str = include_str!("../phosphor-core/assets/thin/floppy-disk-back-thin.svg");
 		pub const FLOW_ARROW: &str = include_str!("../phosphor-core/assets/thin/flow-arrow-thin.svg");
@@ -6803,10 +8217,6 @@ pub mod style {
 		pub const FOLDER_DASHED: &str = include_str!("../phosphor-core/assets/thin/folder-dashed-thin.svg");
 		pub const FOLDER_LOCK: &str = include_str!("../phosphor-core/assets/thin/folder-lock-thin.svg");
 		pub const FOLDER_MINUS: &str = include_str!("../phosphor-core/assets/thin/folder-minus-thin.svg");
-		pub const FOLDER_NOTCH: &str = include_str!("../phosphor-core/assets/thin/folder-notch-thin.svg");
-		pub const FOLDER_NOTCH_MINUS: &str = include_str!("../phosphor-core/assets/thin/folder-notch-minus-thin.svg");
-		pub const FOLDER_NOTCH_OPEN: &str = include_str!("../phosphor-core/assets/thin/folder-notch-open-thin.svg");
-		pub const FOLDER_NOTCH_PLUS: &str = include_str!("../phosphor-core/assets/thin/folder-notch-plus-thin.svg");
 		pub const FOLDER_OPEN: &str = include_str!("../phosphor-core/assets/thin/folder-open-thin.svg");
 		pub const FOLDER_PLUS: &str = include_str!("../phosphor-core/assets/thin/folder-plus-thin.svg");
 		pub const FOLDER_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/folder-simple-thin.svg");
@@ -6820,13 +8230,17 @@ pub mod style {
 		pub const FOLDER_USER: &str = include_str!("../phosphor-core/assets/thin/folder-user-thin.svg");
 		pub const FOLDERS: &str = include_str!("../phosphor-core/assets/thin/folders-thin.svg");
 		pub const FOOTBALL: &str = include_str!("../phosphor-core/assets/thin/football-thin.svg");
+		pub const FOOTBALL_HELMET: &str = include_str!("../phosphor-core/assets/thin/football-helmet-thin.svg");
 		pub const FOOTPRINTS: &str = include_str!("../phosphor-core/assets/thin/footprints-thin.svg");
 		pub const FORK_KNIFE: &str = include_str!("../phosphor-core/assets/thin/fork-knife-thin.svg");
+		pub const FOUR_K: &str = include_str!("../phosphor-core/assets/thin/four-k-thin.svg");
 		pub const FRAME_CORNERS: &str = include_str!("../phosphor-core/assets/thin/frame-corners-thin.svg");
 		pub const FRAMER_LOGO: &str = include_str!("../phosphor-core/assets/thin/framer-logo-thin.svg");
 		pub const FUNCTION: &str = include_str!("../phosphor-core/assets/thin/function-thin.svg");
 		pub const FUNNEL: &str = include_str!("../phosphor-core/assets/thin/funnel-thin.svg");
 		pub const FUNNEL_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/funnel-simple-thin.svg");
+		pub const FUNNEL_SIMPLE_X: &str = include_str!("../phosphor-core/assets/thin/funnel-simple-x-thin.svg");
+		pub const FUNNEL_X: &str = include_str!("../phosphor-core/assets/thin/funnel-x-thin.svg");
 		pub const GAME_CONTROLLER: &str = include_str!("../phosphor-core/assets/thin/game-controller-thin.svg");
 		pub const GARAGE: &str = include_str!("../phosphor-core/assets/thin/garage-thin.svg");
 		pub const GAS_CAN: &str = include_str!("../phosphor-core/assets/thin/gas-can-thin.svg");
@@ -6858,8 +8272,11 @@ pub mod style {
 		pub const GLOBE_HEMISPHERE_EAST: &str = include_str!("../phosphor-core/assets/thin/globe-hemisphere-east-thin.svg");
 		pub const GLOBE_HEMISPHERE_WEST: &str = include_str!("../phosphor-core/assets/thin/globe-hemisphere-west-thin.svg");
 		pub const GLOBE_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/globe-simple-thin.svg");
+		pub const GLOBE_SIMPLE_X: &str = include_str!("../phosphor-core/assets/thin/globe-simple-x-thin.svg");
 		pub const GLOBE_STAND: &str = include_str!("../phosphor-core/assets/thin/globe-stand-thin.svg");
+		pub const GLOBE_X: &str = include_str!("../phosphor-core/assets/thin/globe-x-thin.svg");
 		pub const GOGGLES: &str = include_str!("../phosphor-core/assets/thin/goggles-thin.svg");
+		pub const GOLF: &str = include_str!("../phosphor-core/assets/thin/golf-thin.svg");
 		pub const GOODREADS_LOGO: &str = include_str!("../phosphor-core/assets/thin/goodreads-logo-thin.svg");
 		pub const GOOGLE_CARDBOARD_LOGO: &str = include_str!("../phosphor-core/assets/thin/google-cardboard-logo-thin.svg");
 		pub const GOOGLE_CHROME_LOGO: &str = include_str!("../phosphor-core/assets/thin/google-chrome-logo-thin.svg");
@@ -6868,29 +8285,41 @@ pub mod style {
 		pub const GOOGLE_PHOTOS_LOGO: &str = include_str!("../phosphor-core/assets/thin/google-photos-logo-thin.svg");
 		pub const GOOGLE_PLAY_LOGO: &str = include_str!("../phosphor-core/assets/thin/google-play-logo-thin.svg");
 		pub const GOOGLE_PODCASTS_LOGO: &str = include_str!("../phosphor-core/assets/thin/google-podcasts-logo-thin.svg");
+		pub const GPS: &str = include_str!("../phosphor-core/assets/thin/gps-thin.svg");
+		pub const GPS_FIX: &str = include_str!("../phosphor-core/assets/thin/gps-fix-thin.svg");
+		pub const GPS_SLASH: &str = include_str!("../phosphor-core/assets/thin/gps-slash-thin.svg");
 		pub const GRADIENT: &str = include_str!("../phosphor-core/assets/thin/gradient-thin.svg");
 		pub const GRADUATION_CAP: &str = include_str!("../phosphor-core/assets/thin/graduation-cap-thin.svg");
 		pub const GRAINS: &str = include_str!("../phosphor-core/assets/thin/grains-thin.svg");
 		pub const GRAINS_SLASH: &str = include_str!("../phosphor-core/assets/thin/grains-slash-thin.svg");
 		pub const GRAPH: &str = include_str!("../phosphor-core/assets/thin/graph-thin.svg");
+		pub const GRAPHICS_CARD: &str = include_str!("../phosphor-core/assets/thin/graphics-card-thin.svg");
+		pub const GREATER_THAN: &str = include_str!("../phosphor-core/assets/thin/greater-than-thin.svg");
+		pub const GREATER_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/thin/greater-than-or-equal-thin.svg");
 		pub const GRID_FOUR: &str = include_str!("../phosphor-core/assets/thin/grid-four-thin.svg");
 		pub const GRID_NINE: &str = include_str!("../phosphor-core/assets/thin/grid-nine-thin.svg");
 		pub const GUITAR: &str = include_str!("../phosphor-core/assets/thin/guitar-thin.svg");
+		pub const HAIR_DRYER: &str = include_str!("../phosphor-core/assets/thin/hair-dryer-thin.svg");
 		pub const HAMBURGER: &str = include_str!("../phosphor-core/assets/thin/hamburger-thin.svg");
 		pub const HAMMER: &str = include_str!("../phosphor-core/assets/thin/hammer-thin.svg");
 		pub const HAND: &str = include_str!("../phosphor-core/assets/thin/hand-thin.svg");
+		pub const HAND_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/thin/hand-arrow-down-thin.svg");
+		pub const HAND_ARROW_UP: &str = include_str!("../phosphor-core/assets/thin/hand-arrow-up-thin.svg");
 		pub const HAND_COINS: &str = include_str!("../phosphor-core/assets/thin/hand-coins-thin.svg");
+		pub const HAND_DEPOSIT: &str = include_str!("../phosphor-core/assets/thin/hand-deposit-thin.svg");
 		pub const HAND_EYE: &str = include_str!("../phosphor-core/assets/thin/hand-eye-thin.svg");
 		pub const HAND_FIST: &str = include_str!("../phosphor-core/assets/thin/hand-fist-thin.svg");
 		pub const HAND_GRABBING: &str = include_str!("../phosphor-core/assets/thin/hand-grabbing-thin.svg");
 		pub const HAND_HEART: &str = include_str!("../phosphor-core/assets/thin/hand-heart-thin.svg");
 		pub const HAND_PALM: &str = include_str!("../phosphor-core/assets/thin/hand-palm-thin.svg");
+		pub const HAND_PEACE: &str = include_str!("../phosphor-core/assets/thin/hand-peace-thin.svg");
 		pub const HAND_POINTING: &str = include_str!("../phosphor-core/assets/thin/hand-pointing-thin.svg");
 		pub const HAND_SOAP: &str = include_str!("../phosphor-core/assets/thin/hand-soap-thin.svg");
 		pub const HAND_SWIPE_LEFT: &str = include_str!("../phosphor-core/assets/thin/hand-swipe-left-thin.svg");
 		pub const HAND_SWIPE_RIGHT: &str = include_str!("../phosphor-core/assets/thin/hand-swipe-right-thin.svg");
 		pub const HAND_TAP: &str = include_str!("../phosphor-core/assets/thin/hand-tap-thin.svg");
 		pub const HAND_WAVING: &str = include_str!("../phosphor-core/assets/thin/hand-waving-thin.svg");
+		pub const HAND_WITHDRAW: &str = include_str!("../phosphor-core/assets/thin/hand-withdraw-thin.svg");
 		pub const HANDBAG: &str = include_str!("../phosphor-core/assets/thin/handbag-thin.svg");
 		pub const HANDBAG_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/handbag-simple-thin.svg");
 		pub const HANDS_CLAPPING: &str = include_str!("../phosphor-core/assets/thin/hands-clapping-thin.svg");
@@ -6898,8 +8327,10 @@ pub mod style {
 		pub const HANDSHAKE: &str = include_str!("../phosphor-core/assets/thin/handshake-thin.svg");
 		pub const HARD_DRIVE: &str = include_str!("../phosphor-core/assets/thin/hard-drive-thin.svg");
 		pub const HARD_DRIVES: &str = include_str!("../phosphor-core/assets/thin/hard-drives-thin.svg");
+		pub const HARD_HAT: &str = include_str!("../phosphor-core/assets/thin/hard-hat-thin.svg");
 		pub const HASH: &str = include_str!("../phosphor-core/assets/thin/hash-thin.svg");
 		pub const HASH_STRAIGHT: &str = include_str!("../phosphor-core/assets/thin/hash-straight-thin.svg");
+		pub const HEAD_CIRCUIT: &str = include_str!("../phosphor-core/assets/thin/head-circuit-thin.svg");
 		pub const HEADLIGHTS: &str = include_str!("../phosphor-core/assets/thin/headlights-thin.svg");
 		pub const HEADPHONES: &str = include_str!("../phosphor-core/assets/thin/headphones-thin.svg");
 		pub const HEADSET: &str = include_str!("../phosphor-core/assets/thin/headset-thin.svg");
@@ -6910,10 +8341,14 @@ pub mod style {
 		pub const HEART_STRAIGHT_BREAK: &str = include_str!("../phosphor-core/assets/thin/heart-straight-break-thin.svg");
 		pub const HEARTBEAT: &str = include_str!("../phosphor-core/assets/thin/heartbeat-thin.svg");
 		pub const HEXAGON: &str = include_str!("../phosphor-core/assets/thin/hexagon-thin.svg");
+		pub const HIGH_DEFINITION: &str = include_str!("../phosphor-core/assets/thin/high-definition-thin.svg");
 		pub const HIGH_HEEL: &str = include_str!("../phosphor-core/assets/thin/high-heel-thin.svg");
+		pub const HIGHLIGHTER: &str = include_str!("../phosphor-core/assets/thin/highlighter-thin.svg");
 		pub const HIGHLIGHTER_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/highlighter-circle-thin.svg");
+		pub const HOCKEY: &str = include_str!("../phosphor-core/assets/thin/hockey-thin.svg");
 		pub const HOODIE: &str = include_str!("../phosphor-core/assets/thin/hoodie-thin.svg");
 		pub const HORSE: &str = include_str!("../phosphor-core/assets/thin/horse-thin.svg");
+		pub const HOSPITAL: &str = include_str!("../phosphor-core/assets/thin/hospital-thin.svg");
 		pub const HOURGLASS: &str = include_str!("../phosphor-core/assets/thin/hourglass-thin.svg");
 		pub const HOURGLASS_HIGH: &str = include_str!("../phosphor-core/assets/thin/hourglass-high-thin.svg");
 		pub const HOURGLASS_LOW: &str = include_str!("../phosphor-core/assets/thin/hourglass-low-thin.svg");
@@ -6925,10 +8360,12 @@ pub mod style {
 		pub const HOUSE: &str = include_str!("../phosphor-core/assets/thin/house-thin.svg");
 		pub const HOUSE_LINE: &str = include_str!("../phosphor-core/assets/thin/house-line-thin.svg");
 		pub const HOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/house-simple-thin.svg");
+		pub const HURRICANE: &str = include_str!("../phosphor-core/assets/thin/hurricane-thin.svg");
 		pub const ICE_CREAM: &str = include_str!("../phosphor-core/assets/thin/ice-cream-thin.svg");
 		pub const IDENTIFICATION_BADGE: &str = include_str!("../phosphor-core/assets/thin/identification-badge-thin.svg");
 		pub const IDENTIFICATION_CARD: &str = include_str!("../phosphor-core/assets/thin/identification-card-thin.svg");
 		pub const IMAGE: &str = include_str!("../phosphor-core/assets/thin/image-thin.svg");
+		pub const IMAGE_BROKEN: &str = include_str!("../phosphor-core/assets/thin/image-broken-thin.svg");
 		pub const IMAGE_SQUARE: &str = include_str!("../phosphor-core/assets/thin/image-square-thin.svg");
 		pub const IMAGES: &str = include_str!("../phosphor-core/assets/thin/images-thin.svg");
 		pub const IMAGES_SQUARE: &str = include_str!("../phosphor-core/assets/thin/images-square-thin.svg");
@@ -6938,7 +8375,13 @@ pub mod style {
 		pub const INTERSECT: &str = include_str!("../phosphor-core/assets/thin/intersect-thin.svg");
 		pub const INTERSECT_SQUARE: &str = include_str!("../phosphor-core/assets/thin/intersect-square-thin.svg");
 		pub const INTERSECT_THREE: &str = include_str!("../phosphor-core/assets/thin/intersect-three-thin.svg");
+		pub const INTERSECTION: &str = include_str!("../phosphor-core/assets/thin/intersection-thin.svg");
+		pub const INVOICE: &str = include_str!("../phosphor-core/assets/thin/invoice-thin.svg");
+		pub const ISLAND: &str = include_str!("../phosphor-core/assets/thin/island-thin.svg");
+		pub const JAR: &str = include_str!("../phosphor-core/assets/thin/jar-thin.svg");
+		pub const JAR_LABEL: &str = include_str!("../phosphor-core/assets/thin/jar-label-thin.svg");
 		pub const JEEP: &str = include_str!("../phosphor-core/assets/thin/jeep-thin.svg");
+		pub const JOYSTICK: &str = include_str!("../phosphor-core/assets/thin/joystick-thin.svg");
 		pub const KANBAN: &str = include_str!("../phosphor-core/assets/thin/kanban-thin.svg");
 		pub const KEY: &str = include_str!("../phosphor-core/assets/thin/key-thin.svg");
 		pub const KEY_RETURN: &str = include_str!("../phosphor-core/assets/thin/key-return-thin.svg");
@@ -6948,9 +8391,20 @@ pub mod style {
 		pub const LADDER: &str = include_str!("../phosphor-core/assets/thin/ladder-thin.svg");
 		pub const LADDER_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/ladder-simple-thin.svg");
 		pub const LAMP: &str = include_str!("../phosphor-core/assets/thin/lamp-thin.svg");
+		pub const LAMP_PENDANT: &str = include_str!("../phosphor-core/assets/thin/lamp-pendant-thin.svg");
 		pub const LAPTOP: &str = include_str!("../phosphor-core/assets/thin/laptop-thin.svg");
+		pub const LASSO: &str = include_str!("../phosphor-core/assets/thin/lasso-thin.svg");
+		pub const LASTFM_LOGO: &str = include_str!("../phosphor-core/assets/thin/lastfm-logo-thin.svg");
 		pub const LAYOUT: &str = include_str!("../phosphor-core/assets/thin/layout-thin.svg");
 		pub const LEAF: &str = include_str!("../phosphor-core/assets/thin/leaf-thin.svg");
+		pub const LECTERN: &str = include_str!("../phosphor-core/assets/thin/lectern-thin.svg");
+		pub const LEGO: &str = include_str!("../phosphor-core/assets/thin/lego-thin.svg");
+		pub const LEGO_SMILEY: &str = include_str!("../phosphor-core/assets/thin/lego-smiley-thin.svg");
+		pub const LESS_THAN: &str = include_str!("../phosphor-core/assets/thin/less-than-thin.svg");
+		pub const LESS_THAN_OR_EQUAL: &str = include_str!("../phosphor-core/assets/thin/less-than-or-equal-thin.svg");
+		pub const LETTER_CIRCLE_H: &str = include_str!("../phosphor-core/assets/thin/letter-circle-h-thin.svg");
+		pub const LETTER_CIRCLE_P: &str = include_str!("../phosphor-core/assets/thin/letter-circle-p-thin.svg");
+		pub const LETTER_CIRCLE_V: &str = include_str!("../phosphor-core/assets/thin/letter-circle-v-thin.svg");
 		pub const LIFEBUOY: &str = include_str!("../phosphor-core/assets/thin/lifebuoy-thin.svg");
 		pub const LIGHTBULB: &str = include_str!("../phosphor-core/assets/thin/lightbulb-thin.svg");
 		pub const LIGHTBULB_FILAMENT: &str = include_str!("../phosphor-core/assets/thin/lightbulb-filament-thin.svg");
@@ -6960,6 +8414,7 @@ pub mod style {
 		pub const LIGHTNING_SLASH: &str = include_str!("../phosphor-core/assets/thin/lightning-slash-thin.svg");
 		pub const LINE_SEGMENT: &str = include_str!("../phosphor-core/assets/thin/line-segment-thin.svg");
 		pub const LINE_SEGMENTS: &str = include_str!("../phosphor-core/assets/thin/line-segments-thin.svg");
+		pub const LINE_VERTICAL: &str = include_str!("../phosphor-core/assets/thin/line-vertical-thin.svg");
 		pub const LINK: &str = include_str!("../phosphor-core/assets/thin/link-thin.svg");
 		pub const LINK_BREAK: &str = include_str!("../phosphor-core/assets/thin/link-break-thin.svg");
 		pub const LINK_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/link-simple-thin.svg");
@@ -6967,14 +8422,17 @@ pub mod style {
 		pub const LINK_SIMPLE_HORIZONTAL: &str = include_str!("../phosphor-core/assets/thin/link-simple-horizontal-thin.svg");
 		pub const LINK_SIMPLE_HORIZONTAL_BREAK: &str = include_str!("../phosphor-core/assets/thin/link-simple-horizontal-break-thin.svg");
 		pub const LINKEDIN_LOGO: &str = include_str!("../phosphor-core/assets/thin/linkedin-logo-thin.svg");
+		pub const LINKTREE_LOGO: &str = include_str!("../phosphor-core/assets/thin/linktree-logo-thin.svg");
 		pub const LINUX_LOGO: &str = include_str!("../phosphor-core/assets/thin/linux-logo-thin.svg");
 		pub const LIST: &str = include_str!("../phosphor-core/assets/thin/list-thin.svg");
 		pub const LIST_BULLETS: &str = include_str!("../phosphor-core/assets/thin/list-bullets-thin.svg");
 		pub const LIST_CHECKS: &str = include_str!("../phosphor-core/assets/thin/list-checks-thin.svg");
 		pub const LIST_DASHES: &str = include_str!("../phosphor-core/assets/thin/list-dashes-thin.svg");
+		pub const LIST_HEART: &str = include_str!("../phosphor-core/assets/thin/list-heart-thin.svg");
 		pub const LIST_MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/thin/list-magnifying-glass-thin.svg");
 		pub const LIST_NUMBERS: &str = include_str!("../phosphor-core/assets/thin/list-numbers-thin.svg");
 		pub const LIST_PLUS: &str = include_str!("../phosphor-core/assets/thin/list-plus-thin.svg");
+		pub const LIST_STAR: &str = include_str!("../phosphor-core/assets/thin/list-star-thin.svg");
 		pub const LOCK: &str = include_str!("../phosphor-core/assets/thin/lock-thin.svg");
 		pub const LOCK_KEY: &str = include_str!("../phosphor-core/assets/thin/lock-key-thin.svg");
 		pub const LOCK_KEY_OPEN: &str = include_str!("../phosphor-core/assets/thin/lock-key-open-thin.svg");
@@ -6984,31 +8442,45 @@ pub mod style {
 		pub const LOCK_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/lock-simple-thin.svg");
 		pub const LOCK_SIMPLE_OPEN: &str = include_str!("../phosphor-core/assets/thin/lock-simple-open-thin.svg");
 		pub const LOCKERS: &str = include_str!("../phosphor-core/assets/thin/lockers-thin.svg");
+		pub const LOG: &str = include_str!("../phosphor-core/assets/thin/log-thin.svg");
 		pub const MAGIC_WAND: &str = include_str!("../phosphor-core/assets/thin/magic-wand-thin.svg");
 		pub const MAGNET: &str = include_str!("../phosphor-core/assets/thin/magnet-thin.svg");
 		pub const MAGNET_STRAIGHT: &str = include_str!("../phosphor-core/assets/thin/magnet-straight-thin.svg");
 		pub const MAGNIFYING_GLASS: &str = include_str!("../phosphor-core/assets/thin/magnifying-glass-thin.svg");
 		pub const MAGNIFYING_GLASS_MINUS: &str = include_str!("../phosphor-core/assets/thin/magnifying-glass-minus-thin.svg");
 		pub const MAGNIFYING_GLASS_PLUS: &str = include_str!("../phosphor-core/assets/thin/magnifying-glass-plus-thin.svg");
+		pub const MAILBOX: &str = include_str!("../phosphor-core/assets/thin/mailbox-thin.svg");
 		pub const MAP_PIN: &str = include_str!("../phosphor-core/assets/thin/map-pin-thin.svg");
+		pub const MAP_PIN_AREA: &str = include_str!("../phosphor-core/assets/thin/map-pin-area-thin.svg");
 		pub const MAP_PIN_LINE: &str = include_str!("../phosphor-core/assets/thin/map-pin-line-thin.svg");
+		pub const MAP_PIN_PLUS: &str = include_str!("../phosphor-core/assets/thin/map-pin-plus-thin.svg");
+		pub const MAP_PIN_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/map-pin-simple-thin.svg");
+		pub const MAP_PIN_SIMPLE_AREA: &str = include_str!("../phosphor-core/assets/thin/map-pin-simple-area-thin.svg");
+		pub const MAP_PIN_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/thin/map-pin-simple-line-thin.svg");
 		pub const MAP_TRIFOLD: &str = include_str!("../phosphor-core/assets/thin/map-trifold-thin.svg");
+		pub const MARKDOWN_LOGO: &str = include_str!("../phosphor-core/assets/thin/markdown-logo-thin.svg");
 		pub const MARKER_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/marker-circle-thin.svg");
 		pub const MARTINI: &str = include_str!("../phosphor-core/assets/thin/martini-thin.svg");
 		pub const MASK_HAPPY: &str = include_str!("../phosphor-core/assets/thin/mask-happy-thin.svg");
 		pub const MASK_SAD: &str = include_str!("../phosphor-core/assets/thin/mask-sad-thin.svg");
+		pub const MASTODON_LOGO: &str = include_str!("../phosphor-core/assets/thin/mastodon-logo-thin.svg");
 		pub const MATH_OPERATIONS: &str = include_str!("../phosphor-core/assets/thin/math-operations-thin.svg");
+		pub const MATRIX_LOGO: &str = include_str!("../phosphor-core/assets/thin/matrix-logo-thin.svg");
 		pub const MEDAL: &str = include_str!("../phosphor-core/assets/thin/medal-thin.svg");
 		pub const MEDAL_MILITARY: &str = include_str!("../phosphor-core/assets/thin/medal-military-thin.svg");
 		pub const MEDIUM_LOGO: &str = include_str!("../phosphor-core/assets/thin/medium-logo-thin.svg");
 		pub const MEGAPHONE: &str = include_str!("../phosphor-core/assets/thin/megaphone-thin.svg");
 		pub const MEGAPHONE_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/megaphone-simple-thin.svg");
+		pub const MEMBER_OF: &str = include_str!("../phosphor-core/assets/thin/member-of-thin.svg");
+		pub const MEMORY: &str = include_str!("../phosphor-core/assets/thin/memory-thin.svg");
 		pub const MESSENGER_LOGO: &str = include_str!("../phosphor-core/assets/thin/messenger-logo-thin.svg");
 		pub const META_LOGO: &str = include_str!("../phosphor-core/assets/thin/meta-logo-thin.svg");
+		pub const METEOR: &str = include_str!("../phosphor-core/assets/thin/meteor-thin.svg");
 		pub const METRONOME: &str = include_str!("../phosphor-core/assets/thin/metronome-thin.svg");
 		pub const MICROPHONE: &str = include_str!("../phosphor-core/assets/thin/microphone-thin.svg");
 		pub const MICROPHONE_SLASH: &str = include_str!("../phosphor-core/assets/thin/microphone-slash-thin.svg");
 		pub const MICROPHONE_STAGE: &str = include_str!("../phosphor-core/assets/thin/microphone-stage-thin.svg");
+		pub const MICROSCOPE: &str = include_str!("../phosphor-core/assets/thin/microscope-thin.svg");
 		pub const MICROSOFT_EXCEL_LOGO: &str = include_str!("../phosphor-core/assets/thin/microsoft-excel-logo-thin.svg");
 		pub const MICROSOFT_OUTLOOK_LOGO: &str = include_str!("../phosphor-core/assets/thin/microsoft-outlook-logo-thin.svg");
 		pub const MICROSOFT_POWERPOINT_LOGO: &str = include_str!("../phosphor-core/assets/thin/microsoft-powerpoint-logo-thin.svg");
@@ -7018,7 +8490,9 @@ pub mod style {
 		pub const MINUS_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/minus-circle-thin.svg");
 		pub const MINUS_SQUARE: &str = include_str!("../phosphor-core/assets/thin/minus-square-thin.svg");
 		pub const MONEY: &str = include_str!("../phosphor-core/assets/thin/money-thin.svg");
+		pub const MONEY_WAVY: &str = include_str!("../phosphor-core/assets/thin/money-wavy-thin.svg");
 		pub const MONITOR: &str = include_str!("../phosphor-core/assets/thin/monitor-thin.svg");
+		pub const MONITOR_ARROW_UP: &str = include_str!("../phosphor-core/assets/thin/monitor-arrow-up-thin.svg");
 		pub const MONITOR_PLAY: &str = include_str!("../phosphor-core/assets/thin/monitor-play-thin.svg");
 		pub const MOON: &str = include_str!("../phosphor-core/assets/thin/moon-thin.svg");
 		pub const MOON_STARS: &str = include_str!("../phosphor-core/assets/thin/moon-stars-thin.svg");
@@ -7028,16 +8502,28 @@ pub mod style {
 		pub const MOTORCYCLE: &str = include_str!("../phosphor-core/assets/thin/motorcycle-thin.svg");
 		pub const MOUNTAINS: &str = include_str!("../phosphor-core/assets/thin/mountains-thin.svg");
 		pub const MOUSE: &str = include_str!("../phosphor-core/assets/thin/mouse-thin.svg");
+		pub const MOUSE_LEFT_CLICK: &str = include_str!("../phosphor-core/assets/thin/mouse-left-click-thin.svg");
+		pub const MOUSE_MIDDLE_CLICK: &str = include_str!("../phosphor-core/assets/thin/mouse-middle-click-thin.svg");
+		pub const MOUSE_RIGHT_CLICK: &str = include_str!("../phosphor-core/assets/thin/mouse-right-click-thin.svg");
+		pub const MOUSE_SCROLL: &str = include_str!("../phosphor-core/assets/thin/mouse-scroll-thin.svg");
 		pub const MOUSE_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/mouse-simple-thin.svg");
 		pub const MUSIC_NOTE: &str = include_str!("../phosphor-core/assets/thin/music-note-thin.svg");
 		pub const MUSIC_NOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/music-note-simple-thin.svg");
 		pub const MUSIC_NOTES: &str = include_str!("../phosphor-core/assets/thin/music-notes-thin.svg");
+		pub const MUSIC_NOTES_MINUS: &str = include_str!("../phosphor-core/assets/thin/music-notes-minus-thin.svg");
 		pub const MUSIC_NOTES_PLUS: &str = include_str!("../phosphor-core/assets/thin/music-notes-plus-thin.svg");
 		pub const MUSIC_NOTES_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/music-notes-simple-thin.svg");
 		pub const NAVIGATION_ARROW: &str = include_str!("../phosphor-core/assets/thin/navigation-arrow-thin.svg");
 		pub const NEEDLE: &str = include_str!("../phosphor-core/assets/thin/needle-thin.svg");
+		pub const NETWORK: &str = include_str!("../phosphor-core/assets/thin/network-thin.svg");
+		pub const NETWORK_SLASH: &str = include_str!("../phosphor-core/assets/thin/network-slash-thin.svg");
+		pub const NETWORK_X: &str = include_str!("../phosphor-core/assets/thin/network-x-thin.svg");
 		pub const NEWSPAPER: &str = include_str!("../phosphor-core/assets/thin/newspaper-thin.svg");
 		pub const NEWSPAPER_CLIPPING: &str = include_str!("../phosphor-core/assets/thin/newspaper-clipping-thin.svg");
+		pub const NOT_EQUALS: &str = include_str!("../phosphor-core/assets/thin/not-equals-thin.svg");
+		pub const NOT_MEMBER_OF: &str = include_str!("../phosphor-core/assets/thin/not-member-of-thin.svg");
+		pub const NOT_SUBSET_OF: &str = include_str!("../phosphor-core/assets/thin/not-subset-of-thin.svg");
+		pub const NOT_SUPERSET_OF: &str = include_str!("../phosphor-core/assets/thin/not-superset-of-thin.svg");
 		pub const NOTCHES: &str = include_str!("../phosphor-core/assets/thin/notches-thin.svg");
 		pub const NOTE: &str = include_str!("../phosphor-core/assets/thin/note-thin.svg");
 		pub const NOTE_BLANK: &str = include_str!("../phosphor-core/assets/thin/note-blank-thin.svg");
@@ -7046,6 +8532,7 @@ pub mod style {
 		pub const NOTEPAD: &str = include_str!("../phosphor-core/assets/thin/notepad-thin.svg");
 		pub const NOTIFICATION: &str = include_str!("../phosphor-core/assets/thin/notification-thin.svg");
 		pub const NOTION_LOGO: &str = include_str!("../phosphor-core/assets/thin/notion-logo-thin.svg");
+		pub const NUCLEAR_PLANT: &str = include_str!("../phosphor-core/assets/thin/nuclear-plant-thin.svg");
 		pub const NUMBER_CIRCLE_EIGHT: &str = include_str!("../phosphor-core/assets/thin/number-circle-eight-thin.svg");
 		pub const NUMBER_CIRCLE_FIVE: &str = include_str!("../phosphor-core/assets/thin/number-circle-five-thin.svg");
 		pub const NUMBER_CIRCLE_FOUR: &str = include_str!("../phosphor-core/assets/thin/number-circle-four-thin.svg");
@@ -7076,12 +8563,17 @@ pub mod style {
 		pub const NUMBER_THREE: &str = include_str!("../phosphor-core/assets/thin/number-three-thin.svg");
 		pub const NUMBER_TWO: &str = include_str!("../phosphor-core/assets/thin/number-two-thin.svg");
 		pub const NUMBER_ZERO: &str = include_str!("../phosphor-core/assets/thin/number-zero-thin.svg");
+		pub const NUMPAD: &str = include_str!("../phosphor-core/assets/thin/numpad-thin.svg");
 		pub const NUT: &str = include_str!("../phosphor-core/assets/thin/nut-thin.svg");
 		pub const NY_TIMES_LOGO: &str = include_str!("../phosphor-core/assets/thin/ny-times-logo-thin.svg");
 		pub const OCTAGON: &str = include_str!("../phosphor-core/assets/thin/octagon-thin.svg");
 		pub const OFFICE_CHAIR: &str = include_str!("../phosphor-core/assets/thin/office-chair-thin.svg");
+		pub const ONIGIRI: &str = include_str!("../phosphor-core/assets/thin/onigiri-thin.svg");
+		pub const OPEN_AI_LOGO: &str = include_str!("../phosphor-core/assets/thin/open-ai-logo-thin.svg");
 		pub const OPTION: &str = include_str!("../phosphor-core/assets/thin/option-thin.svg");
+		pub const ORANGE: &str = include_str!("../phosphor-core/assets/thin/orange-thin.svg");
 		pub const ORANGE_SLICE: &str = include_str!("../phosphor-core/assets/thin/orange-slice-thin.svg");
+		pub const OVEN: &str = include_str!("../phosphor-core/assets/thin/oven-thin.svg");
 		pub const PACKAGE: &str = include_str!("../phosphor-core/assets/thin/package-thin.svg");
 		pub const PAINT_BRUSH: &str = include_str!("../phosphor-core/assets/thin/paint-brush-thin.svg");
 		pub const PAINT_BRUSH_BROAD: &str = include_str!("../phosphor-core/assets/thin/paint-brush-broad-thin.svg");
@@ -7089,6 +8581,7 @@ pub mod style {
 		pub const PAINT_BUCKET: &str = include_str!("../phosphor-core/assets/thin/paint-bucket-thin.svg");
 		pub const PAINT_ROLLER: &str = include_str!("../phosphor-core/assets/thin/paint-roller-thin.svg");
 		pub const PALETTE: &str = include_str!("../phosphor-core/assets/thin/palette-thin.svg");
+		pub const PANORAMA: &str = include_str!("../phosphor-core/assets/thin/panorama-thin.svg");
 		pub const PANTS: &str = include_str!("../phosphor-core/assets/thin/pants-thin.svg");
 		pub const PAPER_PLANE: &str = include_str!("../phosphor-core/assets/thin/paper-plane-thin.svg");
 		pub const PAPER_PLANE_RIGHT: &str = include_str!("../phosphor-core/assets/thin/paper-plane-right-thin.svg");
@@ -7113,10 +8606,12 @@ pub mod style {
 		pub const PENCIL: &str = include_str!("../phosphor-core/assets/thin/pencil-thin.svg");
 		pub const PENCIL_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/pencil-circle-thin.svg");
 		pub const PENCIL_LINE: &str = include_str!("../phosphor-core/assets/thin/pencil-line-thin.svg");
+		pub const PENCIL_RULER: &str = include_str!("../phosphor-core/assets/thin/pencil-ruler-thin.svg");
 		pub const PENCIL_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/pencil-simple-thin.svg");
 		pub const PENCIL_SIMPLE_LINE: &str = include_str!("../phosphor-core/assets/thin/pencil-simple-line-thin.svg");
 		pub const PENCIL_SIMPLE_SLASH: &str = include_str!("../phosphor-core/assets/thin/pencil-simple-slash-thin.svg");
 		pub const PENCIL_SLASH: &str = include_str!("../phosphor-core/assets/thin/pencil-slash-thin.svg");
+		pub const PENTAGON: &str = include_str!("../phosphor-core/assets/thin/pentagon-thin.svg");
 		pub const PENTAGRAM: &str = include_str!("../phosphor-core/assets/thin/pentagram-thin.svg");
 		pub const PEPPER: &str = include_str!("../phosphor-core/assets/thin/pepper-thin.svg");
 		pub const PERCENT: &str = include_str!("../phosphor-core/assets/thin/percent-thin.svg");
@@ -7124,7 +8619,13 @@ pub mod style {
 		pub const PERSON_ARMS_SPREAD: &str = include_str!("../phosphor-core/assets/thin/person-arms-spread-thin.svg");
 		pub const PERSON_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/person-simple-thin.svg");
 		pub const PERSON_SIMPLE_BIKE: &str = include_str!("../phosphor-core/assets/thin/person-simple-bike-thin.svg");
+		pub const PERSON_SIMPLE_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/person-simple-circle-thin.svg");
+		pub const PERSON_SIMPLE_HIKE: &str = include_str!("../phosphor-core/assets/thin/person-simple-hike-thin.svg");
 		pub const PERSON_SIMPLE_RUN: &str = include_str!("../phosphor-core/assets/thin/person-simple-run-thin.svg");
+		pub const PERSON_SIMPLE_SKI: &str = include_str!("../phosphor-core/assets/thin/person-simple-ski-thin.svg");
+		pub const PERSON_SIMPLE_SNOWBOARD: &str = include_str!("../phosphor-core/assets/thin/person-simple-snowboard-thin.svg");
+		pub const PERSON_SIMPLE_SWIM: &str = include_str!("../phosphor-core/assets/thin/person-simple-swim-thin.svg");
+		pub const PERSON_SIMPLE_TAI_CHI: &str = include_str!("../phosphor-core/assets/thin/person-simple-tai-chi-thin.svg");
 		pub const PERSON_SIMPLE_THROW: &str = include_str!("../phosphor-core/assets/thin/person-simple-throw-thin.svg");
 		pub const PERSON_SIMPLE_WALK: &str = include_str!("../phosphor-core/assets/thin/person-simple-walk-thin.svg");
 		pub const PERSPECTIVE: &str = include_str!("../phosphor-core/assets/thin/perspective-thin.svg");
@@ -7132,18 +8633,27 @@ pub mod style {
 		pub const PHONE_CALL: &str = include_str!("../phosphor-core/assets/thin/phone-call-thin.svg");
 		pub const PHONE_DISCONNECT: &str = include_str!("../phosphor-core/assets/thin/phone-disconnect-thin.svg");
 		pub const PHONE_INCOMING: &str = include_str!("../phosphor-core/assets/thin/phone-incoming-thin.svg");
+		pub const PHONE_LIST: &str = include_str!("../phosphor-core/assets/thin/phone-list-thin.svg");
 		pub const PHONE_OUTGOING: &str = include_str!("../phosphor-core/assets/thin/phone-outgoing-thin.svg");
+		pub const PHONE_PAUSE: &str = include_str!("../phosphor-core/assets/thin/phone-pause-thin.svg");
 		pub const PHONE_PLUS: &str = include_str!("../phosphor-core/assets/thin/phone-plus-thin.svg");
 		pub const PHONE_SLASH: &str = include_str!("../phosphor-core/assets/thin/phone-slash-thin.svg");
+		pub const PHONE_TRANSFER: &str = include_str!("../phosphor-core/assets/thin/phone-transfer-thin.svg");
 		pub const PHONE_X: &str = include_str!("../phosphor-core/assets/thin/phone-x-thin.svg");
 		pub const PHOSPHOR_LOGO: &str = include_str!("../phosphor-core/assets/thin/phosphor-logo-thin.svg");
 		pub const PI: &str = include_str!("../phosphor-core/assets/thin/pi-thin.svg");
 		pub const PIANO_KEYS: &str = include_str!("../phosphor-core/assets/thin/piano-keys-thin.svg");
+		pub const PICNIC_TABLE: &str = include_str!("../phosphor-core/assets/thin/picnic-table-thin.svg");
 		pub const PICTURE_IN_PICTURE: &str = include_str!("../phosphor-core/assets/thin/picture-in-picture-thin.svg");
 		pub const PIGGY_BANK: &str = include_str!("../phosphor-core/assets/thin/piggy-bank-thin.svg");
 		pub const PILL: &str = include_str!("../phosphor-core/assets/thin/pill-thin.svg");
+		pub const PING_PONG: &str = include_str!("../phosphor-core/assets/thin/ping-pong-thin.svg");
+		pub const PINT_GLASS: &str = include_str!("../phosphor-core/assets/thin/pint-glass-thin.svg");
 		pub const PINTEREST_LOGO: &str = include_str!("../phosphor-core/assets/thin/pinterest-logo-thin.svg");
 		pub const PINWHEEL: &str = include_str!("../phosphor-core/assets/thin/pinwheel-thin.svg");
+		pub const PIPE: &str = include_str!("../phosphor-core/assets/thin/pipe-thin.svg");
+		pub const PIPE_WRENCH: &str = include_str!("../phosphor-core/assets/thin/pipe-wrench-thin.svg");
+		pub const PIX_LOGO: &str = include_str!("../phosphor-core/assets/thin/pix-logo-thin.svg");
 		pub const PIZZA: &str = include_str!("../phosphor-core/assets/thin/pizza-thin.svg");
 		pub const PLACEHOLDER: &str = include_str!("../phosphor-core/assets/thin/placeholder-thin.svg");
 		pub const PLANET: &str = include_str!("../phosphor-core/assets/thin/planet-thin.svg");
@@ -7164,6 +8674,7 @@ pub mod style {
 		pub const POLICE_CAR: &str = include_str!("../phosphor-core/assets/thin/police-car-thin.svg");
 		pub const POLYGON: &str = include_str!("../phosphor-core/assets/thin/polygon-thin.svg");
 		pub const POPCORN: &str = include_str!("../phosphor-core/assets/thin/popcorn-thin.svg");
+		pub const POPSICLE: &str = include_str!("../phosphor-core/assets/thin/popsicle-thin.svg");
 		pub const POTTED_PLANT: &str = include_str!("../phosphor-core/assets/thin/potted-plant-thin.svg");
 		pub const POWER: &str = include_str!("../phosphor-core/assets/thin/power-thin.svg");
 		pub const PRESCRIPTION: &str = include_str!("../phosphor-core/assets/thin/prescription-thin.svg");
@@ -7182,23 +8693,30 @@ pub mod style {
 		pub const PUZZLE_PIECE: &str = include_str!("../phosphor-core/assets/thin/puzzle-piece-thin.svg");
 		pub const QR_CODE: &str = include_str!("../phosphor-core/assets/thin/qr-code-thin.svg");
 		pub const QUESTION: &str = include_str!("../phosphor-core/assets/thin/question-thin.svg");
+		pub const QUESTION_MARK: &str = include_str!("../phosphor-core/assets/thin/question-mark-thin.svg");
 		pub const QUEUE: &str = include_str!("../phosphor-core/assets/thin/queue-thin.svg");
 		pub const QUOTES: &str = include_str!("../phosphor-core/assets/thin/quotes-thin.svg");
+		pub const RABBIT: &str = include_str!("../phosphor-core/assets/thin/rabbit-thin.svg");
+		pub const RACQUET: &str = include_str!("../phosphor-core/assets/thin/racquet-thin.svg");
 		pub const RADICAL: &str = include_str!("../phosphor-core/assets/thin/radical-thin.svg");
 		pub const RADIO: &str = include_str!("../phosphor-core/assets/thin/radio-thin.svg");
 		pub const RADIO_BUTTON: &str = include_str!("../phosphor-core/assets/thin/radio-button-thin.svg");
 		pub const RADIOACTIVE: &str = include_str!("../phosphor-core/assets/thin/radioactive-thin.svg");
 		pub const RAINBOW: &str = include_str!("../phosphor-core/assets/thin/rainbow-thin.svg");
 		pub const RAINBOW_CLOUD: &str = include_str!("../phosphor-core/assets/thin/rainbow-cloud-thin.svg");
+		pub const RANKING: &str = include_str!("../phosphor-core/assets/thin/ranking-thin.svg");
 		pub const READ_CV_LOGO: &str = include_str!("../phosphor-core/assets/thin/read-cv-logo-thin.svg");
 		pub const RECEIPT: &str = include_str!("../phosphor-core/assets/thin/receipt-thin.svg");
 		pub const RECEIPT_X: &str = include_str!("../phosphor-core/assets/thin/receipt-x-thin.svg");
 		pub const RECORD: &str = include_str!("../phosphor-core/assets/thin/record-thin.svg");
 		pub const RECTANGLE: &str = include_str!("../phosphor-core/assets/thin/rectangle-thin.svg");
+		pub const RECTANGLE_DASHED: &str = include_str!("../phosphor-core/assets/thin/rectangle-dashed-thin.svg");
 		pub const RECYCLE: &str = include_str!("../phosphor-core/assets/thin/recycle-thin.svg");
 		pub const REDDIT_LOGO: &str = include_str!("../phosphor-core/assets/thin/reddit-logo-thin.svg");
 		pub const REPEAT: &str = include_str!("../phosphor-core/assets/thin/repeat-thin.svg");
 		pub const REPEAT_ONCE: &str = include_str!("../phosphor-core/assets/thin/repeat-once-thin.svg");
+		pub const REPLIT_LOGO: &str = include_str!("../phosphor-core/assets/thin/replit-logo-thin.svg");
+		pub const RESIZE: &str = include_str!("../phosphor-core/assets/thin/resize-thin.svg");
 		pub const REWIND: &str = include_str!("../phosphor-core/assets/thin/rewind-thin.svg");
 		pub const REWIND_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/rewind-circle-thin.svg");
 		pub const ROAD_HORIZON: &str = include_str!("../phosphor-core/assets/thin/road-horizon-thin.svg");
@@ -7206,21 +8724,31 @@ pub mod style {
 		pub const ROCKET: &str = include_str!("../phosphor-core/assets/thin/rocket-thin.svg");
 		pub const ROCKET_LAUNCH: &str = include_str!("../phosphor-core/assets/thin/rocket-launch-thin.svg");
 		pub const ROWS: &str = include_str!("../phosphor-core/assets/thin/rows-thin.svg");
+		pub const ROWS_PLUS_BOTTOM: &str = include_str!("../phosphor-core/assets/thin/rows-plus-bottom-thin.svg");
+		pub const ROWS_PLUS_TOP: &str = include_str!("../phosphor-core/assets/thin/rows-plus-top-thin.svg");
 		pub const RSS: &str = include_str!("../phosphor-core/assets/thin/rss-thin.svg");
 		pub const RSS_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/rss-simple-thin.svg");
 		pub const RUG: &str = include_str!("../phosphor-core/assets/thin/rug-thin.svg");
 		pub const RULER: &str = include_str!("../phosphor-core/assets/thin/ruler-thin.svg");
+		pub const SAILBOAT: &str = include_str!("../phosphor-core/assets/thin/sailboat-thin.svg");
 		pub const SCALES: &str = include_str!("../phosphor-core/assets/thin/scales-thin.svg");
 		pub const SCAN: &str = include_str!("../phosphor-core/assets/thin/scan-thin.svg");
+		pub const SCAN_SMILEY: &str = include_str!("../phosphor-core/assets/thin/scan-smiley-thin.svg");
 		pub const SCISSORS: &str = include_str!("../phosphor-core/assets/thin/scissors-thin.svg");
 		pub const SCOOTER: &str = include_str!("../phosphor-core/assets/thin/scooter-thin.svg");
 		pub const SCREENCAST: &str = include_str!("../phosphor-core/assets/thin/screencast-thin.svg");
+		pub const SCREWDRIVER: &str = include_str!("../phosphor-core/assets/thin/screwdriver-thin.svg");
+		pub const SCRIBBLE: &str = include_str!("../phosphor-core/assets/thin/scribble-thin.svg");
 		pub const SCRIBBLE_LOOP: &str = include_str!("../phosphor-core/assets/thin/scribble-loop-thin.svg");
 		pub const SCROLL: &str = include_str!("../phosphor-core/assets/thin/scroll-thin.svg");
 		pub const SEAL: &str = include_str!("../phosphor-core/assets/thin/seal-thin.svg");
 		pub const SEAL_CHECK: &str = include_str!("../phosphor-core/assets/thin/seal-check-thin.svg");
+		pub const SEAL_PERCENT: &str = include_str!("../phosphor-core/assets/thin/seal-percent-thin.svg");
 		pub const SEAL_QUESTION: &str = include_str!("../phosphor-core/assets/thin/seal-question-thin.svg");
 		pub const SEAL_WARNING: &str = include_str!("../phosphor-core/assets/thin/seal-warning-thin.svg");
+		pub const SEAT: &str = include_str!("../phosphor-core/assets/thin/seat-thin.svg");
+		pub const SEATBELT: &str = include_str!("../phosphor-core/assets/thin/seatbelt-thin.svg");
+		pub const SECURITY_CAMERA: &str = include_str!("../phosphor-core/assets/thin/security-camera-thin.svg");
 		pub const SELECTION: &str = include_str!("../phosphor-core/assets/thin/selection-thin.svg");
 		pub const SELECTION_ALL: &str = include_str!("../phosphor-core/assets/thin/selection-all-thin.svg");
 		pub const SELECTION_BACKGROUND: &str = include_str!("../phosphor-core/assets/thin/selection-background-thin.svg");
@@ -7240,12 +8768,14 @@ pub mod style {
 		pub const SHIELD_SLASH: &str = include_str!("../phosphor-core/assets/thin/shield-slash-thin.svg");
 		pub const SHIELD_STAR: &str = include_str!("../phosphor-core/assets/thin/shield-star-thin.svg");
 		pub const SHIELD_WARNING: &str = include_str!("../phosphor-core/assets/thin/shield-warning-thin.svg");
+		pub const SHIPPING_CONTAINER: &str = include_str!("../phosphor-core/assets/thin/shipping-container-thin.svg");
 		pub const SHIRT_FOLDED: &str = include_str!("../phosphor-core/assets/thin/shirt-folded-thin.svg");
 		pub const SHOOTING_STAR: &str = include_str!("../phosphor-core/assets/thin/shooting-star-thin.svg");
 		pub const SHOPPING_BAG: &str = include_str!("../phosphor-core/assets/thin/shopping-bag-thin.svg");
 		pub const SHOPPING_BAG_OPEN: &str = include_str!("../phosphor-core/assets/thin/shopping-bag-open-thin.svg");
 		pub const SHOPPING_CART: &str = include_str!("../phosphor-core/assets/thin/shopping-cart-thin.svg");
 		pub const SHOPPING_CART_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/shopping-cart-simple-thin.svg");
+		pub const SHOVEL: &str = include_str!("../phosphor-core/assets/thin/shovel-thin.svg");
 		pub const SHOWER: &str = include_str!("../phosphor-core/assets/thin/shower-thin.svg");
 		pub const SHRIMP: &str = include_str!("../phosphor-core/assets/thin/shrimp-thin.svg");
 		pub const SHUFFLE: &str = include_str!("../phosphor-core/assets/thin/shuffle-thin.svg");
@@ -7266,6 +8796,7 @@ pub mod style {
 		pub const SKIP_FORWARD: &str = include_str!("../phosphor-core/assets/thin/skip-forward-thin.svg");
 		pub const SKIP_FORWARD_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/skip-forward-circle-thin.svg");
 		pub const SKULL: &str = include_str!("../phosphor-core/assets/thin/skull-thin.svg");
+		pub const SKYPE_LOGO: &str = include_str!("../phosphor-core/assets/thin/skype-logo-thin.svg");
 		pub const SLACK_LOGO: &str = include_str!("../phosphor-core/assets/thin/slack-logo-thin.svg");
 		pub const SLIDERS: &str = include_str!("../phosphor-core/assets/thin/sliders-thin.svg");
 		pub const SLIDERS_HORIZONTAL: &str = include_str!("../phosphor-core/assets/thin/sliders-horizontal-thin.svg");
@@ -7274,6 +8805,7 @@ pub mod style {
 		pub const SMILEY_ANGRY: &str = include_str!("../phosphor-core/assets/thin/smiley-angry-thin.svg");
 		pub const SMILEY_BLANK: &str = include_str!("../phosphor-core/assets/thin/smiley-blank-thin.svg");
 		pub const SMILEY_MEH: &str = include_str!("../phosphor-core/assets/thin/smiley-meh-thin.svg");
+		pub const SMILEY_MELTING: &str = include_str!("../phosphor-core/assets/thin/smiley-melting-thin.svg");
 		pub const SMILEY_NERVOUS: &str = include_str!("../phosphor-core/assets/thin/smiley-nervous-thin.svg");
 		pub const SMILEY_SAD: &str = include_str!("../phosphor-core/assets/thin/smiley-sad-thin.svg");
 		pub const SMILEY_STICKER: &str = include_str!("../phosphor-core/assets/thin/smiley-sticker-thin.svg");
@@ -7284,6 +8816,9 @@ pub mod style {
 		pub const SNEAKER_MOVE: &str = include_str!("../phosphor-core/assets/thin/sneaker-move-thin.svg");
 		pub const SNOWFLAKE: &str = include_str!("../phosphor-core/assets/thin/snowflake-thin.svg");
 		pub const SOCCER_BALL: &str = include_str!("../phosphor-core/assets/thin/soccer-ball-thin.svg");
+		pub const SOCK: &str = include_str!("../phosphor-core/assets/thin/sock-thin.svg");
+		pub const SOLAR_PANEL: &str = include_str!("../phosphor-core/assets/thin/solar-panel-thin.svg");
+		pub const SOLAR_ROOF: &str = include_str!("../phosphor-core/assets/thin/solar-roof-thin.svg");
 		pub const SORT_ASCENDING: &str = include_str!("../phosphor-core/assets/thin/sort-ascending-thin.svg");
 		pub const SORT_DESCENDING: &str = include_str!("../phosphor-core/assets/thin/sort-descending-thin.svg");
 		pub const SOUNDCLOUD_LOGO: &str = include_str!("../phosphor-core/assets/thin/soundcloud-logo-thin.svg");
@@ -7300,12 +8835,16 @@ pub mod style {
 		pub const SPEAKER_SIMPLE_X: &str = include_str!("../phosphor-core/assets/thin/speaker-simple-x-thin.svg");
 		pub const SPEAKER_SLASH: &str = include_str!("../phosphor-core/assets/thin/speaker-slash-thin.svg");
 		pub const SPEAKER_X: &str = include_str!("../phosphor-core/assets/thin/speaker-x-thin.svg");
+		pub const SPEEDOMETER: &str = include_str!("../phosphor-core/assets/thin/speedometer-thin.svg");
+		pub const SPHERE: &str = include_str!("../phosphor-core/assets/thin/sphere-thin.svg");
 		pub const SPINNER: &str = include_str!("../phosphor-core/assets/thin/spinner-thin.svg");
+		pub const SPINNER_BALL: &str = include_str!("../phosphor-core/assets/thin/spinner-ball-thin.svg");
 		pub const SPINNER_GAP: &str = include_str!("../phosphor-core/assets/thin/spinner-gap-thin.svg");
 		pub const SPIRAL: &str = include_str!("../phosphor-core/assets/thin/spiral-thin.svg");
 		pub const SPLIT_HORIZONTAL: &str = include_str!("../phosphor-core/assets/thin/split-horizontal-thin.svg");
 		pub const SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/thin/split-vertical-thin.svg");
 		pub const SPOTIFY_LOGO: &str = include_str!("../phosphor-core/assets/thin/spotify-logo-thin.svg");
+		pub const SPRAY_BOTTLE: &str = include_str!("../phosphor-core/assets/thin/spray-bottle-thin.svg");
 		pub const SQUARE: &str = include_str!("../phosphor-core/assets/thin/square-thin.svg");
 		pub const SQUARE_HALF: &str = include_str!("../phosphor-core/assets/thin/square-half-thin.svg");
 		pub const SQUARE_HALF_BOTTOM: &str = include_str!("../phosphor-core/assets/thin/square-half-bottom-thin.svg");
@@ -7314,15 +8853,19 @@ pub mod style {
 		pub const SQUARE_SPLIT_VERTICAL: &str = include_str!("../phosphor-core/assets/thin/square-split-vertical-thin.svg");
 		pub const SQUARES_FOUR: &str = include_str!("../phosphor-core/assets/thin/squares-four-thin.svg");
 		pub const STACK: &str = include_str!("../phosphor-core/assets/thin/stack-thin.svg");
+		pub const STACK_MINUS: &str = include_str!("../phosphor-core/assets/thin/stack-minus-thin.svg");
 		pub const STACK_OVERFLOW_LOGO: &str = include_str!("../phosphor-core/assets/thin/stack-overflow-logo-thin.svg");
+		pub const STACK_PLUS: &str = include_str!("../phosphor-core/assets/thin/stack-plus-thin.svg");
 		pub const STACK_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/stack-simple-thin.svg");
 		pub const STAIRS: &str = include_str!("../phosphor-core/assets/thin/stairs-thin.svg");
 		pub const STAMP: &str = include_str!("../phosphor-core/assets/thin/stamp-thin.svg");
+		pub const STANDARD_DEFINITION: &str = include_str!("../phosphor-core/assets/thin/standard-definition-thin.svg");
 		pub const STAR: &str = include_str!("../phosphor-core/assets/thin/star-thin.svg");
 		pub const STAR_AND_CRESCENT: &str = include_str!("../phosphor-core/assets/thin/star-and-crescent-thin.svg");
 		pub const STAR_FOUR: &str = include_str!("../phosphor-core/assets/thin/star-four-thin.svg");
 		pub const STAR_HALF: &str = include_str!("../phosphor-core/assets/thin/star-half-thin.svg");
 		pub const STAR_OF_DAVID: &str = include_str!("../phosphor-core/assets/thin/star-of-david-thin.svg");
+		pub const STEAM_LOGO: &str = include_str!("../phosphor-core/assets/thin/steam-logo-thin.svg");
 		pub const STEERING_WHEEL: &str = include_str!("../phosphor-core/assets/thin/steering-wheel-thin.svg");
 		pub const STEPS: &str = include_str!("../phosphor-core/assets/thin/steps-thin.svg");
 		pub const STETHOSCOPE: &str = include_str!("../phosphor-core/assets/thin/stethoscope-thin.svg");
@@ -7334,9 +8877,13 @@ pub mod style {
 		pub const STRATEGY: &str = include_str!("../phosphor-core/assets/thin/strategy-thin.svg");
 		pub const STRIPE_LOGO: &str = include_str!("../phosphor-core/assets/thin/stripe-logo-thin.svg");
 		pub const STUDENT: &str = include_str!("../phosphor-core/assets/thin/student-thin.svg");
+		pub const SUBSET_OF: &str = include_str!("../phosphor-core/assets/thin/subset-of-thin.svg");
+		pub const SUBSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/thin/subset-proper-of-thin.svg");
 		pub const SUBTITLES: &str = include_str!("../phosphor-core/assets/thin/subtitles-thin.svg");
+		pub const SUBTITLES_SLASH: &str = include_str!("../phosphor-core/assets/thin/subtitles-slash-thin.svg");
 		pub const SUBTRACT: &str = include_str!("../phosphor-core/assets/thin/subtract-thin.svg");
 		pub const SUBTRACT_SQUARE: &str = include_str!("../phosphor-core/assets/thin/subtract-square-thin.svg");
+		pub const SUBWAY: &str = include_str!("../phosphor-core/assets/thin/subway-thin.svg");
 		pub const SUITCASE: &str = include_str!("../phosphor-core/assets/thin/suitcase-thin.svg");
 		pub const SUITCASE_ROLLING: &str = include_str!("../phosphor-core/assets/thin/suitcase-rolling-thin.svg");
 		pub const SUITCASE_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/suitcase-simple-thin.svg");
@@ -7344,6 +8891,8 @@ pub mod style {
 		pub const SUN_DIM: &str = include_str!("../phosphor-core/assets/thin/sun-dim-thin.svg");
 		pub const SUN_HORIZON: &str = include_str!("../phosphor-core/assets/thin/sun-horizon-thin.svg");
 		pub const SUNGLASSES: &str = include_str!("../phosphor-core/assets/thin/sunglasses-thin.svg");
+		pub const SUPERSET_OF: &str = include_str!("../phosphor-core/assets/thin/superset-of-thin.svg");
+		pub const SUPERSET_PROPER_OF: &str = include_str!("../phosphor-core/assets/thin/superset-proper-of-thin.svg");
 		pub const SWAP: &str = include_str!("../phosphor-core/assets/thin/swap-thin.svg");
 		pub const SWATCHES: &str = include_str!("../phosphor-core/assets/thin/swatches-thin.svg");
 		pub const SWIMMING_POOL: &str = include_str!("../phosphor-core/assets/thin/swimming-pool-thin.svg");
@@ -7358,6 +8907,7 @@ pub mod style {
 		pub const TAG_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/tag-simple-thin.svg");
 		pub const TARGET: &str = include_str!("../phosphor-core/assets/thin/target-thin.svg");
 		pub const TAXI: &str = include_str!("../phosphor-core/assets/thin/taxi-thin.svg");
+		pub const TEA_BAG: &str = include_str!("../phosphor-core/assets/thin/tea-bag-thin.svg");
 		pub const TELEGRAM_LOGO: &str = include_str!("../phosphor-core/assets/thin/telegram-logo-thin.svg");
 		pub const TELEVISION: &str = include_str!("../phosphor-core/assets/thin/television-thin.svg");
 		pub const TELEVISION_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/television-simple-thin.svg");
@@ -7385,28 +8935,39 @@ pub mod style {
 		pub const TEXT_ITALIC: &str = include_str!("../phosphor-core/assets/thin/text-italic-thin.svg");
 		pub const TEXT_OUTDENT: &str = include_str!("../phosphor-core/assets/thin/text-outdent-thin.svg");
 		pub const TEXT_STRIKETHROUGH: &str = include_str!("../phosphor-core/assets/thin/text-strikethrough-thin.svg");
+		pub const TEXT_SUBSCRIPT: &str = include_str!("../phosphor-core/assets/thin/text-subscript-thin.svg");
+		pub const TEXT_SUPERSCRIPT: &str = include_str!("../phosphor-core/assets/thin/text-superscript-thin.svg");
 		pub const TEXT_T: &str = include_str!("../phosphor-core/assets/thin/text-t-thin.svg");
+		pub const TEXT_T_SLASH: &str = include_str!("../phosphor-core/assets/thin/text-t-slash-thin.svg");
 		pub const TEXT_UNDERLINE: &str = include_str!("../phosphor-core/assets/thin/text-underline-thin.svg");
 		pub const TEXTBOX: &str = include_str!("../phosphor-core/assets/thin/textbox-thin.svg");
 		pub const THERMOMETER: &str = include_str!("../phosphor-core/assets/thin/thermometer-thin.svg");
 		pub const THERMOMETER_COLD: &str = include_str!("../phosphor-core/assets/thin/thermometer-cold-thin.svg");
 		pub const THERMOMETER_HOT: &str = include_str!("../phosphor-core/assets/thin/thermometer-hot-thin.svg");
 		pub const THERMOMETER_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/thermometer-simple-thin.svg");
+		pub const THREADS_LOGO: &str = include_str!("../phosphor-core/assets/thin/threads-logo-thin.svg");
+		pub const THREE_D: &str = include_str!("../phosphor-core/assets/thin/three-d-thin.svg");
 		pub const THUMBS_DOWN: &str = include_str!("../phosphor-core/assets/thin/thumbs-down-thin.svg");
 		pub const THUMBS_UP: &str = include_str!("../phosphor-core/assets/thin/thumbs-up-thin.svg");
 		pub const TICKET: &str = include_str!("../phosphor-core/assets/thin/ticket-thin.svg");
 		pub const TIDAL_LOGO: &str = include_str!("../phosphor-core/assets/thin/tidal-logo-thin.svg");
 		pub const TIKTOK_LOGO: &str = include_str!("../phosphor-core/assets/thin/tiktok-logo-thin.svg");
+		pub const TILDE: &str = include_str!("../phosphor-core/assets/thin/tilde-thin.svg");
 		pub const TIMER: &str = include_str!("../phosphor-core/assets/thin/timer-thin.svg");
+		pub const TIP_JAR: &str = include_str!("../phosphor-core/assets/thin/tip-jar-thin.svg");
 		pub const TIPI: &str = include_str!("../phosphor-core/assets/thin/tipi-thin.svg");
+		pub const TIRE: &str = include_str!("../phosphor-core/assets/thin/tire-thin.svg");
 		pub const TOGGLE_LEFT: &str = include_str!("../phosphor-core/assets/thin/toggle-left-thin.svg");
 		pub const TOGGLE_RIGHT: &str = include_str!("../phosphor-core/assets/thin/toggle-right-thin.svg");
 		pub const TOILET: &str = include_str!("../phosphor-core/assets/thin/toilet-thin.svg");
 		pub const TOILET_PAPER: &str = include_str!("../phosphor-core/assets/thin/toilet-paper-thin.svg");
 		pub const TOOLBOX: &str = include_str!("../phosphor-core/assets/thin/toolbox-thin.svg");
 		pub const TOOTH: &str = include_str!("../phosphor-core/assets/thin/tooth-thin.svg");
+		pub const TORNADO: &str = include_str!("../phosphor-core/assets/thin/tornado-thin.svg");
 		pub const TOTE: &str = include_str!("../phosphor-core/assets/thin/tote-thin.svg");
 		pub const TOTE_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/tote-simple-thin.svg");
+		pub const TOWEL: &str = include_str!("../phosphor-core/assets/thin/towel-thin.svg");
+		pub const TRACTOR: &str = include_str!("../phosphor-core/assets/thin/tractor-thin.svg");
 		pub const TRADEMARK: &str = include_str!("../phosphor-core/assets/thin/trademark-thin.svg");
 		pub const TRADEMARK_REGISTERED: &str = include_str!("../phosphor-core/assets/thin/trademark-registered-thin.svg");
 		pub const TRAFFIC_CONE: &str = include_str!("../phosphor-core/assets/thin/traffic-cone-thin.svg");
@@ -7420,26 +8981,39 @@ pub mod style {
 		pub const TRASH: &str = include_str!("../phosphor-core/assets/thin/trash-thin.svg");
 		pub const TRASH_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/trash-simple-thin.svg");
 		pub const TRAY: &str = include_str!("../phosphor-core/assets/thin/tray-thin.svg");
+		pub const TRAY_ARROW_DOWN: &str = include_str!("../phosphor-core/assets/thin/tray-arrow-down-thin.svg");
+		pub const TRAY_ARROW_UP: &str = include_str!("../phosphor-core/assets/thin/tray-arrow-up-thin.svg");
+		pub const TREASURE_CHEST: &str = include_str!("../phosphor-core/assets/thin/treasure-chest-thin.svg");
 		pub const TREE: &str = include_str!("../phosphor-core/assets/thin/tree-thin.svg");
 		pub const TREE_EVERGREEN: &str = include_str!("../phosphor-core/assets/thin/tree-evergreen-thin.svg");
 		pub const TREE_PALM: &str = include_str!("../phosphor-core/assets/thin/tree-palm-thin.svg");
 		pub const TREE_STRUCTURE: &str = include_str!("../phosphor-core/assets/thin/tree-structure-thin.svg");
+		pub const TREE_VIEW: &str = include_str!("../phosphor-core/assets/thin/tree-view-thin.svg");
 		pub const TREND_DOWN: &str = include_str!("../phosphor-core/assets/thin/trend-down-thin.svg");
 		pub const TREND_UP: &str = include_str!("../phosphor-core/assets/thin/trend-up-thin.svg");
 		pub const TRIANGLE: &str = include_str!("../phosphor-core/assets/thin/triangle-thin.svg");
+		pub const TRIANGLE_DASHED: &str = include_str!("../phosphor-core/assets/thin/triangle-dashed-thin.svg");
+		pub const TROLLEY: &str = include_str!("../phosphor-core/assets/thin/trolley-thin.svg");
+		pub const TROLLEY_SUITCASE: &str = include_str!("../phosphor-core/assets/thin/trolley-suitcase-thin.svg");
 		pub const TROPHY: &str = include_str!("../phosphor-core/assets/thin/trophy-thin.svg");
 		pub const TRUCK: &str = include_str!("../phosphor-core/assets/thin/truck-thin.svg");
+		pub const TRUCK_TRAILER: &str = include_str!("../phosphor-core/assets/thin/truck-trailer-thin.svg");
+		pub const TUMBLR_LOGO: &str = include_str!("../phosphor-core/assets/thin/tumblr-logo-thin.svg");
 		pub const TWITCH_LOGO: &str = include_str!("../phosphor-core/assets/thin/twitch-logo-thin.svg");
 		pub const TWITTER_LOGO: &str = include_str!("../phosphor-core/assets/thin/twitter-logo-thin.svg");
 		pub const UMBRELLA: &str = include_str!("../phosphor-core/assets/thin/umbrella-thin.svg");
 		pub const UMBRELLA_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/umbrella-simple-thin.svg");
+		pub const UNION: &str = include_str!("../phosphor-core/assets/thin/union-thin.svg");
 		pub const UNITE: &str = include_str!("../phosphor-core/assets/thin/unite-thin.svg");
 		pub const UNITE_SQUARE: &str = include_str!("../phosphor-core/assets/thin/unite-square-thin.svg");
 		pub const UPLOAD: &str = include_str!("../phosphor-core/assets/thin/upload-thin.svg");
 		pub const UPLOAD_SIMPLE: &str = include_str!("../phosphor-core/assets/thin/upload-simple-thin.svg");
 		pub const USB: &str = include_str!("../phosphor-core/assets/thin/usb-thin.svg");
 		pub const USER: &str = include_str!("../phosphor-core/assets/thin/user-thin.svg");
+		pub const USER_CHECK: &str = include_str!("../phosphor-core/assets/thin/user-check-thin.svg");
 		pub const USER_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/user-circle-thin.svg");
+		pub const USER_CIRCLE_CHECK: &str = include_str!("../phosphor-core/assets/thin/user-circle-check-thin.svg");
+		pub const USER_CIRCLE_DASHED: &str = include_str!("../phosphor-core/assets/thin/user-circle-dashed-thin.svg");
 		pub const USER_CIRCLE_GEAR: &str = include_str!("../phosphor-core/assets/thin/user-circle-gear-thin.svg");
 		pub const USER_CIRCLE_MINUS: &str = include_str!("../phosphor-core/assets/thin/user-circle-minus-thin.svg");
 		pub const USER_CIRCLE_PLUS: &str = include_str!("../phosphor-core/assets/thin/user-circle-plus-thin.svg");
@@ -7449,6 +9023,7 @@ pub mod style {
 		pub const USER_MINUS: &str = include_str!("../phosphor-core/assets/thin/user-minus-thin.svg");
 		pub const USER_PLUS: &str = include_str!("../phosphor-core/assets/thin/user-plus-thin.svg");
 		pub const USER_RECTANGLE: &str = include_str!("../phosphor-core/assets/thin/user-rectangle-thin.svg");
+		pub const USER_SOUND: &str = include_str!("../phosphor-core/assets/thin/user-sound-thin.svg");
 		pub const USER_SQUARE: &str = include_str!("../phosphor-core/assets/thin/user-square-thin.svg");
 		pub const USER_SWITCH: &str = include_str!("../phosphor-core/assets/thin/user-switch-thin.svg");
 		pub const USERS: &str = include_str!("../phosphor-core/assets/thin/users-thin.svg");
@@ -7456,14 +9031,18 @@ pub mod style {
 		pub const USERS_THREE: &str = include_str!("../phosphor-core/assets/thin/users-three-thin.svg");
 		pub const VAN: &str = include_str!("../phosphor-core/assets/thin/van-thin.svg");
 		pub const VAULT: &str = include_str!("../phosphor-core/assets/thin/vault-thin.svg");
+		pub const VECTOR_THREE: &str = include_str!("../phosphor-core/assets/thin/vector-three-thin.svg");
+		pub const VECTOR_TWO: &str = include_str!("../phosphor-core/assets/thin/vector-two-thin.svg");
 		pub const VIBRATE: &str = include_str!("../phosphor-core/assets/thin/vibrate-thin.svg");
 		pub const VIDEO: &str = include_str!("../phosphor-core/assets/thin/video-thin.svg");
 		pub const VIDEO_CAMERA: &str = include_str!("../phosphor-core/assets/thin/video-camera-thin.svg");
 		pub const VIDEO_CAMERA_SLASH: &str = include_str!("../phosphor-core/assets/thin/video-camera-slash-thin.svg");
+		pub const VIDEO_CONFERENCE: &str = include_str!("../phosphor-core/assets/thin/video-conference-thin.svg");
 		pub const VIGNETTE: &str = include_str!("../phosphor-core/assets/thin/vignette-thin.svg");
 		pub const VINYL_RECORD: &str = include_str!("../phosphor-core/assets/thin/vinyl-record-thin.svg");
 		pub const VIRTUAL_REALITY: &str = include_str!("../phosphor-core/assets/thin/virtual-reality-thin.svg");
 		pub const VIRUS: &str = include_str!("../phosphor-core/assets/thin/virus-thin.svg");
+		pub const VISOR: &str = include_str!("../phosphor-core/assets/thin/visor-thin.svg");
 		pub const VOICEMAIL: &str = include_str!("../phosphor-core/assets/thin/voicemail-thin.svg");
 		pub const VOLLEYBALL: &str = include_str!("../phosphor-core/assets/thin/volleyball-thin.svg");
 		pub const WALL: &str = include_str!("../phosphor-core/assets/thin/wall-thin.svg");
@@ -7473,12 +9052,14 @@ pub mod style {
 		pub const WARNING_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/warning-circle-thin.svg");
 		pub const WARNING_DIAMOND: &str = include_str!("../phosphor-core/assets/thin/warning-diamond-thin.svg");
 		pub const WARNING_OCTAGON: &str = include_str!("../phosphor-core/assets/thin/warning-octagon-thin.svg");
+		pub const WASHING_MACHINE: &str = include_str!("../phosphor-core/assets/thin/washing-machine-thin.svg");
 		pub const WATCH: &str = include_str!("../phosphor-core/assets/thin/watch-thin.svg");
 		pub const WAVE_SAWTOOTH: &str = include_str!("../phosphor-core/assets/thin/wave-sawtooth-thin.svg");
 		pub const WAVE_SINE: &str = include_str!("../phosphor-core/assets/thin/wave-sine-thin.svg");
 		pub const WAVE_SQUARE: &str = include_str!("../phosphor-core/assets/thin/wave-square-thin.svg");
 		pub const WAVE_TRIANGLE: &str = include_str!("../phosphor-core/assets/thin/wave-triangle-thin.svg");
 		pub const WAVEFORM: &str = include_str!("../phosphor-core/assets/thin/waveform-thin.svg");
+		pub const WAVEFORM_SLASH: &str = include_str!("../phosphor-core/assets/thin/waveform-slash-thin.svg");
 		pub const WAVES: &str = include_str!("../phosphor-core/assets/thin/waves-thin.svg");
 		pub const WEBCAM: &str = include_str!("../phosphor-core/assets/thin/webcam-thin.svg");
 		pub const WEBCAM_SLASH: &str = include_str!("../phosphor-core/assets/thin/webcam-slash-thin.svg");
@@ -7494,18 +9075,29 @@ pub mod style {
 		pub const WIFI_SLASH: &str = include_str!("../phosphor-core/assets/thin/wifi-slash-thin.svg");
 		pub const WIFI_X: &str = include_str!("../phosphor-core/assets/thin/wifi-x-thin.svg");
 		pub const WIND: &str = include_str!("../phosphor-core/assets/thin/wind-thin.svg");
+		pub const WINDMILL: &str = include_str!("../phosphor-core/assets/thin/windmill-thin.svg");
 		pub const WINDOWS_LOGO: &str = include_str!("../phosphor-core/assets/thin/windows-logo-thin.svg");
 		pub const WINE: &str = include_str!("../phosphor-core/assets/thin/wine-thin.svg");
 		pub const WRENCH: &str = include_str!("../phosphor-core/assets/thin/wrench-thin.svg");
 		pub const X: &str = include_str!("../phosphor-core/assets/thin/x-thin.svg");
 		pub const X_CIRCLE: &str = include_str!("../phosphor-core/assets/thin/x-circle-thin.svg");
+		pub const X_LOGO: &str = include_str!("../phosphor-core/assets/thin/x-logo-thin.svg");
 		pub const X_SQUARE: &str = include_str!("../phosphor-core/assets/thin/x-square-thin.svg");
+		pub const YARN: &str = include_str!("../phosphor-core/assets/thin/yarn-thin.svg");
 		pub const YIN_YANG: &str = include_str!("../phosphor-core/assets/thin/yin-yang-thin.svg");
 		pub const YOUTUBE_LOGO: &str = include_str!("../phosphor-core/assets/thin/youtube-logo-thin.svg");
 	}
 }
 
 pub mod icon {
+	pub mod acorn {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/acorn-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/acorn-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/acorn-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/acorn-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/acorn.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/acorn-thin.svg");
+	}
 	pub mod address_book {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/address-book-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/address-book-duotone.svg");
@@ -7513,6 +9105,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/address-book-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/address-book.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/address-book-thin.svg");
+	}
+	pub mod address_book_tabs {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/address-book-tabs-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/address-book-tabs-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/address-book-tabs-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/address-book-tabs-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/address-book-tabs.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/address-book-tabs-thin.svg");
 	}
 	pub mod air_traffic_control {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/air-traffic-control-bold.svg");
@@ -7553,6 +9153,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/airplane-takeoff-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/airplane-takeoff.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/airplane-takeoff-thin.svg");
+	}
+	pub mod airplane_taxiing {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/airplane-taxiing-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/airplane-taxiing-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/airplane-taxiing-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/airplane-taxiing-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/airplane-taxiing.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/airplane-taxiing-thin.svg");
 	}
 	pub mod airplane_tilt {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/airplane-tilt-bold.svg");
@@ -7690,6 +9298,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/amazon-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/amazon-logo-thin.svg");
 	}
+	pub mod ambulance {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/ambulance-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/ambulance-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/ambulance-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/ambulance-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/ambulance.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/ambulance-thin.svg");
+	}
 	pub mod anchor {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/anchor-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/anchor-duotone.svg");
@@ -7713,6 +9329,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/android-logo-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/android-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/android-logo-thin.svg");
+	}
+	pub mod angle {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/angle-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/angle-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/angle-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/angle-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/angle.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/angle-thin.svg");
 	}
 	pub mod angular_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/angular-logo-bold.svg");
@@ -7762,6 +9386,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/apple-podcasts-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/apple-podcasts-logo-thin.svg");
 	}
+	pub mod approximate_equals {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/approximate-equals-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/approximate-equals-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/approximate-equals-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/approximate-equals-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/approximate-equals.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/approximate-equals-thin.svg");
+	}
 	pub mod archive {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/archive-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/archive-duotone.svg");
@@ -7769,22 +9401,6 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/archive-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/archive.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/archive-thin.svg");
-	}
-	pub mod archive_box {
-		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/archive-box-bold.svg");
-		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/archive-box-duotone.svg");
-		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/archive-box-fill.svg");
-		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/archive-box-light.svg");
-		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/archive-box.svg");
-		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/archive-box-thin.svg");
-	}
-	pub mod archive_tray {
-		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/archive-tray-bold.svg");
-		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/archive-tray-duotone.svg");
-		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/archive-tray-fill.svg");
-		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/archive-tray-light.svg");
-		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/archive-tray.svg");
-		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/archive-tray-thin.svg");
 	}
 	pub mod armchair {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/armchair-bold.svg");
@@ -8586,6 +10202,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/article-ny-times.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/article-ny-times-thin.svg");
 	}
+	pub mod asclepius {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/asclepius-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/asclepius-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/asclepius-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/asclepius-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/asclepius.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/asclepius-thin.svg");
+	}
 	pub mod asterisk {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/asterisk-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/asterisk-duotone.svg");
@@ -8618,6 +10242,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/atom.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/atom-thin.svg");
 	}
+	pub mod avocado {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/avocado-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/avocado-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/avocado-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/avocado-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/avocado.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/avocado-thin.svg");
+	}
+	pub mod axe {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/axe-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/axe-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/axe-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/axe-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/axe.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/axe-thin.svg");
+	}
 	pub mod baby {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/baby-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/baby-duotone.svg");
@@ -8625,6 +10265,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/baby-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/baby.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/baby-thin.svg");
+	}
+	pub mod baby_carriage {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/baby-carriage-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/baby-carriage-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/baby-carriage-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/baby-carriage-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/baby-carriage.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/baby-carriage-thin.svg");
 	}
 	pub mod backpack {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/backpack-bold.svg");
@@ -8698,6 +10346,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/barcode.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/barcode-thin.svg");
 	}
+	pub mod barn {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/barn-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/barn-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/barn-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/barn-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/barn.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/barn-thin.svg");
+	}
 	pub mod barricade {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/barricade-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/barricade-duotone.svg");
@@ -8721,6 +10377,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/baseball-cap-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/baseball-cap.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/baseball-cap-thin.svg");
+	}
+	pub mod baseball_helmet {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/baseball-helmet-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/baseball-helmet-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/baseball-helmet-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/baseball-helmet-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/baseball-helmet.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/baseball-helmet-thin.svg");
 	}
 	pub mod basket {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/basket-bold.svg");
@@ -8874,6 +10538,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/battery-warning-vertical.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/battery-warning-vertical-thin.svg");
 	}
+	pub mod beach_ball {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/beach-ball-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/beach-ball-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/beach-ball-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/beach-ball-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/beach-ball.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/beach-ball-thin.svg");
+	}
+	pub mod beanie {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/beanie-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/beanie-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/beanie-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/beanie-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/beanie.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/beanie-thin.svg");
+	}
 	pub mod bed {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bed-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bed-duotone.svg");
@@ -8970,6 +10650,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bell-z.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bell-z-thin.svg");
 	}
+	pub mod belt {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/belt-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/belt-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/belt-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/belt-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/belt.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/belt-thin.svg");
+	}
 	pub mod bezier_curve {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bezier-curve-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bezier-curve-duotone.svg");
@@ -8986,6 +10674,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bicycle.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bicycle-thin.svg");
 	}
+	pub mod binary {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/binary-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/binary-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/binary-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/binary-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/binary.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/binary-thin.svg");
+	}
 	pub mod binoculars {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/binoculars-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/binoculars-duotone.svg");
@@ -8994,6 +10690,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/binoculars.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/binoculars-thin.svg");
 	}
+	pub mod biohazard {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/biohazard-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/biohazard-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/biohazard-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/biohazard-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/biohazard.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/biohazard-thin.svg");
+	}
 	pub mod bird {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bird-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bird-duotone.svg");
@@ -9001,6 +10705,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/bird-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bird.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bird-thin.svg");
+	}
+	pub mod blueprint {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/blueprint-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/blueprint-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/blueprint-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/blueprint-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/blueprint.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/blueprint-thin.svg");
 	}
 	pub mod bluetooth {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bluetooth-bold.svg");
@@ -9042,6 +10754,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/boat.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/boat-thin.svg");
 	}
+	pub mod bomb {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bomb-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bomb-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/bomb-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/bomb-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bomb.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bomb-thin.svg");
+	}
 	pub mod bone {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bone-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bone-duotone.svg");
@@ -9081,6 +10801,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/book-open-text-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/book-open-text.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/book-open-text-thin.svg");
+	}
+	pub mod book_open_user {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/book-open-user-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/book-open-user-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/book-open-user-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/book-open-user-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/book-open-user.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/book-open-user-thin.svg");
 	}
 	pub mod bookmark {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bookmark-bold.svg");
@@ -9130,6 +10858,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/boot.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/boot-thin.svg");
 	}
+	pub mod boules {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/boules-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/boules-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/boules-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/boules-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/boules.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/boules-thin.svg");
+	}
 	pub mod bounding_box {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bounding-box-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bounding-box-duotone.svg");
@@ -9145,6 +10881,46 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/bowl-food-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bowl-food.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bowl-food-thin.svg");
+	}
+	pub mod bowl_steam {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bowl-steam-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bowl-steam-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/bowl-steam-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/bowl-steam-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bowl-steam.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bowl-steam-thin.svg");
+	}
+	pub mod bowling_ball {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bowling-ball-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bowling-ball-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/bowling-ball-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/bowling-ball-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bowling-ball.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bowling-ball-thin.svg");
+	}
+	pub mod box_arrow_down {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/box-arrow-down-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/box-arrow-down-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/box-arrow-down-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/box-arrow-down-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/box-arrow-down.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/box-arrow-down-thin.svg");
+	}
+	pub mod box_arrow_up {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/box-arrow-up-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/box-arrow-up-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/box-arrow-up-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/box-arrow-up-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/box-arrow-up.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/box-arrow-up-thin.svg");
+	}
+	pub mod boxing_glove {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/boxing-glove-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/boxing-glove-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/boxing-glove-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/boxing-glove-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/boxing-glove.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/boxing-glove-thin.svg");
 	}
 	pub mod brackets_angle {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/brackets-angle-bold.svg");
@@ -9193,6 +10969,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/brandy-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/brandy.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/brandy-thin.svg");
+	}
+	pub mod bread {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bread-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bread-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/bread-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/bread-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bread.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bread-thin.svg");
 	}
 	pub mod bridge {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bridge-bold.svg");
@@ -9274,6 +11058,30 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bug-droid.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bug-droid-thin.svg");
 	}
+	pub mod building {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/building-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/building-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/building-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/building-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/building.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/building-thin.svg");
+	}
+	pub mod building_apartment {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/building-apartment-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/building-apartment-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/building-apartment-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/building-apartment-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/building-apartment.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/building-apartment-thin.svg");
+	}
+	pub mod building_office {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/building-office-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/building-office-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/building-office-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/building-office-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/building-office.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/building-office-thin.svg");
+	}
 	pub mod buildings {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/buildings-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/buildings-duotone.svg");
@@ -9281,6 +11089,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/buildings-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/buildings.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/buildings-thin.svg");
+	}
+	pub mod bulldozer {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bulldozer-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/bulldozer-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/bulldozer-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/bulldozer-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/bulldozer.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/bulldozer-thin.svg");
 	}
 	pub mod bus {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/bus-bold.svg");
@@ -9297,6 +11113,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/butterfly-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/butterfly.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/butterfly-thin.svg");
+	}
+	pub mod cable_car {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cable-car-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cable-car-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cable-car-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cable-car-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cable-car.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cable-car-thin.svg");
 	}
 	pub mod cactus {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cactus-bold.svg");
@@ -9346,6 +11170,38 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/calendar-check.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/calendar-check-thin.svg");
 	}
+	pub mod calendar_dot {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/calendar-dot-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/calendar-dot-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/calendar-dot-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/calendar-dot-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/calendar-dot.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/calendar-dot-thin.svg");
+	}
+	pub mod calendar_dots {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/calendar-dots-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/calendar-dots-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/calendar-dots-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/calendar-dots-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/calendar-dots.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/calendar-dots-thin.svg");
+	}
+	pub mod calendar_heart {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/calendar-heart-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/calendar-heart-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/calendar-heart-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/calendar-heart-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/calendar-heart.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/calendar-heart-thin.svg");
+	}
+	pub mod calendar_minus {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/calendar-minus-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/calendar-minus-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/calendar-minus-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/calendar-minus-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/calendar-minus.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/calendar-minus-thin.svg");
+	}
 	pub mod calendar_plus {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/calendar-plus-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/calendar-plus-duotone.svg");
@@ -9353,6 +11209,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/calendar-plus-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/calendar-plus.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/calendar-plus-thin.svg");
+	}
+	pub mod calendar_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/calendar-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/calendar-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/calendar-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/calendar-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/calendar-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/calendar-slash-thin.svg");
+	}
+	pub mod calendar_star {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/calendar-star-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/calendar-star-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/calendar-star-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/calendar-star-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/calendar-star.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/calendar-star-thin.svg");
 	}
 	pub mod calendar_x {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/calendar-x-bold.svg");
@@ -9418,6 +11290,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/car.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/car-thin.svg");
 	}
+	pub mod car_battery {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/car-battery-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/car-battery-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/car-battery-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/car-battery-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/car-battery.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/car-battery-thin.svg");
+	}
 	pub mod car_profile {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/car-profile-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/car-profile-duotone.svg");
@@ -9449,6 +11329,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cards-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cards.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cards-thin.svg");
+	}
+	pub mod cards_three {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cards-three-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cards-three-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cards-three-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cards-three-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cards-three.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cards-three-thin.svg");
 	}
 	pub mod caret_circle_double_down {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/caret-circle-double-down-bold.svg");
@@ -9570,6 +11458,38 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/caret-left.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/caret-left-thin.svg");
 	}
+	pub mod caret_line_down {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/caret-line-down-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/caret-line-down-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/caret-line-down-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/caret-line-down-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/caret-line-down.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/caret-line-down-thin.svg");
+	}
+	pub mod caret_line_left {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/caret-line-left-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/caret-line-left-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/caret-line-left-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/caret-line-left-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/caret-line-left.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/caret-line-left-thin.svg");
+	}
+	pub mod caret_line_right {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/caret-line-right-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/caret-line-right-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/caret-line-right-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/caret-line-right-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/caret-line-right.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/caret-line-right-thin.svg");
+	}
+	pub mod caret_line_up {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/caret-line-up-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/caret-line-up-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/caret-line-up-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/caret-line-up-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/caret-line-up.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/caret-line-up-thin.svg");
+	}
 	pub mod caret_right {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/caret-right-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/caret-right-duotone.svg");
@@ -9601,6 +11521,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/carrot-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/carrot.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/carrot-thin.svg");
+	}
+	pub mod cash_register {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cash-register-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cash-register-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cash-register-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cash-register-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cash-register.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cash-register-thin.svg");
 	}
 	pub mod cassette_tape {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cassette-tape-bold.svg");
@@ -9681,6 +11609,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cell-signal-x-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cell-signal-x.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cell-signal-x-thin.svg");
+	}
+	pub mod cell_tower {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cell-tower-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cell-tower-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cell-tower-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cell-tower-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cell-tower.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cell-tower-thin.svg");
 	}
 	pub mod certificate {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/certificate-bold.svg");
@@ -9842,6 +11778,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chat-centered-dots.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chat-centered-dots-thin.svg");
 	}
+	pub mod chat_centered_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chat-centered-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/chat-centered-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/chat-centered-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/chat-centered-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chat-centered-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chat-centered-slash-thin.svg");
+	}
 	pub mod chat_centered_text {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chat-centered-text-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/chat-centered-text-duotone.svg");
@@ -9866,6 +11810,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chat-circle-dots.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chat-circle-dots-thin.svg");
 	}
+	pub mod chat_circle_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chat-circle-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/chat-circle-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/chat-circle-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/chat-circle-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chat-circle-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chat-circle-slash-thin.svg");
+	}
 	pub mod chat_circle_text {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chat-circle-text-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/chat-circle-text-duotone.svg");
@@ -9882,6 +11834,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chat-dots.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chat-dots-thin.svg");
 	}
+	pub mod chat_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chat-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/chat-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/chat-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/chat-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chat-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chat-slash-thin.svg");
+	}
 	pub mod chat_teardrop {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chat-teardrop-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/chat-teardrop-duotone.svg");
@@ -9897,6 +11857,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/chat-teardrop-dots-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chat-teardrop-dots.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chat-teardrop-dots-thin.svg");
+	}
+	pub mod chat_teardrop_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chat-teardrop-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/chat-teardrop-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/chat-teardrop-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/chat-teardrop-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chat-teardrop-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chat-teardrop-slash-thin.svg");
 	}
 	pub mod chat_teardrop_text {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chat-teardrop-text-bold.svg");
@@ -9978,6 +11946,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/check-square-offset.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/check-square-offset-thin.svg");
 	}
+	pub mod checkerboard {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/checkerboard-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/checkerboard-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/checkerboard-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/checkerboard-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/checkerboard.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/checkerboard-thin.svg");
+	}
 	pub mod checks {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/checks-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/checks-duotone.svg");
@@ -9986,6 +11962,38 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/checks.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/checks-thin.svg");
 	}
+	pub mod cheers {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cheers-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cheers-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cheers-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cheers-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cheers.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cheers-thin.svg");
+	}
+	pub mod cheese {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cheese-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cheese-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cheese-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cheese-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cheese.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cheese-thin.svg");
+	}
+	pub mod chef_hat {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/chef-hat-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/chef-hat-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/chef-hat-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/chef-hat-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/chef-hat.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/chef-hat-thin.svg");
+	}
+	pub mod cherries {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cherries-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cherries-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cherries-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cherries-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cherries.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cherries-thin.svg");
+	}
 	pub mod church {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/church-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/church-duotone.svg");
@@ -9993,6 +12001,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/church-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/church.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/church-thin.svg");
+	}
+	pub mod cigarette {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cigarette-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cigarette-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cigarette-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cigarette-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cigarette.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cigarette-thin.svg");
+	}
+	pub mod cigarette_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cigarette-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cigarette-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cigarette-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cigarette-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cigarette-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cigarette-slash-thin.svg");
 	}
 	pub mod circle {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/circle-bold.svg");
@@ -10066,6 +12090,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/circuitry.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/circuitry-thin.svg");
 	}
+	pub mod city {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/city-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/city-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/city-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/city-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/city.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/city-thin.svg");
+	}
 	pub mod clipboard {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/clipboard-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/clipboard-duotone.svg");
@@ -10121,6 +12153,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/clock-counter-clockwise-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/clock-counter-clockwise.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/clock-counter-clockwise-thin.svg");
+	}
+	pub mod clock_user {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/clock-user-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/clock-user-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/clock-user-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/clock-user-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/clock-user.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/clock-user-thin.svg");
 	}
 	pub mod closed_captioning {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/closed-captioning-bold.svg");
@@ -10234,6 +12274,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cloud-x.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cloud-x-thin.svg");
 	}
+	pub mod clover {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/clover-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/clover-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/clover-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/clover-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/clover.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/clover-thin.svg");
+	}
 	pub mod club {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/club-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/club-duotone.svg");
@@ -10306,6 +12354,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/coffee.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/coffee-thin.svg");
 	}
+	pub mod coffee_bean {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/coffee-bean-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/coffee-bean-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/coffee-bean-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/coffee-bean-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/coffee-bean.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/coffee-bean-thin.svg");
+	}
 	pub mod coin {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/coin-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/coin-duotone.svg");
@@ -10338,6 +12394,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/columns.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/columns-thin.svg");
 	}
+	pub mod columns_plus_left {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/columns-plus-left-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/columns-plus-left-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/columns-plus-left-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/columns-plus-left-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/columns-plus-left.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/columns-plus-left-thin.svg");
+	}
+	pub mod columns_plus_right {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/columns-plus-right-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/columns-plus-right-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/columns-plus-right-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/columns-plus-right-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/columns-plus-right.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/columns-plus-right-thin.svg");
+	}
 	pub mod command {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/command-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/command-duotone.svg");
@@ -10353,6 +12425,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/compass-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/compass.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/compass-thin.svg");
+	}
+	pub mod compass_rose {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/compass-rose-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/compass-rose-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/compass-rose-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/compass-rose-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/compass-rose.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/compass-rose-thin.svg");
 	}
 	pub mod compass_tool {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/compass-tool-bold.svg");
@@ -10466,6 +12546,30 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/couch.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/couch-thin.svg");
 	}
+	pub mod court_basketball {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/court-basketball-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/court-basketball-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/court-basketball-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/court-basketball-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/court-basketball.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/court-basketball-thin.svg");
+	}
+	pub mod cow {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cow-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cow-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cow-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cow-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cow.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cow-thin.svg");
+	}
+	pub mod cowboy_hat {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cowboy-hat-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cowboy-hat-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cowboy-hat-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cowboy-hat-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cowboy-hat.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cowboy-hat-thin.svg");
+	}
 	pub mod cpu {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cpu-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cpu-duotone.svg");
@@ -10474,6 +12578,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cpu.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cpu-thin.svg");
 	}
+	pub mod crane {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/crane-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/crane-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/crane-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/crane-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/crane.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/crane-thin.svg");
+	}
+	pub mod crane_tower {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/crane-tower-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/crane-tower-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/crane-tower-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/crane-tower-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/crane-tower.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/crane-tower-thin.svg");
+	}
 	pub mod credit_card {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/credit-card-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/credit-card-duotone.svg");
@@ -10481,6 +12601,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/credit-card-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/credit-card.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/credit-card-thin.svg");
+	}
+	pub mod cricket {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/cricket-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/cricket-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/cricket-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/cricket-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/cricket.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/cricket-thin.svg");
 	}
 	pub mod crop {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/crop-bold.svg");
@@ -10521,6 +12649,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/crown-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/crown.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/crown-thin.svg");
+	}
+	pub mod crown_cross {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/crown-cross-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/crown-cross-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/crown-cross-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/crown-cross-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/crown-cross.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/crown-cross-thin.svg");
 	}
 	pub mod crown_simple {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/crown-simple-bold.svg");
@@ -10706,6 +12842,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/database.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/database-thin.svg");
 	}
+	pub mod desk {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/desk-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/desk-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/desk-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/desk-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/desk.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/desk-thin.svg");
+	}
 	pub mod desktop {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/desktop-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/desktop-duotone.svg");
@@ -10754,6 +12898,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/device-mobile-camera.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/device-mobile-camera-thin.svg");
 	}
+	pub mod device_mobile_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/device-mobile-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/device-mobile-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/device-mobile-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/device-mobile-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/device-mobile-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/device-mobile-slash-thin.svg");
+	}
 	pub mod device_mobile_speaker {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/device-mobile-speaker-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/device-mobile-speaker-duotone.svg");
@@ -10761,6 +12913,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/device-mobile-speaker-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/device-mobile-speaker.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/device-mobile-speaker-thin.svg");
+	}
+	pub mod device_rotate {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/device-rotate-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/device-rotate-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/device-rotate-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/device-rotate-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/device-rotate.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/device-rotate-thin.svg");
 	}
 	pub mod device_tablet {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/device-tablet-bold.svg");
@@ -10865,6 +13025,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/disc-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/disc.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/disc-thin.svg");
+	}
+	pub mod disco_ball {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/disco-ball-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/disco-ball-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/disco-ball-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/disco-ball-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/disco-ball.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/disco-ball-thin.svg");
 	}
 	pub mod discord_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/discord-logo-bold.svg");
@@ -11026,6 +13194,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/dress.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/dress-thin.svg");
 	}
+	pub mod dresser {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/dresser-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/dresser-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/dresser-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/dresser-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/dresser.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/dresser-thin.svg");
+	}
 	pub mod dribbble_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/dribbble-logo-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/dribbble-logo-duotone.svg");
@@ -11033,6 +13209,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/dribbble-logo-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/dribbble-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/dribbble-logo-thin.svg");
+	}
+	pub mod drone {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/drone-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/drone-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/drone-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/drone-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/drone.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/drone-thin.svg");
 	}
 	pub mod drop {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/drop-bold.svg");
@@ -11057,6 +13241,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/drop-half-bottom-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/drop-half-bottom.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/drop-half-bottom-thin.svg");
+	}
+	pub mod drop_simple {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/drop-simple-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/drop-simple-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/drop-simple-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/drop-simple-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/drop-simple.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/drop-simple-thin.svg");
+	}
+	pub mod drop_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/drop-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/drop-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/drop-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/drop-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/drop-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/drop-slash-thin.svg");
 	}
 	pub mod dropbox_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/dropbox-logo-bold.svg");
@@ -11121,6 +13321,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/elevator-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/elevator.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/elevator-thin.svg");
+	}
+	pub mod empty {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/empty-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/empty-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/empty-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/empty-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/empty.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/empty-thin.svg");
 	}
 	pub mod engine {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/engine-bold.svg");
@@ -11210,6 +13418,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/exam.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/exam-thin.svg");
 	}
+	pub mod exclamation_mark {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/exclamation-mark-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/exclamation-mark-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/exclamation-mark-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/exclamation-mark-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/exclamation-mark.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/exclamation-mark-thin.svg");
+	}
 	pub mod exclude {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/exclude-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/exclude-duotone.svg");
@@ -11282,6 +13498,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/eyeglasses.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/eyeglasses-thin.svg");
 	}
+	pub mod eyes {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/eyes-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/eyes-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/eyes-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/eyes-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/eyes.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/eyes-thin.svg");
+	}
 	pub mod face_mask {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/face-mask-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/face-mask-duotone.svg");
@@ -11322,6 +13546,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/faders-horizontal.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/faders-horizontal-thin.svg");
 	}
+	pub mod fallout_shelter {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/fallout-shelter-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/fallout-shelter-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/fallout-shelter-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/fallout-shelter-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/fallout-shelter.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/fallout-shelter-thin.svg");
+	}
 	pub mod fan {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/fan-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/fan-duotone.svg");
@@ -11329,6 +13561,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/fan-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/fan.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/fan-thin.svg");
+	}
+	pub mod farm {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/farm-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/farm-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/farm-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/farm-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/farm.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/farm-thin.svg");
 	}
 	pub mod fast_forward {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/fast-forward-bold.svg");
@@ -11353,6 +13593,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/feather-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/feather.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/feather-thin.svg");
+	}
+	pub mod fediverse_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/fediverse-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/fediverse-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/fediverse-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/fediverse-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/fediverse-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/fediverse-logo-thin.svg");
 	}
 	pub mod figma_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/figma-logo-bold.svg");
@@ -11402,6 +13650,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-audio.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-audio-thin.svg");
 	}
+	pub mod file_c {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-c-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-c-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/file-c-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-c-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-c.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-c-thin.svg");
+	}
+	pub mod file_c_sharp {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-c-sharp-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-c-sharp-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/file-c-sharp-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-c-sharp-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-c-sharp.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-c-sharp-thin.svg");
+	}
 	pub mod file_cloud {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-cloud-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-cloud-duotone.svg");
@@ -11417,6 +13681,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-code-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-code.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-code-thin.svg");
+	}
+	pub mod file_cpp {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-cpp-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-cpp-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/file-cpp-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-cpp-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-cpp.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-cpp-thin.svg");
 	}
 	pub mod file_css {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-css-bold.svg");
@@ -11466,6 +13738,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-image.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-image-thin.svg");
 	}
+	pub mod file_ini {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-ini-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-ini-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/file-ini-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-ini-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-ini.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-ini-thin.svg");
+	}
 	pub mod file_jpg {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-jpg-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-jpg-duotone.svg");
@@ -11506,6 +13786,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-magnifying-glass.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-magnifying-glass-thin.svg");
 	}
+	pub mod file_md {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-md-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-md-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/file-md-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-md-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-md.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-md-thin.svg");
+	}
 	pub mod file_minus {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-minus-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-minus-duotone.svg");
@@ -11545,6 +13833,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-ppt-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-ppt.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-ppt-thin.svg");
+	}
+	pub mod file_py {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-py-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-py-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/file-py-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-py-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-py.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-py-thin.svg");
 	}
 	pub mod file_rs {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-rs-bold.svg");
@@ -11593,6 +13889,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-tsx-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-tsx.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-tsx-thin.svg");
+	}
+	pub mod file_txt {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-txt-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/file-txt-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/file-txt-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/file-txt-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/file-txt.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/file-txt-thin.svg");
 	}
 	pub mod file_video {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/file-video-bold.svg");
@@ -11722,6 +14026,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/fire-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/fire-simple-thin.svg");
 	}
+	pub mod fire_truck {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/fire-truck-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/fire-truck-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/fire-truck-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/fire-truck-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/fire-truck.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/fire-truck-thin.svg");
+	}
 	pub mod first_aid {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/first-aid-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/first-aid-duotone.svg");
@@ -11770,6 +14082,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/flag-banner.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/flag-banner-thin.svg");
 	}
+	pub mod flag_banner_fold {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/flag-banner-fold-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/flag-banner-fold-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/flag-banner-fold-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/flag-banner-fold-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/flag-banner-fold.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/flag-banner-fold-thin.svg");
+	}
 	pub mod flag_checkered {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/flag-checkered-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/flag-checkered-duotone.svg");
@@ -11809,6 +14129,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/flask-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/flask.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/flask-thin.svg");
+	}
+	pub mod flip_horizontal {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/flip-horizontal-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/flip-horizontal-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/flip-horizontal-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/flip-horizontal-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/flip-horizontal.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/flip-horizontal-thin.svg");
+	}
+	pub mod flip_vertical {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/flip-vertical-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/flip-vertical-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/flip-vertical-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/flip-vertical-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/flip-vertical.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/flip-vertical-thin.svg");
 	}
 	pub mod floppy_disk {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/floppy-disk-bold.svg");
@@ -11897,38 +14233,6 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/folder-minus-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/folder-minus.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/folder-minus-thin.svg");
-	}
-	pub mod folder_notch {
-		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/folder-notch-bold.svg");
-		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/folder-notch-duotone.svg");
-		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/folder-notch-fill.svg");
-		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/folder-notch-light.svg");
-		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/folder-notch.svg");
-		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/folder-notch-thin.svg");
-	}
-	pub mod folder_notch_minus {
-		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/folder-notch-minus-bold.svg");
-		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/folder-notch-minus-duotone.svg");
-		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/folder-notch-minus-fill.svg");
-		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/folder-notch-minus-light.svg");
-		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/folder-notch-minus.svg");
-		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/folder-notch-minus-thin.svg");
-	}
-	pub mod folder_notch_open {
-		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/folder-notch-open-bold.svg");
-		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/folder-notch-open-duotone.svg");
-		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/folder-notch-open-fill.svg");
-		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/folder-notch-open-light.svg");
-		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/folder-notch-open.svg");
-		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/folder-notch-open-thin.svg");
-	}
-	pub mod folder_notch_plus {
-		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/folder-notch-plus-bold.svg");
-		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/folder-notch-plus-duotone.svg");
-		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/folder-notch-plus-fill.svg");
-		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/folder-notch-plus-light.svg");
-		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/folder-notch-plus.svg");
-		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/folder-notch-plus-thin.svg");
 	}
 	pub mod folder_open {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/folder-open-bold.svg");
@@ -12034,6 +14338,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/football.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/football-thin.svg");
 	}
+	pub mod football_helmet {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/football-helmet-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/football-helmet-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/football-helmet-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/football-helmet-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/football-helmet.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/football-helmet-thin.svg");
+	}
 	pub mod footprints {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/footprints-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/footprints-duotone.svg");
@@ -12049,6 +14361,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/fork-knife-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/fork-knife.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/fork-knife-thin.svg");
+	}
+	pub mod four_k {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/four-k-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/four-k-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/four-k-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/four-k-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/four-k.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/four-k-thin.svg");
 	}
 	pub mod frame_corners {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/frame-corners-bold.svg");
@@ -12089,6 +14409,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/funnel-simple-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/funnel-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/funnel-simple-thin.svg");
+	}
+	pub mod funnel_simple_x {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/funnel-simple-x-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/funnel-simple-x-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/funnel-simple-x-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/funnel-simple-x-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/funnel-simple-x.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/funnel-simple-x-thin.svg");
+	}
+	pub mod funnel_x {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/funnel-x-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/funnel-x-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/funnel-x-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/funnel-x-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/funnel-x.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/funnel-x-thin.svg");
 	}
 	pub mod game_controller {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/game-controller-bold.svg");
@@ -12338,6 +14674,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/globe-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/globe-simple-thin.svg");
 	}
+	pub mod globe_simple_x {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/globe-simple-x-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/globe-simple-x-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/globe-simple-x-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/globe-simple-x-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/globe-simple-x.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/globe-simple-x-thin.svg");
+	}
 	pub mod globe_stand {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/globe-stand-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/globe-stand-duotone.svg");
@@ -12346,6 +14690,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/globe-stand.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/globe-stand-thin.svg");
 	}
+	pub mod globe_x {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/globe-x-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/globe-x-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/globe-x-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/globe-x-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/globe-x.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/globe-x-thin.svg");
+	}
 	pub mod goggles {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/goggles-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/goggles-duotone.svg");
@@ -12353,6 +14705,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/goggles-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/goggles.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/goggles-thin.svg");
+	}
+	pub mod golf {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/golf-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/golf-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/golf-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/golf-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/golf.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/golf-thin.svg");
 	}
 	pub mod goodreads_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/goodreads-logo-bold.svg");
@@ -12418,6 +14778,30 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/google-podcasts-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/google-podcasts-logo-thin.svg");
 	}
+	pub mod gps {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/gps-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/gps-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/gps-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/gps-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/gps.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/gps-thin.svg");
+	}
+	pub mod gps_fix {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/gps-fix-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/gps-fix-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/gps-fix-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/gps-fix-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/gps-fix.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/gps-fix-thin.svg");
+	}
+	pub mod gps_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/gps-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/gps-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/gps-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/gps-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/gps-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/gps-slash-thin.svg");
+	}
 	pub mod gradient {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/gradient-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/gradient-duotone.svg");
@@ -12458,6 +14842,30 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/graph.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/graph-thin.svg");
 	}
+	pub mod graphics_card {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/graphics-card-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/graphics-card-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/graphics-card-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/graphics-card-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/graphics-card.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/graphics-card-thin.svg");
+	}
+	pub mod greater_than {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/greater-than-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/greater-than-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/greater-than-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/greater-than-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/greater-than.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/greater-than-thin.svg");
+	}
+	pub mod greater_than_or_equal {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/greater-than-or-equal-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/greater-than-or-equal-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/greater-than-or-equal-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/greater-than-or-equal-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/greater-than-or-equal.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/greater-than-or-equal-thin.svg");
+	}
 	pub mod grid_four {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/grid-four-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/grid-four-duotone.svg");
@@ -12481,6 +14889,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/guitar-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/guitar.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/guitar-thin.svg");
+	}
+	pub mod hair_dryer {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hair-dryer-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hair-dryer-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hair-dryer-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hair-dryer-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hair-dryer.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hair-dryer-thin.svg");
 	}
 	pub mod hamburger {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hamburger-bold.svg");
@@ -12506,6 +14922,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-thin.svg");
 	}
+	pub mod hand_arrow_down {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hand-arrow-down-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hand-arrow-down-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hand-arrow-down-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hand-arrow-down-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand-arrow-down.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-arrow-down-thin.svg");
+	}
+	pub mod hand_arrow_up {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hand-arrow-up-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hand-arrow-up-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hand-arrow-up-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hand-arrow-up-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand-arrow-up.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-arrow-up-thin.svg");
+	}
 	pub mod hand_coins {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hand-coins-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hand-coins-duotone.svg");
@@ -12513,6 +14945,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hand-coins-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand-coins.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-coins-thin.svg");
+	}
+	pub mod hand_deposit {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hand-deposit-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hand-deposit-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hand-deposit-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hand-deposit-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand-deposit.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-deposit-thin.svg");
 	}
 	pub mod hand_eye {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hand-eye-bold.svg");
@@ -12553,6 +14993,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hand-palm-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand-palm.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-palm-thin.svg");
+	}
+	pub mod hand_peace {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hand-peace-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hand-peace-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hand-peace-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hand-peace-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand-peace.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-peace-thin.svg");
 	}
 	pub mod hand_pointing {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hand-pointing-bold.svg");
@@ -12601,6 +15049,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hand-waving-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand-waving.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-waving-thin.svg");
+	}
+	pub mod hand_withdraw {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hand-withdraw-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hand-withdraw-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hand-withdraw-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hand-withdraw-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hand-withdraw.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hand-withdraw-thin.svg");
 	}
 	pub mod handbag {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/handbag-bold.svg");
@@ -12658,6 +15114,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hard-drives.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hard-drives-thin.svg");
 	}
+	pub mod hard_hat {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hard-hat-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hard-hat-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hard-hat-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hard-hat-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hard-hat.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hard-hat-thin.svg");
+	}
 	pub mod hash {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hash-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hash-duotone.svg");
@@ -12673,6 +15137,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hash-straight-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hash-straight.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hash-straight-thin.svg");
+	}
+	pub mod head_circuit {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/head-circuit-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/head-circuit-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/head-circuit-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/head-circuit-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/head-circuit.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/head-circuit-thin.svg");
 	}
 	pub mod headlights {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/headlights-bold.svg");
@@ -12754,6 +15226,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hexagon.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hexagon-thin.svg");
 	}
+	pub mod high_definition {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/high-definition-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/high-definition-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/high-definition-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/high-definition-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/high-definition.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/high-definition-thin.svg");
+	}
 	pub mod high_heel {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/high-heel-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/high-heel-duotone.svg");
@@ -12762,6 +15242,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/high-heel.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/high-heel-thin.svg");
 	}
+	pub mod highlighter {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/highlighter-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/highlighter-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/highlighter-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/highlighter-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/highlighter.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/highlighter-thin.svg");
+	}
 	pub mod highlighter_circle {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/highlighter-circle-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/highlighter-circle-duotone.svg");
@@ -12769,6 +15257,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/highlighter-circle-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/highlighter-circle.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/highlighter-circle-thin.svg");
+	}
+	pub mod hockey {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hockey-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hockey-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hockey-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hockey-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hockey.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hockey-thin.svg");
 	}
 	pub mod hoodie {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hoodie-bold.svg");
@@ -12785,6 +15281,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/horse-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/horse.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/horse-thin.svg");
+	}
+	pub mod hospital {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hospital-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hospital-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hospital-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hospital-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hospital.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hospital-thin.svg");
 	}
 	pub mod hourglass {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hourglass-bold.svg");
@@ -12874,6 +15378,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/house-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/house-simple-thin.svg");
 	}
+	pub mod hurricane {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/hurricane-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/hurricane-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/hurricane-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/hurricane-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/hurricane.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/hurricane-thin.svg");
+	}
 	pub mod ice_cream {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/ice-cream-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/ice-cream-duotone.svg");
@@ -12905,6 +15417,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/image-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/image.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/image-thin.svg");
+	}
+	pub mod image_broken {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/image-broken-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/image-broken-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/image-broken-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/image-broken-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/image-broken.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/image-broken-thin.svg");
 	}
 	pub mod image_square {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/image-square-bold.svg");
@@ -12978,6 +15498,46 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/intersect-three.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/intersect-three-thin.svg");
 	}
+	pub mod intersection {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/intersection-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/intersection-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/intersection-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/intersection-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/intersection.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/intersection-thin.svg");
+	}
+	pub mod invoice {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/invoice-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/invoice-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/invoice-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/invoice-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/invoice.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/invoice-thin.svg");
+	}
+	pub mod island {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/island-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/island-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/island-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/island-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/island.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/island-thin.svg");
+	}
+	pub mod jar {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/jar-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/jar-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/jar-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/jar-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/jar.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/jar-thin.svg");
+	}
+	pub mod jar_label {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/jar-label-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/jar-label-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/jar-label-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/jar-label-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/jar-label.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/jar-label-thin.svg");
+	}
 	pub mod jeep {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/jeep-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/jeep-duotone.svg");
@@ -12985,6 +15545,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/jeep-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/jeep.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/jeep-thin.svg");
+	}
+	pub mod joystick {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/joystick-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/joystick-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/joystick-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/joystick-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/joystick.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/joystick-thin.svg");
 	}
 	pub mod kanban {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/kanban-bold.svg");
@@ -13058,6 +15626,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/lamp.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/lamp-thin.svg");
 	}
+	pub mod lamp_pendant {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/lamp-pendant-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/lamp-pendant-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/lamp-pendant-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/lamp-pendant-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/lamp-pendant.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/lamp-pendant-thin.svg");
+	}
 	pub mod laptop {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/laptop-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/laptop-duotone.svg");
@@ -13065,6 +15641,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/laptop-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/laptop.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/laptop-thin.svg");
+	}
+	pub mod lasso {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/lasso-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/lasso-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/lasso-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/lasso-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/lasso.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/lasso-thin.svg");
+	}
+	pub mod lastfm_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/lastfm-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/lastfm-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/lastfm-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/lastfm-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/lastfm-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/lastfm-logo-thin.svg");
 	}
 	pub mod layout {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/layout-bold.svg");
@@ -13081,6 +15673,70 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/leaf-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/leaf.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/leaf-thin.svg");
+	}
+	pub mod lectern {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/lectern-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/lectern-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/lectern-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/lectern-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/lectern.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/lectern-thin.svg");
+	}
+	pub mod lego {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/lego-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/lego-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/lego-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/lego-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/lego.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/lego-thin.svg");
+	}
+	pub mod lego_smiley {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/lego-smiley-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/lego-smiley-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/lego-smiley-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/lego-smiley-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/lego-smiley.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/lego-smiley-thin.svg");
+	}
+	pub mod less_than {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/less-than-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/less-than-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/less-than-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/less-than-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/less-than.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/less-than-thin.svg");
+	}
+	pub mod less_than_or_equal {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/less-than-or-equal-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/less-than-or-equal-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/less-than-or-equal-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/less-than-or-equal-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/less-than-or-equal.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/less-than-or-equal-thin.svg");
+	}
+	pub mod letter_circle_h {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/letter-circle-h-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/letter-circle-h-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/letter-circle-h-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/letter-circle-h-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/letter-circle-h.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/letter-circle-h-thin.svg");
+	}
+	pub mod letter_circle_p {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/letter-circle-p-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/letter-circle-p-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/letter-circle-p-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/letter-circle-p-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/letter-circle-p.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/letter-circle-p-thin.svg");
+	}
+	pub mod letter_circle_v {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/letter-circle-v-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/letter-circle-v-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/letter-circle-v-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/letter-circle-v-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/letter-circle-v.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/letter-circle-v-thin.svg");
 	}
 	pub mod lifebuoy {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/lifebuoy-bold.svg");
@@ -13154,6 +15810,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/line-segments.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/line-segments-thin.svg");
 	}
+	pub mod line_vertical {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/line-vertical-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/line-vertical-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/line-vertical-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/line-vertical-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/line-vertical.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/line-vertical-thin.svg");
+	}
 	pub mod link {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/link-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/link-duotone.svg");
@@ -13210,6 +15874,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/linkedin-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/linkedin-logo-thin.svg");
 	}
+	pub mod linktree_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/linktree-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/linktree-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/linktree-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/linktree-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/linktree-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/linktree-logo-thin.svg");
+	}
 	pub mod linux_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/linux-logo-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/linux-logo-duotone.svg");
@@ -13250,6 +15922,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/list-dashes.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/list-dashes-thin.svg");
 	}
+	pub mod list_heart {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/list-heart-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/list-heart-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/list-heart-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/list-heart-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/list-heart.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/list-heart-thin.svg");
+	}
 	pub mod list_magnifying_glass {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/list-magnifying-glass-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/list-magnifying-glass-duotone.svg");
@@ -13273,6 +15953,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/list-plus-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/list-plus.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/list-plus-thin.svg");
+	}
+	pub mod list_star {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/list-star-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/list-star-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/list-star-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/list-star-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/list-star.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/list-star-thin.svg");
 	}
 	pub mod lock {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/lock-bold.svg");
@@ -13346,6 +16034,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/lockers.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/lockers-thin.svg");
 	}
+	pub mod log {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/log-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/log-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/log-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/log-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/log.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/log-thin.svg");
+	}
 	pub mod magic_wand {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/magic-wand-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/magic-wand-duotone.svg");
@@ -13394,6 +16090,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/magnifying-glass-plus.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/magnifying-glass-plus-thin.svg");
 	}
+	pub mod mailbox {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/mailbox-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/mailbox-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/mailbox-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/mailbox-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/mailbox.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/mailbox-thin.svg");
+	}
 	pub mod map_pin {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/map-pin-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-duotone.svg");
@@ -13401,6 +16105,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/map-pin-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/map-pin.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/map-pin-thin.svg");
+	}
+	pub mod map_pin_area {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/map-pin-area-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-area-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/map-pin-area-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/map-pin-area-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/map-pin-area.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/map-pin-area-thin.svg");
 	}
 	pub mod map_pin_line {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/map-pin-line-bold.svg");
@@ -13410,6 +16122,38 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/map-pin-line.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/map-pin-line-thin.svg");
 	}
+	pub mod map_pin_plus {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/map-pin-plus-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-plus-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/map-pin-plus-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/map-pin-plus-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/map-pin-plus.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/map-pin-plus-thin.svg");
+	}
+	pub mod map_pin_simple {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/map-pin-simple-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-simple-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/map-pin-simple-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/map-pin-simple-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/map-pin-simple.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/map-pin-simple-thin.svg");
+	}
+	pub mod map_pin_simple_area {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/map-pin-simple-area-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-simple-area-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/map-pin-simple-area-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/map-pin-simple-area-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/map-pin-simple-area.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/map-pin-simple-area-thin.svg");
+	}
+	pub mod map_pin_simple_line {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/map-pin-simple-line-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/map-pin-simple-line-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/map-pin-simple-line-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/map-pin-simple-line-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/map-pin-simple-line.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/map-pin-simple-line-thin.svg");
+	}
 	pub mod map_trifold {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/map-trifold-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/map-trifold-duotone.svg");
@@ -13417,6 +16161,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/map-trifold-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/map-trifold.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/map-trifold-thin.svg");
+	}
+	pub mod markdown_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/markdown-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/markdown-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/markdown-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/markdown-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/markdown-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/markdown-logo-thin.svg");
 	}
 	pub mod marker_circle {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/marker-circle-bold.svg");
@@ -13450,6 +16202,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/mask-sad.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/mask-sad-thin.svg");
 	}
+	pub mod mastodon_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/mastodon-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/mastodon-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/mastodon-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/mastodon-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/mastodon-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/mastodon-logo-thin.svg");
+	}
 	pub mod math_operations {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/math-operations-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/math-operations-duotone.svg");
@@ -13457,6 +16217,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/math-operations-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/math-operations.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/math-operations-thin.svg");
+	}
+	pub mod matrix_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/matrix-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/matrix-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/matrix-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/matrix-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/matrix-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/matrix-logo-thin.svg");
 	}
 	pub mod medal {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/medal-bold.svg");
@@ -13498,6 +16266,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/megaphone-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/megaphone-simple-thin.svg");
 	}
+	pub mod member_of {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/member-of-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/member-of-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/member-of-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/member-of-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/member-of.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/member-of-thin.svg");
+	}
+	pub mod memory {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/memory-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/memory-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/memory-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/memory-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/memory.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/memory-thin.svg");
+	}
 	pub mod messenger_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/messenger-logo-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/messenger-logo-duotone.svg");
@@ -13513,6 +16297,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/meta-logo-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/meta-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/meta-logo-thin.svg");
+	}
+	pub mod meteor {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/meteor-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/meteor-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/meteor-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/meteor-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/meteor.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/meteor-thin.svg");
 	}
 	pub mod metronome {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/metronome-bold.svg");
@@ -13545,6 +16337,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/microphone-stage-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/microphone-stage.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/microphone-stage-thin.svg");
+	}
+	pub mod microscope {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/microscope-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/microscope-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/microscope-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/microscope-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/microscope.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/microscope-thin.svg");
 	}
 	pub mod microsoft_excel_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/microsoft-excel-logo-bold.svg");
@@ -13618,6 +16418,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/money.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/money-thin.svg");
 	}
+	pub mod money_wavy {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/money-wavy-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/money-wavy-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/money-wavy-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/money-wavy-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/money-wavy.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/money-wavy-thin.svg");
+	}
 	pub mod monitor {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/monitor-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/monitor-duotone.svg");
@@ -13625,6 +16433,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/monitor-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/monitor.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/monitor-thin.svg");
+	}
+	pub mod monitor_arrow_up {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/monitor-arrow-up-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/monitor-arrow-up-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/monitor-arrow-up-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/monitor-arrow-up-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/monitor-arrow-up.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/monitor-arrow-up-thin.svg");
 	}
 	pub mod monitor_play {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/monitor-play-bold.svg");
@@ -13698,6 +16514,38 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/mouse.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/mouse-thin.svg");
 	}
+	pub mod mouse_left_click {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/mouse-left-click-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/mouse-left-click-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/mouse-left-click-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/mouse-left-click-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/mouse-left-click.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/mouse-left-click-thin.svg");
+	}
+	pub mod mouse_middle_click {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/mouse-middle-click-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/mouse-middle-click-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/mouse-middle-click-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/mouse-middle-click-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/mouse-middle-click.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/mouse-middle-click-thin.svg");
+	}
+	pub mod mouse_right_click {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/mouse-right-click-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/mouse-right-click-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/mouse-right-click-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/mouse-right-click-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/mouse-right-click.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/mouse-right-click-thin.svg");
+	}
+	pub mod mouse_scroll {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/mouse-scroll-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/mouse-scroll-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/mouse-scroll-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/mouse-scroll-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/mouse-scroll.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/mouse-scroll-thin.svg");
+	}
 	pub mod mouse_simple {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/mouse-simple-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/mouse-simple-duotone.svg");
@@ -13729,6 +16577,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/music-notes-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/music-notes.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/music-notes-thin.svg");
+	}
+	pub mod music_notes_minus {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/music-notes-minus-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/music-notes-minus-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/music-notes-minus-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/music-notes-minus-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/music-notes-minus.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/music-notes-minus-thin.svg");
 	}
 	pub mod music_notes_plus {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/music-notes-plus-bold.svg");
@@ -13762,6 +16618,30 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/needle.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/needle-thin.svg");
 	}
+	pub mod network {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/network-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/network-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/network-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/network-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/network.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/network-thin.svg");
+	}
+	pub mod network_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/network-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/network-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/network-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/network-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/network-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/network-slash-thin.svg");
+	}
+	pub mod network_x {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/network-x-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/network-x-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/network-x-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/network-x-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/network-x.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/network-x-thin.svg");
+	}
 	pub mod newspaper {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/newspaper-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/newspaper-duotone.svg");
@@ -13777,6 +16657,38 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/newspaper-clipping-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/newspaper-clipping.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/newspaper-clipping-thin.svg");
+	}
+	pub mod not_equals {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/not-equals-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/not-equals-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/not-equals-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/not-equals-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/not-equals.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/not-equals-thin.svg");
+	}
+	pub mod not_member_of {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/not-member-of-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/not-member-of-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/not-member-of-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/not-member-of-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/not-member-of.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/not-member-of-thin.svg");
+	}
+	pub mod not_subset_of {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/not-subset-of-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/not-subset-of-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/not-subset-of-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/not-subset-of-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/not-subset-of.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/not-subset-of-thin.svg");
+	}
+	pub mod not_superset_of {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/not-superset-of-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/not-superset-of-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/not-superset-of-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/not-superset-of-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/not-superset-of.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/not-superset-of-thin.svg");
 	}
 	pub mod notches {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/notches-bold.svg");
@@ -13841,6 +16753,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/notion-logo-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/notion-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/notion-logo-thin.svg");
+	}
+	pub mod nuclear_plant {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/nuclear-plant-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/nuclear-plant-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/nuclear-plant-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/nuclear-plant-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/nuclear-plant.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/nuclear-plant-thin.svg");
 	}
 	pub mod number_circle_eight {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/number-circle-eight-bold.svg");
@@ -14082,6 +17002,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/number-zero.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/number-zero-thin.svg");
 	}
+	pub mod numpad {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/numpad-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/numpad-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/numpad-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/numpad-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/numpad.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/numpad-thin.svg");
+	}
 	pub mod nut {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/nut-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/nut-duotone.svg");
@@ -14114,6 +17042,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/office-chair.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/office-chair-thin.svg");
 	}
+	pub mod onigiri {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/onigiri-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/onigiri-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/onigiri-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/onigiri-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/onigiri.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/onigiri-thin.svg");
+	}
+	pub mod open_ai_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/open-ai-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/open-ai-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/open-ai-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/open-ai-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/open-ai-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/open-ai-logo-thin.svg");
+	}
 	pub mod option {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/option-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/option-duotone.svg");
@@ -14122,6 +17066,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/option.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/option-thin.svg");
 	}
+	pub mod orange {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/orange-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/orange-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/orange-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/orange-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/orange.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/orange-thin.svg");
+	}
 	pub mod orange_slice {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/orange-slice-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/orange-slice-duotone.svg");
@@ -14129,6 +17081,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/orange-slice-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/orange-slice.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/orange-slice-thin.svg");
+	}
+	pub mod oven {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/oven-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/oven-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/oven-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/oven-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/oven.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/oven-thin.svg");
 	}
 	pub mod package {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/package-bold.svg");
@@ -14185,6 +17145,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/palette-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/palette.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/palette-thin.svg");
+	}
+	pub mod panorama {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/panorama-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/panorama-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/panorama-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/panorama-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/panorama.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/panorama-thin.svg");
 	}
 	pub mod pants {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pants-bold.svg");
@@ -14378,6 +17346,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pencil-line.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pencil-line-thin.svg");
 	}
+	pub mod pencil_ruler {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pencil-ruler-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/pencil-ruler-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/pencil-ruler-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/pencil-ruler-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pencil-ruler.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pencil-ruler-thin.svg");
+	}
 	pub mod pencil_simple {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pencil-simple-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/pencil-simple-duotone.svg");
@@ -14409,6 +17385,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/pencil-slash-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pencil-slash.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pencil-slash-thin.svg");
+	}
+	pub mod pentagon {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pentagon-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/pentagon-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/pentagon-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/pentagon-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pentagon.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pentagon-thin.svg");
 	}
 	pub mod pentagram {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pentagram-bold.svg");
@@ -14466,6 +17450,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/person-simple-bike.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/person-simple-bike-thin.svg");
 	}
+	pub mod person_simple_circle {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/person-simple-circle-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-circle-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/person-simple-circle-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/person-simple-circle-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/person-simple-circle.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/person-simple-circle-thin.svg");
+	}
+	pub mod person_simple_hike {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/person-simple-hike-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-hike-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/person-simple-hike-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/person-simple-hike-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/person-simple-hike.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/person-simple-hike-thin.svg");
+	}
 	pub mod person_simple_run {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/person-simple-run-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-run-duotone.svg");
@@ -14473,6 +17473,38 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/person-simple-run-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/person-simple-run.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/person-simple-run-thin.svg");
+	}
+	pub mod person_simple_ski {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/person-simple-ski-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-ski-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/person-simple-ski-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/person-simple-ski-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/person-simple-ski.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/person-simple-ski-thin.svg");
+	}
+	pub mod person_simple_snowboard {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/person-simple-snowboard-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-snowboard-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/person-simple-snowboard-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/person-simple-snowboard-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/person-simple-snowboard.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/person-simple-snowboard-thin.svg");
+	}
+	pub mod person_simple_swim {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/person-simple-swim-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-swim-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/person-simple-swim-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/person-simple-swim-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/person-simple-swim.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/person-simple-swim-thin.svg");
+	}
+	pub mod person_simple_tai_chi {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/person-simple-tai-chi-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/person-simple-tai-chi-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/person-simple-tai-chi-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/person-simple-tai-chi-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/person-simple-tai-chi.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/person-simple-tai-chi-thin.svg");
 	}
 	pub mod person_simple_throw {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/person-simple-throw-bold.svg");
@@ -14530,6 +17562,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/phone-incoming.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/phone-incoming-thin.svg");
 	}
+	pub mod phone_list {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/phone-list-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/phone-list-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/phone-list-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/phone-list-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/phone-list.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/phone-list-thin.svg");
+	}
 	pub mod phone_outgoing {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/phone-outgoing-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/phone-outgoing-duotone.svg");
@@ -14537,6 +17577,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/phone-outgoing-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/phone-outgoing.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/phone-outgoing-thin.svg");
+	}
+	pub mod phone_pause {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/phone-pause-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/phone-pause-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/phone-pause-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/phone-pause-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/phone-pause.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/phone-pause-thin.svg");
 	}
 	pub mod phone_plus {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/phone-plus-bold.svg");
@@ -14553,6 +17601,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/phone-slash-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/phone-slash.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/phone-slash-thin.svg");
+	}
+	pub mod phone_transfer {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/phone-transfer-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/phone-transfer-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/phone-transfer-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/phone-transfer-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/phone-transfer.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/phone-transfer-thin.svg");
 	}
 	pub mod phone_x {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/phone-x-bold.svg");
@@ -14586,6 +17642,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/piano-keys.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/piano-keys-thin.svg");
 	}
+	pub mod picnic_table {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/picnic-table-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/picnic-table-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/picnic-table-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/picnic-table-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/picnic-table.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/picnic-table-thin.svg");
+	}
 	pub mod picture_in_picture {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/picture-in-picture-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/picture-in-picture-duotone.svg");
@@ -14610,6 +17674,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pill.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pill-thin.svg");
 	}
+	pub mod ping_pong {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/ping-pong-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/ping-pong-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/ping-pong-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/ping-pong-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/ping-pong.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/ping-pong-thin.svg");
+	}
+	pub mod pint_glass {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pint-glass-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/pint-glass-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/pint-glass-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/pint-glass-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pint-glass.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pint-glass-thin.svg");
+	}
 	pub mod pinterest_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pinterest-logo-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/pinterest-logo-duotone.svg");
@@ -14625,6 +17705,30 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/pinwheel-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pinwheel.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pinwheel-thin.svg");
+	}
+	pub mod pipe {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pipe-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/pipe-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/pipe-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/pipe-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pipe.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pipe-thin.svg");
+	}
+	pub mod pipe_wrench {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pipe-wrench-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/pipe-wrench-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/pipe-wrench-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/pipe-wrench-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pipe-wrench.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pipe-wrench-thin.svg");
+	}
+	pub mod pix_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pix-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/pix-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/pix-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/pix-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/pix-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/pix-logo-thin.svg");
 	}
 	pub mod pizza {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/pizza-bold.svg");
@@ -14786,6 +17890,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/popcorn.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/popcorn-thin.svg");
 	}
+	pub mod popsicle {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/popsicle-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/popsicle-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/popsicle-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/popsicle-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/popsicle.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/popsicle-thin.svg");
+	}
 	pub mod potted_plant {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/potted-plant-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/potted-plant-duotone.svg");
@@ -14930,6 +18042,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/question.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/question-thin.svg");
 	}
+	pub mod question_mark {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/question-mark-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/question-mark-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/question-mark-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/question-mark-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/question-mark.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/question-mark-thin.svg");
+	}
 	pub mod queue {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/queue-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/queue-duotone.svg");
@@ -14945,6 +18065,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/quotes-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/quotes.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/quotes-thin.svg");
+	}
+	pub mod rabbit {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/rabbit-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/rabbit-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/rabbit-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/rabbit-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/rabbit.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/rabbit-thin.svg");
+	}
+	pub mod racquet {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/racquet-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/racquet-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/racquet-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/racquet-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/racquet.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/racquet-thin.svg");
 	}
 	pub mod radical {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/radical-bold.svg");
@@ -14994,6 +18130,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/rainbow-cloud.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/rainbow-cloud-thin.svg");
 	}
+	pub mod ranking {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/ranking-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/ranking-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/ranking-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/ranking-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/ranking.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/ranking-thin.svg");
+	}
 	pub mod read_cv_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/read-cv-logo-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/read-cv-logo-duotone.svg");
@@ -15034,6 +18178,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/rectangle.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/rectangle-thin.svg");
 	}
+	pub mod rectangle_dashed {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/rectangle-dashed-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/rectangle-dashed-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/rectangle-dashed-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/rectangle-dashed-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/rectangle-dashed.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/rectangle-dashed-thin.svg");
+	}
 	pub mod recycle {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/recycle-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/recycle-duotone.svg");
@@ -15065,6 +18217,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/repeat-once-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/repeat-once.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/repeat-once-thin.svg");
+	}
+	pub mod replit_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/replit-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/replit-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/replit-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/replit-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/replit-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/replit-logo-thin.svg");
+	}
+	pub mod resize {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/resize-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/resize-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/resize-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/resize-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/resize.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/resize-thin.svg");
 	}
 	pub mod rewind {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/rewind-bold.svg");
@@ -15122,6 +18290,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/rows.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/rows-thin.svg");
 	}
+	pub mod rows_plus_bottom {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/rows-plus-bottom-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/rows-plus-bottom-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/rows-plus-bottom-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/rows-plus-bottom-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/rows-plus-bottom.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/rows-plus-bottom-thin.svg");
+	}
+	pub mod rows_plus_top {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/rows-plus-top-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/rows-plus-top-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/rows-plus-top-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/rows-plus-top-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/rows-plus-top.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/rows-plus-top-thin.svg");
+	}
 	pub mod rss {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/rss-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/rss-duotone.svg");
@@ -15154,6 +18338,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/ruler.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/ruler-thin.svg");
 	}
+	pub mod sailboat {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/sailboat-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/sailboat-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/sailboat-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/sailboat-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/sailboat.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/sailboat-thin.svg");
+	}
 	pub mod scales {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/scales-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/scales-duotone.svg");
@@ -15169,6 +18361,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/scan-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/scan.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/scan-thin.svg");
+	}
+	pub mod scan_smiley {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/scan-smiley-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/scan-smiley-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/scan-smiley-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/scan-smiley-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/scan-smiley.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/scan-smiley-thin.svg");
 	}
 	pub mod scissors {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/scissors-bold.svg");
@@ -15193,6 +18393,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/screencast-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/screencast.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/screencast-thin.svg");
+	}
+	pub mod screwdriver {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/screwdriver-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/screwdriver-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/screwdriver-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/screwdriver-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/screwdriver.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/screwdriver-thin.svg");
+	}
+	pub mod scribble {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/scribble-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/scribble-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/scribble-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/scribble-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/scribble.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/scribble-thin.svg");
 	}
 	pub mod scribble_loop {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/scribble-loop-bold.svg");
@@ -15226,6 +18442,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/seal-check.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/seal-check-thin.svg");
 	}
+	pub mod seal_percent {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/seal-percent-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/seal-percent-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/seal-percent-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/seal-percent-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/seal-percent.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/seal-percent-thin.svg");
+	}
 	pub mod seal_question {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/seal-question-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/seal-question-duotone.svg");
@@ -15241,6 +18465,30 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/seal-warning-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/seal-warning.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/seal-warning-thin.svg");
+	}
+	pub mod seat {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/seat-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/seat-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/seat-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/seat-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/seat.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/seat-thin.svg");
+	}
+	pub mod seatbelt {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/seatbelt-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/seatbelt-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/seatbelt-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/seatbelt-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/seatbelt.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/seatbelt-thin.svg");
+	}
+	pub mod security_camera {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/security-camera-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/security-camera-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/security-camera-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/security-camera-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/security-camera.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/security-camera-thin.svg");
 	}
 	pub mod selection {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/selection-bold.svg");
@@ -15394,6 +18642,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/shield-warning.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/shield-warning-thin.svg");
 	}
+	pub mod shipping_container {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/shipping-container-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/shipping-container-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/shipping-container-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/shipping-container-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/shipping-container.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/shipping-container-thin.svg");
+	}
 	pub mod shirt_folded {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/shirt-folded-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/shirt-folded-duotone.svg");
@@ -15441,6 +18697,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/shopping-cart-simple-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/shopping-cart-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/shopping-cart-simple-thin.svg");
+	}
+	pub mod shovel {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/shovel-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/shovel-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/shovel-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/shovel-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/shovel.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/shovel-thin.svg");
 	}
 	pub mod shower {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/shower-bold.svg");
@@ -15602,6 +18866,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/skull.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/skull-thin.svg");
 	}
+	pub mod skype_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/skype-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/skype-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/skype-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/skype-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/skype-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/skype-logo-thin.svg");
+	}
 	pub mod slack_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/slack-logo-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/slack-logo-duotone.svg");
@@ -15665,6 +18937,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/smiley-meh-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/smiley-meh.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/smiley-meh-thin.svg");
+	}
+	pub mod smiley_melting {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/smiley-melting-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/smiley-melting-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/smiley-melting-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/smiley-melting-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/smiley-melting.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/smiley-melting-thin.svg");
 	}
 	pub mod smiley_nervous {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/smiley-nervous-bold.svg");
@@ -15745,6 +19025,30 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/soccer-ball-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/soccer-ball.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/soccer-ball-thin.svg");
+	}
+	pub mod sock {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/sock-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/sock-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/sock-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/sock-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/sock.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/sock-thin.svg");
+	}
+	pub mod solar_panel {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/solar-panel-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/solar-panel-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/solar-panel-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/solar-panel-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/solar-panel.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/solar-panel-thin.svg");
+	}
+	pub mod solar_roof {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/solar-roof-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/solar-roof-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/solar-roof-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/solar-roof-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/solar-roof.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/solar-roof-thin.svg");
 	}
 	pub mod sort_ascending {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/sort-ascending-bold.svg");
@@ -15874,6 +19178,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/speaker-x.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/speaker-x-thin.svg");
 	}
+	pub mod speedometer {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/speedometer-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/speedometer-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/speedometer-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/speedometer-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/speedometer.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/speedometer-thin.svg");
+	}
+	pub mod sphere {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/sphere-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/sphere-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/sphere-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/sphere-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/sphere.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/sphere-thin.svg");
+	}
 	pub mod spinner {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/spinner-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/spinner-duotone.svg");
@@ -15881,6 +19201,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/spinner-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/spinner.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/spinner-thin.svg");
+	}
+	pub mod spinner_ball {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/spinner-ball-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/spinner-ball-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/spinner-ball-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/spinner-ball-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/spinner-ball.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/spinner-ball-thin.svg");
 	}
 	pub mod spinner_gap {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/spinner-gap-bold.svg");
@@ -15921,6 +19249,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/spotify-logo-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/spotify-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/spotify-logo-thin.svg");
+	}
+	pub mod spray_bottle {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/spray-bottle-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/spray-bottle-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/spray-bottle-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/spray-bottle-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/spray-bottle.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/spray-bottle-thin.svg");
 	}
 	pub mod square {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/square-bold.svg");
@@ -15986,6 +19322,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/stack.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/stack-thin.svg");
 	}
+	pub mod stack_minus {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/stack-minus-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/stack-minus-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/stack-minus-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/stack-minus-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/stack-minus.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/stack-minus-thin.svg");
+	}
 	pub mod stack_overflow_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/stack-overflow-logo-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/stack-overflow-logo-duotone.svg");
@@ -15993,6 +19337,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/stack-overflow-logo-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/stack-overflow-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/stack-overflow-logo-thin.svg");
+	}
+	pub mod stack_plus {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/stack-plus-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/stack-plus-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/stack-plus-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/stack-plus-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/stack-plus.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/stack-plus-thin.svg");
 	}
 	pub mod stack_simple {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/stack-simple-bold.svg");
@@ -16017,6 +19369,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/stamp-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/stamp.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/stamp-thin.svg");
+	}
+	pub mod standard_definition {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/standard-definition-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/standard-definition-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/standard-definition-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/standard-definition-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/standard-definition.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/standard-definition-thin.svg");
 	}
 	pub mod star {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/star-bold.svg");
@@ -16057,6 +19417,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/star-of-david-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/star-of-david.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/star-of-david-thin.svg");
+	}
+	pub mod steam_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/steam-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/steam-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/steam-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/steam-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/steam-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/steam-logo-thin.svg");
 	}
 	pub mod steering_wheel {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/steering-wheel-bold.svg");
@@ -16146,6 +19514,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/student.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/student-thin.svg");
 	}
+	pub mod subset_of {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/subset-of-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/subset-of-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/subset-of-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/subset-of-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/subset-of.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/subset-of-thin.svg");
+	}
+	pub mod subset_proper_of {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/subset-proper-of-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/subset-proper-of-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/subset-proper-of-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/subset-proper-of-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/subset-proper-of.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/subset-proper-of-thin.svg");
+	}
 	pub mod subtitles {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/subtitles-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/subtitles-duotone.svg");
@@ -16153,6 +19537,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/subtitles-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/subtitles.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/subtitles-thin.svg");
+	}
+	pub mod subtitles_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/subtitles-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/subtitles-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/subtitles-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/subtitles-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/subtitles-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/subtitles-slash-thin.svg");
 	}
 	pub mod subtract {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/subtract-bold.svg");
@@ -16169,6 +19561,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/subtract-square-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/subtract-square.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/subtract-square-thin.svg");
+	}
+	pub mod subway {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/subway-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/subway-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/subway-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/subway-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/subway.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/subway-thin.svg");
 	}
 	pub mod suitcase {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/suitcase-bold.svg");
@@ -16225,6 +19625,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/sunglasses-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/sunglasses.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/sunglasses-thin.svg");
+	}
+	pub mod superset_of {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/superset-of-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/superset-of-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/superset-of-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/superset-of-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/superset-of.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/superset-of-thin.svg");
+	}
+	pub mod superset_proper_of {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/superset-proper-of-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/superset-proper-of-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/superset-proper-of-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/superset-proper-of-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/superset-proper-of.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/superset-proper-of-thin.svg");
 	}
 	pub mod swap {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/swap-bold.svg");
@@ -16337,6 +19753,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/taxi-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/taxi.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/taxi-thin.svg");
+	}
+	pub mod tea_bag {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tea-bag-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tea-bag-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tea-bag-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tea-bag-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tea-bag.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tea-bag-thin.svg");
 	}
 	pub mod telegram_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/telegram-logo-bold.svg");
@@ -16554,6 +19978,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/text-strikethrough.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/text-strikethrough-thin.svg");
 	}
+	pub mod text_subscript {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/text-subscript-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/text-subscript-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/text-subscript-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/text-subscript-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/text-subscript.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/text-subscript-thin.svg");
+	}
+	pub mod text_superscript {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/text-superscript-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/text-superscript-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/text-superscript-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/text-superscript-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/text-superscript.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/text-superscript-thin.svg");
+	}
 	pub mod text_t {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/text-t-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/text-t-duotone.svg");
@@ -16561,6 +20001,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/text-t-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/text-t.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/text-t-thin.svg");
+	}
+	pub mod text_t_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/text-t-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/text-t-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/text-t-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/text-t-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/text-t-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/text-t-slash-thin.svg");
 	}
 	pub mod text_underline {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/text-underline-bold.svg");
@@ -16610,6 +20058,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/thermometer-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/thermometer-simple-thin.svg");
 	}
+	pub mod threads_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/threads-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/threads-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/threads-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/threads-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/threads-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/threads-logo-thin.svg");
+	}
+	pub mod three_d {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/three-d-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/three-d-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/three-d-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/three-d-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/three-d.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/three-d-thin.svg");
+	}
 	pub mod thumbs_down {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/thumbs-down-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/thumbs-down-duotone.svg");
@@ -16650,6 +20114,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tiktok-logo.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tiktok-logo-thin.svg");
 	}
+	pub mod tilde {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tilde-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tilde-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tilde-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tilde-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tilde.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tilde-thin.svg");
+	}
 	pub mod timer {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/timer-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/timer-duotone.svg");
@@ -16658,6 +20130,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/timer.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/timer-thin.svg");
 	}
+	pub mod tip_jar {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tip-jar-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tip-jar-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tip-jar-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tip-jar-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tip-jar.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tip-jar-thin.svg");
+	}
 	pub mod tipi {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tipi-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tipi-duotone.svg");
@@ -16665,6 +20145,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tipi-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tipi.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tipi-thin.svg");
+	}
+	pub mod tire {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tire-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tire-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tire-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tire-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tire.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tire-thin.svg");
 	}
 	pub mod toggle_left {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/toggle-left-bold.svg");
@@ -16714,6 +20202,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tooth.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tooth-thin.svg");
 	}
+	pub mod tornado {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tornado-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tornado-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tornado-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tornado-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tornado.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tornado-thin.svg");
+	}
 	pub mod tote {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tote-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tote-duotone.svg");
@@ -16729,6 +20225,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tote-simple-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tote-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tote-simple-thin.svg");
+	}
+	pub mod towel {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/towel-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/towel-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/towel-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/towel-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/towel.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/towel-thin.svg");
+	}
+	pub mod tractor {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tractor-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tractor-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tractor-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tractor-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tractor.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tractor-thin.svg");
 	}
 	pub mod trademark {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/trademark-bold.svg");
@@ -16834,6 +20346,30 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tray.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tray-thin.svg");
 	}
+	pub mod tray_arrow_down {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tray-arrow-down-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tray-arrow-down-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tray-arrow-down-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tray-arrow-down-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tray-arrow-down.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tray-arrow-down-thin.svg");
+	}
+	pub mod tray_arrow_up {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tray-arrow-up-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tray-arrow-up-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tray-arrow-up-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tray-arrow-up-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tray-arrow-up.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tray-arrow-up-thin.svg");
+	}
+	pub mod treasure_chest {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/treasure-chest-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/treasure-chest-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/treasure-chest-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/treasure-chest-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/treasure-chest.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/treasure-chest-thin.svg");
+	}
 	pub mod tree {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tree-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tree-duotone.svg");
@@ -16866,6 +20402,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tree-structure.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tree-structure-thin.svg");
 	}
+	pub mod tree_view {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tree-view-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tree-view-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tree-view-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tree-view-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tree-view.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tree-view-thin.svg");
+	}
 	pub mod trend_down {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/trend-down-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/trend-down-duotone.svg");
@@ -16890,6 +20434,30 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/triangle.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/triangle-thin.svg");
 	}
+	pub mod triangle_dashed {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/triangle-dashed-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/triangle-dashed-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/triangle-dashed-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/triangle-dashed-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/triangle-dashed.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/triangle-dashed-thin.svg");
+	}
+	pub mod trolley {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/trolley-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/trolley-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/trolley-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/trolley-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/trolley.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/trolley-thin.svg");
+	}
+	pub mod trolley_suitcase {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/trolley-suitcase-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/trolley-suitcase-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/trolley-suitcase-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/trolley-suitcase-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/trolley-suitcase.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/trolley-suitcase-thin.svg");
+	}
 	pub mod trophy {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/trophy-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/trophy-duotone.svg");
@@ -16905,6 +20473,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/truck-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/truck.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/truck-thin.svg");
+	}
+	pub mod truck_trailer {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/truck-trailer-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/truck-trailer-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/truck-trailer-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/truck-trailer-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/truck-trailer.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/truck-trailer-thin.svg");
+	}
+	pub mod tumblr_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/tumblr-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/tumblr-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/tumblr-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/tumblr-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/tumblr-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/tumblr-logo-thin.svg");
 	}
 	pub mod twitch_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/twitch-logo-bold.svg");
@@ -16937,6 +20521,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/umbrella-simple-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/umbrella-simple.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/umbrella-simple-thin.svg");
+	}
+	pub mod union {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/union-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/union-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/union-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/union-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/union.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/union-thin.svg");
 	}
 	pub mod unite {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/unite-bold.svg");
@@ -16986,6 +20578,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/user.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/user-thin.svg");
 	}
+	pub mod user_check {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/user-check-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/user-check-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/user-check-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/user-check-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/user-check.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/user-check-thin.svg");
+	}
 	pub mod user_circle {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/user-circle-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/user-circle-duotone.svg");
@@ -16993,6 +20593,22 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/user-circle-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/user-circle.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/user-circle-thin.svg");
+	}
+	pub mod user_circle_check {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/user-circle-check-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/user-circle-check-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/user-circle-check-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/user-circle-check-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/user-circle-check.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/user-circle-check-thin.svg");
+	}
+	pub mod user_circle_dashed {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/user-circle-dashed-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/user-circle-dashed-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/user-circle-dashed-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/user-circle-dashed-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/user-circle-dashed.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/user-circle-dashed-thin.svg");
 	}
 	pub mod user_circle_gear {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/user-circle-gear-bold.svg");
@@ -17066,6 +20682,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/user-rectangle.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/user-rectangle-thin.svg");
 	}
+	pub mod user_sound {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/user-sound-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/user-sound-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/user-sound-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/user-sound-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/user-sound.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/user-sound-thin.svg");
+	}
 	pub mod user_square {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/user-square-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/user-square-duotone.svg");
@@ -17122,6 +20746,22 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/vault.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/vault-thin.svg");
 	}
+	pub mod vector_three {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/vector-three-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/vector-three-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/vector-three-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/vector-three-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/vector-three.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/vector-three-thin.svg");
+	}
+	pub mod vector_two {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/vector-two-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/vector-two-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/vector-two-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/vector-two-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/vector-two.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/vector-two-thin.svg");
+	}
 	pub mod vibrate {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/vibrate-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/vibrate-duotone.svg");
@@ -17154,6 +20794,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/video-camera-slash.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/video-camera-slash-thin.svg");
 	}
+	pub mod video_conference {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/video-conference-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/video-conference-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/video-conference-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/video-conference-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/video-conference.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/video-conference-thin.svg");
+	}
 	pub mod vignette {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/vignette-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/vignette-duotone.svg");
@@ -17185,6 +20833,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/virus-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/virus.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/virus-thin.svg");
+	}
+	pub mod visor {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/visor-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/visor-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/visor-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/visor-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/visor.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/visor-thin.svg");
 	}
 	pub mod voicemail {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/voicemail-bold.svg");
@@ -17258,6 +20914,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/warning-octagon.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/warning-octagon-thin.svg");
 	}
+	pub mod washing_machine {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/washing-machine-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/washing-machine-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/washing-machine-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/washing-machine-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/washing-machine.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/washing-machine-thin.svg");
+	}
 	pub mod watch {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/watch-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/watch-duotone.svg");
@@ -17305,6 +20969,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/waveform-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/waveform.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/waveform-thin.svg");
+	}
+	pub mod waveform_slash {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/waveform-slash-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/waveform-slash-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/waveform-slash-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/waveform-slash-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/waveform-slash.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/waveform-slash-thin.svg");
 	}
 	pub mod waves {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/waves-bold.svg");
@@ -17426,6 +21098,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/wind.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/wind-thin.svg");
 	}
+	pub mod windmill {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/windmill-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/windmill-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/windmill-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/windmill-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/windmill.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/windmill-thin.svg");
+	}
 	pub mod windows_logo {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/windows-logo-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/windows-logo-duotone.svg");
@@ -17466,6 +21146,14 @@ pub mod icon {
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/x-circle.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/x-circle-thin.svg");
 	}
+	pub mod x_logo {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/x-logo-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/x-logo-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/x-logo-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/x-logo-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/x-logo.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/x-logo-thin.svg");
+	}
 	pub mod x_square {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/x-square-bold.svg");
 		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/x-square-duotone.svg");
@@ -17473,6 +21161,14 @@ pub mod icon {
 		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/x-square-light.svg");
 		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/x-square.svg");
 		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/x-square-thin.svg");
+	}
+	pub mod yarn {
+		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/yarn-bold.svg");
+		pub const DUOTONE: &str = include_str!("../phosphor-core/assets/duotone/yarn-duotone.svg");
+		pub const FILL: &str = include_str!("../phosphor-core/assets/fill/yarn-fill.svg");
+		pub const LIGHT: &str = include_str!("../phosphor-core/assets/light/yarn-light.svg");
+		pub const REGULAR: &str = include_str!("../phosphor-core/assets/regular/yarn.svg");
+		pub const THIN: &str = include_str!("../phosphor-core/assets/thin/yarn-thin.svg");
 	}
 	pub mod yin_yang {
 		pub const BOLD: &str = include_str!("../phosphor-core/assets/bold/yin-yang-bold.svg");
